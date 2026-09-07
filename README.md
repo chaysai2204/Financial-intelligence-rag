@@ -1,128 +1,91 @@
 # AI-Powered Investor Intelligence Platform
 
-<img width="1906" height="945" alt="RAGproject" src="https://github.com/user-attachments/assets/5024af81-e07e-47ed-a4ab-a40c439522f2" />
+An AI-powered financial document intelligence platform for analyzing company annual reports using Retrieval-Augmented Generation (RAG).
 
-This repository contains the Python backend for an AI-powered Investor Intelligence Platform, including document ingestion, semantic search, KPI extraction, Azure AI Search integration, Azure OpenAI integration, and PostgreSQL-based KPI storage.
+The application allows users to upload financial reports, extract key financial metrics, store structured results, and ask natural-language questions about the uploaded documents.
 
-## Prerequisites
+## Current Features
 
-* Python 3.12+
-* UV Package Manager
+* PDF annual report ingestion
+* PDF-to-Markdown conversion
+* Semantic document chunking
+* Azure OpenAI embeddings
+* Azure AI Search indexing and retrieval
+* Retrieval-Augmented Generation (RAG)
+* Structured financial KPI extraction
+* PostgreSQL storage
+* FastAPI backend
+* Interactive financial dashboard
+* AI-powered document Q&A
 
-## Setup
+## Architecture
 
-### 1. Install UV
+The current pipeline follows:
 
-#### Windows
-
-```bash
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```text
+PDF Report
+    ↓
+PDF to Markdown
+    ↓
+Semantic Chunking
+    ↓
+Azure OpenAI Embeddings
+    ↓
+Azure AI Search
+    ↓
+RAG Retrieval
+    ↓
+Azure OpenAI
+    ↓
+Financial Q&A / KPI Extraction
+    ↓
+PostgreSQL + Dashboard
 ```
 
-#### macOS/Linux
+Architecture diagrams are available under:
 
-```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
+```text
+docs/architecture/
 ```
-
-Verify installation:
-
-```bash
-uv --version
-```
-
----
-
-### 2. Create Virtual Environment
-
-```bash
-uv venv
-```
-
----
-
-### 3. Activate Virtual Environment
-
-#### Windows
-
-```bash
-.venv\Scripts\activate
-```
-
-#### macOS/Linux
-
-```bash
-source .venv/bin/activate
-```
-
----
-
-### 4. Install Dependencies
-
-```bash
-uv pip install -r requirements.txt
-```
-
----
-
-### 5. Configure Environment Variables
-
-Create a `.env` file and configure all required environment variables before running the application.
-
----
-
-### 6. Run the Application
-
-```bash
-python app.py
-```
-
----
-
-## Project Features
-
-* Annual Report Upload & Processing
-* KPI Extraction using Azure OpenAI
-* Azure AI Search Integration
-* Semantic Search & Retrieval
-* RAG-based Chatbot
-* PostgreSQL KPI Storage
-* Investor Insights Dashboard
-* Production-Grade Modular Architecture
-
----
 
 ## Technology Stack
 
-### Backend
-
+* Python
 * FastAPI
-* Python 3.12
-
-### AI Services
-
 * Azure OpenAI
 * Azure AI Search
+* LangChain
+* PyMuPDF4LLM
+* PostgreSQL
+* Jinja2
+* HTML / CSS / JavaScript
 
-### Database
+## Project Status
 
-* Azure PostgreSQL
+The baseline end-to-end application is functional locally.
 
-### Deployment
+Planned engineering improvements include:
 
-* Docker
-* Azure Container Registry (ACR)
-* Azure Kubernetes Service (AKS)
+* richer chunk metadata
+* dense vector retrieval
+* hybrid lexical + vector retrieval
+* reranking
+* source citations
+* RAG evaluation
+* retrieval benchmarking
+* automated testing
+* Docker containerization
+* Azure Kubernetes Service deployment
+* CI/CD
 
-### Package Management
+## Sample Data
 
-* UV
+The project currently uses annual reports from:
 
----
+* Apple
+* Microsoft
+* Tesla
 
-## Notes
+## Development
 
-* Ensure all Azure resources are configured before running the application.
-* Verify that PostgreSQL firewall rules allow access from the application.
-* Store secrets in environment variables and never commit `.env` files to source control.
-* For production deployments, use Azure Key Vault or Kubernetes Secrets for secret management.
+The project is currently under active development as the RAG retrieval, evaluation, and deployment architecture are improved.
