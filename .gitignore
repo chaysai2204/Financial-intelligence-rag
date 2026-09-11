@@ -52,4 +52,6 @@ dist/
 
 # Sensitive files
 secrets.json
+
 credentials.json
+data/markdown/

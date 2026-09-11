@@ -1,4 +1,4 @@
-import uuid
+import hashlib
 
 from azure.core.credentials import AzureKeyCredential
 from azure.search.documents import SearchClient
@@ -14,34 +14,55 @@ class AzureAISearchVectorStore:
         api_key: str,
         index_name: str
     ) -> None:
+
         self.client = SearchClient(
             endpoint=endpoint,
             index_name=index_name,
             credential=AzureKeyCredential(api_key)
         )
 
+
     def upload_chunks(
         self,
         chunks,
         embeddings,
+        document_id: str,
         company: str,
+        ticker: str,
         year: str,
-        source_file: str
+        filing_type: str,
+        source_file: str,
+        file_hash: str
     ) -> None:
         """
-        Upload chunks to Azure AI Search.
+        Upload chunks with provenance metadata
+        using deterministic chunk IDs.
         """
+
         documents = []
 
-        for chunk in chunks:
-            vector = embeddings.embed_query(chunk.page_content)
+        texts = [chunk.page_content for chunk in chunks]
+
+        vectors = embeddings.embed_documents(texts)
+
+        for chunk_index, (chunk, vector) in enumerate(
+            zip(chunks, vectors)
+        ):
+            chunk_id = hashlib.sha256(
+                f"{file_hash}:{chunk_index}".encode("utf-8")
+            ).hexdigest()
 
             documents.append(
                 {
-                    "id": str(uuid.uuid4()),
+                    "id": chunk_id,
+                    "document_id": document_id,
                     "company": company,
+                    "ticker": ticker,
                     "year": year,
+                    "filing_type": filing_type,
                     "source_file": source_file,
+                    "file_hash": file_hash,
+                    "chunk_index": chunk_index,
                     "content": chunk.page_content,
                     "content_vector": vector
                 }
@@ -49,16 +70,26 @@ class AzureAISearchVectorStore:
 
         result = self.client.upload_documents(documents)
 
-        uploaded = sum(item.succeeded for item in result)
+        uploaded = sum(
+            item.succeeded
+            for item in result
+        )
 
-        print(f"Uploaded {uploaded}/{len(documents)} chunks.")
+        print(
+            f"Uploaded {uploaded}/{len(documents)} chunks."
+        )
+
 
 class Retriever:
-    """Simple wrapper around Azure Search client for retrieving relevant chunks.
-    Mirrors the Retriever used in the RAG extractor.
     """
+    Simple Azure Search lexical retriever.
+
+    This remains our BM25 baseline for now.
+    """
+
     def __init__(self, client):
         self.client = client
+
 
     def invoke(
         self,
@@ -67,15 +98,16 @@ class Retriever:
         year: int | None = None,
         top_k: int = 20
     ) -> list:
-        """Retrieve relevant chunks from Azure AI Search.
-        Returns a list of SimpleNamespace objects with `page_content`.
-        """
+
         filter_expr = None
+
         if company and year:
+
             filter_expr = (
                 f"company eq '{company}' "
                 f"and year eq '{year}'"
             )
+
         results = (
             self.client.search(
                 search_text=query,
@@ -88,8 +120,20 @@ class Retriever:
                 top=top_k
             )
         )
+
         documents = []
+
         for result in results:
-            content = result.get("content", "")
-            documents.append(SimpleNamespace(page_content=content))
-        return documents
+
+            content = result.get(
+                "content",
+                ""
+            )
+
+            documents.append(
+                SimpleNamespace(
+                    page_content=content
+                )
+            )
+
+        return documents
