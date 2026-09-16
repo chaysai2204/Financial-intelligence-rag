@@ -1,0 +1,757 @@
+Q006: What were Apple's Services net sales in fiscal 2024?
+Category: factual
+Search terms: Services, net sales
+====================================================================================================
+
+DOCUMENT: AAPL_2024_10K
+
+--- Candidate 1 (around line 307) ---
+Apple Inc. | 2024 Form 10-K | 5 
+
+## _**The Company’s business can be impacted by political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.**_ 
+
+Political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can have a material adverse effect on the Company and its customers, employees, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. 
+
+The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s business and supply chain. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can increase the cost of the Company’s products and the components and raw materials that go into them, and can require the Company to take various actions, including changing suppliers, restructuring business relationships and operations, and ceasing to offer and distribute affected products, services and third-party applications to its customers. Changing the Company’s business and supply chain in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice, which can create uncertainty, and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions affecting the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business. 
+
+Many of the Company’s operations and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. Global climate change is resulting in certain types of natural disasters and extreme weather occurring more frequently or with more intense effects. In addition, the Company’s and its suppliers’ operations and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues and other events beyond the Company’s control. For example, global supply chains can be highly concentrated and geopolitical tensions or conflict could result in significant disruptions. 
+
+Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, result in slowdowns and outages to the Company’s service offerings, increase the Company’s costs, and negatively impact consumer spending and demand in affected areas. 
+
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company’s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services, and delays in production ramps of new products and development of new services. 
+
+--- Candidate 2 (around line 501) ---
+## **Financial Risks** 
+
+## _**The Company expects its quarterly net sales and results of operations to fluctuate.**_ 
+
+The Company’s profit margins vary across its products, services, geographic segments and distribution channels. For example, the gross margins on the Company’s products and services vary significantly and can change over time. The Company’s gross margins are subject to volatility and downward pressure due to a variety of factors, including: continued industry-wide global product pricing pressures and product pricing actions that the Company may take in response to such pressures; increased competition; the Company’s ability to effectively stimulate demand for certain of its products and services; compressed product life cycles; supply shortages; potential increases in the cost of components, outside manufacturing services, and developing, acquiring and delivering content for the Company’s services; the Company’s ability to manage product quality and warranty costs effectively; shifts in the mix of products and services, or in the geographic, currency or channel mix, including to the extent that regulatory changes require the Company to modify its product and service offerings; fluctuations in foreign exchange rates; inflation and other macroeconomic pressures; and the introduction of new products or services, including new products or services with lower profit margins. These and other factors could have a materially adverse impact on the Company’s results of operations and financial condition. 
+
+The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. Additionally, new product and service introductions can significantly impact net sales, cost of sales and operating expenses. Further, the Company generates a significant portion of its net sales from a single product and a decline in demand for that product could significantly impact quarterly net sales. The Company could also be subject to unexpected developments, such as lower-than-anticipated demand for the Company’s products or services, issues with new product or service introductions, information technology system failures or network disruptions, or failure of one of the Company’s logistics, supply or manufacturing partners. 
+
+Apple Inc. | 2024 Form 10-K | 15 
+
+## _**The Company’s financial performance is subject to risks associated with changes in the value of the U.S. dollar relative to local currencies.**_ 
+
+The Company’s primary exposure to movements in foreign exchange rates relates to non–U.S. dollar–denominated sales, cost of sales and operating expenses worldwide. Gross margins on the Company’s products in foreign countries and on products that include components obtained from foreign suppliers have in the past been adversely affected and could in the future be materially adversely affected by foreign exchange rate fluctuations. 
+
+--- Candidate 3 (around line 697) ---
+|Total net sales|$ 391,035||2 %|$ 383,285||(3)%|$ 394,328|
+
+
+
+## _Americas_ 
+
+Americas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. 
+
+## _Europe_ 
+
+Europe net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone. 
+
+## _Greater China_ 
+
+--- Candidate 4 (around line 701) ---
+## _Americas_ 
+
+Americas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. 
+
+## _Europe_ 
+
+Europe net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone. 
+
+## _Greater China_ 
+
+Greater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024. 
+
+## _Japan_ 
+
+--- Candidate 5 (around line 713) ---
+## _Japan_ 
+
+Japan net sales increased during 2024 compared to 2023 due primarily to higher net sales of iPhone. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during 2024. 
+
+## _Rest of Asia Pacific_ 
+
+Rest of Asia Pacific net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Rest of Asia Pacific net sales during 2024. 
+
+Apple Inc. | 2024 Form 10-K | 22 
+
+## **Products and Services Performance** 
+
+The following table shows net sales by category for 2024, 2023 and 2022 (dollars in millions): 
+
+
+====================================================================================================
+Q007: What were Apple's total net sales in fiscal 2023?
+Category: factual
+Search terms: total net sales, 383,285
+====================================================================================================
+
+DOCUMENT: AAPL_2023_10K
+
+--- Candidate 1 (around line 674) ---
+|||||||||
+|Americas|$ 162,560||(4)%|$ 169,658||11 %|$ 153,306|
+|Europe|94,294||(1)%|95,118||7 %|89,307|
+|Greater China|72,559||(2)%|74,200||9 %|68,366|
+|Japan|24,257||(7)%|25,977||(9)%|28,482|
+|Rest of Asia Pacific|29,615||1 %|29,375||11 %|26,356|
+|Total net sales|$ 383,285||(3)%|$ 394,328||8 %|$ 365,817|
+
+
+
+## _Americas_ 
+
+Americas net sales decreased 4% or $7.1 billion during 2023 compared to 2022 due to lower net sales of iPhone and Mac, partially offset by higher net sales of Services. 
+
+--- Candidate 2 (around line 712) ---
+|||||||||
+|iPhone<br>(1)|$ 200,583||(2)%|$ 205,489||7 %|$ 191,973|
+|Mac<br>(1)|29,357||(27)%|40,177||14 %|35,190|
+|iPad<br>(1)|28,300||(3)%|29,292||(8)%|31,862|
+|Wearables, Home and Accessories<br>(1)|39,845||(3)%|41,241||7 %|38,367|
+|Services<br>(2)|85,200||9 %|78,129||14 %|68,425|
+|Total net sales|$ 383,285||(3)%|$ 394,328||8 %|$ 365,817|
+
+
+
+(1) Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product. 
+
+(2) Services net sales include amortization of the deferred value of services bundled in the sales price of certain products. 
+
+--- Candidate 3 (around line 917) ---
+|Net sales:|||**Years ended**|**Years ended**||
+|---|---|---|---|---|---|
+||**September 30,**<br>**2023**||**September 24,**<br>**2022**||**September 25,**<br>**2021**|
+|||||||
+|Products|$ 298,085||$ 316,199||$ 297,392|
+|Services|85,200||78,129||68,425|
+|Total net sales|383,285||394,328||365,817|
+|||||||
+|Cost of sales:||||||
+|Products|189,282||201,471||192,266|
+|Services|24,855||22,075||20,715|
+|Total cost of sales|214,137||223,546||212,981|
+|Gross margin|169,148||170,782||152,836|
+
+--- Candidate 4 (around line 1211) ---
+|---|---|---|---|---|---|
+||||||$ 191,973|
+|Mac<br>(1)|29,357||40,177||35,190|
+|iPad<br>(1)|28,300||29,292||31,862|
+|Wearables, Home and Accessories<br>(1)|39,845||41,241||38,367|
+|Services<br>(2)|85,200||78,129||68,425|
+|Total net sales|$ 383,285||$ 394,328||$ 365,817|
+
+
+
+(1) Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product. 
+
+(2) Services net sales include amortization of the deferred value of services bundled in the sales price of certain products. 
+
+--- Candidate 5 (around line 1839) ---
+|Net sales:|**2023**|**2023**|**2023**|**2022**|**2022**||**2021**|
+|---|---|---|---|---|---|---|---|
+|||||||||
+|U.S.|$ 138,573|||$ 147,859|||$ 133,803|
+|China<br>(1)|72,559|||74,200|||68,366|
+|Other countries|172,153|||172,269|||163,648|
+|Total net sales|$ 383,285|||$ 394,328|||$ 365,817|
+|Long-lived assets:||||**2023**|||**2022**|
+|||||||||
+|U.S.||$||33,276||$ 31,119||
+|China<br>(1)||||5,778||7,260||
+|Other countries||||4,661||3,738||
+|Total long-lived assets||$||43,715||$ 42,117||
+
+
+====================================================================================================
+Q008: What was Microsoft's total revenue in fiscal 2024?
+Category: factual
+Search terms: total revenue, revenue
+====================================================================================================
+
+DOCUMENT: MSFT_2024_10K
+
+--- Candidate 1 (around line 1089) ---
+The markets for software, devices, and cloud-based services are dynamic and highly competitive. Our competitors are developing new software and devices, while also deploying competing cloud-based services for consumers and businesses. The devices and form factors customers prefer evolve rapidly, influencing how users access services in the cloud and, in some cases, the user’s choice of which suite of cloud-based services to use. Aggregate demand for our software, services, and devices is also correlated to global macroeconomic and geopolitical factors, which remain dynamic. We must continue to evolve and adapt over an extended time in pace with this changing environment. 
+
+The investments we are making in cloud and AI infrastructure and devices will continue to increase our operating costs and may decrease our operating margins. We continue to identify and evaluate opportunities to expand our datacenter locations and increase our server capacity to meet the evolving needs of our customers, particularly given the growing demand for AI services. Our datacenters depend on the availability of permitted and buildable land, predictable energy, networking supplies, and servers, including graphics processing units (“GPUs”) and other components. Our devices are primarily manufactured by third-party contract manufacturers. For the majority of our products, we have the ability to use other manufacturers if a current vendor becomes unavailable or unable to meet our requirements. However, some of our products contain certain components for which there are very few qualified suppliers. Extended disruptions at these suppliers could impact our ability to manufacture devices on time to meet consumer demand. 
+
+Our success is highly dependent on our ability to attract and retain qualified employees. We hire a mix of university and industry talent worldwide. We compete for talented individuals globally by offering an exceptional working environment, broad customer reach, scale in resources, the ability to grow one’s career across many different products and businesses, and competitive compensation and benefits. 
+
+Our international operations provide a significant portion of our total revenue and expenses. Many of these revenue and expenses are denominated in currencies other than the U.S. dollar. As a result, changes in foreign exchange rates may significantly affect revenue and expenses. Fluctuations in the U.S. dollar relative to certain foreign currencies did not have a material impact on reported revenue and expenses from our international operations in fiscal year 2024. 
+
+Refer to Risk Factors (Part I, Item 1A of this Form 10-K) for a discussion of these factors and other risks. 
+
+## **Seasonality** 
+
+Our revenue fluctuates quarterly and is generally higher in the fourth quarter of our fiscal year. Fourth quarter revenue is driven by a higher volume of multi-year contracts executed during the period. 
+
+--- Candidate 2 (around line 1686) ---
+|**(In millions, except per share amounts)**||||
+|---|---|---|---|
+|**Year Ended June 30,**|**2024**|**2023**|**2022**|
+|Revenue:||||
+|Product<br>|**$**<br>**64,773**|$ 64,699|$ 72,732|
+|Service and other|**180,349**|147,216|<br>125,538|
+|Total revenue|**245,122**|211,915|<br>198,270|
+|Cost of revenue:||||
+|Product|**15,272**|17,804|<br>19,064|
+|Service and other|**58,842**|48,059|<br>43,586|
+|Total cost of revenue<br>|**74,114**|65,863|<br>62,650|
+|Gross margin<br>|**171,008**|146,052|<br>135,620|
+|Research and development<br>|**29,510**|27,195|<br>24,512|
+
+--- Candidate 3 (around line 3463) ---
+Under the supervision and with the participation of our management, including the Chief Executive Officer and Chief Financial Officer, we have evaluated the effectiveness of our disclosure controls and procedures as required by Exchange Act Rule 13a-15(b) as of the end of the period covered by this report. Based on that evaluation, the Chief Executive Officer and Chief Financial Officer have concluded that these disclosure controls and procedures are effective. 
+
+## **REPORT OF MANAGEMENT ON INTERNAL CONTROL OVER FINANCIAL REPORTING** 
+
+Our management is responsible for establishing and maintaining adequate internal control over financial reporting for the Company. Internal control over financial reporting is a process to provide reasonable assurance regarding the reliability of our financial reporting for external purposes in accordance with accounting principles generally accepted in the United States of America. Internal control over financial reporting includes maintaining records that in reasonable detail accurately and fairly reflect our transactions; providing reasonable assurance that transactions are recorded as necessary for preparation of our consolidated financial statements; providing reasonable assurance that receipts and expenditures of company assets are made in accordance with management authorization; and providing reasonable assurance that unauthorized acquisition, use, or disposition of company assets that could have a material effect on our consolidated financial statements would be prevented or detected on a timely basis. Because of its inherent limitations, internal control over financial reporting is not intended to provide absolute assurance that a misstatement of our consolidated financial statements would be prevented or detected. 
+
+Management conducted an evaluation of the effectiveness of our internal control over financial reporting based on the framework in _Internal Control – Integrated Framework (2013)_ issued by the Committee of Sponsoring Organizations of the Treadway Commission. Our assessment of, and conclusion on, the effectiveness of internal control over financial reporting did not include the internal controls of Activision Blizzard, Inc., acquired on October 13, 2023, which is included in our consolidated financial statements since the date of acquisition and represented less than 1% of our total assets as of June 30, 2024 after excluding goodwill and intangible assets acquired, and 2% of our total revenues for the year ended June 30, 2024. Based on this evaluation, management concluded that the Company’s internal control over financial reporting was effective as of June 30, 2024. There were no changes in our internal control over financial reporting during the quarter ended June 30, 2024 that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting. Deloitte & Touche LLP has audited our internal control over financial reporting as of June 30, 2024; their report is included in Item 9A. 
+
+98 
+
+PART II Item 9A 
+
+## **REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM** 
+
+--- Candidate 4 (around line 3479) ---
+## **Opinion on Internal Control over Financial Reporting** 
+
+We have audited the internal control over financial reporting of Microsoft Corporation and subsidiaries (the "Company") as of June 30, 2024, based on criteria established in _Internal Control — Integrated Framework (2013)_ issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the Company maintained, in all material respects, effective internal control over financial reporting as of June 30, 2024, based on criteria established in _Internal Control — Integrated Framework (2013)_ issued by COSO. 
+
+We have also audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the consolidated financial statements as of and for the year ended June 30, 2024, of the Company and our report dated July 30, 2024, expressed an unqualified opinion on those financial statements. 
+
+As described in the Report of Management on Internal Control over Financial Reporting, management excluded from its assessment the internal control over financial reporting at Activision Blizzard, Inc., which was acquired on October 13, 2023, and whose financial statements constitute less than 1 percent of total assets as of June 30, 2024 after excluding goodwill and intangible assets acquired, and 2 percent of total revenues for the year ended June 30, 2024. Accordingly, our audit did not include the internal control over financial reporting at Activision Blizzard, Inc. 
+
+## **Basis for Opinion** 
+
+The Company's management is responsible for maintaining effective internal control over financial reporting and for its assessment of the effectiveness of internal control over financial reporting, included in the accompanying Report of Management on Internal Control over Financial Reporting. Our responsibility is to express an opinion on the Company's internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB. 
+
+We conducted our audit in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit to obtain reasonable assurance about whether effective internal control over financial reporting was maintained in all material respects. Our audit included obtaining an understanding of internal control over financial reporting, assessing the risk that a material weakness exists, testing and evaluating the design and operating effectiveness of internal control based on the assessed risk, and performing such other procedures as we considered necessary in the circumstances. We believe that our audit provides a reasonable basis for our opinion. 
+
+--- Candidate 5 (around line 280) ---
+8 
+
+PART I Item 1 
+
+## _**Office Commercial**_ 
+
+Office Commercial is designed to increase personal, team, and organizational productivity through a range of products and services. Growth depends on our ability to reach new users in new markets such as frontline workers, small and medium businesses, and growth markets, as well as add value to our core product and service offerings to span AI and productivity categories such as communication, collaboration, analytics, security, and compliance. Office Commercial revenue is mainly affected by a combination of continued installed base growth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Office 365. 
+
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set with new features including AI tools, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed on-premises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+## _**LinkedIn**_ 
+
+
+====================================================================================================
+Q009: What was Microsoft's total revenue in fiscal 2023?
+Category: factual
+Search terms: total revenue, revenue
+====================================================================================================
+
+DOCUMENT: MSFT_2023_10K
+
+--- Candidate 1 (around line 1158) ---
+The markets for software, devices, and cloud-based services are dynamic and highly competitive. Our competitors are developing new software and devices, while also deploying competing cloud-based services for consumers and businesses. The devices and form factors customers prefer evolve rapidly, influencing how users access services in the cloud and, in some cases, the user’s choice of which suite of cloud-based services to use. Aggregate demand for our software, services, and devices is also correlated to global macroeconomic and geopolitical factors, which remain dynamic. We must continue to evolve and adapt over an extended time in pace with this changing environment. 
+
+The investments we are making in cloud and AI infrastructure and devices will continue to increase our operating costs and may decrease our operating margins. We continue to identify and evaluate opportunities to expand our datacenter locations and increase our server capacity to meet the evolving needs of our customers, particularly given the growing demand for AI services. Our datacenters depend on the availability of permitted and buildable land, predictable energy, networking supplies, and servers, including graphics processing units (“GPUs”) and other components. Our devices are primarily manufactured by third-party contract manufacturers. For the majority of our products, we have the ability to use other manufacturers if a current vendor becomes unavailable or unable to meet our requirements. However, some of our products contain certain components for which there are very few qualified suppliers. Extended disruptions at these suppliers could impact our ability to manufacture devices on time to meet consumer demand. 
+
+Our success is highly dependent on our ability to attract and retain qualified employees. We hire a mix of university and industry talent worldwide. We compete for talented individuals globally by offering an exceptional working environment, broad customer reach, scale in resources, the ability to grow one’s career across many different products and businesses, and competitive compensation and benefits. 
+
+Our international operations provide a significant portion of our total revenue and expenses. Many of these revenue and expenses are denominated in currencies other than the U.S. dollar. As a result, changes in foreign exchange rates may significantly affect revenue and expenses. Fluctuations in the U.S. dollar relative to certain foreign currencies reduced reported revenue and expenses from our international operations in fiscal year 2023. 
+
+On January 18, 2023, we announced decisions we made to align our cost structure with our revenue and customer demand, prioritize our investments in strategic areas, and consolidate office space. As a result, we recorded a $1.2 billion charge in the second quarter of fiscal year 2023 (“Q2 charge”), which included employee severance expenses of $800 million, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. First, we reduced our overall workforce by approximately 10,000 jobs through the third quarter of fiscal year 2023 related to the Q2 charge, which represents less than 5% of our total employee base. While we eliminated roles in some areas, we will continue to hire in key strategic areas. Second, we are allocating both our capital and talent to areas of secular growth and long-term competitiveness, while divesting in other areas. Third, we are consolidating our leases to create higher density across our workspaces, which impacted our financial results through the remainder of fiscal year 2023, and we may make similar decisions in future periods as we continue to evaluate our real estate needs. 
+
+Refer to Risk Factors (Part I, Item 1A of this Form 10-K) for a discussion of these factors and other risks. 
+
+## **Seasonality** 
+
+--- Candidate 2 (around line 1770) ---
+
+|**(In millions, except per share amounts)**<br>**Year Ended June 30,**|**2023**|**2022**|**2021**|
+|---|---|---|---|
+|Revenue:||||
+|Product<br>|**$**<br>**64,699**|$ 72,732|$ 71,074|
+|Service and other|**147,216**|125,538|<br>97,014|
+|Total revenue|**211,915**|198,270|<br>168,088|
+|Cost of revenue:||||
+|Product|**17,804**|19,064|<br>18,219|
+|Service and other|**48,059**|43,586|<br>34,013|
+|Total cost of revenue<br>|**65,863**|62,650|<br>52,232|
+|Gross margin<br>|**146,052**|135,620|<br>115,856|
+|Research and development<br>|**27,195 **|24,512|20,716|
+
+--- Candidate 3 (around line 361) ---
+- •LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. 
+
+- •Dynamics business solutions, including Dynamics 365, comprising a set of intelligent, cloud-based applications across ERP, CRM (including Customer Insights), Power Apps, and Power Automate; and on-premises ERP and CRM applications. 
+
+## _**Office Commercial**_ 
+
+Office Commercial is designed to increase personal, team, and organizational productivity through a range of products and services. Growth depends on our ability to reach new users in new markets such as frontline workers, small and medium businesses, and growth markets, as well as add value to our core product and service offerings to span productivity categories such as communication, collaboration, analytics, security, and compliance. Office Commercial revenue is mainly affected by a combination of continued installed base growth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Office 365. 
+
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed onpremises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+11 
+
+--- Candidate 4 (around line 365) ---
+## _**Office Commercial**_ 
+
+Office Commercial is designed to increase personal, team, and organizational productivity through a range of products and services. Growth depends on our ability to reach new users in new markets such as frontline workers, small and medium businesses, and growth markets, as well as add value to our core product and service offerings to span productivity categories such as communication, collaboration, analytics, security, and compliance. Office Commercial revenue is mainly affected by a combination of continued installed base growth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Office 365. 
+
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed onpremises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+11 
+
+PART I 
+
+Item 1 
+
+--- Candidate 5 (around line 375) ---
+PART I 
+
+Item 1 
+
+## _**LinkedIn**_ 
+
+LinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market, sell, and learn. Our vision is to create economic opportunity for every member of the global workforce through the ongoing development of the world’s first Economic Graph, a digital representation of the global economy. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Talent Solutions provide insights for workforce planning and tools to hire, nurture, and develop talent. Talent Solutions also includes Learning Solutions, which help businesses close critical skills gaps in times where companies are having to do more with existing talent. Marketing Solutions help companies reach, engage, and convert their audiences at scale. Premium Subscriptions enable professionals to manage their professional identity, grow their network, find jobs, and connect with talent through additional services like premium search. Sales Solutions help companies strengthen customer relationships, empower teams with digital selling tools, and acquire new opportunities. LinkedIn has over 950 million members and has offices around the globe. Growth will depend on our ability to increase the number of LinkedIn members and our ability to continue offering services that provide value for our members and increase their engagement. LinkedIn revenue is mainly affected by demand from enterprises and professional organizations for subscriptions to Talent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored content delivered to those members to drive Marketing Solutions. 
+
+## _**Dynamics**_ 
+
+Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”), customer relationship management (“CRM”), supply chain management, and other application development platforms for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including Power Apps and Power Automate. 
+
+## _Competition_ 
+
+
+====================================================================================================
+Q010: What was NVIDIA's total revenue in fiscal 2023?
+Category: factual
+Search terms: revenue
+====================================================================================================
+
+DOCUMENT: NVDA_2023_10K
+
+--- Candidate 1 (around line 272) ---
+To encourage the development of applications optimized for our platforms and software, we seek to establish and maintain strong relationships in the software development community. Engineering and marketing personnel engage with key software developers to promote and discuss our platforms, as well as to ascertain individual product requirements and solve technical problems. Our developer program makes our products available to developers prior to launch in order to encourage the development of AI frameworks, SDKs, and APIs for software applications and game titles that are optimized for our platforms. Our Deep Learning Institute provides in-person and online training for developers in industries and organizations around the world to build AI and accelerated computing applications that leverage our platforms. 
+
+As NVIDIA’s business has evolved from a focus primarily on gaming products to broader markets, and from chips to platforms, systems and software, so, too, have our avenues to market. Thus, in addition to sales to customers in our partner network, certain of our products are also sold direct to CSPs, enterprise customers, retail channels and consumers. 
+
+## **Seasonality** 
+
+Our computing platforms serve a diverse set of markets such as consumer gaming, enterprise and cloud data centers, professional workstations, and automotive. Our consumer products typically see stronger revenue in the second half of our fiscal year. In addition, based on the production schedules of key customers, some of our products for notebooks and game consoles typically generate stronger revenue in the second and third quarters, and weaker revenue in the fourth and first quarters. In fiscal year 2023, our supply exceeded our demand in several areas, and our revenue did not follow historical seasonal patterns. Historical seasonality trends may not repeat. 
+
+## **Manufacturing** 
+
+We do not manufacture semiconductors used for our products. Instead, we utilize a fabless manufacturing strategy, whereby we employ key suppliers for all phases of the manufacturing process, including wafer fabrication, assembly, testing, and packaging. This strategy uses the expertise of industry-leading suppliers that are certified by the International Organization for Standardization in such areas as fabrication, assembly, quality control and assurance, reliability, and testing. Additionally, we can avoid many of the significant costs and risks associated with owning and operating manufacturing operations. While we may directly procure certain raw materials used in the production of our products, such as memory, substrates and a variety of components, our suppliers are responsible for procurement of most of the raw materials used in the 
+
+9 
+
+--- Candidate 2 (around line 484) ---
+- Failure to meet the evolving needs of our industry and markets may adversely impact our financial results. 
+
+15 
+
+Table of Contents 
+
+- Competition in our current and target markets could cause us to lose market share and revenue. 
+
+## **Risks Related to Demand, Supply and Manufacturing** 
+
+- Failure to estimate customer demand properly has led and could lead to mismatches between supply and demand. 
+
+- Dependency on third-party suppliers and their technology reduces our control over product quantity and quality, manufacturing yields, development, enhancement, and product delivery schedules and could harm our business. 
+
+--- Candidate 3 (around line 508) ---
+- Business disruptions could harm our operations and financial results. 
+
+- Climate change may have a long-term impact on our business. 
+
+- We may not be able to realize the potential benefits of business investments or acquisitions, nor successfully integrate acquisition targets. 
+
+- A significant amount of our revenue stems from a limited number of customers and could be adversely affected if we lose or are prevented from selling to any of these customers. 
+
+- We may be unable to attract, retain and motivate our executives and key employees. 
+
+- Modification or interruption of our business processes and information systems may disrupt our business, processes and internal controls. 
+
+- The COVID-19 pandemic has affected and could continue to have a material adverse impact on our financial condition and results of operations. 
+
+--- Candidate 4 (around line 568) ---
+- manage product and software lifecycles to maintain customer and end user satisfaction; 
+
+- develop, acquire, and maintain the internal and external infrastructure needed to scale our business, including our acquisitions integrations, customer support, e-commerce, IP licensing capabilities and cloud service capacity; and 
+
+- complete technical, financial, compliance, sales and marketing investments for some of the above activities. 
+
+We invest in research and development in markets where we have a limited operating history, which may not produce meaningful revenue for several years, if at all. If we fail to develop or monetize new products and technologies, or if they do not become widely adopted, our financial results could be adversely affected. Obtaining design wins may involve a lengthy process and depend on our ability to anticipate and provide features and functionality that customers will demand. They also do not guarantee revenue. Failure to obtain a design win may prevent us from obtaining future design wins in subsequent generations. We cannot ensure that the products and technologies we bring to market will provide value to our customers and partners. If we fail any of these key success criteria, our financial results may be harmed. 
+
+We will offer enterprise customers NVIDIA AI cloud services directly and through our network of partners. Examples of these services include NVIDIA DGX Cloud, which is cloud-based infrastructure and software for training AI models, and customizable pretrained AI models. NVIDIA has partnered with leading cloud service providers to host these services in their data centers, and we entered into multi-year cloud service agreements in the second half of fiscal year 2023 to support these offerings and our research and development activities. NVIDIA AI cloud services may not be successful and will take time, resources and investment. We also offer or plan to offer standalone software solutions for AI including NVIDIA AI Enterprise, NVIDIA Omniverse, NVIDIA DRIVE for automotive, and several other software solutions. These new 
+
+17 
+
+Table of Contents 
+
+--- Candidate 5 (around line 576) ---
+We will offer enterprise customers NVIDIA AI cloud services directly and through our network of partners. Examples of these services include NVIDIA DGX Cloud, which is cloud-based infrastructure and software for training AI models, and customizable pretrained AI models. NVIDIA has partnered with leading cloud service providers to host these services in their data centers, and we entered into multi-year cloud service agreements in the second half of fiscal year 2023 to support these offerings and our research and development activities. NVIDIA AI cloud services may not be successful and will take time, resources and investment. We also offer or plan to offer standalone software solutions for AI including NVIDIA AI Enterprise, NVIDIA Omniverse, NVIDIA DRIVE for automotive, and several other software solutions. These new 
+
+17 
+
+Table of Contents 
+
+business models or strategies may not be successful and we may fail to sell any meaningful standalone software or as-a-service solutions. We may incur significant costs and may not achieve any significant revenue from these offerings. 
+
+## **Competition in our current and target markets could cause us to lose market share and revenue.** 
+
+Our target markets remain competitive, and competition may intensify with expanding and changing product and service offerings, industry standards, customer needs, new entrants and consolidations. Our competitors’ products, services and technologies, including those mentioned above in this Annual Report on Form 10-K, may be cheaper or provide better functionality or features than ours, which has resulted and may in the future result in lower than expected selling prices for our products. Some of our competitors operate their own fabrication facilities, have longer operating histories, larger customer bases, more comprehensive IP portfolios and patent protections, new designs and more design wins, and greater financial, sales, marketing and distribution resources than we do. These competitors may be able to acquire market share and/or prevent us from doing so, more effectively identify and capitalize upon opportunities in new markets and end user customer trends, more quickly transition their products, and secure sufficient foundry capacity and packaging materials during a supply-constrained environment, which could harm our business. Some of our customers have in-house expertise and internal development capabilities similar to some of ours and can use or develop their own solutions to replace those we are providing. For example, others may offer cloud-based services that compete with our AI cloud service offerings, and we may not be able to establish market share sufficient to achieve scale necessary to meet our business objectives. If we are unable to successfully compete in this environment, demand for our products, services and technologies could decrease, which would cause our revenue to decline. 
+
+## **Risks Related to Demand, Supply and Manufacturing** 
+
+
+====================================================================================================
+Q011: What was Apple's net income in fiscal 2024?
+Category: factual
+Search terms: net income
+====================================================================================================
+
+DOCUMENT: AAPL_2024_10K
+
+--- Candidate 1 (around line 964) ---
+|Total operating expenses|57,467||54,847||51,345|
+|||||||
+|Operating income|123,216||114,301||119,437|
+|Other income/(expense), net|269||(565)||(334)|
+|Income before provision for income taxes|123,485||113,736||119,103|
+|Provision for income taxes|29,749||16,741||19,300|
+|Net income|$ 93,736||$ 96,995||$ 99,803|
+|||||||
+|Earnings per share:||||||
+|Basic|$ 6.11||$ 6.16||$ 6.15|
+|Diluted|$ 6.08||$ 6.13||$ 6.11|
+|||||||
+|Shares used in computing earnings per share:||||||
+
+--- Candidate 2 (around line 986) ---
+## **Apple Inc.** 
+
+## **CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME** 
+
+(In millions) 
+
+|Net income|||**Years ended**|**Years ended**||
+|---|---|---|---|---|---|
+||**September 28,**<br>**2024**<br>$ 93,736||**September 30,**<br>**2023**<br>$ 96,995||**September 24,**<br>**2022**|
+||||||$ 99,803|
+|Other comprehensive income/(loss):||||||
+|Change in foreign currency translation, net of tax|395||(765)||(1,511)|
+|||||||
+
+--- Candidate 3 (around line 995) ---
+||||||$ 99,803|
+|Other comprehensive income/(loss):||||||
+|Change in foreign currency translation, net of tax|395||(765)||(1,511)|
+|||||||
+|Change in unrealized gains/losses on derivative instruments, net of tax:||||||
+|Change in fair value of derivative instruments|(832)||323||3,212|
+|Adjustment for net (gains)/losses realized and included in net income|(1,337)||(1,717)||(1,074)|
+|Total change in unrealized gains/losses on derivative instruments|(2,169)||(1,394)||2,138|
+|||||||
+|Change in unrealized gains/losses on marketable debt securities, net of tax:||||||
+|Change in fair value of marketable debt securities|5,850||1,563||(12,104)|
+|Adjustment for net (gains)/losses realized and included in net income|204||253||205|
+|Total change in unrealized gains/losses on marketable debt securities|6,054||1,816||(11,899)|
+
+--- Candidate 4 (around line 1000) ---
+|Change in fair value of derivative instruments|(832)||323||3,212|
+|Adjustment for net (gains)/losses realized and included in net income|(1,337)||(1,717)||(1,074)|
+|Total change in unrealized gains/losses on derivative instruments|(2,169)||(1,394)||2,138|
+|||||||
+|Change in unrealized gains/losses on marketable debt securities, net of tax:||||||
+|Change in fair value of marketable debt securities|5,850||1,563||(12,104)|
+|Adjustment for net (gains)/losses realized and included in net income|204||253||205|
+|Total change in unrealized gains/losses on marketable debt securities|6,054||1,816||(11,899)|
+|||||||
+|Total other comprehensive income/(loss)|4,280||(343)||(11,272)|
+|Total comprehensive income|$ 98,016||$ 96,652||$ 88,531|
+
+
+
+--- Candidate 5 (around line 1087) ---
+|Common stock withheld related to net share settlement of equity awards|(3,993)||(3,521)||(2,971)|
+|Share-based compensation|12,034||11,138||9,280|
+|Ending balances|83,276||73,812||64,849|
+|||||||
+|Retained earnings/(Accumulated deficit):||||||
+|Beginning balances|(214)||(3,068)||5,562|
+|Net income|93,736||96,995||99,803|
+|Dividends and dividend equivalents declared|(15,218)||(14,996)||(14,793)|
+|Common stock withheld related to net share settlement of equity awards|(1,612)||(2,099)||(3,454)|
+|Common stock repurchased|(95,846)||(77,046)||(90,186)|
+|Ending balances|(19,154)||(214)||(3,068)|
+|||||||
+|Accumulated other comprehensive income/(loss):||||||
+
+
+====================================================================================================
+Q012: What was Microsoft's net income in fiscal 2024?
+Category: factual
+Search terms: net income
+====================================================================================================
+
+DOCUMENT: MSFT_2024_10K
+
+--- Candidate 1 (around line 1201) ---
+||||||**Percentage**|
+|---|---|---|---|---|---|
+||**(In millions, except percentages and per share amounts)**||**2024**|<br>**2023**|<br>**Change**|
+||Revenue|**$**|**245,122**|$ 211,915|<br>16%|
+||Gross margin||**171,008**|<br>146,052|<br>17%|
+||Operating income||**109,433**|<br>88,523|<br>24%|
+||Net income||**88,136**|<br>72,361|<br>22%|
+||Diluted earnings per share||**11.80**|<br>9.68|<br>22%|
+||Adjusted gross margin (non-GAAP)||**171,008**|146,204|<br>17%|
+||Adjusted operating income (non-GAAP)||**109,433**|89,694|<br>22%|
+||Adjusted net income (non-GAAP)||**88,136**|<br>73,307|<br>20%|
+||Adjusted diluted earnings per share (non-GAAP)||**11.80**|<br>9.81|<br>20%|
+
+
+--- Candidate 2 (around line 1205) ---
+||Gross margin||**171,008**|<br>146,052|<br>17%|
+||Operating income||**109,433**|<br>88,523|<br>24%|
+||Net income||**88,136**|<br>72,361|<br>22%|
+||Diluted earnings per share||**11.80**|<br>9.68|<br>22%|
+||Adjusted gross margin (non-GAAP)||**171,008**|146,204|<br>17%|
+||Adjusted operating income (non-GAAP)||**109,433**|89,694|<br>22%|
+||Adjusted net income (non-GAAP)||**88,136**|<br>73,307|<br>20%|
+||Adjusted diluted earnings per share (non-GAAP)||**11.80**|<br>9.81|<br>20%|
+
+
+
+Adjusted gross margin, operating income, net income, and diluted earnings per share (“EPS”) are non-GAAP financial measures. Prior year non-GAAP financial measures exclude the impact of a $1.2 billion charge in the second quarter of fiscal year 2023 (“Q2 charge”), which included employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results. 
+
+
+--- Candidate 3 (around line 1210) ---
+||Adjusted operating income (non-GAAP)||**109,433**|89,694|<br>22%|
+||Adjusted net income (non-GAAP)||**88,136**|<br>73,307|<br>20%|
+||Adjusted diluted earnings per share (non-GAAP)||**11.80**|<br>9.81|<br>20%|
+
+
+
+Adjusted gross margin, operating income, net income, and diluted earnings per share (“EPS”) are non-GAAP financial measures. Prior year non-GAAP financial measures exclude the impact of a $1.2 billion charge in the second quarter of fiscal year 2023 (“Q2 charge”), which included employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results. 
+
+## _**Fiscal Year 2024 Compared with Fiscal Year 2023**_ 
+
+Revenue increased $33.2 billion or 16% driven by growth across each of our segments. Intelligent Cloud revenue increased driven by Azure. Productivity and Business Processes revenue increased driven by Office 365 Commercial. More Personal Computing revenue increased driven by Gaming. 
+
+Cost of revenue increased $8.3 billion or 13% driven by growth in Microsoft Cloud and Gaming, offset in part by a decline in Devices. 
+
+--- Candidate 4 (around line 1228) ---
+- Microsoft Cloud gross margin percentage decreased slightly to 71%. Excluding the impact of the change in accounting estimate, Microsoft Cloud gross margin percentage increased slightly driven by improvements in Azure and Office 365 Commercial, inclusive of scaling our AI infrastructure, offset in part by sales mix shift to Azure. 
+
+Operating expenses increased $4.0 billion or 7% driven by Gaming, with 7 points of growth from the Activision Blizzard acquisition, and investments in cloud engineering, offset in part by the prior year Q2 charge. 
+
+Operating income increased $20.9 billion or 24% driven by growth across each of our segments. 
+
+Prior year gross margin, operating income, net income, and diluted EPS were negatively impacted by the Q2 charge, which resulted in decreases of $152 million, $1.2 billion, $946 million, and $0.13, respectively. 
+
+43 
+
+## PART II 
+
+## Item 7 
+
+--- Candidate 5 (around line 1415) ---
+We remain under audit by the IRS for tax years 2014 to 2017. With respect to the audit for tax years 2004 to 2013, on September 26, 2023, we received Notices of Proposed Adjustment (“NOPAs”) from the IRS. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest. As of June 30, 2024, we believe our allowances for income tax contingencies are adequate. We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS’s administrative appeals office and, if necessary, judicial proceedings. We do not expect a final resolution of these issues in the next 12 months. Based on the information currently available, we do not anticipate a significant increase or decrease to our income tax contingencies for these issues within the next 12 months. 
+
+We are subject to income tax in many jurisdictions outside the U.S. Our operations in certain jurisdictions remain subject to examination for tax years 1996 to 2023, some of which are currently under audit by local tax authorities. The resolution of each of these audits is not expected to be material to our consolidated financial statements. 
+
+## NON-GAAP FINANCIAL MEASURES 
+
+Adjusted gross margin, operating income, net income, and diluted EPS are non-GAAP financial measures. Prior year non-GAAP financial measures exclude the impact of the Q2 charge, which includes employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. We believe these non-GAAP measures aid investors by providing additional insight into our operational performance and help clarify trends affecting our business. For comparability of reporting, management considers non-GAAP measures in conjunction with GAAP financial results in evaluating business performance. These nonGAAP financial measures presented should not be considered a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP. 
+
+47 
+
+## PART II 
+
+## Item 7 
+
+
+====================================================================================================
+Q013: How much revenue did NVIDIA generate from its Data Center business in fiscal 2023?
+Category: factual
+Search terms: Data Center, revenue
+====================================================================================================
+
+DOCUMENT: NVDA_2023_10K
+
+--- Candidate 1 (around line 272) ---
+To encourage the development of applications optimized for our platforms and software, we seek to establish and maintain strong relationships in the software development community. Engineering and marketing personnel engage with key software developers to promote and discuss our platforms, as well as to ascertain individual product requirements and solve technical problems. Our developer program makes our products available to developers prior to launch in order to encourage the development of AI frameworks, SDKs, and APIs for software applications and game titles that are optimized for our platforms. Our Deep Learning Institute provides in-person and online training for developers in industries and organizations around the world to build AI and accelerated computing applications that leverage our platforms. 
+
+As NVIDIA’s business has evolved from a focus primarily on gaming products to broader markets, and from chips to platforms, systems and software, so, too, have our avenues to market. Thus, in addition to sales to customers in our partner network, certain of our products are also sold direct to CSPs, enterprise customers, retail channels and consumers. 
+
+## **Seasonality** 
+
+Our computing platforms serve a diverse set of markets such as consumer gaming, enterprise and cloud data centers, professional workstations, and automotive. Our consumer products typically see stronger revenue in the second half of our fiscal year. In addition, based on the production schedules of key customers, some of our products for notebooks and game consoles typically generate stronger revenue in the second and third quarters, and weaker revenue in the fourth and first quarters. In fiscal year 2023, our supply exceeded our demand in several areas, and our revenue did not follow historical seasonal patterns. Historical seasonality trends may not repeat. 
+
+## **Manufacturing** 
+
+We do not manufacture semiconductors used for our products. Instead, we utilize a fabless manufacturing strategy, whereby we employ key suppliers for all phases of the manufacturing process, including wafer fabrication, assembly, testing, and packaging. This strategy uses the expertise of industry-leading suppliers that are certified by the International Organization for Standardization in such areas as fabrication, assembly, quality control and assurance, reliability, and testing. Additionally, we can avoid many of the significant costs and risks associated with owning and operating manufacturing operations. While we may directly procure certain raw materials used in the production of our products, such as memory, substrates and a variety of components, our suppliers are responsible for procurement of most of the raw materials used in the 
+
+9 
+
+--- Candidate 2 (around line 622) ---
+- the demand for cryptocurrency mining; or 
+
+- government actions or changes in governmental policies, such as increased restrictions on gaming usage. 
+
+Our supply, which includes inventory on hand, purchase obligations and prepaid supply agreements, has grown significantly due to current supply chain conditions, complexity of our products, and recent reductions in demand. At the end of fiscal year 2023, purchase obligations and prepaid supply agreements represented more than half of our total supply. We may incur inventory provisions if our inventory or supply commitments are misaligned with demand for our products. 
+
+Our demand predictions may not be correct, as we have experienced from time to time. Product transitions are complex and frequently negatively impact our revenue as we often ship both new and legacy architecture products simultaneously and we and our channel partners prepare to ship and support new products. Our architecture transitions of Data Center, Professional Visualization, and Gaming products may impair our ability to predict demand and impact our supply mix. Qualification time for new products, customers anticipating product transitions and channel partners reducing channel inventory of legacy architectures ahead of new product introductions can create reductions or volatility in our revenue. We have experienced and may in the future experience reduced demand for current generation architectures when customers anticipate transitions, and we may be unable to sell multiple product architectures at the same time for current and future architecture transitions. While we have managed prior product transitions and have previously sold multiple product architectures at the same time, these transitions are difficult and prior trends may not continue. If we are unable to execute our architectural transitions as planned for any reason, our financial results may be negatively impacted. 
+
+We sell most of our products through channel partners, who sell to distributors, retailers, and/or end customers. As a result, the decisions made by our channel partners, distributors, retailers, and in response to changing market conditions and changes in end user demand for our products have impacted and could in the future continue to impact our ability to properly forecast demand, particularly as they are based on estimates provided by various downstream parties. 
+
+If we underestimate our customers' future demand for our products, our foundry partners may not have adequate lead-time or capacity to increase production and we may not be able to obtain sufficient inventory to fill orders on a timely basis. Even if we are able to increase production levels to meet customer demand, we may not be able to do so in a cost-effective or timely manner, or our contract manufacturers may experience supply constraints. If we fail to fulfill our customers’ orders on a timely basis, or at all, our customer relationships could be damaged, we could lose revenue and market share and our reputation could be harmed. 
+
+If we overestimate our customers’ future demand for our products, or if customers cancel or defer orders or choose to purchase from our competitors, we may not be able to reduce our inventory or other contractual purchase commitments. In the past, we have experienced a reduction in average selling prices, including due to channel pricing programs that we have implemented and may continue to implement, as a result of our overestimation of future demand, and we may need to continue these reductions. We have had to increase prices for certain of our products as a result of our suppliers’ increase in prices, and we may need to continue to do so for other products in the future. We have also written-down our inventory, incurred cancellation penalties, and recorded impairments. These impacts were amplified by our placement of noncancellable and non-returnable purchasing terms, well in advance of our historical lead times and could be exacerbated if we need to make changes to the design of future products. The risk of these impacts has increased as our purchase obligations and prepaids have grown and become a greater portion of our total supply while our 
+
+--- Candidate 3 (around line 730) ---
+23 
+
+Table of Contents 
+
+## **Business disruptions could harm our operations, lead to a decline in revenue and increase our costs** . 
+
+Our worldwide operations could be disrupted by natural disasters and extreme weather conditions, power or water shortages, telecommunications failures, cloud service provider outages, terrorist attacks, or acts of violence, political and/or civil unrest, acts of war or other military actions, epidemics or pandemics and other natural or man-made disasters and catastrophic events. Our corporate headquarters, a large portion of our current data center capacity, and a portion of our research and development activities are located in California, and other critical business operations, finished goods inventory, and some of our suppliers are located in Asia, making our operations vulnerable to natural disasters such as earthquakes, wildfires, or other business disruptions occurring in these geographical areas. Catastrophic events can also have an impact on third-party vendors who provide us critical infrastructure services for IT and research and development systems and personnel. Geopolitical and domestic political developments and other events beyond our control, can increase economic volatility globally. Political instability, changes in government or adverse political developments in or around any of the major countries in which we do business would also likely harm our business, financial condition and results of operations. Worldwide geopolitical tensions and conflicts, including but not limited to China, Hong Kong, Israel, Korea and Taiwan where the manufacture of our product components and final assembly of our products are concentrated may result in changing regulatory requirements, and other disruptions that could impact our operations and operating strategies, product demand, access to global markets, hiring, and profitability. For example, other countries have restricted and may continue in the future to restrict business with the State of Israel, where we have engineering, sales support operations and manufacturing, and companies with Israeli operations, including by economic boycotts. Our operations could be harmed and our costs could increase if manufacturing, logistics or other operations are disrupted for any reason, including natural disasters, high heat events or water shortages, information technology system failures, military actions or economic, business, labor, environmental, public health, or political issues. The ultimate impact on us, our third-party foundries and other suppliers of being located and consolidated in certain geographical areas is unknown. In the event a disaster, war or catastrophic event affects us, the third-party systems on which we rely, or our customers, our business could be harmed as a result of declines in revenue, increases in expenses, and substantial expenditures and time spent to fully resume operations. All of these risks and conditions could materially adversely affect our future sales and operating results. 
+
+## **Climate change may have a long-term impact on our business.** 
+
+Climate change may have an increasingly adverse impact on our business and those of our customers, partners and vendors. Water and energy availability and reliability in the communities where we conduct business is critical, and certain of our facilities may be vulnerable to the impacts of extreme weather events. Extreme heat and wind coupled with dry conditions in Northern California may lead to power safety shut offs due to wildfire risk, which can have adverse implications for our Santa Clara, California headquarter offices and data centers, including impairing the ability of our employees to work effectively. Climate change, its impact on our supply chain and critical infrastructure worldwide, and its potential to increase political instability in regions where we, our customers, partners and our vendors do business, may disrupt our business and cause us to experience higher attrition, losses and costs to maintain or resume operations. Although we maintain insurance coverage for a variety of property, casualty, and other risks, the types and amounts of insurance we obtain vary depending on availability and cost. Some of our policies have large deductibles and broad exclusions, and our insurance providers may be unable or unwilling to pay a claim. Losses not covered by insurance may be large, which could harm our results of operations and financial condition. 
+
+Our business and those of our suppliers and customers, may also be subject to climate-related laws, regulations and lawsuits. Regulations such as carbon taxes, fuel or energy taxes, and pollution limits could result in greater direct costs, including costs associated with changes to manufacturing processes or the procurement of raw materials used in manufacturing processes, increased capital expenditures to improve facilities and equipment, and higher compliance and energy costs to reduce emissions, as well as greater indirect costs resulting from our customers, suppliers or both incurring additional compliance costs that are passed on to us. These costs and restrictions could harm our business and results of operations by increasing our expenses or requiring us to alter our operations and product design activities. Stakeholder groups may find us insufficiently responsive to the implications of climate change, and therefore we may face legal action or reputational harm. We may not achieve our stated goal to source 100% of our global electricity use from renewable energy by the end of fiscal year 2025, which could harm our reputation, or we may incur additional, 
+
+--- Candidate 4 (around line 864) ---
+We are required to transition certain operations out of China (including Hong Kong), which could be costly and time consuming, and adversely affect our research and development and supply and distribution operations, as well as our revenue, during any such transition period. 
+
+We have engaged with customers in China to provide alternative products not subject to the new license requirements, such as our new A800 offering. To the extent that a customer requires products covered by the new license requirements, we may seek a license for the customer but have no assurance that the USG will grant any exemptions or licenses for any customer, or that the USG will act on them in a timely manner. The new requirements may have a disproportionate impact on NVIDIA and may disadvantage NVIDIA against certain of our competitors who sell products that are not subject to the new restrictions or may be able to acquire licenses for their products. 
+
+Management of these new license and other requirements is complicated and time consuming. Our results and competitive position may be harmed if customers in China do not want to purchase our alternative product offerings, if customers purchase product from competitors, if customers develop their own internal solution, if we are unable to provide contractual warranty or other extended service obligations, if the USG does not grant licenses in a timely manner or denies licenses to significant customers, or if we incur significant transition costs. Additionally, if we are unable to sell our alternative product offerings in China, we may have excess inventory, harming our results. Even if the USG grants any requested licenses, the licenses may be temporary or impose burdensome conditions that we cannot or choose not to fulfill. The new requirements may benefit certain of our competitors, as the licensing process will make our pre-sale and post-sale technical support efforts more cumbersome and less certain, and encourage customers in China to pursue alternatives to our products, including semiconductor suppliers based in China, Europe, and Israel. 
+
+Additionally, restrictions imposed by the Chinese government on the duration of gaming activities and access to games may adversely affect our Gaming revenue, and increased oversight of digital platform companies may adversely affect our Data Center revenue. 
+
+## **Increased scrutiny from shareholders, regulators and others regarding our environmental, social and governance responsibilities could result in additional costs or risks and adversely impact our reputation and willingness of customers and suppliers to do business with us.** 
+
+Shareholder advocacy groups, certain investment funds, other market participants, shareholders and customers have placed increased importance on the implications of the social and environmental cost of their investments and these parties, as well as government regulators, have focused increasingly on corporate ESG and sustainability practices and disclosures, including those associated with climate change and human rights. Stakeholders may not be satisfied with our ESG practices or the speed of their adoption. Additionally, our ESG practices, oversight of ESG practices, or disclosure controls may not meet evolving shareholder, regulator, or other industry stakeholder expectations, or we may fail to meet sustainability disclosure or ESG reporting standards. We could also incur additional costs and require additional resources to monitor, report, and comply with various ESG practices, choose not to conduct business with potential 
+
+29 
+
+--- Candidate 5 (around line 1043) ---
+## **Recent Developments, Future Objectives and Challenges** 
+
+## **Supply, Products Transitions, and New Products and Business Models** 
+
+Our supply, which includes inventory on hand, purchase obligations and prepaid supply agreements, has grown significantly due to current supply chain conditions, complexity of our products, and recent reductions in demand. At the end of fiscal year 2023, purchase obligations and prepaid supply agreements represented more than half of our total supply. Inventory provisions for excess inventory and purchase obligations totaled $2.17 billion in fiscal year 2023. We may incur inventory provisions if our inventory or supply commitments are misaligned with demand for our products. 
+
+Product transitions are complex as we often ship both new and legacy architecture products simultaneously and we and our channel partners prepare to ship and support new products. We are currently transitioning the architecture of our Data Center, Professional Visualization, and Gaming products. Qualification time for new products, customers anticipating product transitions and channel partners reducing channel inventory of legacy architectures ahead of new product introductions can create reductions or volatility in our revenue. While we have managed prior product transitions and have previously sold multiple product architectures at the same time, these transitions are difficult and prior trends may not continue. 
+
+We build technology and products for use cases and applications that may be new or may not yet exist. Examples include our Omniverse platform and third-party large language models and generative models. Our demand estimates for these use cases and applications can be incorrect and create volatility in our revenue or supply levels, and we may not be able to generate any revenue from these use cases and applications. 
+
+## **NVIDIA AI Cloud Service Offerings** 
+
+We will offer enterprise customers NVIDIA AI cloud services directly and through our network of partners. Examples of these services include NVIDIA DGX Cloud, which is cloud-based infrastructure and software for training AI models, and customizable pretrained AI models. NVIDIA has partnered with leading cloud service providers to host these services in their data centers. 
+
+
+====================================================================================================
+Q014: What were Apple's iPhone net sales in fiscal 2023?
+Category: factual
+Search terms: iPhone, net sales
+====================================================================================================
+
+DOCUMENT: AAPL_2023_10K
+
+--- Candidate 1 (around line 622) ---
+The Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company’s fiscal quarters with calendar quarters, which occurred in the first quarter of 2023. The Company’s fiscal year 2023 spanned 53 weeks, whereas fiscal years 2022 and 2021 spanned 52 weeks each. 
+
+## **Fiscal Year Highlights** 
+
+The Company’s total net sales were $383.3 billion and net income was $97.0 billion during 2023. 
+
+The Company’s total net sales decreased 3% or $11.0 billion during 2023 compared to 2022. The weakness in foreign currencies relative to the U.S. dollar accounted for more than the entire year-over-year decrease in total net sales, which consisted primarily of lower net sales of Mac and iPhone, partially offset by higher net sales of Services. 
+
+The Company announces new product, service and software offerings at various times during the year. Significant announcements during fiscal year 2023 included the following: 
+
+## First Quarter 2023: 
+
+- iPad and iPad Pro; 
+
+--- Candidate 2 (around line 680) ---
+|Total net sales|$ 383,285||(3)%|$ 394,328||8 %|$ 365,817|
+
+
+
+## _Americas_ 
+
+Americas net sales decreased 4% or $7.1 billion during 2023 compared to 2022 due to lower net sales of iPhone and Mac, partially offset by higher net sales of Services. 
+
+## _Europe_ 
+
+Europe net sales decreased 1% or $824 million during 2023 compared to 2022. The weakness in foreign currencies relative to the U.S. dollar accounted for more than the entire year-over-year decrease in Europe net sales, which consisted primarily of lower net sales of Mac and Wearables, Home and Accessories, partially offset by higher net sales of iPhone and Services. 
+
+## _Greater China_ 
+
+--- Candidate 3 (around line 684) ---
+## _Americas_ 
+
+Americas net sales decreased 4% or $7.1 billion during 2023 compared to 2022 due to lower net sales of iPhone and Mac, partially offset by higher net sales of Services. 
+
+## _Europe_ 
+
+Europe net sales decreased 1% or $824 million during 2023 compared to 2022. The weakness in foreign currencies relative to the U.S. dollar accounted for more than the entire year-over-year decrease in Europe net sales, which consisted primarily of lower net sales of Mac and Wearables, Home and Accessories, partially offset by higher net sales of iPhone and Services. 
+
+## _Greater China_ 
+
+Greater China net sales decreased 2% or $1.6 billion during 2023 compared to 2022. The weakness in the renminbi relative to the U.S. dollar accounted for more than the entire year-over-year decrease in Greater China net sales, which consisted primarily of lower net sales of Mac and iPhone. 
+
+## _Japan_ 
+
+--- Candidate 4 (around line 688) ---
+## _Europe_ 
+
+Europe net sales decreased 1% or $824 million during 2023 compared to 2022. The weakness in foreign currencies relative to the U.S. dollar accounted for more than the entire year-over-year decrease in Europe net sales, which consisted primarily of lower net sales of Mac and Wearables, Home and Accessories, partially offset by higher net sales of iPhone and Services. 
+
+## _Greater China_ 
+
+Greater China net sales decreased 2% or $1.6 billion during 2023 compared to 2022. The weakness in the renminbi relative to the U.S. dollar accounted for more than the entire year-over-year decrease in Greater China net sales, which consisted primarily of lower net sales of Mac and iPhone. 
+
+## _Japan_ 
+
+Japan net sales decreased 7% or $1.7 billion during 2023 compared to 2022. The weakness in the yen relative to the U.S. dollar accounted for more than the entire year-over-year decrease in Japan net sales, which consisted primarily of lower net sales of iPhone, Wearables, Home and Accessories and Mac. 
+
+## _Rest of Asia Pacific_ 
+
+--- Candidate 5 (around line 692) ---
+## _Greater China_ 
+
+Greater China net sales decreased 2% or $1.6 billion during 2023 compared to 2022. The weakness in the renminbi relative to the U.S. dollar accounted for more than the entire year-over-year decrease in Greater China net sales, which consisted primarily of lower net sales of Mac and iPhone. 
+
+## _Japan_ 
+
+Japan net sales decreased 7% or $1.7 billion during 2023 compared to 2022. The weakness in the yen relative to the U.S. dollar accounted for more than the entire year-over-year decrease in Japan net sales, which consisted primarily of lower net sales of iPhone, Wearables, Home and Accessories and Mac. 
+
+## _Rest of Asia Pacific_ 
+
+Rest of Asia Pacific net sales increased 1% or $240 million during 2023 compared to 2022. The weakness in foreign currencies relative to the U.S. dollar had a significantly unfavorable year-over-year impact on Rest of Asia Pacific net sales. The net sales increase consisted of higher net sales of iPhone and Services, partially offset by lower net sales of Mac and iPad. 
+
+Apple Inc. | 2023 Form 10-K | 21 
+
+
+====================================================================================================
+Q015: How much profit did Apple keep after all expenses in fiscal 2024?

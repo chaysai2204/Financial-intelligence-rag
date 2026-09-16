@@ -1,0 +1,1128 @@
+Q033: How did Apple's fiscal 2024 revenue compare with Microsoft's fiscal 2024 revenue?
+Category: cross_company
+Search terms: total net sales, revenue
+====================================================================================================
+
+DOCUMENT: AAPL_2024_10K
+
+--- Candidate 1 (around line 307) ---
+Apple Inc. | 2024 Form 10-K | 5 
+
+## _**The Company’s business can be impacted by political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.**_ 
+
+Political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can have a material adverse effect on the Company and its customers, employees, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. 
+
+The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s business and supply chain. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can increase the cost of the Company’s products and the components and raw materials that go into them, and can require the Company to take various actions, including changing suppliers, restructuring business relationships and operations, and ceasing to offer and distribute affected products, services and third-party applications to its customers. Changing the Company’s business and supply chain in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice, which can create uncertainty, and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions affecting the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business. 
+
+Many of the Company’s operations and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. Global climate change is resulting in certain types of natural disasters and extreme weather occurring more frequently or with more intense effects. In addition, the Company’s and its suppliers’ operations and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues and other events beyond the Company’s control. For example, global supply chains can be highly concentrated and geopolitical tensions or conflict could result in significant disruptions. 
+
+Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, result in slowdowns and outages to the Company’s service offerings, increase the Company’s costs, and negatively impact consumer spending and demand in affected areas. 
+
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company’s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services, and delays in production ramps of new products and development of new services. 
+
+--- Candidate 2 (around line 1244) ---
+|Total net sales|$ 391,035||$ 383,285||$ 394,328|
+
+
+
+(1) Services net sales include amortization of the deferred value of services bundled in the sales price of certain products. 
+
+Total net sales include $7.7 billion of revenue recognized in 2024 that was included in deferred revenue as of September 30, 2023, $8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September 24, 2022, and $7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September 25, 2021. 
+
+Apple Inc. | 2024 Form 10-K | 35 
+
+The Company’s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 13, “Segment Information and Geographic Data” for 2024, 2023 and 2022, except in Greater China, where iPhone revenue represented a moderately higher proportion of net sales. 
+
+As of September 28, 2024 and September 30, 2023, the Company had total deferred revenue of $12.8 billion and $12.1 billion, respectively. As of September 28, 2024, the Company expects 64% of total deferred revenue to be realized in less than a year, 25% within one-to-two years, 9% within two-to-three years and 2% in greater than three years. 
+
+--- Candidate 3 (around line 209) ---
+## **Segments** 
+
+The Company manages its business primarily on a geographic basis. The Company’s reportable segments consist of the Americas, Europe, Greater China, Japan and Rest of Asia Pacific. Americas includes both North and South America. Europe includes European countries, as well as India, the Middle East and Africa. Greater China includes China mainland, Hong Kong and Taiwan. Rest of Asia Pacific includes Australia and those Asian countries not included in the Company’s other reportable segments. Although the reportable segments provide similar hardware and software products and similar services, each one is managed separately to better align with the location of the Company’s customers and distribution partners and the unique market dynamics of each geographic region. 
+
+## **Markets and Distribution** 
+
+The Company’s customers are primarily in the consumer, small and mid-sized business, education, enterprise and government markets. The Company sells its products and resells third-party products in most of its major markets directly to customers through its retail and online stores and its direct sales force. The Company also employs a variety of indirect distribution channels, such as third-party cellular network carriers, wholesalers, retailers and resellers. During 2024, the Company’s net sales through its direct and indirect distribution channels accounted for 38% and 62%, respectively, of total net sales. 
+
+## **Competition** 
+
+The markets for the Company’s products and services are highly competitive, and are characterized by aggressive price competition and resulting downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards, continual improvement in product price and performance characteristics, rapid adoption of technological advancements by competitors, and price sensitivity on the part of consumers and businesses. Many of the Company’s competitors seek to compete primarily through aggressive pricing and very low cost structures, and by imitating the Company’s products and infringing on its intellectual property. 
+
+Apple Inc. | 2024 Form 10-K | 2 
+
+--- Candidate 4 (around line 293) ---
+This section should be read in conjunction with Part II, Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and the consolidated financial statements and accompanying notes in Part II, Item 8, “Financial Statements and Supplementary Data” of this Form 10-K. 
+
+## **Macroeconomic and Industry Risks** 
+
+_**The Company’s operations and performance depend significantly on global and regional economic conditions and adverse economic conditions can materially adversely affect the Company’s business, results of operations and financial condition.**_ 
+
+The Company has international operations with sales outside the U.S. representing a majority of the Company’s total net sales. In addition, the Company’s global supply chain is large and complex and a majority of the Company’s supplier facilities, including manufacturing and assembly sites, are located outside the U.S. As a result, the Company’s operations and performance depend significantly on global and regional economic conditions. 
+
+Adverse macroeconomic conditions, including slow growth or recession, high unemployment, inflation, tighter credit, higher interest rates, and currency fluctuations, can adversely impact consumer confidence and spending and materially adversely affect demand for the Company’s products and services. In addition, consumer confidence and spending can be materially adversely affected in response to changes in fiscal and monetary policy, financial market volatility, declines in income or asset values, and other economic factors. 
+
+In addition to an adverse impact on demand for the Company’s products and services, uncertainty about, or a decline in, global or regional economic conditions can have a significant impact on the Company’s suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners, and developers. Potential outcomes include financial instability; inability to obtain credit to finance business operations; and insolvency. 
+
+Adverse economic conditions can also lead to increased credit and collectibility risk on the Company’s trade receivables; the failure of derivative counterparties and other financial institutions; limitations on the Company’s ability to issue new debt; reduced liquidity; and declines in the fair values of the Company’s financial instruments. These and other impacts can materially adversely affect the Company’s business, results of operations, financial condition and stock price. 
+
+--- Candidate 5 (around line 339) ---
+The Company’s business, results of operations and financial condition depend substantially on the Company’s ability to continually improve its products and services to maintain their functional and design advantages. There can be no assurance the Company will be able to continue to provide products and services that compete effectively. 
+
+## **Business Risks** 
+
+## _**To remain competitive and stimulate customer demand, the Company must successfully manage frequent introductions and transitions of products and services.**_ 
+
+Due to the highly volatile and competitive nature of the markets and industries in which the Company competes, the Company must continually introduce new products, services and technologies, enhance existing products and services, effectively stimulate customer demand for new and upgraded products and services, and successfully manage the transition to these new and upgraded products and services. The success of new product and service introductions depends on a number of factors, including timely and successful development, market acceptance, the Company’s ability to manage the risks associated with new technologies and production ramp-up issues, the availability of application software or other third-party support for the Company’s products and services, the effective management of purchase commitments and inventory levels in line with anticipated product demand, the availability of products in appropriate quantities and at expected costs to meet anticipated demand, and the risk that new products and services may have quality or other defects or deficiencies. New products, services and technologies may replace or supersede existing offerings and may produce lower revenues and lower profit margins, which can materially adversely impact the Company’s business, results of operations and financial condition. There can be no assurance the Company will successfully manage future introductions and transitions of products and services. 
+
+Apple Inc. | 2024 Form 10-K | 7 
+
+## _**The Company depends on component and product manufacturing and logistical services provided by outsourcing partners, many of which are located outside of the U.S.**_ 
+
+Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, and a significant concentration of this manufacturing is currently performed by a small number of outsourcing partners, often in single locations. The Company has also outsourced much of its transportation and logistics management. While these arrangements can lower operating costs, they also reduce the Company’s direct control over production and distribution. Such diminished control has from time to time and may in the future have an adverse effect on the quality or quantity of products manufactured or services provided, or adversely affect the Company’s flexibility to respond to changing conditions. Although arrangements with these partners may contain provisions for product defect expense reimbursement, the Company generally remains responsible to the consumer for warranty and out-of-warranty service in the event of product defects and experiences unanticipated product defect liabilities from time to time. While the Company relies on its partners to adhere to its supplier code of conduct, violations of the supplier code of conduct occur from time to time and can materially adversely affect the Company’s business, reputation, results of operations and financial condition. 
+
+DOCUMENT: MSFT_2024_10K
+
+--- Candidate 1 (around line 280) ---
+8 
+
+PART I Item 1 
+
+## _**Office Commercial**_ 
+
+Office Commercial is designed to increase personal, team, and organizational productivity through a range of products and services. Growth depends on our ability to reach new users in new markets such as frontline workers, small and medium businesses, and growth markets, as well as add value to our core product and service offerings to span AI and productivity categories such as communication, collaboration, analytics, security, and compliance. Office Commercial revenue is mainly affected by a combination of continued installed base growth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Office 365. 
+
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set with new features including AI tools, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed on-premises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+## _**LinkedIn**_ 
+
+--- Candidate 2 (around line 284) ---
+## _**Office Commercial**_ 
+
+Office Commercial is designed to increase personal, team, and organizational productivity through a range of products and services. Growth depends on our ability to reach new users in new markets such as frontline workers, small and medium businesses, and growth markets, as well as add value to our core product and service offerings to span AI and productivity categories such as communication, collaboration, analytics, security, and compliance. Office Commercial revenue is mainly affected by a combination of continued installed base growth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Office 365. 
+
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set with new features including AI tools, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed on-premises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+## _**LinkedIn**_ 
+
+LinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market, sell, and learn. Our vision is to create economic opportunity for every member of the global workforce through the ongoing development of the world’s first Economic Graph, a digital representation of the global economy. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions designed to offer AI-enabled insights and productivity: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Talent Solutions provide insights for workforce planning and tools to hire, nurture, and develop talent. Talent Solutions also includes Learning Solutions, which help businesses close critical skills gaps in times where companies are having to do more with existing talent. Marketing Solutions help companies reach, engage, and convert their audiences at scale. Premium Subscriptions enable professionals to manage their professional identity, grow their network, find jobs, access knowledge, and connect with talent through additional services like premium search. Sales Solutions help companies strengthen customer relationships, empower teams with digital selling tools, and acquire new opportunities. Growth will depend on our ability to increase the number of LinkedIn members and our ability to continue offering insight and AI-enabled services that provide value for our members and increase their engagement. LinkedIn revenue is mainly affected by demand from enterprises and professionals for subscriptions to Talent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored content delivered to those members to drive Marketing Solutions. 
+
+## _**Dynamics**_ 
+
+--- Candidate 3 (around line 288) ---
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set with new features including AI tools, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed on-premises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+## _**LinkedIn**_ 
+
+LinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market, sell, and learn. Our vision is to create economic opportunity for every member of the global workforce through the ongoing development of the world’s first Economic Graph, a digital representation of the global economy. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions designed to offer AI-enabled insights and productivity: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Talent Solutions provide insights for workforce planning and tools to hire, nurture, and develop talent. Talent Solutions also includes Learning Solutions, which help businesses close critical skills gaps in times where companies are having to do more with existing talent. Marketing Solutions help companies reach, engage, and convert their audiences at scale. Premium Subscriptions enable professionals to manage their professional identity, grow their network, find jobs, access knowledge, and connect with talent through additional services like premium search. Sales Solutions help companies strengthen customer relationships, empower teams with digital selling tools, and acquire new opportunities. Growth will depend on our ability to increase the number of LinkedIn members and our ability to continue offering insight and AI-enabled services that provide value for our members and increase their engagement. LinkedIn revenue is mainly affected by demand from enterprises and professionals for subscriptions to Talent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored content delivered to those members to drive Marketing Solutions. 
+
+## _**Dynamics**_ 
+
+Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”), customer relationship management (“CRM”), and supply chain management, as well as other low code application development platforms and AI offerings, for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including our low code development platforms, such as Power Apps and Power Automate. 
+
+9 
+
+--- Candidate 4 (around line 292) ---
+## _**LinkedIn**_ 
+
+LinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market, sell, and learn. Our vision is to create economic opportunity for every member of the global workforce through the ongoing development of the world’s first Economic Graph, a digital representation of the global economy. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions designed to offer AI-enabled insights and productivity: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Talent Solutions provide insights for workforce planning and tools to hire, nurture, and develop talent. Talent Solutions also includes Learning Solutions, which help businesses close critical skills gaps in times where companies are having to do more with existing talent. Marketing Solutions help companies reach, engage, and convert their audiences at scale. Premium Subscriptions enable professionals to manage their professional identity, grow their network, find jobs, access knowledge, and connect with talent through additional services like premium search. Sales Solutions help companies strengthen customer relationships, empower teams with digital selling tools, and acquire new opportunities. Growth will depend on our ability to increase the number of LinkedIn members and our ability to continue offering insight and AI-enabled services that provide value for our members and increase their engagement. LinkedIn revenue is mainly affected by demand from enterprises and professionals for subscriptions to Talent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored content delivered to those members to drive Marketing Solutions. 
+
+## _**Dynamics**_ 
+
+Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”), customer relationship management (“CRM”), and supply chain management, as well as other low code application development platforms and AI offerings, for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including our low code development platforms, such as Power Apps and Power Automate. 
+
+9 
+
+PART I Item 1 
+
+## _Competition_ 
+
+--- Candidate 5 (around line 302) ---
+PART I Item 1 
+
+## _Competition_ 
+
+Competitors to Office include software and global application vendors, such as Apple, Cisco Systems, Google, Meta, Proofpoint, Slack, Symantec, Zoom, and numerous web-based and mobile application competitors as well as local application developers. Apple distributes versions of its pre-installed application software, such as email and calendar products, through its PCs, tablets, and phones. Cisco Systems is using its position in enterprise communications equipment to grow its unified communications business. Google provides a hosted messaging and productivity suite. Meta offers communication tools to enable productivity and engagement within organizations. Proofpoint and Symantec provide security solutions across email security, information protection, and governance. Slack provides teamwork and collaboration software. Zoom offers videoconferencing and cloud phone solutions. Web-based offerings competing with individual applications have also positioned themselves as alternatives to our products and services. We compete by providing powerful, flexible, secure, integrated industry-specific, and easy-to-use productivity and collaboration tools and services that create comprehensive solutions and work well with technologies our customers already have both on-premises or in the cloud. 
+
+LinkedIn faces competition from online professional networks, recruiting companies, talent management companies, and larger companies that are focusing on talent management and human resource services; job boards; traditional recruiting firms; and companies that provide learning and development products and services. Marketing Solutions competes with online and offline outlets that generate revenue from advertisers and marketers, and Sales Solutions competes with online and offline outlets for companies with lead generation and customer intelligence and insights. 
+
+Dynamics competes with cloud-based and on-premises business solution providers such as Oracle, Salesforce, SAP, Service Now, UI Path, and WorkDay. 
+
+## **Intelligent Cloud** 
+
+Our Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that can power modern business and developers. This segment primarily comprises: 
+
+
+====================================================================================================
+Q034: How did Apple's fiscal 2024 net income compare with Microsoft's fiscal 2024 net income?
+Category: cross_company
+Search terms: net income
+====================================================================================================
+
+DOCUMENT: AAPL_2024_10K
+
+--- Candidate 1 (around line 964) ---
+|Total operating expenses|57,467||54,847||51,345|
+|||||||
+|Operating income|123,216||114,301||119,437|
+|Other income/(expense), net|269||(565)||(334)|
+|Income before provision for income taxes|123,485||113,736||119,103|
+|Provision for income taxes|29,749||16,741||19,300|
+|Net income|$ 93,736||$ 96,995||$ 99,803|
+|||||||
+|Earnings per share:||||||
+|Basic|$ 6.11||$ 6.16||$ 6.15|
+|Diluted|$ 6.08||$ 6.13||$ 6.11|
+|||||||
+|Shares used in computing earnings per share:||||||
+
+--- Candidate 2 (around line 986) ---
+## **Apple Inc.** 
+
+## **CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME** 
+
+(In millions) 
+
+|Net income|||**Years ended**|**Years ended**||
+|---|---|---|---|---|---|
+||**September 28,**<br>**2024**<br>$ 93,736||**September 30,**<br>**2023**<br>$ 96,995||**September 24,**<br>**2022**|
+||||||$ 99,803|
+|Other comprehensive income/(loss):||||||
+|Change in foreign currency translation, net of tax|395||(765)||(1,511)|
+|||||||
+
+--- Candidate 3 (around line 995) ---
+||||||$ 99,803|
+|Other comprehensive income/(loss):||||||
+|Change in foreign currency translation, net of tax|395||(765)||(1,511)|
+|||||||
+|Change in unrealized gains/losses on derivative instruments, net of tax:||||||
+|Change in fair value of derivative instruments|(832)||323||3,212|
+|Adjustment for net (gains)/losses realized and included in net income|(1,337)||(1,717)||(1,074)|
+|Total change in unrealized gains/losses on derivative instruments|(2,169)||(1,394)||2,138|
+|||||||
+|Change in unrealized gains/losses on marketable debt securities, net of tax:||||||
+|Change in fair value of marketable debt securities|5,850||1,563||(12,104)|
+|Adjustment for net (gains)/losses realized and included in net income|204||253||205|
+|Total change in unrealized gains/losses on marketable debt securities|6,054||1,816||(11,899)|
+
+--- Candidate 4 (around line 1000) ---
+|Change in fair value of derivative instruments|(832)||323||3,212|
+|Adjustment for net (gains)/losses realized and included in net income|(1,337)||(1,717)||(1,074)|
+|Total change in unrealized gains/losses on derivative instruments|(2,169)||(1,394)||2,138|
+|||||||
+|Change in unrealized gains/losses on marketable debt securities, net of tax:||||||
+|Change in fair value of marketable debt securities|5,850||1,563||(12,104)|
+|Adjustment for net (gains)/losses realized and included in net income|204||253||205|
+|Total change in unrealized gains/losses on marketable debt securities|6,054||1,816||(11,899)|
+|||||||
+|Total other comprehensive income/(loss)|4,280||(343)||(11,272)|
+|Total comprehensive income|$ 98,016||$ 96,652||$ 88,531|
+
+
+
+--- Candidate 5 (around line 1087) ---
+|Common stock withheld related to net share settlement of equity awards|(3,993)||(3,521)||(2,971)|
+|Share-based compensation|12,034||11,138||9,280|
+|Ending balances|83,276||73,812||64,849|
+|||||||
+|Retained earnings/(Accumulated deficit):||||||
+|Beginning balances|(214)||(3,068)||5,562|
+|Net income|93,736||96,995||99,803|
+|Dividends and dividend equivalents declared|(15,218)||(14,996)||(14,793)|
+|Common stock withheld related to net share settlement of equity awards|(1,612)||(2,099)||(3,454)|
+|Common stock repurchased|(95,846)||(77,046)||(90,186)|
+|Ending balances|(19,154)||(214)||(3,068)|
+|||||||
+|Accumulated other comprehensive income/(loss):||||||
+
+DOCUMENT: MSFT_2024_10K
+
+--- Candidate 1 (around line 1201) ---
+||||||**Percentage**|
+|---|---|---|---|---|---|
+||**(In millions, except percentages and per share amounts)**||**2024**|<br>**2023**|<br>**Change**|
+||Revenue|**$**|**245,122**|$ 211,915|<br>16%|
+||Gross margin||**171,008**|<br>146,052|<br>17%|
+||Operating income||**109,433**|<br>88,523|<br>24%|
+||Net income||**88,136**|<br>72,361|<br>22%|
+||Diluted earnings per share||**11.80**|<br>9.68|<br>22%|
+||Adjusted gross margin (non-GAAP)||**171,008**|146,204|<br>17%|
+||Adjusted operating income (non-GAAP)||**109,433**|89,694|<br>22%|
+||Adjusted net income (non-GAAP)||**88,136**|<br>73,307|<br>20%|
+||Adjusted diluted earnings per share (non-GAAP)||**11.80**|<br>9.81|<br>20%|
+
+
+--- Candidate 2 (around line 1205) ---
+||Gross margin||**171,008**|<br>146,052|<br>17%|
+||Operating income||**109,433**|<br>88,523|<br>24%|
+||Net income||**88,136**|<br>72,361|<br>22%|
+||Diluted earnings per share||**11.80**|<br>9.68|<br>22%|
+||Adjusted gross margin (non-GAAP)||**171,008**|146,204|<br>17%|
+||Adjusted operating income (non-GAAP)||**109,433**|89,694|<br>22%|
+||Adjusted net income (non-GAAP)||**88,136**|<br>73,307|<br>20%|
+||Adjusted diluted earnings per share (non-GAAP)||**11.80**|<br>9.81|<br>20%|
+
+
+
+Adjusted gross margin, operating income, net income, and diluted earnings per share (“EPS”) are non-GAAP financial measures. Prior year non-GAAP financial measures exclude the impact of a $1.2 billion charge in the second quarter of fiscal year 2023 (“Q2 charge”), which included employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results. 
+
+
+--- Candidate 3 (around line 1210) ---
+||Adjusted operating income (non-GAAP)||**109,433**|89,694|<br>22%|
+||Adjusted net income (non-GAAP)||**88,136**|<br>73,307|<br>20%|
+||Adjusted diluted earnings per share (non-GAAP)||**11.80**|<br>9.81|<br>20%|
+
+
+
+Adjusted gross margin, operating income, net income, and diluted earnings per share (“EPS”) are non-GAAP financial measures. Prior year non-GAAP financial measures exclude the impact of a $1.2 billion charge in the second quarter of fiscal year 2023 (“Q2 charge”), which included employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results. 
+
+## _**Fiscal Year 2024 Compared with Fiscal Year 2023**_ 
+
+Revenue increased $33.2 billion or 16% driven by growth across each of our segments. Intelligent Cloud revenue increased driven by Azure. Productivity and Business Processes revenue increased driven by Office 365 Commercial. More Personal Computing revenue increased driven by Gaming. 
+
+Cost of revenue increased $8.3 billion or 13% driven by growth in Microsoft Cloud and Gaming, offset in part by a decline in Devices. 
+
+--- Candidate 4 (around line 1228) ---
+- Microsoft Cloud gross margin percentage decreased slightly to 71%. Excluding the impact of the change in accounting estimate, Microsoft Cloud gross margin percentage increased slightly driven by improvements in Azure and Office 365 Commercial, inclusive of scaling our AI infrastructure, offset in part by sales mix shift to Azure. 
+
+Operating expenses increased $4.0 billion or 7% driven by Gaming, with 7 points of growth from the Activision Blizzard acquisition, and investments in cloud engineering, offset in part by the prior year Q2 charge. 
+
+Operating income increased $20.9 billion or 24% driven by growth across each of our segments. 
+
+Prior year gross margin, operating income, net income, and diluted EPS were negatively impacted by the Q2 charge, which resulted in decreases of $152 million, $1.2 billion, $946 million, and $0.13, respectively. 
+
+43 
+
+## PART II 
+
+## Item 7 
+
+--- Candidate 5 (around line 1415) ---
+We remain under audit by the IRS for tax years 2014 to 2017. With respect to the audit for tax years 2004 to 2013, on September 26, 2023, we received Notices of Proposed Adjustment (“NOPAs”) from the IRS. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest. As of June 30, 2024, we believe our allowances for income tax contingencies are adequate. We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS’s administrative appeals office and, if necessary, judicial proceedings. We do not expect a final resolution of these issues in the next 12 months. Based on the information currently available, we do not anticipate a significant increase or decrease to our income tax contingencies for these issues within the next 12 months. 
+
+We are subject to income tax in many jurisdictions outside the U.S. Our operations in certain jurisdictions remain subject to examination for tax years 1996 to 2023, some of which are currently under audit by local tax authorities. The resolution of each of these audits is not expected to be material to our consolidated financial statements. 
+
+## NON-GAAP FINANCIAL MEASURES 
+
+Adjusted gross margin, operating income, net income, and diluted EPS are non-GAAP financial measures. Prior year non-GAAP financial measures exclude the impact of the Q2 charge, which includes employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. We believe these non-GAAP measures aid investors by providing additional insight into our operational performance and help clarify trends affecting our business. For comparability of reporting, management considers non-GAAP measures in conjunction with GAAP financial results in evaluating business performance. These nonGAAP financial measures presented should not be considered a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP. 
+
+47 
+
+## PART II 
+
+## Item 7 
+
+
+====================================================================================================
+Q035: Which supply-chain risks were discussed by both Apple and NVIDIA?
+Category: cross_company
+Search terms: supply, suppliers, manufacturing
+====================================================================================================
+
+DOCUMENT: AAPL_2023_10K
+
+--- Candidate 1 (around line 300) ---
+## _**The Company’s business can be impacted by political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.**_ 
+
+Political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can harm or disrupt international commerce and the global economy, and could have a material adverse effect on the Company and its customers, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. 
+
+Apple Inc. | 2023 Form 10-K | 5 
+
+The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s operations and supply chain and limit the Company’s ability to offer and distribute its products and services to customers. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can require the Company to take various actions, including changing suppliers, restructuring business relationships, and ceasing to offer third-party applications on its platforms. Changing the Company’s operations in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions being imposed on the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business. Political uncertainty surrounding trade and other international disputes could also have a negative effect on consumer confidence and spending, which could adversely affect the Company’s business. 
+
+Many of the Company’s operations and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. In addition, such operations and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues, including pandemics such as the COVID-19 pandemic, and other events beyond the Company’s control. Global climate change is resulting in certain types of natural disasters, such as droughts, floods, hurricanes and wildfires, occurring more frequently or with more intense effects. Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, and result in slowdowns and outages to the Company’s service offerings, and negatively impact consumer spending and demand in affected areas. Following an interruption to its business, the Company can require substantial recovery time, experience significant expenditures to resume operations, and lose significant sales. Because the Company relies on single or limited sources for the supply and manufacture of many critical components, a business interruption affecting such sources would exacerbate any negative consequences to the Company. 
+
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company’s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services, and delays in production ramps of new products and development of new services. 
+
+While the Company maintains insurance coverage for certain types of losses, such insurance coverage may be insufficient to cover all losses that may arise. 
+
+--- Candidate 2 (around line 302) ---
+Political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can harm or disrupt international commerce and the global economy, and could have a material adverse effect on the Company and its customers, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. 
+
+Apple Inc. | 2023 Form 10-K | 5 
+
+The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s operations and supply chain and limit the Company’s ability to offer and distribute its products and services to customers. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can require the Company to take various actions, including changing suppliers, restructuring business relationships, and ceasing to offer third-party applications on its platforms. Changing the Company’s operations in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions being imposed on the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business. Political uncertainty surrounding trade and other international disputes could also have a negative effect on consumer confidence and spending, which could adversely affect the Company’s business. 
+
+Many of the Company’s operations and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. In addition, such operations and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues, including pandemics such as the COVID-19 pandemic, and other events beyond the Company’s control. Global climate change is resulting in certain types of natural disasters, such as droughts, floods, hurricanes and wildfires, occurring more frequently or with more intense effects. Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, and result in slowdowns and outages to the Company’s service offerings, and negatively impact consumer spending and demand in affected areas. Following an interruption to its business, the Company can require substantial recovery time, experience significant expenditures to resume operations, and lose significant sales. Because the Company relies on single or limited sources for the supply and manufacture of many critical components, a business interruption affecting such sources would exacerbate any negative consequences to the Company. 
+
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company’s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services, and delays in production ramps of new products and development of new services. 
+
+While the Company maintains insurance coverage for certain types of losses, such insurance coverage may be insufficient to cover all losses that may arise. 
+
+## _**Global markets for the Company’s products and services are highly competitive and subject to rapid technological change, and the Company may be unable to compete effectively in these markets.**_ 
+
+--- Candidate 3 (around line 340) ---
+Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, and a significant concentration of this manufacturing is currently performed by a small number of outsourcing partners, often in single locations. Changes or additions to the Company’s supply chain require considerable time and resources and involve significant risks and uncertainties. The Company has also outsourced much of its transportation and logistics management. While these arrangements can lower operating costs, they also reduce the Company’s direct control over production and distribution. Such diminished control has from time to time and may in the future have an adverse effect on the quality or quantity of products manufactured or services provided, or adversely affect the Company’s flexibility to respond to changing conditions. Although arrangements with these partners may contain provisions for product defect expense reimbursement, the Company generally remains responsible to the consumer for warranty and out-of-warranty service in the event of product defects and experiences unanticipated product defect liabilities from time to time. While the Company relies on its partners to adhere to its supplier code of conduct, violations of the supplier code of conduct occur from time to time and can materially adversely affect the Company’s business, reputation, results of operations and financial condition. 
+
+Apple Inc. | 2023 Form 10-K | 7 
+
+The Company relies on single-source outsourcing partners in the U.S., Asia and Europe to supply and manufacture many components, and on outsourcing partners primarily located in Asia, for final assembly of substantially all of the Company’s hardware products. Any failure of these partners to perform can have a negative impact on the Company’s cost or supply of components or finished goods. In addition, manufacturing or logistics in these locations or transit to final destinations can be disrupted for a variety of reasons, including natural and man-made disasters, information technology system failures, commercial disputes, armed conflict, economic, business, labor, environmental, public health or political issues, or international trade disputes. 
+
+The Company has invested in manufacturing process equipment, much of which is held at certain of its outsourcing partners, and has made prepayments to certain of its suppliers associated with long-term supply agreements. While these arrangements help ensure the supply of components and finished goods, if these outsourcing partners or suppliers experience severe financial problems or other disruptions in their business, such continued supply can be reduced or terminated, and the recoverability of manufacturing process equipment or prepayments can be negatively impacted. 
+
+## _**Future operating results depend upon the Company’s ability to obtain components in sufficient quantities on commercially reasonable terms.**_ 
+
+Because the Company currently obtains certain components from single or limited sources, the Company is subject to significant supply and pricing risks. Many components, including those that are available from multiple sources, are at times subject to industry-wide shortages and significant commodity pricing fluctuations that can materially adversely affect the Company’s business, results of operations and financial condition. For example, the global semiconductor industry has in the past experienced high demand and shortages of supply, which adversely affected the Company’s ability to obtain sufficient quantities of components and products on commercially reasonable terms or at all. Such disruptions could occur in the future. While the Company has entered into agreements for the supply of many components, there can be no assurance the Company will be able to extend or renew these agreements on similar terms, or at all. Component suppliers may suffer from poor financial conditions, which can lead to business failure for the supplier or consolidation within a particular industry, further limiting the Company’s ability to obtain sufficient quantities of components on commercially reasonable terms or at all. The effects of global or regional economic conditions on the Company’s suppliers, described in “ _The Company’s operations and performance depend significantly on global and regional economic conditions and adverse economic conditions can materially adversely affect the Company’s business, results of operations and financial condition,_ ” above, can also affect the Company’s ability to obtain components _._ Therefore, the Company remains subject to significant risks of supply shortages and price increases that can materially adversely affect its business, results of operations and financial condition. 
+
+The Company’s new products often utilize custom components available from only one source. When a component or product uses new technologies, initial capacity constraints may exist until the suppliers’ yields have matured or their manufacturing capacities have increased. The continued availability of these components at acceptable prices, or at all, can be affected for any number of reasons, including if suppliers decide to concentrate on the production of common components instead of components customized to meet the Company’s requirements. When the Company’s supply of components for a new or existing product has been delayed or constrained, or when an outsourcing partner has delayed shipments of completed products to the Company, the Company’s business, results of operations and financial condition have been adversely affected and future delays or constraints could materially adversely affect the Company’s business, results of operations and financial condition. The Company’s business and financial performance could also be materially adversely affected depending on the time required to obtain sufficient quantities from the source, or to identify and obtain sufficient quantities from an alternative source. 
+
+--- Candidate 4 (around line 346) ---
+The Company has invested in manufacturing process equipment, much of which is held at certain of its outsourcing partners, and has made prepayments to certain of its suppliers associated with long-term supply agreements. While these arrangements help ensure the supply of components and finished goods, if these outsourcing partners or suppliers experience severe financial problems or other disruptions in their business, such continued supply can be reduced or terminated, and the recoverability of manufacturing process equipment or prepayments can be negatively impacted. 
+
+## _**Future operating results depend upon the Company’s ability to obtain components in sufficient quantities on commercially reasonable terms.**_ 
+
+Because the Company currently obtains certain components from single or limited sources, the Company is subject to significant supply and pricing risks. Many components, including those that are available from multiple sources, are at times subject to industry-wide shortages and significant commodity pricing fluctuations that can materially adversely affect the Company’s business, results of operations and financial condition. For example, the global semiconductor industry has in the past experienced high demand and shortages of supply, which adversely affected the Company’s ability to obtain sufficient quantities of components and products on commercially reasonable terms or at all. Such disruptions could occur in the future. While the Company has entered into agreements for the supply of many components, there can be no assurance the Company will be able to extend or renew these agreements on similar terms, or at all. Component suppliers may suffer from poor financial conditions, which can lead to business failure for the supplier or consolidation within a particular industry, further limiting the Company’s ability to obtain sufficient quantities of components on commercially reasonable terms or at all. The effects of global or regional economic conditions on the Company’s suppliers, described in “ _The Company’s operations and performance depend significantly on global and regional economic conditions and adverse economic conditions can materially adversely affect the Company’s business, results of operations and financial condition,_ ” above, can also affect the Company’s ability to obtain components _._ Therefore, the Company remains subject to significant risks of supply shortages and price increases that can materially adversely affect its business, results of operations and financial condition. 
+
+The Company’s new products often utilize custom components available from only one source. When a component or product uses new technologies, initial capacity constraints may exist until the suppliers’ yields have matured or their manufacturing capacities have increased. The continued availability of these components at acceptable prices, or at all, can be affected for any number of reasons, including if suppliers decide to concentrate on the production of common components instead of components customized to meet the Company’s requirements. When the Company’s supply of components for a new or existing product has been delayed or constrained, or when an outsourcing partner has delayed shipments of completed products to the Company, the Company’s business, results of operations and financial condition have been adversely affected and future delays or constraints could materially adversely affect the Company’s business, results of operations and financial condition. The Company’s business and financial performance could also be materially adversely affected depending on the time required to obtain sufficient quantities from the source, or to identify and obtain sufficient quantities from an alternative source. 
+
+## _**The Company’s products and services may be affected from time to time by design and manufacturing defects that could materially adversely affect the Company’s business and result in harm to the Company’s reputation.**_ 
+
+The Company offers complex hardware and software products and services that can be affected by design and manufacturing defects. Sophisticated operating system software and applications, such as those offered by the Company, often have issues that can unexpectedly interfere with the intended operation of hardware or software products and services. Defects can also exist in components and products the Company purchases from third parties. Component defects could make the Company’s products unsafe and create a risk of environmental or property damage and personal injury. These risks may increase as the Company’s products are introduced into specialized applications, including health. In addition, the Company’s service offerings can have quality issues and from time to time experience outages, service slowdowns or errors. As a result, from time to time the Company’s services have not performed as anticipated and may not meet customer expectations. There can be no assurance the Company will be able to detect and fix all issues and defects in the hardware, software and services it offers. Failure to do so can result in widespread technical and performance issues affecting the Company’s products and services. In addition, the Company can be exposed to product liability claims, recalls, product replacements or modifications, write-offs of inventory, property, plant and equipment or intangible assets, and significant warranty and other expenses, including litigation costs and regulatory fines. Quality problems can also adversely affect the experience for users of the Company’s products and services, and result in harm to the Company’s reputation, loss of competitive advantage, poor market acceptance, reduced demand for products and services, delay in new product and service introductions and lost sales. 
+
+Apple Inc. | 2023 Form 10-K | 8 
+
+--- Candidate 5 (around line 222) ---
+The Company is focused on expanding its market opportunities related to smartphones, personal computers, tablets, wearables and accessories, and services. The Company faces substantial competition in these markets from companies that have significant technical, marketing, distribution and other resources, as well as established hardware, software, and service offerings with large customer bases. In addition, some of the Company’s competitors have broader product lines, lower-priced products and a larger installed base of active devices. Competition has been particularly intense as competitors have aggressively cut prices and lowered product margins. Certain competitors have the resources, experience or cost structures to provide products at little or no profit or even at a loss. The Company’s services compete with business models that provide content to users for free and use illegitimate means to obtain third-party digital content and applications. The Company faces significant competition as competitors imitate the Company’s product features and applications within their products, or collaborate to offer integrated solutions that are more competitive than those they currently offer. 
+
+## **Supply of Components** 
+
+Although most components essential to the Company’s business are generally available from multiple sources, certain components are currently obtained from single or limited sources. The Company also competes for various components with other participants in the markets for smartphones, personal computers, tablets, wearables and accessories. Therefore, many components used by the Company, including those that are available from multiple sources, are at times subject to industry-wide shortage and significant commodity pricing fluctuations. 
+
+The Company uses some custom components that are not commonly used by its competitors, and new products introduced by the Company often utilize custom components available from only one source. When a component or product uses new technologies, initial capacity constraints may exist until the suppliers’ yields have matured or their manufacturing capacities have increased. The continued availability of these components at acceptable prices, or at all, may be affected if suppliers decide to concentrate on the production of common components instead of components customized to meet the Company’s requirements. 
+
+The Company has entered into agreements for the supply of many components; however, there can be no guarantee that the Company will be able to extend or renew these agreements on similar terms, or at all. 
+
+## **Research and Development** 
+
+Because the industries in which the Company competes are characterized by rapid technological advances, the Company’s ability to compete successfully depends heavily upon its ability to ensure a continual and timely flow of competitive products, services and technologies to the marketplace. The Company continues to develop new technologies to enhance existing products and services, and to expand the range of its offerings through research and development (“R&D”), licensing of intellectual property and acquisition of third-party businesses and technology. 
+
+DOCUMENT: NVDA_2023_10K
+
+--- Candidate 1 (around line 810) ---
+Table of Contents 
+
+Identification of material weaknesses in our internal controls, even if quickly remediated once disclosed, may cause investors to lose confidence in our financial statements and our stock price may decline. Remediation of any material weakness could require us to incur significant expenses, and if we fail to remediate any material weakness, our financial statements may be inaccurate, we may be required to restate our financial statements, our ability to report our financial results on a timely and accurate basis may be adversely affected, our access to the capital markets may be restricted, our stock price may decline, and we may be subject to sanctions or investigation by regulatory authorities. 
+
+## **The COVID-19 pandemic has affected and could continue to have a material adverse impact on our financial condition and results of operations.** 
+
+The COVID-19 pandemic has impacted and may continue to impact our workforce and operations and those of our customers, partners, vendors and suppliers. COVID-19-related disruptions have created and may continue to create supply chain and logistics constraints, and COVID-19 containment around the world has put restrictions on, among other areas, manufacturing facilities, commerce, and support operations. Restrictions may be imposed or reinstated as the pandemic resurfaces, such as lockdown measures due to COVID-19 containment efforts in China. End customer sales for our products in China have been negatively impacted by lockdowns and this impact may continue if lockdowns return. COVID-19 has also resulted in, and may continue to result in, disruption of and volatility in global financial markets, which could impact overall technology spending or negatively affect our stock price and liquidity. All of these factors have had or could in the future have a material negative impact on our business. 
+
+We modified our business and workforce practices in response to COVID-19, including with respect to flexible work and social distancing measures, and we may take further actions as required by government regulations or in the best interests of our employees, customers, partners and suppliers. These and other measures have caused and may in the future cause us to incur incremental expenses and costs. 
+
+The extent of the impact of the COVID-19 pandemic on our operational and financial performance and our ability to timely execute our business strategies may continue to be difficult to measure and predict. The impact of COVID-19 can also exacerbate other risks discussed in these risk factors. 
+
+## **Our operating results have in the past fluctuated and may in the future fluctuate, and if our operating results are below the expectations of securities analysts or investors, our stock price could decline.** 
+
+--- Candidate 2 (around line 2649) ---
+## **Note 13 - Commitments and Contingencies** 
+
+## **Purchase Obligations** 
+
+Our purchase obligations reflect our commitments to purchase components used to manufacture our products, including long-term supply agreements, certain software and technology licenses, other goods and services and long-lived assets. 
+
+We have entered into several long-term supply agreements, under which we have made advance payments and have $810 million remaining unpaid. As of January 29, 2023, we had outstanding inventory purchase and long-term supply obligations totaling $4.92 billion, inclusive of the $810 million. Under our manufacturing relationships with our foundry suppliers, subcontractors and contract manufacturers, cancellation of outstanding purchase commitments is generally allowed but may result in the payment of costs incurred through the date of cancellation. Other non-inventory purchase obligations of $3.14 billion include $2.23 billion of multi-year cloud service agreements. 
+
+78 
+
+**Table of Contents** 
+
+## **NVIDIA CORPORATION AND SUBSIDIARIES NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS (Continued)** 
+
+--- Candidate 3 (around line 276) ---
+## **Seasonality** 
+
+Our computing platforms serve a diverse set of markets such as consumer gaming, enterprise and cloud data centers, professional workstations, and automotive. Our consumer products typically see stronger revenue in the second half of our fiscal year. In addition, based on the production schedules of key customers, some of our products for notebooks and game consoles typically generate stronger revenue in the second and third quarters, and weaker revenue in the fourth and first quarters. In fiscal year 2023, our supply exceeded our demand in several areas, and our revenue did not follow historical seasonal patterns. Historical seasonality trends may not repeat. 
+
+## **Manufacturing** 
+
+We do not manufacture semiconductors used for our products. Instead, we utilize a fabless manufacturing strategy, whereby we employ key suppliers for all phases of the manufacturing process, including wafer fabrication, assembly, testing, and packaging. This strategy uses the expertise of industry-leading suppliers that are certified by the International Organization for Standardization in such areas as fabrication, assembly, quality control and assurance, reliability, and testing. Additionally, we can avoid many of the significant costs and risks associated with owning and operating manufacturing operations. While we may directly procure certain raw materials used in the production of our products, such as memory, substrates and a variety of components, our suppliers are responsible for procurement of most of the raw materials used in the 
+
+9 
+
+Table of Contents 
+
+production of our products. As a result, we can focus our resources on product design, additional quality assurance, marketing, and customer support. We have placed non-cancellable inventory orders for certain product components in advance of our historical lead times, paid premiums and provided deposits to secure future supply and capacity and may need to continue to do so in the future. 
+
+--- Candidate 4 (around line 284) ---
+9 
+
+Table of Contents 
+
+production of our products. As a result, we can focus our resources on product design, additional quality assurance, marketing, and customer support. We have placed non-cancellable inventory orders for certain product components in advance of our historical lead times, paid premiums and provided deposits to secure future supply and capacity and may need to continue to do so in the future. 
+
+We have expanded our supplier relationships to build redundancy and resilience in our operations. We utilize suppliers, such as Taiwan Semiconductor Manufacturing Company Limited and Samsung Electronics Co. Ltd, to produce our semiconductor wafers. We then utilize independent subcontractors and contract manufacturers, such as Amkor Technology, BYD Auto Co. Ltd., or BYD Auto, Hon Hai Precision Industry Co., or Hon Hai, King Yuan Electronics Co., Ltd., Omni Logistics, LLC, Siliconware Precision Industries Company Ltd., and Wistron Corporation to perform assembly, testing, and packaging of most of our products and platforms. We use contract manufacturers such as Flex Ltd., Jabil Inc., and Universal Scientific Industrial Co., Ltd., to manufacture our standard and custom adapter card products and switch systems, and Fabrinet to manufacture our networking cables. We purchase substrates from Ibiden Co. Ltd., Kinsus Interconnect Technology Corporation, and Unimicron Technology Corporation, and memory from Micron Technology, Samsung Semiconductor, Inc., or Samsung, and SK Hynix. We often consign key components or materials such as the GPU, SoC, memory, and integrated circuit to the contract manufacturers. 
+
+We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States. Generally, these manufacturers assemble and test the boards based on our design kit and test specifications, and then ship our products to retailers, system builders, or OEMs as motherboard and AIC solutions. 
+
+## **Competition** 
+
+The market for our products is intensely competitive and is characterized by rapid technological change and evolving industry standards. We believe that the principal competitive factors in this market are performance, breadth of product offerings, access to customers and partners and distribution channels, software support, conformity to industry standard APIs, manufacturing capabilities, processor pricing, and total system costs. We believe that our ability to remain competitive will depend on how well we are able to anticipate the features and functions that customers and partners will demand and whether we are able to deliver consistent volumes of our products at acceptable levels of quality and at competitive prices. We expect competition to increase from both existing competitors and new market entrants with products that may be lower priced than ours or may provide better performance or additional features not provided by our products. In addition, it is possible that new competitors or alliances among competitors could emerge and acquire significant market share. 
+
+--- Candidate 5 (around line 486) ---
+15 
+
+Table of Contents 
+
+- Competition in our current and target markets could cause us to lose market share and revenue. 
+
+## **Risks Related to Demand, Supply and Manufacturing** 
+
+- Failure to estimate customer demand properly has led and could lead to mismatches between supply and demand. 
+
+- Dependency on third-party suppliers and their technology reduces our control over product quantity and quality, manufacturing yields, development, enhancement, and product delivery schedules and could harm our business. 
+
+- Defects in our products have caused and could cause us to incur significant expenses to remediate and can damage our business. 
+
+
+====================================================================================================
+Q036: How did Apple and Microsoft describe competitive pressures in their fiscal 2024 filings?
+Category: cross_company
+Search terms: competition, competitive
+====================================================================================================
+
+DOCUMENT: AAPL_2024_10K
+
+--- Candidate 1 (around line 213) ---
+## **Markets and Distribution** 
+
+The Company’s customers are primarily in the consumer, small and mid-sized business, education, enterprise and government markets. The Company sells its products and resells third-party products in most of its major markets directly to customers through its retail and online stores and its direct sales force. The Company also employs a variety of indirect distribution channels, such as third-party cellular network carriers, wholesalers, retailers and resellers. During 2024, the Company’s net sales through its direct and indirect distribution channels accounted for 38% and 62%, respectively, of total net sales. 
+
+## **Competition** 
+
+The markets for the Company’s products and services are highly competitive, and are characterized by aggressive price competition and resulting downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards, continual improvement in product price and performance characteristics, rapid adoption of technological advancements by competitors, and price sensitivity on the part of consumers and businesses. Many of the Company’s competitors seek to compete primarily through aggressive pricing and very low cost structures, and by imitating the Company’s products and infringing on its intellectual property. 
+
+Apple Inc. | 2024 Form 10-K | 2 
+
+The Company’s ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies to the marketplace. The Company designs and develops nearly the entire solution for its products, including the hardware, operating system, numerous software applications and related services. Principal competitive factors important to the Company include price, product and service features (including security features), relative price and performance, product and service quality and reliability, design innovation, a strong third-party software and accessories ecosystem, marketing and distribution capability, service and support, and corporate reputation. 
+
+The Company is focused on expanding its market opportunities related to smartphones, personal computers, tablets, wearables and accessories, and services. The Company faces substantial competition in these markets from companies that have significant technical, marketing, distribution and other resources, as well as established hardware, software, and service offerings with large customer bases. In addition, some of the Company’s competitors have broader product lines, lower-priced products and a larger installed base of active devices. Competition has been particularly intense as competitors have aggressively cut prices and lowered product margins. Certain competitors have the resources, experience or cost structures to provide products at little or no profit or even at a loss. The Company’s services compete with business models that provide content to users for free and use illegitimate means to obtain third-party digital content and applications. The Company faces significant competition as competitors imitate the Company’s product features and applications within their products, or collaborate to offer integrated solutions that are more competitive than those they currently offer. 
+
+--- Candidate 2 (around line 219) ---
+The markets for the Company’s products and services are highly competitive, and are characterized by aggressive price competition and resulting downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards, continual improvement in product price and performance characteristics, rapid adoption of technological advancements by competitors, and price sensitivity on the part of consumers and businesses. Many of the Company’s competitors seek to compete primarily through aggressive pricing and very low cost structures, and by imitating the Company’s products and infringing on its intellectual property. 
+
+Apple Inc. | 2024 Form 10-K | 2 
+
+The Company’s ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies to the marketplace. The Company designs and develops nearly the entire solution for its products, including the hardware, operating system, numerous software applications and related services. Principal competitive factors important to the Company include price, product and service features (including security features), relative price and performance, product and service quality and reliability, design innovation, a strong third-party software and accessories ecosystem, marketing and distribution capability, service and support, and corporate reputation. 
+
+The Company is focused on expanding its market opportunities related to smartphones, personal computers, tablets, wearables and accessories, and services. The Company faces substantial competition in these markets from companies that have significant technical, marketing, distribution and other resources, as well as established hardware, software, and service offerings with large customer bases. In addition, some of the Company’s competitors have broader product lines, lower-priced products and a larger installed base of active devices. Competition has been particularly intense as competitors have aggressively cut prices and lowered product margins. Certain competitors have the resources, experience or cost structures to provide products at little or no profit or even at a loss. The Company’s services compete with business models that provide content to users for free and use illegitimate means to obtain third-party digital content and applications. The Company faces significant competition as competitors imitate the Company’s product features and applications within their products, or collaborate to offer integrated solutions that are more competitive than those they currently offer. 
+
+## **Supply of Components** 
+
+Although most components essential to the Company’s business are generally available from multiple sources, certain components are currently obtained from single or limited sources. The Company also competes for various components with other participants in the markets for smartphones, personal computers, tablets, wearables and accessories. Therefore, many components used by the Company, including those that are available from multiple sources, are at times subject to industry-wide shortage and significant commodity pricing fluctuations. 
+
+The Company uses some custom components that are not commonly used by its competitors, and new products introduced by the Company often utilize custom components available from only one source. When a component or product uses new technologies, initial capacity constraints may exist until the suppliers’ yields have matured or their manufacturing capacities have increased. The continued availability of these components at acceptable prices, or at all, may be affected if suppliers decide to concentrate on the production of common components instead of components customized to meet the Company’s requirements. 
+
+--- Candidate 3 (around line 321) ---
+Following any interruption to its business, the Company can require substantial recovery time, experience significant expenditures to resume operations, and lose significant sales. Because the Company relies on single or limited sources for the supply and manufacture of many critical components, a business interruption affecting such sources would exacerbate any negative consequences to the Company. While the Company maintains insurance coverage for certain types of losses, such insurance coverage may be insufficient to cover all losses that may arise. 
+
+Apple Inc. | 2024 Form 10-K | 6 
+
+## _**Global markets for the Company’s products and services are highly competitive and subject to rapid technological change, and the Company may be unable to compete effectively in these markets.**_ 
+
+The Company’s products and services are offered in highly competitive global markets characterized by aggressive price competition and resulting downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards, continual improvement in product price and performance characteristics, rapid adoption of technological advancements by competitors, and price sensitivity on the part of consumers and businesses. 
+
+The Company’s ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies to the marketplace. The Company designs and develops nearly the entire solution for its products, including the hardware, operating system, numerous software applications and related services. As a result, the Company must make significant investments in R&D. There can be no assurance these investments will achieve expected returns, and the Company may not be able to develop and market new products and services successfully. 
+
+The Company currently holds a significant number of patents, trademarks and copyrights and has registered, and applied to register, additional patents, trademarks and copyrights. In contrast, many of the Company’s competitors seek to compete primarily through aggressive pricing and very low cost structures, and by imitating the Company’s products and infringing on its intellectual property. Effective intellectual property protection is not consistently available in every country in which the Company operates. If the Company is unable to continue to develop and sell innovative new products with attractive margins or if competitors infringe on the Company’s intellectual property, the Company’s ability to maintain a competitive advantage could be materially adversely affected. 
+
+The Company has a minority market share in the global smartphone, personal computer and tablet markets. The Company faces substantial competition in these markets from companies that have significant technical, marketing, distribution and other resources, as well as established hardware, software and digital content supplier relationships. In addition, some of the Company’s competitors have broader product lines, lower-priced products and a larger installed base of active devices. Competition has been particularly intense as competitors have aggressively cut prices and lowered product margins. Certain competitors have the resources, experience or cost structures to provide products at little or no profit or even at a loss. Some of the markets in which the Company competes have from time to time experienced little to no growth or contracted overall. 
+
+--- Candidate 4 (around line 329) ---
+The Company’s ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies to the marketplace. The Company designs and develops nearly the entire solution for its products, including the hardware, operating system, numerous software applications and related services. As a result, the Company must make significant investments in R&D. There can be no assurance these investments will achieve expected returns, and the Company may not be able to develop and market new products and services successfully. 
+
+The Company currently holds a significant number of patents, trademarks and copyrights and has registered, and applied to register, additional patents, trademarks and copyrights. In contrast, many of the Company’s competitors seek to compete primarily through aggressive pricing and very low cost structures, and by imitating the Company’s products and infringing on its intellectual property. Effective intellectual property protection is not consistently available in every country in which the Company operates. If the Company is unable to continue to develop and sell innovative new products with attractive margins or if competitors infringe on the Company’s intellectual property, the Company’s ability to maintain a competitive advantage could be materially adversely affected. 
+
+The Company has a minority market share in the global smartphone, personal computer and tablet markets. The Company faces substantial competition in these markets from companies that have significant technical, marketing, distribution and other resources, as well as established hardware, software and digital content supplier relationships. In addition, some of the Company’s competitors have broader product lines, lower-priced products and a larger installed base of active devices. Competition has been particularly intense as competitors have aggressively cut prices and lowered product margins. Certain competitors have the resources, experience or cost structures to provide products at little or no profit or even at a loss. Some of the markets in which the Company competes have from time to time experienced little to no growth or contracted overall. 
+
+Additionally, the Company faces significant competition as competitors imitate the Company’s product features and applications within their products or collaborate to offer solutions that are more competitive than those they currently offer. The Company also expects competition to intensify as competitors imitate the Company’s approach to providing components seamlessly within their offerings or work collaboratively to offer integrated solutions. 
+
+The Company’s services also face substantial competition, including from companies that have significant resources and experience and have established service offerings with large customer bases. The Company competes with business models that provide content to users for free. The Company also competes with illegitimate means to obtain third-party digital content and applications. 
+
+The Company’s business, results of operations and financial condition depend substantially on the Company’s ability to continually improve its products and services to maintain their functional and design advantages. There can be no assurance the Company will be able to continue to provide products and services that compete effectively. 
+
+## **Business Risks** 
+
+--- Candidate 5 (around line 211) ---
+The Company manages its business primarily on a geographic basis. The Company’s reportable segments consist of the Americas, Europe, Greater China, Japan and Rest of Asia Pacific. Americas includes both North and South America. Europe includes European countries, as well as India, the Middle East and Africa. Greater China includes China mainland, Hong Kong and Taiwan. Rest of Asia Pacific includes Australia and those Asian countries not included in the Company’s other reportable segments. Although the reportable segments provide similar hardware and software products and similar services, each one is managed separately to better align with the location of the Company’s customers and distribution partners and the unique market dynamics of each geographic region. 
+
+## **Markets and Distribution** 
+
+The Company’s customers are primarily in the consumer, small and mid-sized business, education, enterprise and government markets. The Company sells its products and resells third-party products in most of its major markets directly to customers through its retail and online stores and its direct sales force. The Company also employs a variety of indirect distribution channels, such as third-party cellular network carriers, wholesalers, retailers and resellers. During 2024, the Company’s net sales through its direct and indirect distribution channels accounted for 38% and 62%, respectively, of total net sales. 
+
+## **Competition** 
+
+The markets for the Company’s products and services are highly competitive, and are characterized by aggressive price competition and resulting downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards, continual improvement in product price and performance characteristics, rapid adoption of technological advancements by competitors, and price sensitivity on the part of consumers and businesses. Many of the Company’s competitors seek to compete primarily through aggressive pricing and very low cost structures, and by imitating the Company’s products and infringing on its intellectual property. 
+
+Apple Inc. | 2024 Form 10-K | 2 
+
+The Company’s ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies to the marketplace. The Company designs and develops nearly the entire solution for its products, including the hardware, operating system, numerous software applications and related services. Principal competitive factors important to the Company include price, product and service features (including security features), relative price and performance, product and service quality and reliability, design innovation, a strong third-party software and accessories ecosystem, marketing and distribution capability, service and support, and corporate reputation. 
+
+DOCUMENT: MSFT_2024_10K
+
+--- Candidate 1 (around line 336) ---
+## _**Enterprise and Partner Services**_ 
+
+Enterprise and Partner Services, including Enterprise Support Services, Industry Solutions, Nuance professional services, Microsoft Partner Network, and Learning Experience, assist customers in developing, deploying, and managing Microsoft server solutions, Microsoft desktop solutions, and Nuance conversational AI and ambient intelligent solutions, along with providing training and certification to developers and IT professionals on various Microsoft products. 
+
+## _Competition_ 
+
+Azure faces diverse competition from companies such as Amazon, Broadcom, Google, IBM, Oracle, and open source offerings. Azure’s competitive advantage includes enabling a hybrid cloud, allowing deployment of existing datacenters with our public cloud into a single, cohesive infrastructure, and the ability to run at a scale that meets the needs of businesses of all sizes and complexities. Our AI offerings compete with AI products from hyperscalers such as Amazon and Google, as well as products from other emerging competitors, including Anthropic, OpenAI, Meta, and other open source offerings, many of which are also current or potential partners. Our Azure Security offerings include our cloud security solution and security information and event management solution, which compete with companies such as Palo Alto Networks and Cisco. Our Enterprise Mobility + Security offerings also compete with products from a range of competitors including identity vendors, security solution vendors, and numerous other security point solution vendors. We believe our cloud’s global scale, coupled with our broad portfolio of identity and security solutions, allows us to effectively solve complex cybersecurity challenges for our customers and differentiates us from the competition. 
+
+Our server products face competition from a wide variety of server operating systems and applications offered by companies with a range of market approaches. Vertically integrated computer manufacturers such as Hewlett-Packard, IBM, and Oracle offer their own versions of the Unix operating system preinstalled on server hardware and nearly all computer manufacturers offer server hardware for the Linux operating system. 
+
+We compete to provide enterprise-wide computing and point solutions with numerous commercial software vendors that offer solutions and middleware technology platforms, software applications for connectivity, security, hosting, database, and e-business servers. IBM and Oracle lead a group of companies that compete with our enterprise-wide computing solutions. Commercial competitors for our server applications for PC-based distributed client-server environments include Broadcom, IBM, and Oracle. Our web application platform software competes with open source software such as Apache, Linux, MySQL, and PHP. In middleware, we compete against Java vendors. 
+
+Our database, business intelligence, and data warehousing solutions offerings compete with products from Databricks, IBM, Oracle, SAP, Snowflake, and other companies. Our system management solutions compete with server management and server virtualization platform providers, such as BMC, Broadcom, Hewlett-Packard, and IBM. Our products for software developers compete against offerings from Adobe, IBM, Oracle, and other companies, and also against open source projects, including Eclipse (sponsored by IBM, Oracle, and SAP), PHP, and Ruby on Rails. 
+
+--- Candidate 2 (around line 420) ---
+## _Competition_ 
+
+Windows faces competition from various software products and from alternative platforms and devices, mainly from Apple and Google, and Microsoft Defender for Endpoint competes with CrowdStrike on endpoint security solutions. We believe Windows competes effectively by giving customers choice, value, flexibility, security, an easy-to-use interface, and compatibility with a broad range of hardware and software applications, including those that enable productivity. 
+
+Devices face competition from various computer, tablet, and hardware manufacturers who offer a unique combination of high-quality industrial design and innovative technologies across various price points. These manufacturers, many of which are also current or potential partners and customers, include Apple and our Windows OEMs. 
+
+Xbox and our cloud gaming services face competition from various online gaming ecosystems and game streaming services, including those operated by Amazon, Apple, Meta, and Tencent. We also compete with other providers of entertainment services such as video streaming platforms. Our gaming platform competes with console platforms from Nintendo and Sony, both of which have a large, established base of customers. We believe our gaming platform is effectively positioned against, and uniquely differentiated from, competitive products and services based on significant innovation in hardware architecture, user interface, developer tools, online gaming and entertainment services, and continued strong content from our own first-party game franchises as well as other digital content offerings. 
+
+Our Search and news advertising business competes with Google, OpenAI, and a wide array of websites, social platforms like Meta, and portals that provide content and online offerings to end users. 
+
+13 
+
+Item 1 
+
+--- Candidate 3 (around line 648) ---
+## _**Competition among platform-based ecosystems**_ 
+
+An important element of our business model has been to create platform-based ecosystems on which many participants can build diverse solutions. A well-established ecosystem creates beneficial network effects among users, application developers, and the platform provider that can accelerate growth. Establishing significant scale in the marketplace is necessary to achieve and maintain attractive margins. We face significant competition from firms that provide competing platforms. 
+
+- A competing vertically-integrated model, in which a single firm controls the software and hardware elements of a product and related services, has succeeded with some consumer products such as PCs, tablets, smartphones, gaming consoles, wearables, and other endpoint devices. Competitors pursuing this model also earn revenue from services integrated with the hardware and software platform, including applications and content sold through their integrated marketplaces. They may also be able to claim security and performance benefits from their vertically integrated offer. We also offer some vertically-integrated hardware and software products and services. Shifting a portion of our business to a vertically integrated model may increase our cost of revenue and reduce our operating margins. 
+
+- We derive substantial revenue from licenses of Windows operating systems on PCs. We face significant competition from competing platforms developed for new devices and form factors such as smartphones and tablets. These devices compete on multiple bases including price and the perceived utility of the device and its platform. Users continue to turn to these devices to perform functions that in the past were performed by PCs. Even if many users view these devices as complementary to a PC, the prevalence of these devices may make it more difficult to attract application developers to our PC operating system platforms. Competing with operating systems licensed at low or no cost may decrease our PC operating system margins. Popular products or services offered on competing platforms could increase their competitive strength. In addition, some of our devices compete with products made by our original equipment manufacturer (“OEM”) partners, which may affect their commitment to our platform. 
+
+- Competing platforms have content and application marketplaces with scale and significant installed bases. The variety and utility of content and applications available on a platform are important to device purchasing decisions. Users may incur costs to move data and buy new content and applications when switching platforms. To compete, we must successfully enlist developers to write applications for our platform and ensure that these applications have high quality, security, customer appeal, and value. Efforts to compete with competitors’ content and application marketplaces may increase our cost of revenue and lower our operating margins. Competitors’ rules governing their content and applications marketplaces may restrict our ability to distribute products and services through them in accordance with our technical and business model objectives. 
+
+20 
+
+## PART I 
+
+--- Candidate 4 (around line 802) ---
+Item 1A 
+
+## PART I 
+
+## LEGAL, REGULATORY, AND LITIGATION RISKS 
+
+**Government enforcement under competition laws and new market regulation may limit how we design and market our products.** Government agencies closely scrutinize us under U.S. and foreign competition laws. Governments are actively enforcing competition laws and regulations and enacting new regulations to intervene in digital markets, and this includes markets such as the EU, the United Kingdom, the U.S., and China. Some jurisdictions also allow competitors or consumers to assert claims of anti-competitive conduct. U.S. and foreign antitrust authorities have previously brought enforcement actions and continue to scrutinize our business. 
+
+For example, the European Commission (“the Commission”) has designated Windows and LinkedIn as core platform services subject to obligations under the EU Digital Markets Act, which prohibits certain self-preferencing behaviors and places limitations on certain data use among other obligations. The Commission also continues to closely scrutinize the design of high-volume Microsoft products and the terms on which we make certain technologies used in these products, such as file formats, programming interfaces, and protocols, available to other companies. Flagship product releases such as Microsoft 365 and Windows can receive significant scrutiny under EU or other competition laws. 
+
+Our portfolio of first-party devices continues to grow; at the same time, our OEM partners offer a large variety of devices for our platforms. As a result, we increasingly both cooperate and compete with our OEM partners, creating a risk that we fail to do so in compliance with competition rules. Regulatory scrutiny in this area may increase. Certain foreign governments, particularly in China and other countries in Asia, have advanced arguments under their competition laws that exert downward pressure on royalties for our intellectual property. 
+
+Competition law enforcement actions and court decisions along with new market regulations may result in fines or hinder our ability to provide the benefits of our software to consumers and businesses, reducing the attractiveness of our products and the revenue that comes from them. New competition law actions or obligations under market regulation schemes could be initiated, potentially using previous actions as precedent. The outcome of such actions, or steps taken to avoid them, could adversely affect us in a variety of ways, including causing us to withdraw products from or modify products for certain markets, decreasing the value of our assets, adversely affecting our ability to monetize our products, or inhibiting our ability to consummate acquisition or impose conditions on acquisitions that may reduce their value, which may adversely affect our business, financial condition, and results of operations. 
+
+--- Candidate 5 (around line 244) ---
+## PART I 
+
+## Item 1 
+
+As of June 30, 2024, we employed approximately 228,000 people on a full-time basis, 126,000 in the U.S. and 102,000 internationally. Of the total employed people, 86,000 were in operations, including product support and consulting services, datacenter operations, and manufacturing and distribution; 81,000 were in product research and development; 45,000 were in sales and marketing; and 16,000 were in general and administration. Certain employees are subject to collective bargaining agreements. 
+
+We design our programs to attract, reward, and retain top talent, enable our employees’ continual growth, and reinforce our culture and values. Our total compensation opportunity is highly differentiated and market competitive. Our intended result is a global performance and development approach that fosters our culture, drives company performance, and competitive compensation that ensures equitable pay by role while supporting pay for performance. 
+
+Diversity and inclusion are core to our business. As reported in our Global Diversity and Inclusion Reports, we monitor pay equity and career progress across multiple dimensions. We encourage every person at Microsoft to play an active role in creating an inclusive environment. 
+
+We have invested significantly in employee wellbeing and offer a differentiated benefits package which includes many physical, emotional, and financial wellness programs. Our Occupational Health and Safety program helps to protect employees’ safety while they are working. We also have introduced Hybrid Workplace Flexibility guidance to better support leaders, managers, and employees in hybrid work scenarios. 
+
+We believe providing employees with access to continual learning enables them to drive impact for the company. We provide individuals and teams with access to first and third-party content resources across professions, disciplines, and roles, and offer skilling opportunities to support employees’ growth while driving organizations’ needs. 
+
+
+====================================================================================================
+Q037: How did Apple's fiscal 2023 revenue compare with Microsoft's fiscal 2023 revenue?
+Category: cross_company
+Search terms: total net sales, revenue
+====================================================================================================
+
+DOCUMENT: AAPL_2023_10K
+
+--- Candidate 1 (around line 300) ---
+## _**The Company’s business can be impacted by political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.**_ 
+
+Political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can harm or disrupt international commerce and the global economy, and could have a material adverse effect on the Company and its customers, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. 
+
+Apple Inc. | 2023 Form 10-K | 5 
+
+The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s operations and supply chain and limit the Company’s ability to offer and distribute its products and services to customers. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can require the Company to take various actions, including changing suppliers, restructuring business relationships, and ceasing to offer third-party applications on its platforms. Changing the Company’s operations in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions being imposed on the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business. Political uncertainty surrounding trade and other international disputes could also have a negative effect on consumer confidence and spending, which could adversely affect the Company’s business. 
+
+Many of the Company’s operations and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. In addition, such operations and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues, including pandemics such as the COVID-19 pandemic, and other events beyond the Company’s control. Global climate change is resulting in certain types of natural disasters, such as droughts, floods, hurricanes and wildfires, occurring more frequently or with more intense effects. Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, and result in slowdowns and outages to the Company’s service offerings, and negatively impact consumer spending and demand in affected areas. Following an interruption to its business, the Company can require substantial recovery time, experience significant expenditures to resume operations, and lose significant sales. Because the Company relies on single or limited sources for the supply and manufacture of many critical components, a business interruption affecting such sources would exacerbate any negative consequences to the Company. 
+
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company’s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services, and delays in production ramps of new products and development of new services. 
+
+While the Company maintains insurance coverage for certain types of losses, such insurance coverage may be insufficient to cover all losses that may arise. 
+
+--- Candidate 2 (around line 1219) ---
+
+
+(1) Products net sales include amortization of the deferred value of unspecified software upgrade rights, which are bundled in the sales price of the respective product. 
+
+(2) Services net sales include amortization of the deferred value of services bundled in the sales price of certain products. 
+
+Total net sales include $8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September 24, 2022, $7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September 25, 2021, and $6.7 billion of revenue recognized in 2021 that was included in deferred revenue as of September 26, 2020. 
+
+The Company’s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 13, “Segment Information and Geographic Data” for 2023, 2022 and 2021, except in Greater China, where iPhone revenue represented a moderately higher proportion of net sales. 
+
+As of September 30, 2023 and September 24, 2022, the Company had total deferred revenue of $12.1 billion and $12.4 billion, respectively. As of September 30, 2023, the Company expects 67% of total deferred revenue to be realized in less than a year, 25% within one-to-two years, 7% within two-to-three years and 1% in greater than three years. 
+
+## **Note 3 – Earnings Per Share** 
+
+--- Candidate 3 (around line 206) ---
+## **Segments** 
+
+The Company manages its business primarily on a geographic basis. The Company’s reportable segments consist of the Americas, Europe, Greater China, Japan and Rest of Asia Pacific. Americas includes both North and South America. Europe includes European countries, as well as India, the Middle East and Africa. Greater China includes China mainland, Hong Kong and Taiwan. Rest of Asia Pacific includes Australia and those Asian countries not included in the Company’s other reportable segments. Although the reportable segments provide similar hardware and software products and similar services, each one is managed separately to better align with the location of the Company’s customers and distribution partners and the unique market dynamics of each geographic region. 
+
+## **Markets and Distribution** 
+
+The Company’s customers are primarily in the consumer, small and mid-sized business, education, enterprise and government markets. The Company sells its products and resells third-party products in most of its major markets directly to customers through its retail and online stores and its direct sales force. The Company also employs a variety of indirect distribution channels, such as third-party cellular network carriers, wholesalers, retailers and resellers. During 2023, the Company’s net sales through its direct and indirect distribution channels accounted for 37% and 63%, respectively, of total net sales. 
+
+## **Competition** 
+
+The markets for the Company’s products and services are highly competitive, and are characterized by aggressive price competition and resulting downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards, continual improvement in product price and performance characteristics, rapid adoption of technological advancements by competitors, and price sensitivity on the part of consumers and businesses. Many of the Company’s competitors seek to compete primarily through aggressive pricing and very low cost structures, and by imitating the Company’s products and infringing on its intellectual property. 
+
+Apple Inc. | 2023 Form 10-K | 2 
+
+--- Candidate 4 (around line 286) ---
+This section should be read in conjunction with Part II, Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and the consolidated financial statements and accompanying notes in Part II, Item 8, “Financial Statements and Supplementary Data” of this Form 10-K. 
+
+## **Macroeconomic and Industry Risks** 
+
+_**The Company’s operations and performance depend significantly on global and regional economic conditions and adverse economic conditions can materially adversely affect the Company’s business, results of operations and financial condition.**_ 
+
+The Company has international operations with sales outside the U.S. representing a majority of the Company’s total net sales. In addition, the Company’s global supply chain is large and complex and a majority of the Company’s supplier facilities, including manufacturing and assembly sites, are located outside the U.S. As a result, the Company’s operations and performance depend significantly on global and regional economic conditions. 
+
+Adverse macroeconomic conditions, including slow growth or recession, high unemployment, inflation, tighter credit, higher interest rates, and currency fluctuations, can adversely impact consumer confidence and spending and materially adversely affect demand for the Company’s products and services. In addition, consumer confidence and spending can be materially adversely affected in response to changes in fiscal and monetary policy, financial market volatility, declines in income or asset values, and other economic factors. 
+
+In addition to an adverse impact on demand for the Company’s products and services, uncertainty about, or a decline in, global or regional economic conditions can have a significant impact on the Company’s suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners, and developers. Potential outcomes include financial instability; inability to obtain credit to finance business operations; and insolvency. 
+
+Adverse economic conditions can also lead to increased credit and collectibility risk on the Company’s trade receivables; the failure of derivative counterparties and other financial institutions; limitations on the Company’s ability to issue new debt; reduced liquidity; and declines in the fair values of the Company’s financial instruments. These and other impacts can materially adversely affect the Company’s business, results of operations, financial condition and stock price. 
+
+--- Candidate 5 (around line 368) ---
+The Company’s products and services are designed to include intellectual property owned by third parties, which requires licenses from those third parties. In addition, because of technological changes in the industries in which the Company currently competes or in the future may compete, current extensive patent coverage and the rapid rate of issuance of new patents, the Company’s products and services can unknowingly infringe existing patents or intellectual property rights of others. From time to time, the Company has been notified that it may be infringing certain patents or other intellectual property rights of third parties. Based on experience and industry practice, the Company believes licenses to such third-party intellectual property can generally be obtained on commercially reasonable terms. However, there can be no assurance the necessary licenses can be obtained on commercially reasonable terms or at all. Failure to obtain the right to use third-party intellectual property, or to use such intellectual property on commercially reasonable terms, can preclude the Company from selling certain products or services, or otherwise have a material adverse impact on the Company’s business, results of operations and financial condition. 
+
+## _**The Company’s future performance depends in part on support from third-party software developers.**_ 
+
+The Company believes decisions by customers to purchase its hardware products depend in part on the availability of third-party software applications and services. There can be no assurance third-party developers will continue to develop and maintain software applications and services for the Company’s products. If third-party software applications and services cease to be developed and maintained for the Company’s products, customers may choose not to buy the Company’s products. 
+
+The Company believes the availability of third-party software applications and services for its products depends in part on the developers’ perception and analysis of the relative benefits of developing, maintaining and upgrading such software and services for the Company’s products compared to competitors’ platforms, such as Android for smartphones and tablets, Windows for personal computers and tablets, and PlayStation, Nintendo and Xbox for gaming platforms. This analysis may be based on factors such as the market position of the Company and its products, the anticipated revenue that may be generated, expected future growth of product sales, and the costs of developing such applications and services. 
+
+The Company’s minority market share in the global smartphone, personal computer and tablet markets can make developers less inclined to develop or upgrade software for the Company’s products and more inclined to devote their resources to developing and upgrading software for competitors’ products with larger market share. When developers focus their efforts on these competing platforms, the availability and quality of applications for the Company’s devices can suffer. 
+
+The Company relies on the continued availability and development of compelling and innovative software applications for its products. The Company’s products and operating systems are subject to rapid technological change, and when third-party developers are unable to or choose not to keep up with this pace of change, their applications can fail to take advantage of these changes to deliver improved customer experiences, can operate incorrectly, and can result in dissatisfied customers and lower customer demand for the Company’s products. 
+
+Apple Inc. | 2023 Form 10-K | 9 
+
+DOCUMENT: MSFT_2023_10K
+
+--- Candidate 1 (around line 361) ---
+- •LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. 
+
+- •Dynamics business solutions, including Dynamics 365, comprising a set of intelligent, cloud-based applications across ERP, CRM (including Customer Insights), Power Apps, and Power Automate; and on-premises ERP and CRM applications. 
+
+## _**Office Commercial**_ 
+
+Office Commercial is designed to increase personal, team, and organizational productivity through a range of products and services. Growth depends on our ability to reach new users in new markets such as frontline workers, small and medium businesses, and growth markets, as well as add value to our core product and service offerings to span productivity categories such as communication, collaboration, analytics, security, and compliance. Office Commercial revenue is mainly affected by a combination of continued installed base growth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Office 365. 
+
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed onpremises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+11 
+
+--- Candidate 2 (around line 365) ---
+## _**Office Commercial**_ 
+
+Office Commercial is designed to increase personal, team, and organizational productivity through a range of products and services. Growth depends on our ability to reach new users in new markets such as frontline workers, small and medium businesses, and growth markets, as well as add value to our core product and service offerings to span productivity categories such as communication, collaboration, analytics, security, and compliance. Office Commercial revenue is mainly affected by a combination of continued installed base growth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Office 365. 
+
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed onpremises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+11 
+
+PART I 
+
+Item 1 
+
+--- Candidate 3 (around line 375) ---
+PART I 
+
+Item 1 
+
+## _**LinkedIn**_ 
+
+LinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market, sell, and learn. Our vision is to create economic opportunity for every member of the global workforce through the ongoing development of the world’s first Economic Graph, a digital representation of the global economy. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Talent Solutions provide insights for workforce planning and tools to hire, nurture, and develop talent. Talent Solutions also includes Learning Solutions, which help businesses close critical skills gaps in times where companies are having to do more with existing talent. Marketing Solutions help companies reach, engage, and convert their audiences at scale. Premium Subscriptions enable professionals to manage their professional identity, grow their network, find jobs, and connect with talent through additional services like premium search. Sales Solutions help companies strengthen customer relationships, empower teams with digital selling tools, and acquire new opportunities. LinkedIn has over 950 million members and has offices around the globe. Growth will depend on our ability to increase the number of LinkedIn members and our ability to continue offering services that provide value for our members and increase their engagement. LinkedIn revenue is mainly affected by demand from enterprises and professional organizations for subscriptions to Talent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored content delivered to those members to drive Marketing Solutions. 
+
+## _**Dynamics**_ 
+
+Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”), customer relationship management (“CRM”), supply chain management, and other application development platforms for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including Power Apps and Power Automate. 
+
+## _Competition_ 
+
+--- Candidate 4 (around line 379) ---
+## _**LinkedIn**_ 
+
+LinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market, sell, and learn. Our vision is to create economic opportunity for every member of the global workforce through the ongoing development of the world’s first Economic Graph, a digital representation of the global economy. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Talent Solutions provide insights for workforce planning and tools to hire, nurture, and develop talent. Talent Solutions also includes Learning Solutions, which help businesses close critical skills gaps in times where companies are having to do more with existing talent. Marketing Solutions help companies reach, engage, and convert their audiences at scale. Premium Subscriptions enable professionals to manage their professional identity, grow their network, find jobs, and connect with talent through additional services like premium search. Sales Solutions help companies strengthen customer relationships, empower teams with digital selling tools, and acquire new opportunities. LinkedIn has over 950 million members and has offices around the globe. Growth will depend on our ability to increase the number of LinkedIn members and our ability to continue offering services that provide value for our members and increase their engagement. LinkedIn revenue is mainly affected by demand from enterprises and professional organizations for subscriptions to Talent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored content delivered to those members to drive Marketing Solutions. 
+
+## _**Dynamics**_ 
+
+Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”), customer relationship management (“CRM”), supply chain management, and other application development platforms for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including Power Apps and Power Automate. 
+
+## _Competition_ 
+
+Competitors to Office include software and global application vendors, such as Apple, Cisco Systems, Meta, Google, Okta, Proofpoint, Slack, Symantec, Zoom, and numerous web-based and mobile application competitors as well as local application developers. Apple distributes versions of its pre-installed application software, such as email and calendar products, through its PCs, tablets, and phones. Cisco Systems is using its position in enterprise communications equipment to grow its unified communications business. Meta offers communication tools to enable productivity and engagement within organizations. Google provides a hosted messaging and productivity suite. Slack provides teamwork and collaboration software. Zoom offers videoconferencing and cloud phone solutions. Okta, Proofpoint, and Symantec provide security solutions across email security, information protection, identity, and governance. Web-based offerings competing with individual applications have also positioned themselves as alternatives to our products and services. We compete by providing powerful, flexible, secure, integrated industry-specific, and easy-to-use productivity and collaboration tools and services that create comprehensive solutions and work well with technologies our customers already have both on-premises or in the cloud. 
+
+LinkedIn faces competition from online professional networks, recruiting companies, talent management companies, and larger companies that are focusing on talent management and human resource services; job boards; traditional recruiting firms; and companies that provide learning and development products and services. Marketing Solutions competes with online and offline outlets that generate revenue from advertisers and marketers, and Sales Solutions competes with online and offline outlets for companies with lead generation and customer intelligence and insights. 
+
+--- Candidate 5 (around line 385) ---
+Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”), customer relationship management (“CRM”), supply chain management, and other application development platforms for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including Power Apps and Power Automate. 
+
+## _Competition_ 
+
+Competitors to Office include software and global application vendors, such as Apple, Cisco Systems, Meta, Google, Okta, Proofpoint, Slack, Symantec, Zoom, and numerous web-based and mobile application competitors as well as local application developers. Apple distributes versions of its pre-installed application software, such as email and calendar products, through its PCs, tablets, and phones. Cisco Systems is using its position in enterprise communications equipment to grow its unified communications business. Meta offers communication tools to enable productivity and engagement within organizations. Google provides a hosted messaging and productivity suite. Slack provides teamwork and collaboration software. Zoom offers videoconferencing and cloud phone solutions. Okta, Proofpoint, and Symantec provide security solutions across email security, information protection, identity, and governance. Web-based offerings competing with individual applications have also positioned themselves as alternatives to our products and services. We compete by providing powerful, flexible, secure, integrated industry-specific, and easy-to-use productivity and collaboration tools and services that create comprehensive solutions and work well with technologies our customers already have both on-premises or in the cloud. 
+
+LinkedIn faces competition from online professional networks, recruiting companies, talent management companies, and larger companies that are focusing on talent management and human resource services; job boards; traditional recruiting firms; and companies that provide learning and development products and services. Marketing Solutions competes with online and offline outlets that generate revenue from advertisers and marketers, and Sales Solutions competes with online and offline outlets for companies with lead generation and customer intelligence and insights. 
+
+Dynamics competes with cloud-based and on-premises business solution providers such as Oracle, Salesforce, and SAP. 
+
+12 
+
+PART I 
+
+
+====================================================================================================
+Q038: How did Apple and NVIDIA describe risks arising from third-party manufacturing relationships?
+Category: cross_company
+Search terms: third-party, manufacturing, suppliers
+====================================================================================================
+
+DOCUMENT: AAPL_2023_10K
+
+--- Candidate 1 (around line 300) ---
+## _**The Company’s business can be impacted by political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.**_ 
+
+Political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can harm or disrupt international commerce and the global economy, and could have a material adverse effect on the Company and its customers, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. 
+
+Apple Inc. | 2023 Form 10-K | 5 
+
+The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s operations and supply chain and limit the Company’s ability to offer and distribute its products and services to customers. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can require the Company to take various actions, including changing suppliers, restructuring business relationships, and ceasing to offer third-party applications on its platforms. Changing the Company’s operations in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions being imposed on the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business. Political uncertainty surrounding trade and other international disputes could also have a negative effect on consumer confidence and spending, which could adversely affect the Company’s business. 
+
+Many of the Company’s operations and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. In addition, such operations and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues, including pandemics such as the COVID-19 pandemic, and other events beyond the Company’s control. Global climate change is resulting in certain types of natural disasters, such as droughts, floods, hurricanes and wildfires, occurring more frequently or with more intense effects. Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, and result in slowdowns and outages to the Company’s service offerings, and negatively impact consumer spending and demand in affected areas. Following an interruption to its business, the Company can require substantial recovery time, experience significant expenditures to resume operations, and lose significant sales. Because the Company relies on single or limited sources for the supply and manufacture of many critical components, a business interruption affecting such sources would exacerbate any negative consequences to the Company. 
+
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company’s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services, and delays in production ramps of new products and development of new services. 
+
+While the Company maintains insurance coverage for certain types of losses, such insurance coverage may be insufficient to cover all losses that may arise. 
+
+--- Candidate 2 (around line 222) ---
+The Company is focused on expanding its market opportunities related to smartphones, personal computers, tablets, wearables and accessories, and services. The Company faces substantial competition in these markets from companies that have significant technical, marketing, distribution and other resources, as well as established hardware, software, and service offerings with large customer bases. In addition, some of the Company’s competitors have broader product lines, lower-priced products and a larger installed base of active devices. Competition has been particularly intense as competitors have aggressively cut prices and lowered product margins. Certain competitors have the resources, experience or cost structures to provide products at little or no profit or even at a loss. The Company’s services compete with business models that provide content to users for free and use illegitimate means to obtain third-party digital content and applications. The Company faces significant competition as competitors imitate the Company’s product features and applications within their products, or collaborate to offer integrated solutions that are more competitive than those they currently offer. 
+
+## **Supply of Components** 
+
+Although most components essential to the Company’s business are generally available from multiple sources, certain components are currently obtained from single or limited sources. The Company also competes for various components with other participants in the markets for smartphones, personal computers, tablets, wearables and accessories. Therefore, many components used by the Company, including those that are available from multiple sources, are at times subject to industry-wide shortage and significant commodity pricing fluctuations. 
+
+The Company uses some custom components that are not commonly used by its competitors, and new products introduced by the Company often utilize custom components available from only one source. When a component or product uses new technologies, initial capacity constraints may exist until the suppliers’ yields have matured or their manufacturing capacities have increased. The continued availability of these components at acceptable prices, or at all, may be affected if suppliers decide to concentrate on the production of common components instead of components customized to meet the Company’s requirements. 
+
+The Company has entered into agreements for the supply of many components; however, there can be no guarantee that the Company will be able to extend or renew these agreements on similar terms, or at all. 
+
+## **Research and Development** 
+
+Because the industries in which the Company competes are characterized by rapid technological advances, the Company’s ability to compete successfully depends heavily upon its ability to ensure a continual and timely flow of competitive products, services and technologies to the marketplace. The Company continues to develop new technologies to enhance existing products and services, and to expand the range of its offerings through research and development (“R&D”), licensing of intellectual property and acquisition of third-party businesses and technology. 
+
+--- Candidate 3 (around line 302) ---
+Political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can harm or disrupt international commerce and the global economy, and could have a material adverse effect on the Company and its customers, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. 
+
+Apple Inc. | 2023 Form 10-K | 5 
+
+The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s operations and supply chain and limit the Company’s ability to offer and distribute its products and services to customers. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can require the Company to take various actions, including changing suppliers, restructuring business relationships, and ceasing to offer third-party applications on its platforms. Changing the Company’s operations in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions being imposed on the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business. Political uncertainty surrounding trade and other international disputes could also have a negative effect on consumer confidence and spending, which could adversely affect the Company’s business. 
+
+Many of the Company’s operations and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. In addition, such operations and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues, including pandemics such as the COVID-19 pandemic, and other events beyond the Company’s control. Global climate change is resulting in certain types of natural disasters, such as droughts, floods, hurricanes and wildfires, occurring more frequently or with more intense effects. Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, and result in slowdowns and outages to the Company’s service offerings, and negatively impact consumer spending and demand in affected areas. Following an interruption to its business, the Company can require substantial recovery time, experience significant expenditures to resume operations, and lose significant sales. Because the Company relies on single or limited sources for the supply and manufacture of many critical components, a business interruption affecting such sources would exacerbate any negative consequences to the Company. 
+
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company’s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services, and delays in production ramps of new products and development of new services. 
+
+While the Company maintains insurance coverage for certain types of losses, such insurance coverage may be insufficient to cover all losses that may arise. 
+
+## _**Global markets for the Company’s products and services are highly competitive and subject to rapid technological change, and the Company may be unable to compete effectively in these markets.**_ 
+
+--- Candidate 4 (around line 340) ---
+Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, and a significant concentration of this manufacturing is currently performed by a small number of outsourcing partners, often in single locations. Changes or additions to the Company’s supply chain require considerable time and resources and involve significant risks and uncertainties. The Company has also outsourced much of its transportation and logistics management. While these arrangements can lower operating costs, they also reduce the Company’s direct control over production and distribution. Such diminished control has from time to time and may in the future have an adverse effect on the quality or quantity of products manufactured or services provided, or adversely affect the Company’s flexibility to respond to changing conditions. Although arrangements with these partners may contain provisions for product defect expense reimbursement, the Company generally remains responsible to the consumer for warranty and out-of-warranty service in the event of product defects and experiences unanticipated product defect liabilities from time to time. While the Company relies on its partners to adhere to its supplier code of conduct, violations of the supplier code of conduct occur from time to time and can materially adversely affect the Company’s business, reputation, results of operations and financial condition. 
+
+Apple Inc. | 2023 Form 10-K | 7 
+
+The Company relies on single-source outsourcing partners in the U.S., Asia and Europe to supply and manufacture many components, and on outsourcing partners primarily located in Asia, for final assembly of substantially all of the Company’s hardware products. Any failure of these partners to perform can have a negative impact on the Company’s cost or supply of components or finished goods. In addition, manufacturing or logistics in these locations or transit to final destinations can be disrupted for a variety of reasons, including natural and man-made disasters, information technology system failures, commercial disputes, armed conflict, economic, business, labor, environmental, public health or political issues, or international trade disputes. 
+
+The Company has invested in manufacturing process equipment, much of which is held at certain of its outsourcing partners, and has made prepayments to certain of its suppliers associated with long-term supply agreements. While these arrangements help ensure the supply of components and finished goods, if these outsourcing partners or suppliers experience severe financial problems or other disruptions in their business, such continued supply can be reduced or terminated, and the recoverability of manufacturing process equipment or prepayments can be negatively impacted. 
+
+## _**Future operating results depend upon the Company’s ability to obtain components in sufficient quantities on commercially reasonable terms.**_ 
+
+Because the Company currently obtains certain components from single or limited sources, the Company is subject to significant supply and pricing risks. Many components, including those that are available from multiple sources, are at times subject to industry-wide shortages and significant commodity pricing fluctuations that can materially adversely affect the Company’s business, results of operations and financial condition. For example, the global semiconductor industry has in the past experienced high demand and shortages of supply, which adversely affected the Company’s ability to obtain sufficient quantities of components and products on commercially reasonable terms or at all. Such disruptions could occur in the future. While the Company has entered into agreements for the supply of many components, there can be no assurance the Company will be able to extend or renew these agreements on similar terms, or at all. Component suppliers may suffer from poor financial conditions, which can lead to business failure for the supplier or consolidation within a particular industry, further limiting the Company’s ability to obtain sufficient quantities of components on commercially reasonable terms or at all. The effects of global or regional economic conditions on the Company’s suppliers, described in “ _The Company’s operations and performance depend significantly on global and regional economic conditions and adverse economic conditions can materially adversely affect the Company’s business, results of operations and financial condition,_ ” above, can also affect the Company’s ability to obtain components _._ Therefore, the Company remains subject to significant risks of supply shortages and price increases that can materially adversely affect its business, results of operations and financial condition. 
+
+The Company’s new products often utilize custom components available from only one source. When a component or product uses new technologies, initial capacity constraints may exist until the suppliers’ yields have matured or their manufacturing capacities have increased. The continued availability of these components at acceptable prices, or at all, can be affected for any number of reasons, including if suppliers decide to concentrate on the production of common components instead of components customized to meet the Company’s requirements. When the Company’s supply of components for a new or existing product has been delayed or constrained, or when an outsourcing partner has delayed shipments of completed products to the Company, the Company’s business, results of operations and financial condition have been adversely affected and future delays or constraints could materially adversely affect the Company’s business, results of operations and financial condition. The Company’s business and financial performance could also be materially adversely affected depending on the time required to obtain sufficient quantities from the source, or to identify and obtain sufficient quantities from an alternative source. 
+
+--- Candidate 5 (around line 346) ---
+The Company has invested in manufacturing process equipment, much of which is held at certain of its outsourcing partners, and has made prepayments to certain of its suppliers associated with long-term supply agreements. While these arrangements help ensure the supply of components and finished goods, if these outsourcing partners or suppliers experience severe financial problems or other disruptions in their business, such continued supply can be reduced or terminated, and the recoverability of manufacturing process equipment or prepayments can be negatively impacted. 
+
+## _**Future operating results depend upon the Company’s ability to obtain components in sufficient quantities on commercially reasonable terms.**_ 
+
+Because the Company currently obtains certain components from single or limited sources, the Company is subject to significant supply and pricing risks. Many components, including those that are available from multiple sources, are at times subject to industry-wide shortages and significant commodity pricing fluctuations that can materially adversely affect the Company’s business, results of operations and financial condition. For example, the global semiconductor industry has in the past experienced high demand and shortages of supply, which adversely affected the Company’s ability to obtain sufficient quantities of components and products on commercially reasonable terms or at all. Such disruptions could occur in the future. While the Company has entered into agreements for the supply of many components, there can be no assurance the Company will be able to extend or renew these agreements on similar terms, or at all. Component suppliers may suffer from poor financial conditions, which can lead to business failure for the supplier or consolidation within a particular industry, further limiting the Company’s ability to obtain sufficient quantities of components on commercially reasonable terms or at all. The effects of global or regional economic conditions on the Company’s suppliers, described in “ _The Company’s operations and performance depend significantly on global and regional economic conditions and adverse economic conditions can materially adversely affect the Company’s business, results of operations and financial condition,_ ” above, can also affect the Company’s ability to obtain components _._ Therefore, the Company remains subject to significant risks of supply shortages and price increases that can materially adversely affect its business, results of operations and financial condition. 
+
+The Company’s new products often utilize custom components available from only one source. When a component or product uses new technologies, initial capacity constraints may exist until the suppliers’ yields have matured or their manufacturing capacities have increased. The continued availability of these components at acceptable prices, or at all, can be affected for any number of reasons, including if suppliers decide to concentrate on the production of common components instead of components customized to meet the Company’s requirements. When the Company’s supply of components for a new or existing product has been delayed or constrained, or when an outsourcing partner has delayed shipments of completed products to the Company, the Company’s business, results of operations and financial condition have been adversely affected and future delays or constraints could materially adversely affect the Company’s business, results of operations and financial condition. The Company’s business and financial performance could also be materially adversely affected depending on the time required to obtain sufficient quantities from the source, or to identify and obtain sufficient quantities from an alternative source. 
+
+## _**The Company’s products and services may be affected from time to time by design and manufacturing defects that could materially adversely affect the Company’s business and result in harm to the Company’s reputation.**_ 
+
+The Company offers complex hardware and software products and services that can be affected by design and manufacturing defects. Sophisticated operating system software and applications, such as those offered by the Company, often have issues that can unexpectedly interfere with the intended operation of hardware or software products and services. Defects can also exist in components and products the Company purchases from third parties. Component defects could make the Company’s products unsafe and create a risk of environmental or property damage and personal injury. These risks may increase as the Company’s products are introduced into specialized applications, including health. In addition, the Company’s service offerings can have quality issues and from time to time experience outages, service slowdowns or errors. As a result, from time to time the Company’s services have not performed as anticipated and may not meet customer expectations. There can be no assurance the Company will be able to detect and fix all issues and defects in the hardware, software and services it offers. Failure to do so can result in widespread technical and performance issues affecting the Company’s products and services. In addition, the Company can be exposed to product liability claims, recalls, product replacements or modifications, write-offs of inventory, property, plant and equipment or intangible assets, and significant warranty and other expenses, including litigation costs and regulatory fines. Quality problems can also adversely affect the experience for users of the Company’s products and services, and result in harm to the Company’s reputation, loss of competitive advantage, poor market acceptance, reduced demand for products and services, delay in new product and service introductions and lost sales. 
+
+Apple Inc. | 2023 Form 10-K | 8 
+
+DOCUMENT: NVDA_2023_10K
+
+--- Candidate 1 (around line 490) ---
+- Competition in our current and target markets could cause us to lose market share and revenue. 
+
+## **Risks Related to Demand, Supply and Manufacturing** 
+
+- Failure to estimate customer demand properly has led and could lead to mismatches between supply and demand. 
+
+- Dependency on third-party suppliers and their technology reduces our control over product quantity and quality, manufacturing yields, development, enhancement, and product delivery schedules and could harm our business. 
+
+- Defects in our products have caused and could cause us to incur significant expenses to remediate and can damage our business. 
+
+## **Risks Related to Our Global Operating Business** 
+
+- Adverse economic conditions may harm our business. 
+
+--- Candidate 2 (around line 644) ---
+Challenges in estimating demand could become more pronounced or volatile in the future on both a global and regional basis. Extended lead times may occur if we experience other supply constraints caused by natural disasters, pandemics or other events, such as the COVID-19 pandemic. In addition, geopolitical tensions, such as those involving Taiwan and China, which comprise a significant portion of our revenue and where we have suppliers, contract manufacturers, and assembly partners who are critical to our supply continuity, could have a material adverse impact on us. 
+
+The use of our GPUs for other than that for which they were designed and marketed, including new and unexpected use cases, has impacted and can in the future impact demand for our products, including by leading to inconsistent spikes and drops in demand. For example, a number of years ago, our Gaming GPUs began to be used for digital currency mining, including blockchain-based platforms such as Ethereum. It is difficult for us to estimate with any reasonable degree of precision, the past or current impact of cryptocurrency mining, or forecast the future impact of cryptocurrency mining, on demand for our products. Volatility in the cryptocurrency market, including new compute technologies, price changes in cryptocurrencies, government cryptocurrency policies and regulations, new cryptocurrency standards, and changes in the method of verifying blockchain transactions, has impacted and can in the future impact cryptocurrency mining and demand for our products and can further impact our ability to estimate demand for our products. Changes to cryptocurrency standards and processes including, but not limited to, the recently implemented Ethereum 2.0 merge may decrease the usage of GPUs for Ethereum mining as well as create increased aftermarket sales of our GPUs, which could negatively impact retail prices for our GPUs and reduce demand for our new GPUs. We previously introduced Lite Hash Rate, or LHR, GeForce GPUs with limited Ethereum mining capability and provided CMP products in an effort to address demand from gamers and direct miners to CMP. With the Ethereum 2.0 merge, NVIDIA Ampere and Ada Lovelace architectures no longer include LHR. In addition, our new products or previously sold products may be resold online or on the unauthorized “gray market,” which also makes demand forecasting difficult. Gray market products and reseller marketplaces compete with our new products and distribution channels. 
+
+Additionally, we depend on developers and other third parties to build accelerated computing applications that leverage our platforms. We also rely on third-party content providers and publishers to make their content available on our platforms such as GeForce NOW. Failure by developers to build applications that leverage our platforms, or failure by third-party content providers or publishers to make their content available on reasonable terms or at all for use by our customers or end users on our platforms, could adversely affect customer demand. 
+
+## **Dependency on third-party suppliers and their technology to manufacture, assemble, test, package or design our products reduces our control over product quantity and quality, manufacturing yields, development, enhancement and product delivery schedules and could harm our business.** 
+
+We depend on foundries to manufacture our semiconductor wafers using their fabrication equipment and techniques. We do not assemble, test or package our products, but instead contract with independent subcontractors. We also rely on third-party software development tools to assist us in the design, simulation and verification of new products or product enhancements. The design requirements necessary to meet consumer demands for greater functionality from our products may exceed the capabilities of available software development tools. We face several risks which have adversely affected or could adversely affect our ability to meet customer demand and scale our supply chain, negatively impact longer-term demand for our products and services, and adversely affect our business operations, gross margin, revenue and/or financial results, including: 
+
+- lack of guaranteed supply of wafer, component and capacity or decommitment and potential higher wafer and component prices, from incorrectly estimating demand and failing to place orders with our suppliers with sufficient quantities or in a timely manner; 
+
+20 
+
+--- Candidate 3 (around line 730) ---
+23 
+
+Table of Contents 
+
+## **Business disruptions could harm our operations, lead to a decline in revenue and increase our costs** . 
+
+Our worldwide operations could be disrupted by natural disasters and extreme weather conditions, power or water shortages, telecommunications failures, cloud service provider outages, terrorist attacks, or acts of violence, political and/or civil unrest, acts of war or other military actions, epidemics or pandemics and other natural or man-made disasters and catastrophic events. Our corporate headquarters, a large portion of our current data center capacity, and a portion of our research and development activities are located in California, and other critical business operations, finished goods inventory, and some of our suppliers are located in Asia, making our operations vulnerable to natural disasters such as earthquakes, wildfires, or other business disruptions occurring in these geographical areas. Catastrophic events can also have an impact on third-party vendors who provide us critical infrastructure services for IT and research and development systems and personnel. Geopolitical and domestic political developments and other events beyond our control, can increase economic volatility globally. Political instability, changes in government or adverse political developments in or around any of the major countries in which we do business would also likely harm our business, financial condition and results of operations. Worldwide geopolitical tensions and conflicts, including but not limited to China, Hong Kong, Israel, Korea and Taiwan where the manufacture of our product components and final assembly of our products are concentrated may result in changing regulatory requirements, and other disruptions that could impact our operations and operating strategies, product demand, access to global markets, hiring, and profitability. For example, other countries have restricted and may continue in the future to restrict business with the State of Israel, where we have engineering, sales support operations and manufacturing, and companies with Israeli operations, including by economic boycotts. Our operations could be harmed and our costs could increase if manufacturing, logistics or other operations are disrupted for any reason, including natural disasters, high heat events or water shortages, information technology system failures, military actions or economic, business, labor, environmental, public health, or political issues. The ultimate impact on us, our third-party foundries and other suppliers of being located and consolidated in certain geographical areas is unknown. In the event a disaster, war or catastrophic event affects us, the third-party systems on which we rely, or our customers, our business could be harmed as a result of declines in revenue, increases in expenses, and substantial expenditures and time spent to fully resume operations. All of these risks and conditions could materially adversely affect our future sales and operating results. 
+
+## **Climate change may have a long-term impact on our business.** 
+
+Climate change may have an increasingly adverse impact on our business and those of our customers, partners and vendors. Water and energy availability and reliability in the communities where we conduct business is critical, and certain of our facilities may be vulnerable to the impacts of extreme weather events. Extreme heat and wind coupled with dry conditions in Northern California may lead to power safety shut offs due to wildfire risk, which can have adverse implications for our Santa Clara, California headquarter offices and data centers, including impairing the ability of our employees to work effectively. Climate change, its impact on our supply chain and critical infrastructure worldwide, and its potential to increase political instability in regions where we, our customers, partners and our vendors do business, may disrupt our business and cause us to experience higher attrition, losses and costs to maintain or resume operations. Although we maintain insurance coverage for a variety of property, casualty, and other risks, the types and amounts of insurance we obtain vary depending on availability and cost. Some of our policies have large deductibles and broad exclusions, and our insurance providers may be unable or unwilling to pay a claim. Losses not covered by insurance may be large, which could harm our results of operations and financial condition. 
+
+Our business and those of our suppliers and customers, may also be subject to climate-related laws, regulations and lawsuits. Regulations such as carbon taxes, fuel or energy taxes, and pollution limits could result in greater direct costs, including costs associated with changes to manufacturing processes or the procurement of raw materials used in manufacturing processes, increased capital expenditures to improve facilities and equipment, and higher compliance and energy costs to reduce emissions, as well as greater indirect costs resulting from our customers, suppliers or both incurring additional compliance costs that are passed on to us. These costs and restrictions could harm our business and results of operations by increasing our expenses or requiring us to alter our operations and product design activities. Stakeholder groups may find us insufficiently responsive to the implications of climate change, and therefore we may face legal action or reputational harm. We may not achieve our stated goal to source 100% of our global electricity use from renewable energy by the end of fiscal year 2025, which could harm our reputation, or we may incur additional, 
+
+--- Candidate 4 (around line 276) ---
+## **Seasonality** 
+
+Our computing platforms serve a diverse set of markets such as consumer gaming, enterprise and cloud data centers, professional workstations, and automotive. Our consumer products typically see stronger revenue in the second half of our fiscal year. In addition, based on the production schedules of key customers, some of our products for notebooks and game consoles typically generate stronger revenue in the second and third quarters, and weaker revenue in the fourth and first quarters. In fiscal year 2023, our supply exceeded our demand in several areas, and our revenue did not follow historical seasonal patterns. Historical seasonality trends may not repeat. 
+
+## **Manufacturing** 
+
+We do not manufacture semiconductors used for our products. Instead, we utilize a fabless manufacturing strategy, whereby we employ key suppliers for all phases of the manufacturing process, including wafer fabrication, assembly, testing, and packaging. This strategy uses the expertise of industry-leading suppliers that are certified by the International Organization for Standardization in such areas as fabrication, assembly, quality control and assurance, reliability, and testing. Additionally, we can avoid many of the significant costs and risks associated with owning and operating manufacturing operations. While we may directly procure certain raw materials used in the production of our products, such as memory, substrates and a variety of components, our suppliers are responsible for procurement of most of the raw materials used in the 
+
+9 
+
+Table of Contents 
+
+production of our products. As a result, we can focus our resources on product design, additional quality assurance, marketing, and customer support. We have placed non-cancellable inventory orders for certain product components in advance of our historical lead times, paid premiums and provided deposits to secure future supply and capacity and may need to continue to do so in the future. 
+
+--- Candidate 5 (around line 284) ---
+9 
+
+Table of Contents 
+
+production of our products. As a result, we can focus our resources on product design, additional quality assurance, marketing, and customer support. We have placed non-cancellable inventory orders for certain product components in advance of our historical lead times, paid premiums and provided deposits to secure future supply and capacity and may need to continue to do so in the future. 
+
+We have expanded our supplier relationships to build redundancy and resilience in our operations. We utilize suppliers, such as Taiwan Semiconductor Manufacturing Company Limited and Samsung Electronics Co. Ltd, to produce our semiconductor wafers. We then utilize independent subcontractors and contract manufacturers, such as Amkor Technology, BYD Auto Co. Ltd., or BYD Auto, Hon Hai Precision Industry Co., or Hon Hai, King Yuan Electronics Co., Ltd., Omni Logistics, LLC, Siliconware Precision Industries Company Ltd., and Wistron Corporation to perform assembly, testing, and packaging of most of our products and platforms. We use contract manufacturers such as Flex Ltd., Jabil Inc., and Universal Scientific Industrial Co., Ltd., to manufacture our standard and custom adapter card products and switch systems, and Fabrinet to manufacture our networking cables. We purchase substrates from Ibiden Co. Ltd., Kinsus Interconnect Technology Corporation, and Unimicron Technology Corporation, and memory from Micron Technology, Samsung Semiconductor, Inc., or Samsung, and SK Hynix. We often consign key components or materials such as the GPU, SoC, memory, and integrated circuit to the contract manufacturers. 
+
+We typically receive semiconductor products from our subcontractors, perform incoming quality assurance and configuration using test equipment purchased from industry-leading suppliers such as Advantest America Inc. and Chroma ATE Inc., and then ship the semiconductors to contract manufacturers, such as BYD Auto and Hon Hai, distributors, motherboard and add-in card, or AIC, customers from our third-party warehouses in Hong Kong, Israel, and the United States. Generally, these manufacturers assemble and test the boards based on our design kit and test specifications, and then ship our products to retailers, system builders, or OEMs as motherboard and AIC solutions. 
+
+## **Competition** 
+
+The market for our products is intensely competitive and is characterized by rapid technological change and evolving industry standards. We believe that the principal competitive factors in this market are performance, breadth of product offerings, access to customers and partners and distribution channels, software support, conformity to industry standard APIs, manufacturing capabilities, processor pricing, and total system costs. We believe that our ability to remain competitive will depend on how well we are able to anticipate the features and functions that customers and partners will demand and whether we are able to deliver consistent volumes of our products at acceptable levels of quality and at competitive prices. We expect competition to increase from both existing competitors and new market entrants with products that may be lower priced than ours or may provide better performance or additional features not provided by our products. In addition, it is possible that new competitors or alliances among competitors could emerge and acquire significant market share. 
+
+
+====================================================================================================
+Q039: How did Apple's fiscal 2023 net income compare with Microsoft's fiscal 2023 net income?
+Category: cross_company
+Search terms: net income
+====================================================================================================
+
+DOCUMENT: AAPL_2023_10K
+
+--- Candidate 1 (around line 620) ---
+## **Fiscal Period** 
+
+The Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company’s fiscal quarters with calendar quarters, which occurred in the first quarter of 2023. The Company’s fiscal year 2023 spanned 53 weeks, whereas fiscal years 2022 and 2021 spanned 52 weeks each. 
+
+## **Fiscal Year Highlights** 
+
+The Company’s total net sales were $383.3 billion and net income was $97.0 billion during 2023. 
+
+The Company’s total net sales decreased 3% or $11.0 billion during 2023 compared to 2022. The weakness in foreign currencies relative to the U.S. dollar accounted for more than the entire year-over-year decrease in total net sales, which consisted primarily of lower net sales of Mac and iPhone, partially offset by higher net sales of Services. 
+
+The Company announces new product, service and software offerings at various times during the year. Significant announcements during fiscal year 2023 included the following: 
+
+## First Quarter 2023: 
+
+--- Candidate 2 (around line 934) ---
+|Total operating expenses|54,847||51,345||43,887|
+|||||||
+|Operating income|114,301||119,437||108,949|
+|Other income/(expense), net|(565)||(334)||258|
+|Income before provision for income taxes|113,736||119,103||109,207|
+|Provision for income taxes|16,741||19,300||14,527|
+|Net income|$ 96,995||$ 99,803||$ 94,680|
+|||||||
+|Earnings per share:||||||
+|Basic|$ 6.16||$ 6.15||$ 5.67|
+|Diluted|$ 6.13||$ 6.11||$ 5.61|
+|||||||
+|Shares used in computing earnings per share:||||||
+
+--- Candidate 3 (around line 956) ---
+## **Apple Inc.** 
+
+## **CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME** 
+
+(In millions) 
+
+|Net income|||**Years ended**|**Years ended**||
+|---|---|---|---|---|---|
+||**September 30,**<br>**2023**<br>$ 96,995||**September 24,**<br>**2022**<br>$ 99,803||**September 25,**<br>**2021**|
+||||||$ 94,680|
+|Other comprehensive income/(loss):||||||
+|Change in foreign currency translation, net of tax|(765)||(1,511)||501|
+|||||||
+
+--- Candidate 4 (around line 965) ---
+||||||$ 94,680|
+|Other comprehensive income/(loss):||||||
+|Change in foreign currency translation, net of tax|(765)||(1,511)||501|
+|||||||
+|Change in unrealized gains/losses on derivative instruments, net of tax:||||||
+|Change in fair value of derivative instruments|323||3,212||32|
+|Adjustment for net (gains)/losses realized and included in net income|(1,717)||(1,074)||1,003|
+|Total change in unrealized gains/losses on derivative instruments|(1,394)||2,138||1,035|
+|||||||
+|Change in unrealized gains/losses on marketable debt securities, net of tax:||||||
+|Change in fair value of marketable debt securities|1,563||(12,104)||(694)|
+|Adjustment for net (gains)/losses realized and included in net income|253||205||(273)|
+|Total change in unrealized gains/losses on marketable debt securities|1,816||(11,899)||(967)|
+
+--- Candidate 5 (around line 970) ---
+|Change in fair value of derivative instruments|323||3,212||32|
+|Adjustment for net (gains)/losses realized and included in net income|(1,717)||(1,074)||1,003|
+|Total change in unrealized gains/losses on derivative instruments|(1,394)||2,138||1,035|
+|||||||
+|Change in unrealized gains/losses on marketable debt securities, net of tax:||||||
+|Change in fair value of marketable debt securities|1,563||(12,104)||(694)|
+|Adjustment for net (gains)/losses realized and included in net income|253||205||(273)|
+|Total change in unrealized gains/losses on marketable debt securities|1,816||(11,899)||(967)|
+|||||||
+|Total other comprehensive income/(loss)|(343)||(11,272)||569|
+|Total comprehensive income|$ 96,652||$ 88,531||$ 95,249|
+
+
+
+DOCUMENT: MSFT_2023_10K
+
+--- Candidate 1 (around line 1170) ---
+## **Seasonality** 
+
+Our revenue fluctuates quarterly and is generally higher in the second and fourth quarters of our fiscal year. Second quarter revenue is driven by corporate year-end spending trends in our major markets and holiday season spending by consumers, and fourth quarter revenue is driven by the volume of multi-year on-premises contracts executed during the period. 
+
+## **Change in Accounting Estimate** 
+
+In July 2022, we completed an assessment of the useful lives of our server and network equipment. Due to investments in software that increased efficiencies in how we operate our server and network equipment, as well as advances in technology, we determined we should increase the estimated useful lives of both server and network equipment from four years to six years. This change in accounting estimate was effective beginning fiscal year 2023. Based on the carrying amount of server and network equipment included in property and equipment, net as of June 30, 2022, the effect of this change in estimate for fiscal year 2023 was an increase in operating income of $3.7 billion and net income of $3.0 billion, or $0.40 per both basic and diluted share. 
+
+41 
+
+PART II 
+
+Item 7 
+
+--- Candidate 2 (around line 1261) ---
+||||||**Percentage**|
+|---|---|---|---|---|---|
+|**(In millions, except percentages and per share amounts)**||**2023**||**2022**|**Change**|
+|Revenue|**$**|**211,915**|$|198,270|7%|
+|Gross margin||**146,052**||135,620|8%|
+|Operating income||**88,523**||83,383|6%|
+|Net income||**72,361**||72,738|(1)%|
+|Diluted earnings per share||**9.68**||9.65|0%|
+|Adjusted gross margin (non-GAAP)||**146,204**||135,620|<br>8%|
+|Adjusted operating income (non-GAAP)||**89,694**||83,383|<br>8%|
+|Adjusted net income (non-GAAP)||**73,307**||69,447|6%|
+|Adjusted diluted earnings per share (non-GAAP)||**9.81**||9.21|7%|
+
+
+--- Candidate 3 (around line 1265) ---
+|Gross margin||**146,052**||135,620|8%|
+|Operating income||**88,523**||83,383|6%|
+|Net income||**72,361**||72,738|(1)%|
+|Diluted earnings per share||**9.68**||9.65|0%|
+|Adjusted gross margin (non-GAAP)||**146,204**||135,620|<br>8%|
+|Adjusted operating income (non-GAAP)||**89,694**||83,383|<br>8%|
+|Adjusted net income (non-GAAP)||**73,307**||69,447|6%|
+|Adjusted diluted earnings per share (non-GAAP)||**9.81**||9.21|7%|
+
+
+
+Adjusted gross margin, operating income, net income, and diluted earnings per share (“EPS”) are non-GAAP financial measures. Current year nonGAAP financial measures exclude the impact of the Q2 charge, which includes employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. Prior year non-GAAP financial measures exclude the net income tax benefit related to transfer of intangible properties in the first quarter of fiscal year 2022. Refer to Note 12 – Income Taxes of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K) for further discussion. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results. 
+
+
+--- Candidate 4 (around line 1270) ---
+|Adjusted operating income (non-GAAP)||**89,694**||83,383|<br>8%|
+|Adjusted net income (non-GAAP)||**73,307**||69,447|6%|
+|Adjusted diluted earnings per share (non-GAAP)||**9.81**||9.21|7%|
+
+
+
+Adjusted gross margin, operating income, net income, and diluted earnings per share (“EPS”) are non-GAAP financial measures. Current year nonGAAP financial measures exclude the impact of the Q2 charge, which includes employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. Prior year non-GAAP financial measures exclude the net income tax benefit related to transfer of intangible properties in the first quarter of fiscal year 2022. Refer to Note 12 – Income Taxes of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K) for further discussion. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results. 
+
+## _**Fiscal Year 2023 Compared with Fiscal Year 2022**_ 
+
+Revenue increased $13.6 billion or 7% driven by growth in Intelligent Cloud and Productivity and Business Processes, offset in part by a decline in More Personal Computing. Intelligent Cloud revenue increased driven by Azure and other cloud services. Productivity and Business Processes revenue increased driven by Office 365 Commercial and LinkedIn. More Personal Computing revenue decreased driven by Windows  and Devices. 
+
+Cost of revenue increased $3.2 billion or 5% driven by growth in Microsoft Cloud, offset in part by the change in accounting estimate. 
+
+--- Candidate 5 (around line 1290) ---
+Operating expenses increased $5.3 billion or 10% driven by employee severance expenses, 2 points of growth from the Nuance and Xandr acquisitions, investments in cloud engineering, and LinkedIn. 
+
+Operating income increased $5.1 billion or 6% driven by growth in Productivity and Business Processes and Intelligent Cloud and the change in accounting estimate, offset in part by a decline in More Personal Computing. 
+
+Revenue, gross margin, and operating income included an unfavorable foreign currency impact of 4%, 4%, and 6%, respectively. Cost of revenue and operating expenses both included a favorable foreign currency impact of 2%. 
+
+Current year gross margin, operating income, net income, and diluted EPS were negatively impacted by the Q2 charge, which resulted in decreases of $152 million, $1.2 billion, $946 million, and $0.13, respectively. Prior year net income and diluted EPS were positively impacted by the net tax benefit related to the transfer of intangible properties, which resulted in an increase to net income and diluted EPS of $3.3 billion and $0.44, respectively. 
+
+44 
+
+PART II 
+
+Item 7 
+
+
+====================================================================================================
+Q040: What evidence does Apple provide about the importance of Services to its fiscal 2024 sales?

@@ -1,0 +1,503 @@
+Q040: What evidence does Apple provide about the importance of Services to its fiscal 2024 sales?
+Category: evidence_seeking
+Search terms: Services, net sales
+====================================================================================================
+
+DOCUMENT: AAPL_2024_10K
+
+--- Candidate 1 (around line 307) ---
+Apple Inc. | 2024 Form 10-K | 5 
+
+## _**The Company’s business can be impacted by political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.**_ 
+
+Political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can have a material adverse effect on the Company and its customers, employees, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. 
+
+The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s business and supply chain. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can increase the cost of the Company’s products and the components and raw materials that go into them, and can require the Company to take various actions, including changing suppliers, restructuring business relationships and operations, and ceasing to offer and distribute affected products, services and third-party applications to its customers. Changing the Company’s business and supply chain in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice, which can create uncertainty, and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions affecting the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business. 
+
+Many of the Company’s operations and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. Global climate change is resulting in certain types of natural disasters and extreme weather occurring more frequently or with more intense effects. In addition, the Company’s and its suppliers’ operations and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues and other events beyond the Company’s control. For example, global supply chains can be highly concentrated and geopolitical tensions or conflict could result in significant disruptions. 
+
+Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, result in slowdowns and outages to the Company’s service offerings, increase the Company’s costs, and negatively impact consumer spending and demand in affected areas. 
+
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company’s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services, and delays in production ramps of new products and development of new services. 
+
+--- Candidate 2 (around line 501) ---
+## **Financial Risks** 
+
+## _**The Company expects its quarterly net sales and results of operations to fluctuate.**_ 
+
+The Company’s profit margins vary across its products, services, geographic segments and distribution channels. For example, the gross margins on the Company’s products and services vary significantly and can change over time. The Company’s gross margins are subject to volatility and downward pressure due to a variety of factors, including: continued industry-wide global product pricing pressures and product pricing actions that the Company may take in response to such pressures; increased competition; the Company’s ability to effectively stimulate demand for certain of its products and services; compressed product life cycles; supply shortages; potential increases in the cost of components, outside manufacturing services, and developing, acquiring and delivering content for the Company’s services; the Company’s ability to manage product quality and warranty costs effectively; shifts in the mix of products and services, or in the geographic, currency or channel mix, including to the extent that regulatory changes require the Company to modify its product and service offerings; fluctuations in foreign exchange rates; inflation and other macroeconomic pressures; and the introduction of new products or services, including new products or services with lower profit margins. These and other factors could have a materially adverse impact on the Company’s results of operations and financial condition. 
+
+The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. Additionally, new product and service introductions can significantly impact net sales, cost of sales and operating expenses. Further, the Company generates a significant portion of its net sales from a single product and a decline in demand for that product could significantly impact quarterly net sales. The Company could also be subject to unexpected developments, such as lower-than-anticipated demand for the Company’s products or services, issues with new product or service introductions, information technology system failures or network disruptions, or failure of one of the Company’s logistics, supply or manufacturing partners. 
+
+Apple Inc. | 2024 Form 10-K | 15 
+
+## _**The Company’s financial performance is subject to risks associated with changes in the value of the U.S. dollar relative to local currencies.**_ 
+
+The Company’s primary exposure to movements in foreign exchange rates relates to non–U.S. dollar–denominated sales, cost of sales and operating expenses worldwide. Gross margins on the Company’s products in foreign countries and on products that include components obtained from foreign suppliers have in the past been adversely affected and could in the future be materially adversely affected by foreign exchange rate fluctuations. 
+
+--- Candidate 3 (around line 697) ---
+|Total net sales|$ 391,035||2 %|$ 383,285||(3)%|$ 394,328|
+
+
+
+## _Americas_ 
+
+Americas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. 
+
+## _Europe_ 
+
+Europe net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone. 
+
+## _Greater China_ 
+
+--- Candidate 4 (around line 701) ---
+## _Americas_ 
+
+Americas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. 
+
+## _Europe_ 
+
+Europe net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone. 
+
+## _Greater China_ 
+
+Greater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024. 
+
+## _Japan_ 
+
+--- Candidate 5 (around line 713) ---
+## _Japan_ 
+
+Japan net sales increased during 2024 compared to 2023 due primarily to higher net sales of iPhone. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during 2024. 
+
+## _Rest of Asia Pacific_ 
+
+Rest of Asia Pacific net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Rest of Asia Pacific net sales during 2024. 
+
+Apple Inc. | 2024 Form 10-K | 22 
+
+## **Products and Services Performance** 
+
+The following table shows net sales by category for 2024, 2023 and 2022 (dollars in millions): 
+
+
+====================================================================================================
+Q041: What evidence does Microsoft provide about the performance of its cloud business in fiscal 2024?
+Category: evidence_seeking
+Search terms: cloud, Azure
+====================================================================================================
+
+DOCUMENT: MSFT_2024_10K
+
+--- Candidate 1 (around line 128) ---
+## _**Build the Intelligent Cloud and Intelligent Edge Platform**_ 
+
+Digital transformation and adoption of AI continues to revolutionize more business workstreams for organizations in every sector across the globe. For enterprises, digital technology empowers employees, optimizes operations, engages customers, and in some cases, changes the very core of products and services. We continue to invest in high performance and sustainable computing to meet the growing demand for fast access to Microsoft services provided by our network of cloud computing and AI infrastructure and datacenters. 
+
+Our cloud business benefits from three economies of scale: datacenters that deploy computational resources at significantly lower cost per unit than smaller ones; datacenters that coordinate and aggregate diverse customer, geographic, and application demand patterns, improving the utilization of computing, storage, and network resources; and multi-tenancy locations that lower application maintenance labor costs. 
+
+The Microsoft Cloud provides the best integration across the technology stack while offering openness, improving time to value, reducing costs, and increasing agility. As the foundation of the Microsoft Cloud, Azure uniquely offers hybrid consistency, developer productivity, data and AI capabilities, and trusted security and compliance. 
+
+We offer supercomputing power for AI at scale to run large workloads, complemented by our rapidly expanding portfolio of AI cloud services and hardware, which includes custom-built silicon and strong partnerships with chip manufacturers. We have introduced purpose-built cloud infrastructure for AI workloads including a custom AI accelerator, Azure Maia, and a custom in-house central processing unit, Azure Cobalt. 
+
+4 
+
+Item 1 
+
+--- Candidate 2 (around line 130) ---
+Digital transformation and adoption of AI continues to revolutionize more business workstreams for organizations in every sector across the globe. For enterprises, digital technology empowers employees, optimizes operations, engages customers, and in some cases, changes the very core of products and services. We continue to invest in high performance and sustainable computing to meet the growing demand for fast access to Microsoft services provided by our network of cloud computing and AI infrastructure and datacenters. 
+
+Our cloud business benefits from three economies of scale: datacenters that deploy computational resources at significantly lower cost per unit than smaller ones; datacenters that coordinate and aggregate diverse customer, geographic, and application demand patterns, improving the utilization of computing, storage, and network resources; and multi-tenancy locations that lower application maintenance labor costs. 
+
+The Microsoft Cloud provides the best integration across the technology stack while offering openness, improving time to value, reducing costs, and increasing agility. As the foundation of the Microsoft Cloud, Azure uniquely offers hybrid consistency, developer productivity, data and AI capabilities, and trusted security and compliance. 
+
+We offer supercomputing power for AI at scale to run large workloads, complemented by our rapidly expanding portfolio of AI cloud services and hardware, which includes custom-built silicon and strong partnerships with chip manufacturers. We have introduced purpose-built cloud infrastructure for AI workloads including a custom AI accelerator, Azure Maia, and a custom in-house central processing unit, Azure Cobalt. 
+
+4 
+
+Item 1 
+
+## PART I 
+
+--- Candidate 3 (around line 142) ---
+## PART I 
+
+Our AI platform, Azure AI, is helping organizations transform, bringing intelligence and insights to the hands of their employees and customers to solve their most pressing challenges. We offer a wide selection of industry-leading frontier and open models, including from partners, as well as state-of-the-art tooling, and AI-optimized infrastructure, delivering the Copilot stack for Microsoft, enterprises, and developers. Organizations large and small are deploying Azure AI solutions to achieve more at scale, more easily, with the proper enterpriselevel responsible AI and safety and security protections. Azure AI Studio provides a full lifecycle toolchain customers can use to ground these models on their own data, create prompt workflows, and help ensure they are deployed and used safely. 
+
+GitHub Copilot is at the forefront of AI-powered software development, giving developers a tool to write code easier and faster. From GitHub to Visual Studio, we provide a developer tool chain for everyone, no matter the technical experience, across all platforms. 
+
+We have a long-term partnership with OpenAI, a leading AI research and deployment company. We deploy OpenAI’s models across our consumer and enterprise products. As OpenAI’s exclusive cloud provider, Azure powers all of OpenAI's workloads. We have also increased our investments in the development and deployment of specialized supercomputing systems to accelerate OpenAI’s research. 
+
+Our hybrid infrastructure offers integrated, end-to-end security, compliance, identity, and management capabilities to support the real-world needs and evolving regulatory requirements of commercial customers and enterprises. Our industry clouds bring together capabilities across the entire Microsoft Cloud, along with industry-specific customizations. Azure Arc simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform. 
+
+The Microsoft Intelligent Data Platform fully integrates databases, analytics, and governance. Microsoft Fabric is an end-to-end, unified analytics platform that brings together all the data and analytics tools that organizations need. 
+
+Nuance is a leader in conversational AI and ambient intelligence across industries, including healthcare, financial services, retail, and telecommunications. Microsoft and Nuance enable organizations to accelerate their business goals with security-focused, cloud-based solutions infused with AI. 
+
+--- Candidate 4 (around line 144) ---
+Our AI platform, Azure AI, is helping organizations transform, bringing intelligence and insights to the hands of their employees and customers to solve their most pressing challenges. We offer a wide selection of industry-leading frontier and open models, including from partners, as well as state-of-the-art tooling, and AI-optimized infrastructure, delivering the Copilot stack for Microsoft, enterprises, and developers. Organizations large and small are deploying Azure AI solutions to achieve more at scale, more easily, with the proper enterpriselevel responsible AI and safety and security protections. Azure AI Studio provides a full lifecycle toolchain customers can use to ground these models on their own data, create prompt workflows, and help ensure they are deployed and used safely. 
+
+GitHub Copilot is at the forefront of AI-powered software development, giving developers a tool to write code easier and faster. From GitHub to Visual Studio, we provide a developer tool chain for everyone, no matter the technical experience, across all platforms. 
+
+We have a long-term partnership with OpenAI, a leading AI research and deployment company. We deploy OpenAI’s models across our consumer and enterprise products. As OpenAI’s exclusive cloud provider, Azure powers all of OpenAI's workloads. We have also increased our investments in the development and deployment of specialized supercomputing systems to accelerate OpenAI’s research. 
+
+Our hybrid infrastructure offers integrated, end-to-end security, compliance, identity, and management capabilities to support the real-world needs and evolving regulatory requirements of commercial customers and enterprises. Our industry clouds bring together capabilities across the entire Microsoft Cloud, along with industry-specific customizations. Azure Arc simplifies governance and management by delivering a consistent multi-cloud and on-premises management platform. 
+
+The Microsoft Intelligent Data Platform fully integrates databases, analytics, and governance. Microsoft Fabric is an end-to-end, unified analytics platform that brings together all the data and analytics tools that organizations need. 
+
+Nuance is a leader in conversational AI and ambient intelligence across industries, including healthcare, financial services, retail, and telecommunications. Microsoft and Nuance enable organizations to accelerate their business goals with security-focused, cloud-based solutions infused with AI. 
+
+As the rate and pace of cyberthreats continue to accelerate, security is a top priority for every organization. Microsoft offers customers integrated products addressing security, compliance, identity, management, and privacy across customers’ multi-cloud, application, and device assets. With Copilot for Security, Microsoft offers an AI cybersecurity product that enables security professionals to respond to cyberthreats quickly. 
+
+--- Candidate 5 (around line 310) ---
+Dynamics competes with cloud-based and on-premises business solution providers such as Oracle, Salesforce, SAP, Service Now, UI Path, and WorkDay. 
+
+## **Intelligent Cloud** 
+
+Our Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that can power modern business and developers. This segment primarily comprises: 
+
+- Server products and cloud services, including Azure and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related Client Access Licenses (“CALs”); and Nuance and GitHub. 
+
+- Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Nuance professional services, Microsoft Partner Network, and Learning Experience. 
+
+## _**Server Products and Cloud Services**_ 
+
+Azure is a comprehensive set of cloud services that offer developers, IT professionals, and enterprises freedom to build, deploy, and manage applications on any platform or device. Customers can use Azure through our global network of datacenters for computing, networking, storage, mobile and web application services, AI, Internet of Things (“IoT”), cognitive services, and machine learning. Azure enables customers to devote more resources to development and use of applications that benefit their organizations, rather than managing onpremises hardware and software. Azure revenue is mainly affected by infrastructure-as-a-service and platform-as-a-service consumptionbased services, and per user-based services such as Enterprise Mobility + Security. 
+
+
+====================================================================================================
+Q042: What evidence does NVIDIA provide that it relies heavily on external manufacturing partners?
+Category: evidence_seeking
+Search terms: third-party, manufacturing, foundry
+====================================================================================================
+
+DOCUMENT: NVDA_2023_10K
+
+--- Candidate 1 (around line 490) ---
+- Competition in our current and target markets could cause us to lose market share and revenue. 
+
+## **Risks Related to Demand, Supply and Manufacturing** 
+
+- Failure to estimate customer demand properly has led and could lead to mismatches between supply and demand. 
+
+- Dependency on third-party suppliers and their technology reduces our control over product quantity and quality, manufacturing yields, development, enhancement, and product delivery schedules and could harm our business. 
+
+- Defects in our products have caused and could cause us to incur significant expenses to remediate and can damage our business. 
+
+## **Risks Related to Our Global Operating Business** 
+
+- Adverse economic conditions may harm our business. 
+
+--- Candidate 2 (around line 644) ---
+Challenges in estimating demand could become more pronounced or volatile in the future on both a global and regional basis. Extended lead times may occur if we experience other supply constraints caused by natural disasters, pandemics or other events, such as the COVID-19 pandemic. In addition, geopolitical tensions, such as those involving Taiwan and China, which comprise a significant portion of our revenue and where we have suppliers, contract manufacturers, and assembly partners who are critical to our supply continuity, could have a material adverse impact on us. 
+
+The use of our GPUs for other than that for which they were designed and marketed, including new and unexpected use cases, has impacted and can in the future impact demand for our products, including by leading to inconsistent spikes and drops in demand. For example, a number of years ago, our Gaming GPUs began to be used for digital currency mining, including blockchain-based platforms such as Ethereum. It is difficult for us to estimate with any reasonable degree of precision, the past or current impact of cryptocurrency mining, or forecast the future impact of cryptocurrency mining, on demand for our products. Volatility in the cryptocurrency market, including new compute technologies, price changes in cryptocurrencies, government cryptocurrency policies and regulations, new cryptocurrency standards, and changes in the method of verifying blockchain transactions, has impacted and can in the future impact cryptocurrency mining and demand for our products and can further impact our ability to estimate demand for our products. Changes to cryptocurrency standards and processes including, but not limited to, the recently implemented Ethereum 2.0 merge may decrease the usage of GPUs for Ethereum mining as well as create increased aftermarket sales of our GPUs, which could negatively impact retail prices for our GPUs and reduce demand for our new GPUs. We previously introduced Lite Hash Rate, or LHR, GeForce GPUs with limited Ethereum mining capability and provided CMP products in an effort to address demand from gamers and direct miners to CMP. With the Ethereum 2.0 merge, NVIDIA Ampere and Ada Lovelace architectures no longer include LHR. In addition, our new products or previously sold products may be resold online or on the unauthorized “gray market,” which also makes demand forecasting difficult. Gray market products and reseller marketplaces compete with our new products and distribution channels. 
+
+Additionally, we depend on developers and other third parties to build accelerated computing applications that leverage our platforms. We also rely on third-party content providers and publishers to make their content available on our platforms such as GeForce NOW. Failure by developers to build applications that leverage our platforms, or failure by third-party content providers or publishers to make their content available on reasonable terms or at all for use by our customers or end users on our platforms, could adversely affect customer demand. 
+
+## **Dependency on third-party suppliers and their technology to manufacture, assemble, test, package or design our products reduces our control over product quantity and quality, manufacturing yields, development, enhancement and product delivery schedules and could harm our business.** 
+
+We depend on foundries to manufacture our semiconductor wafers using their fabrication equipment and techniques. We do not assemble, test or package our products, but instead contract with independent subcontractors. We also rely on third-party software development tools to assist us in the design, simulation and verification of new products or product enhancements. The design requirements necessary to meet consumer demands for greater functionality from our products may exceed the capabilities of available software development tools. We face several risks which have adversely affected or could adversely affect our ability to meet customer demand and scale our supply chain, negatively impact longer-term demand for our products and services, and adversely affect our business operations, gross margin, revenue and/or financial results, including: 
+
+- lack of guaranteed supply of wafer, component and capacity or decommitment and potential higher wafer and component prices, from incorrectly estimating demand and failing to place orders with our suppliers with sufficient quantities or in a timely manner; 
+
+20 
+
+--- Candidate 3 (around line 670) ---
+- suppliers or their suppliers failing to supply high quality products and/or making changes to their products without our qualification; 
+
+- delays in product shipments, shortages, a decrease in product quality and/or higher expenses in the event our subcontractors or foundries prioritize our competitors’ or other customers’ orders over ours; 
+
+- requirements to place orders that are not cancellable upon changes in demand or requirements to prepay for supply in advance; 
+
+- low manufacturing yields resulting from a failure in our product design or a foundry’s proprietary process technology; and 
+
+- disruptions in manufacturing, assembly and other processes due to closures related to heat waves or other natural disasters and electricity conservation efforts. 
+
+## **Defects in our products have caused and could cause us to incur significant expenses to remediate, which can damage our reputation and cause us to lose market share.** 
+
+Our hardware and software product offerings are complex and they have in the past and may in the future contain defects or security vulnerabilities, or experience failures or unsatisfactory performance due to any number of issues in design, fabrication, packaging, materials and/or use within a system. These risks may increase as our products are introduced into new devices, markets, technologies and applications or as new versions are released. These risks further increase when we rely on partners to supply and manufacture components that are used in our products, as these arrangements reduce our direct control over production. Although arrangements with component providers may contain provisions for product defect expense reimbursement, we generally remain responsible to the customer for warranty product defects that may occur from time to time. Some failures in our products or services have been in the past and may in the future be only discovered after a product or service has been shipped or used. Undiscovered vulnerabilities in our products or services could result in loss of data or intangible property, or expose our end customers to unscrupulous third parties who develop and deploy malicious software programs that could attack our products or services. Defects or failure of our products to perform to specifications could lead to substantial damage to the products or the product in which our device has been integrated by OEMs, ODMs, AIBs and automotive manufacturers and tier 1 automotive suppliers, and to the user of such end product. Any such defect may cause us to incur significant warranty, support and repair or replacement costs as part of a product recall or otherwise, write-off the value of related inventory, and divert the attention of our engineering and management personnel from our product development efforts to find and correct the issue. Our efforts to remedy these issues may not be timely or satisfactory to our customers. An error or defect in new products, releases, or related software drivers after commencement of commercial shipments could result in failure to achieve market acceptance, loss of design wins, temporary or permanent withdrawal from a product or market, and harm to our relationships with existing and prospective customers and partners and consumers’ perceptions of our brand, which would in turn negatively impact our business operations, gross margin, revenue and/or financial results. We may be required to reimburse our customers, partners or consumers, including for costs to repair or replace products in the field or in connection with indemnification obligations, or pay fines imposed by regulatory agencies. 
+
+--- Candidate 4 (around line 730) ---
+23 
+
+Table of Contents 
+
+## **Business disruptions could harm our operations, lead to a decline in revenue and increase our costs** . 
+
+Our worldwide operations could be disrupted by natural disasters and extreme weather conditions, power or water shortages, telecommunications failures, cloud service provider outages, terrorist attacks, or acts of violence, political and/or civil unrest, acts of war or other military actions, epidemics or pandemics and other natural or man-made disasters and catastrophic events. Our corporate headquarters, a large portion of our current data center capacity, and a portion of our research and development activities are located in California, and other critical business operations, finished goods inventory, and some of our suppliers are located in Asia, making our operations vulnerable to natural disasters such as earthquakes, wildfires, or other business disruptions occurring in these geographical areas. Catastrophic events can also have an impact on third-party vendors who provide us critical infrastructure services for IT and research and development systems and personnel. Geopolitical and domestic political developments and other events beyond our control, can increase economic volatility globally. Political instability, changes in government or adverse political developments in or around any of the major countries in which we do business would also likely harm our business, financial condition and results of operations. Worldwide geopolitical tensions and conflicts, including but not limited to China, Hong Kong, Israel, Korea and Taiwan where the manufacture of our product components and final assembly of our products are concentrated may result in changing regulatory requirements, and other disruptions that could impact our operations and operating strategies, product demand, access to global markets, hiring, and profitability. For example, other countries have restricted and may continue in the future to restrict business with the State of Israel, where we have engineering, sales support operations and manufacturing, and companies with Israeli operations, including by economic boycotts. Our operations could be harmed and our costs could increase if manufacturing, logistics or other operations are disrupted for any reason, including natural disasters, high heat events or water shortages, information technology system failures, military actions or economic, business, labor, environmental, public health, or political issues. The ultimate impact on us, our third-party foundries and other suppliers of being located and consolidated in certain geographical areas is unknown. In the event a disaster, war or catastrophic event affects us, the third-party systems on which we rely, or our customers, our business could be harmed as a result of declines in revenue, increases in expenses, and substantial expenditures and time spent to fully resume operations. All of these risks and conditions could materially adversely affect our future sales and operating results. 
+
+## **Climate change may have a long-term impact on our business.** 
+
+Climate change may have an increasingly adverse impact on our business and those of our customers, partners and vendors. Water and energy availability and reliability in the communities where we conduct business is critical, and certain of our facilities may be vulnerable to the impacts of extreme weather events. Extreme heat and wind coupled with dry conditions in Northern California may lead to power safety shut offs due to wildfire risk, which can have adverse implications for our Santa Clara, California headquarter offices and data centers, including impairing the ability of our employees to work effectively. Climate change, its impact on our supply chain and critical infrastructure worldwide, and its potential to increase political instability in regions where we, our customers, partners and our vendors do business, may disrupt our business and cause us to experience higher attrition, losses and costs to maintain or resume operations. Although we maintain insurance coverage for a variety of property, casualty, and other risks, the types and amounts of insurance we obtain vary depending on availability and cost. Some of our policies have large deductibles and broad exclusions, and our insurance providers may be unable or unwilling to pay a claim. Losses not covered by insurance may be large, which could harm our results of operations and financial condition. 
+
+Our business and those of our suppliers and customers, may also be subject to climate-related laws, regulations and lawsuits. Regulations such as carbon taxes, fuel or energy taxes, and pollution limits could result in greater direct costs, including costs associated with changes to manufacturing processes or the procurement of raw materials used in manufacturing processes, increased capital expenditures to improve facilities and equipment, and higher compliance and energy costs to reduce emissions, as well as greater indirect costs resulting from our customers, suppliers or both incurring additional compliance costs that are passed on to us. These costs and restrictions could harm our business and results of operations by increasing our expenses or requiring us to alter our operations and product design activities. Stakeholder groups may find us insufficiently responsive to the implications of climate change, and therefore we may face legal action or reputational harm. We may not achieve our stated goal to source 100% of our global electricity use from renewable energy by the end of fiscal year 2025, which could harm our reputation, or we may incur additional, 
+
+--- Candidate 5 (around line 1143) ---
+## **Inventories** 
+
+Inventory cost is computed on an adjusted standard basis, which approximates actual cost on an average or first-in, first-out basis. We charge cost of sales for inventory provisions to write-down our inventory to the lower of cost or net realizable value or for obsolete or excess inventory, and for excess product purchase commitments. Most of our inventory provisions relate to excess quantities of products or components, based on our inventory levels and future product purchase commitments compared to assumptions about future demand and market conditions, which requires management judgment. 
+
+Situations that may result in excess or obsolete inventory or excess product purchase commitments include changes in business and economic conditions, changes in market conditions, sudden and significant decreases in demand for our products, inventory obsolescence because of changing technology and customer requirements, new product introductions resulting in less demand for existing products or inconsistent spikes in demand due to unexpected end use cases, failure to estimate customer demand properly, ordering in advance of historical lead-times and the impact of changes in future demand, or increase in demand for competitive products, including competitive actions. Cancellation or deferral of customer purchase orders could result in our holding excess inventory. 
+
+The overall net effect on our gross margin from inventory provisions and sales of items previously written down was an unfavorable impact of 7.5% in fiscal year 2023 and 0.9% in fiscal year 2022. As a fabless semiconductor company, we must make commitments to purchase inventory based on forecasts of future customer demand. In doing so, we must account for our third-party manufacturers' lead times and constraints. In the past, our manufacturing lead times have been long, and in some cases, extended beyond twelve months for some products. We place noncancellable inventory orders for certain product components in advance of our historical lead times, pay premiums and provide deposits to secure future supply and capacity. We also adjust to other market factors, such as product offerings and pricing actions by our competitors, new product transitions, and macroeconomic conditions - all of which may impact demand for our products. 
+
+Refer to the Gross Profit and Gross Margin discussion below in this Management's Discussion and Analysis for further discussion. 
+
+## **Revenue Recognition** 
+
+We derive our revenue from product sales, including hardware and systems, license and development arrangements, software licensing, and cloud services. We determine revenue recognition through the following steps: (1) identification of the contract with a customer; (2) identification of the performance obligations in the contract; (3) determination of the transaction price; (4) allocation of the transaction price to the performance obligations in the contract (where revenue is allocated on a relative standalone selling 
+
+
+====================================================================================================
+Q043: What evidence does Apple provide that international markets are important to its business?
+Category: evidence_seeking
+Search terms: international, net sales
+====================================================================================================
+
+DOCUMENT: AAPL_2023_10K
+
+--- Candidate 1 (around line 286) ---
+This section should be read in conjunction with Part II, Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and the consolidated financial statements and accompanying notes in Part II, Item 8, “Financial Statements and Supplementary Data” of this Form 10-K. 
+
+## **Macroeconomic and Industry Risks** 
+
+_**The Company’s operations and performance depend significantly on global and regional economic conditions and adverse economic conditions can materially adversely affect the Company’s business, results of operations and financial condition.**_ 
+
+The Company has international operations with sales outside the U.S. representing a majority of the Company’s total net sales. In addition, the Company’s global supply chain is large and complex and a majority of the Company’s supplier facilities, including manufacturing and assembly sites, are located outside the U.S. As a result, the Company’s operations and performance depend significantly on global and regional economic conditions. 
+
+Adverse macroeconomic conditions, including slow growth or recession, high unemployment, inflation, tighter credit, higher interest rates, and currency fluctuations, can adversely impact consumer confidence and spending and materially adversely affect demand for the Company’s products and services. In addition, consumer confidence and spending can be materially adversely affected in response to changes in fiscal and monetary policy, financial market volatility, declines in income or asset values, and other economic factors. 
+
+In addition to an adverse impact on demand for the Company’s products and services, uncertainty about, or a decline in, global or regional economic conditions can have a significant impact on the Company’s suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners, and developers. Potential outcomes include financial instability; inability to obtain credit to finance business operations; and insolvency. 
+
+Adverse economic conditions can also lead to increased credit and collectibility risk on the Company’s trade receivables; the failure of derivative counterparties and other financial institutions; limitations on the Company’s ability to issue new debt; reduced liquidity; and declines in the fair values of the Company’s financial instruments. These and other impacts can materially adversely affect the Company’s business, results of operations, financial condition and stock price. 
+
+--- Candidate 2 (around line 300) ---
+## _**The Company’s business can be impacted by political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.**_ 
+
+Political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can harm or disrupt international commerce and the global economy, and could have a material adverse effect on the Company and its customers, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. 
+
+Apple Inc. | 2023 Form 10-K | 5 
+
+The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s operations and supply chain and limit the Company’s ability to offer and distribute its products and services to customers. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can require the Company to take various actions, including changing suppliers, restructuring business relationships, and ceasing to offer third-party applications on its platforms. Changing the Company’s operations in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions being imposed on the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business. Political uncertainty surrounding trade and other international disputes could also have a negative effect on consumer confidence and spending, which could adversely affect the Company’s business. 
+
+Many of the Company’s operations and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. In addition, such operations and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues, including pandemics such as the COVID-19 pandemic, and other events beyond the Company’s control. Global climate change is resulting in certain types of natural disasters, such as droughts, floods, hurricanes and wildfires, occurring more frequently or with more intense effects. Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, and result in slowdowns and outages to the Company’s service offerings, and negatively impact consumer spending and demand in affected areas. Following an interruption to its business, the Company can require substantial recovery time, experience significant expenditures to resume operations, and lose significant sales. Because the Company relies on single or limited sources for the supply and manufacture of many critical components, a business interruption affecting such sources would exacerbate any negative consequences to the Company. 
+
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company’s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services, and delays in production ramps of new products and development of new services. 
+
+While the Company maintains insurance coverage for certain types of losses, such insurance coverage may be insufficient to cover all losses that may arise. 
+
+--- Candidate 3 (around line 206) ---
+## **Segments** 
+
+The Company manages its business primarily on a geographic basis. The Company’s reportable segments consist of the Americas, Europe, Greater China, Japan and Rest of Asia Pacific. Americas includes both North and South America. Europe includes European countries, as well as India, the Middle East and Africa. Greater China includes China mainland, Hong Kong and Taiwan. Rest of Asia Pacific includes Australia and those Asian countries not included in the Company’s other reportable segments. Although the reportable segments provide similar hardware and software products and similar services, each one is managed separately to better align with the location of the Company’s customers and distribution partners and the unique market dynamics of each geographic region. 
+
+## **Markets and Distribution** 
+
+The Company’s customers are primarily in the consumer, small and mid-sized business, education, enterprise and government markets. The Company sells its products and resells third-party products in most of its major markets directly to customers through its retail and online stores and its direct sales force. The Company also employs a variety of indirect distribution channels, such as third-party cellular network carriers, wholesalers, retailers and resellers. During 2023, the Company’s net sales through its direct and indirect distribution channels accounted for 37% and 63%, respectively, of total net sales. 
+
+## **Competition** 
+
+The markets for the Company’s products and services are highly competitive, and are characterized by aggressive price competition and resulting downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards, continual improvement in product price and performance characteristics, rapid adoption of technological advancements by competitors, and price sensitivity on the part of consumers and businesses. Many of the Company’s competitors seek to compete primarily through aggressive pricing and very low cost structures, and by imitating the Company’s products and infringing on its intellectual property. 
+
+Apple Inc. | 2023 Form 10-K | 2 
+
+--- Candidate 4 (around line 242) ---
+In addition to Company-owned intellectual property, many of the Company’s products and services are designed to include intellectual property owned by third parties. It may be necessary in the future to seek or renew licenses relating to various aspects of the Company’s products, processes and services. While the Company has generally been able to obtain such licenses on commercially reasonable terms in the past, there is no guarantee that such licenses could be obtained in the future on reasonable terms or at all. 
+
+Apple Inc. | 2023 Form 10-K | 3 
+
+## **Business Seasonality and Product Introductions** 
+
+The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. Additionally, new product and service introductions can significantly impact net sales, cost of sales and operating expenses. The timing of product introductions can also impact the Company’s net sales to its indirect distribution channels as these channels are filled with new inventory following a product launch, and channel inventory of an older product often declines as the launch of a newer product approaches. Net sales can also be affected when consumers and distributors anticipate a product introduction. 
+
+## **Human Capital** 
+
+The Company believes it has a talented, motivated and dedicated team, and works to create an inclusive, safe and supportive environment for all of its team members. As of September 30, 2023, the Company had approximately 161,000 full-time equivalent employees. 
+
+## _Workplace Practices and Policies_ 
+
+--- Candidate 5 (around line 294) ---
+Adverse macroeconomic conditions, including slow growth or recession, high unemployment, inflation, tighter credit, higher interest rates, and currency fluctuations, can adversely impact consumer confidence and spending and materially adversely affect demand for the Company’s products and services. In addition, consumer confidence and spending can be materially adversely affected in response to changes in fiscal and monetary policy, financial market volatility, declines in income or asset values, and other economic factors. 
+
+In addition to an adverse impact on demand for the Company’s products and services, uncertainty about, or a decline in, global or regional economic conditions can have a significant impact on the Company’s suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners, and developers. Potential outcomes include financial instability; inability to obtain credit to finance business operations; and insolvency. 
+
+Adverse economic conditions can also lead to increased credit and collectibility risk on the Company’s trade receivables; the failure of derivative counterparties and other financial institutions; limitations on the Company’s ability to issue new debt; reduced liquidity; and declines in the fair values of the Company’s financial instruments. These and other impacts can materially adversely affect the Company’s business, results of operations, financial condition and stock price. 
+
+## _**The Company’s business can be impacted by political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.**_ 
+
+Political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can harm or disrupt international commerce and the global economy, and could have a material adverse effect on the Company and its customers, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. 
+
+Apple Inc. | 2023 Form 10-K | 5 
+
+The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s operations and supply chain and limit the Company’s ability to offer and distribute its products and services to customers. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can require the Company to take various actions, including changing suppliers, restructuring business relationships, and ceasing to offer third-party applications on its platforms. Changing the Company’s operations in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions being imposed on the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business. Political uncertainty surrounding trade and other international disputes could also have a negative effect on consumer confidence and spending, which could adversely affect the Company’s business. 
+
+
+====================================================================================================
+Q044: What evidence does NVIDIA provide that demand forecasting can affect its financial performance?
+Category: evidence_seeking
+Search terms: forecast, demand, revenue
+====================================================================================================
+
+DOCUMENT: NVDA_2023_10K
+
+--- Candidate 1 (around line 272) ---
+To encourage the development of applications optimized for our platforms and software, we seek to establish and maintain strong relationships in the software development community. Engineering and marketing personnel engage with key software developers to promote and discuss our platforms, as well as to ascertain individual product requirements and solve technical problems. Our developer program makes our products available to developers prior to launch in order to encourage the development of AI frameworks, SDKs, and APIs for software applications and game titles that are optimized for our platforms. Our Deep Learning Institute provides in-person and online training for developers in industries and organizations around the world to build AI and accelerated computing applications that leverage our platforms. 
+
+As NVIDIA’s business has evolved from a focus primarily on gaming products to broader markets, and from chips to platforms, systems and software, so, too, have our avenues to market. Thus, in addition to sales to customers in our partner network, certain of our products are also sold direct to CSPs, enterprise customers, retail channels and consumers. 
+
+## **Seasonality** 
+
+Our computing platforms serve a diverse set of markets such as consumer gaming, enterprise and cloud data centers, professional workstations, and automotive. Our consumer products typically see stronger revenue in the second half of our fiscal year. In addition, based on the production schedules of key customers, some of our products for notebooks and game consoles typically generate stronger revenue in the second and third quarters, and weaker revenue in the fourth and first quarters. In fiscal year 2023, our supply exceeded our demand in several areas, and our revenue did not follow historical seasonal patterns. Historical seasonality trends may not repeat. 
+
+## **Manufacturing** 
+
+We do not manufacture semiconductors used for our products. Instead, we utilize a fabless manufacturing strategy, whereby we employ key suppliers for all phases of the manufacturing process, including wafer fabrication, assembly, testing, and packaging. This strategy uses the expertise of industry-leading suppliers that are certified by the International Organization for Standardization in such areas as fabrication, assembly, quality control and assurance, reliability, and testing. Additionally, we can avoid many of the significant costs and risks associated with owning and operating manufacturing operations. While we may directly procure certain raw materials used in the production of our products, such as memory, substrates and a variety of components, our suppliers are responsible for procurement of most of the raw materials used in the 
+
+9 
+
+--- Candidate 2 (around line 568) ---
+- manage product and software lifecycles to maintain customer and end user satisfaction; 
+
+- develop, acquire, and maintain the internal and external infrastructure needed to scale our business, including our acquisitions integrations, customer support, e-commerce, IP licensing capabilities and cloud service capacity; and 
+
+- complete technical, financial, compliance, sales and marketing investments for some of the above activities. 
+
+We invest in research and development in markets where we have a limited operating history, which may not produce meaningful revenue for several years, if at all. If we fail to develop or monetize new products and technologies, or if they do not become widely adopted, our financial results could be adversely affected. Obtaining design wins may involve a lengthy process and depend on our ability to anticipate and provide features and functionality that customers will demand. They also do not guarantee revenue. Failure to obtain a design win may prevent us from obtaining future design wins in subsequent generations. We cannot ensure that the products and technologies we bring to market will provide value to our customers and partners. If we fail any of these key success criteria, our financial results may be harmed. 
+
+We will offer enterprise customers NVIDIA AI cloud services directly and through our network of partners. Examples of these services include NVIDIA DGX Cloud, which is cloud-based infrastructure and software for training AI models, and customizable pretrained AI models. NVIDIA has partnered with leading cloud service providers to host these services in their data centers, and we entered into multi-year cloud service agreements in the second half of fiscal year 2023 to support these offerings and our research and development activities. NVIDIA AI cloud services may not be successful and will take time, resources and investment. We also offer or plan to offer standalone software solutions for AI including NVIDIA AI Enterprise, NVIDIA Omniverse, NVIDIA DRIVE for automotive, and several other software solutions. These new 
+
+17 
+
+Table of Contents 
+
+--- Candidate 3 (around line 580) ---
+Table of Contents 
+
+business models or strategies may not be successful and we may fail to sell any meaningful standalone software or as-a-service solutions. We may incur significant costs and may not achieve any significant revenue from these offerings. 
+
+## **Competition in our current and target markets could cause us to lose market share and revenue.** 
+
+Our target markets remain competitive, and competition may intensify with expanding and changing product and service offerings, industry standards, customer needs, new entrants and consolidations. Our competitors’ products, services and technologies, including those mentioned above in this Annual Report on Form 10-K, may be cheaper or provide better functionality or features than ours, which has resulted and may in the future result in lower than expected selling prices for our products. Some of our competitors operate their own fabrication facilities, have longer operating histories, larger customer bases, more comprehensive IP portfolios and patent protections, new designs and more design wins, and greater financial, sales, marketing and distribution resources than we do. These competitors may be able to acquire market share and/or prevent us from doing so, more effectively identify and capitalize upon opportunities in new markets and end user customer trends, more quickly transition their products, and secure sufficient foundry capacity and packaging materials during a supply-constrained environment, which could harm our business. Some of our customers have in-house expertise and internal development capabilities similar to some of ours and can use or develop their own solutions to replace those we are providing. For example, others may offer cloud-based services that compete with our AI cloud service offerings, and we may not be able to establish market share sufficient to achieve scale necessary to meet our business objectives. If we are unable to successfully compete in this environment, demand for our products, services and technologies could decrease, which would cause our revenue to decline. 
+
+## **Risks Related to Demand, Supply and Manufacturing** 
+
+## **Failure to estimate customer demand properly has led and could lead to mismatches between supply and demand.** 
+
+We use third parties to manufacture and assemble our products, and we have had and may in the future have long manufacturing lead times. We are not provided guaranteed wafer, component and capacity supply, and our supply deliveries and production may be non-linear within a quarter or year. If our estimates of customer demand are ultimately inaccurate, as we have experienced from time to time, there could be a significant mismatch between supply and demand. This mismatch has resulted in both product shortages and excess inventory, has varied across our market platforms, and has significantly harmed our financial results. 
+
+--- Candidate 4 (around line 588) ---
+## **Risks Related to Demand, Supply and Manufacturing** 
+
+## **Failure to estimate customer demand properly has led and could lead to mismatches between supply and demand.** 
+
+We use third parties to manufacture and assemble our products, and we have had and may in the future have long manufacturing lead times. We are not provided guaranteed wafer, component and capacity supply, and our supply deliveries and production may be non-linear within a quarter or year. If our estimates of customer demand are ultimately inaccurate, as we have experienced from time to time, there could be a significant mismatch between supply and demand. This mismatch has resulted in both product shortages and excess inventory, has varied across our market platforms, and has significantly harmed our financial results. 
+
+We build finished products and maintain inventory in advance of anticipated demand. While we have in the past entered and may in the future enter into long-term supply and capacity commitments, we may not be able to secure sufficient commitments for capacity to address our business needs or our long-term demand expectations may change. Additionally, our ability to sell certain products has been and could be impeded if components from third parties that are necessary for the finished product are not available. In periods of shortages impacting the semiconductor industry and/or limited supply or capacity in our supply chain, the lead times on our orders may be extended. We have previously experienced extended lead times of more than 12 months. We have paid premiums and provided deposits to secure future supply and capacity, which have increased our product costs and may continue to do so. We may not have the ability to reduce our supply commitments at the same rate or at all if our revenue declines. 
+
+Demand for our products is based on many factors in addition to the lead times described above that have caused and/or could in the future cause us to either underestimate or overestimate our customers’ future demand for our products, or otherwise cause a mismatch between supply and demand for our products and impact the timing and volume of our revenue, including: 
+
+- competing technologies and competitor product releases and announcements; 
+
+- changes in business and economic conditions resulting in decreased end demand; 
+
+--- Candidate 5 (around line 590) ---
+## **Failure to estimate customer demand properly has led and could lead to mismatches between supply and demand.** 
+
+We use third parties to manufacture and assemble our products, and we have had and may in the future have long manufacturing lead times. We are not provided guaranteed wafer, component and capacity supply, and our supply deliveries and production may be non-linear within a quarter or year. If our estimates of customer demand are ultimately inaccurate, as we have experienced from time to time, there could be a significant mismatch between supply and demand. This mismatch has resulted in both product shortages and excess inventory, has varied across our market platforms, and has significantly harmed our financial results. 
+
+We build finished products and maintain inventory in advance of anticipated demand. While we have in the past entered and may in the future enter into long-term supply and capacity commitments, we may not be able to secure sufficient commitments for capacity to address our business needs or our long-term demand expectations may change. Additionally, our ability to sell certain products has been and could be impeded if components from third parties that are necessary for the finished product are not available. In periods of shortages impacting the semiconductor industry and/or limited supply or capacity in our supply chain, the lead times on our orders may be extended. We have previously experienced extended lead times of more than 12 months. We have paid premiums and provided deposits to secure future supply and capacity, which have increased our product costs and may continue to do so. We may not have the ability to reduce our supply commitments at the same rate or at all if our revenue declines. 
+
+Demand for our products is based on many factors in addition to the lead times described above that have caused and/or could in the future cause us to either underestimate or overestimate our customers’ future demand for our products, or otherwise cause a mismatch between supply and demand for our products and impact the timing and volume of our revenue, including: 
+
+- competing technologies and competitor product releases and announcements; 
+
+- changes in business and economic conditions resulting in decreased end demand; 
+
+- sudden or sustained government lockdowns or actions to control case spread of COVID-19 or other global or local health issues; 
+
+
+====================================================================================================
+Q045: What evidence does Microsoft provide about the importance of cloud services to its business?
+Category: evidence_seeking
+Search terms: cloud, Azure, services
+====================================================================================================
+
+DOCUMENT: MSFT_2024_10K
+
+--- Candidate 1 (around line 130) ---
+Digital transformation and adoption of AI continues to revolutionize more business workstreams for organizations in every sector across the globe. For enterprises, digital technology empowers employees, optimizes operations, engages customers, and in some cases, changes the very core of products and services. We continue to invest in high performance and sustainable computing to meet the growing demand for fast access to Microsoft services provided by our network of cloud computing and AI infrastructure and datacenters. 
+
+Our cloud business benefits from three economies of scale: datacenters that deploy computational resources at significantly lower cost per unit than smaller ones; datacenters that coordinate and aggregate diverse customer, geographic, and application demand patterns, improving the utilization of computing, storage, and network resources; and multi-tenancy locations that lower application maintenance labor costs. 
+
+The Microsoft Cloud provides the best integration across the technology stack while offering openness, improving time to value, reducing costs, and increasing agility. As the foundation of the Microsoft Cloud, Azure uniquely offers hybrid consistency, developer productivity, data and AI capabilities, and trusted security and compliance. 
+
+We offer supercomputing power for AI at scale to run large workloads, complemented by our rapidly expanding portfolio of AI cloud services and hardware, which includes custom-built silicon and strong partnerships with chip manufacturers. We have introduced purpose-built cloud infrastructure for AI workloads including a custom AI accelerator, Azure Maia, and a custom in-house central processing unit, Azure Cobalt. 
+
+4 
+
+Item 1 
+
+## PART I 
+
+--- Candidate 2 (around line 310) ---
+Dynamics competes with cloud-based and on-premises business solution providers such as Oracle, Salesforce, SAP, Service Now, UI Path, and WorkDay. 
+
+## **Intelligent Cloud** 
+
+Our Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that can power modern business and developers. This segment primarily comprises: 
+
+- Server products and cloud services, including Azure and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related Client Access Licenses (“CALs”); and Nuance and GitHub. 
+
+- Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Nuance professional services, Microsoft Partner Network, and Learning Experience. 
+
+## _**Server Products and Cloud Services**_ 
+
+Azure is a comprehensive set of cloud services that offer developers, IT professionals, and enterprises freedom to build, deploy, and manage applications on any platform or device. Customers can use Azure through our global network of datacenters for computing, networking, storage, mobile and web application services, AI, Internet of Things (“IoT”), cognitive services, and machine learning. Azure enables customers to devote more resources to development and use of applications that benefit their organizations, rather than managing onpremises hardware and software. Azure revenue is mainly affected by infrastructure-as-a-service and platform-as-a-service consumptionbased services, and per user-based services such as Enterprise Mobility + Security. 
+
+--- Candidate 3 (around line 316) ---
+- Server products and cloud services, including Azure and other cloud services; SQL Server, Windows Server, Visual Studio, System Center, and related Client Access Licenses (“CALs”); and Nuance and GitHub. 
+
+- Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Nuance professional services, Microsoft Partner Network, and Learning Experience. 
+
+## _**Server Products and Cloud Services**_ 
+
+Azure is a comprehensive set of cloud services that offer developers, IT professionals, and enterprises freedom to build, deploy, and manage applications on any platform or device. Customers can use Azure through our global network of datacenters for computing, networking, storage, mobile and web application services, AI, Internet of Things (“IoT”), cognitive services, and machine learning. Azure enables customers to devote more resources to development and use of applications that benefit their organizations, rather than managing onpremises hardware and software. Azure revenue is mainly affected by infrastructure-as-a-service and platform-as-a-service consumptionbased services, and per user-based services such as Enterprise Mobility + Security. 
+
+Azure AI offerings provide a competitive advantage as companies seek ways to optimize and scale their business with machine learning. With Azure’s purpose-built, AI-optimized infrastructure, customers can use a variety of large language models and developer tools to create the next generation of AI apps and services. 
+
+Our server products are designed to make IT professionals, developers, and their systems more productive and efficient. Server software is integrated server infrastructure and middleware designed to support software applications built on the Windows Server operating system. This includes the server platform, database, business intelligence, storage, management and operations, virtualization, service-oriented architecture platform, security, and identity software. We also license standalone and software development lifecycle tools for software architects, developers, testers, and project managers. Server products revenue is mainly affected by purchases through volume licensing programs, licenses sold to original equipment manufacturers (“OEM”), and retail packaged products. CALs provide access rights to certain server products, including SQL Server and Windows Server, and revenue is reported along with the associated server product. 
+
+10 
+
+--- Candidate 4 (around line 444) ---
+## RESEARCH AND DEVELOPMENT 
+
+## **Product and Service Development, and Intellectual Property** 
+
+We develop most of our products and services internally through the following engineering groups. 
+
+- _Cloud and AI_ – focuses on making IT professionals, developers, partners, independent software vendors, and their systems more productive and efficient through development of Azure AI platform and cloud infrastructure, server, database, CRM, ERP, software development tools and services, AI cognitive services, and other business process applications and services for enterprises. 
+
+- _Strategic Missions and Technologies_ – focuses on incubating technical products and support solutions with transformative potential for the future of cloud computing and continued company growth, such as quantum computing and advanced AI for science. 
+
+- _Experiences and Devices_ – focuses on delivering high value end-user experiences across our products, services, and devices, including Microsoft 365, Windows, Microsoft Teams, and the Surface line of devices. 
+
+- _Microsoft AI_ – focuses on delivering online experiences targeted at consumers (including Bing, Copilot, Start/MSN, and other advertising-based services) and developing advanced AI models. 
+
+--- Candidate 5 (around line 1061) ---
+- Office Consumer products and cloud services revenue increased 4% and Microsoft 365 Consumer subscribers grew to 82.5 million. 
+
+- LinkedIn revenue increased 9%. 
+
+- Dynamics products and cloud services revenue increased 19% driven by Dynamics 365 growth of 24%. 
+
+- Server products and cloud services revenue increased 22% driven by Azure and other cloud services growth of 30%. 
+
+- Windows revenue increased 8% with Windows original equipment manufacturer licensing (“Windows OEM”) revenue growth of 7% and Windows Commercial products and cloud services revenue growth of 11%. 
+
+- Devices revenue decreased 15%. 
+
+- Xbox content and services revenue increased 50% driven by 44 points of net impact from the Activision Blizzard Inc. (“Activision Blizzard”) acquisition. The net impact reflects the change of Activision Blizzard content from third-party to first-party. 
+
+

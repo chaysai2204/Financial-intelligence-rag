@@ -1,0 +1,659 @@
+Q027: How did Apple's Services net sales change from fiscal 2023 to fiscal 2024?
+Category: temporal
+Search terms: Services, net sales
+====================================================================================================
+
+DOCUMENT: AAPL_2024_10K
+
+--- Candidate 1 (around line 307) ---
+Apple Inc. | 2024 Form 10-K | 5 
+
+## _**The Company’s business can be impacted by political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.**_ 
+
+Political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can have a material adverse effect on the Company and its customers, employees, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. 
+
+The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s business and supply chain. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can increase the cost of the Company’s products and the components and raw materials that go into them, and can require the Company to take various actions, including changing suppliers, restructuring business relationships and operations, and ceasing to offer and distribute affected products, services and third-party applications to its customers. Changing the Company’s business and supply chain in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice, which can create uncertainty, and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions affecting the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business. 
+
+Many of the Company’s operations and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. Global climate change is resulting in certain types of natural disasters and extreme weather occurring more frequently or with more intense effects. In addition, the Company’s and its suppliers’ operations and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues and other events beyond the Company’s control. For example, global supply chains can be highly concentrated and geopolitical tensions or conflict could result in significant disruptions. 
+
+Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, result in slowdowns and outages to the Company’s service offerings, increase the Company’s costs, and negatively impact consumer spending and demand in affected areas. 
+
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company’s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services, and delays in production ramps of new products and development of new services. 
+
+--- Candidate 2 (around line 501) ---
+## **Financial Risks** 
+
+## _**The Company expects its quarterly net sales and results of operations to fluctuate.**_ 
+
+The Company’s profit margins vary across its products, services, geographic segments and distribution channels. For example, the gross margins on the Company’s products and services vary significantly and can change over time. The Company’s gross margins are subject to volatility and downward pressure due to a variety of factors, including: continued industry-wide global product pricing pressures and product pricing actions that the Company may take in response to such pressures; increased competition; the Company’s ability to effectively stimulate demand for certain of its products and services; compressed product life cycles; supply shortages; potential increases in the cost of components, outside manufacturing services, and developing, acquiring and delivering content for the Company’s services; the Company’s ability to manage product quality and warranty costs effectively; shifts in the mix of products and services, or in the geographic, currency or channel mix, including to the extent that regulatory changes require the Company to modify its product and service offerings; fluctuations in foreign exchange rates; inflation and other macroeconomic pressures; and the introduction of new products or services, including new products or services with lower profit margins. These and other factors could have a materially adverse impact on the Company’s results of operations and financial condition. 
+
+The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. Additionally, new product and service introductions can significantly impact net sales, cost of sales and operating expenses. Further, the Company generates a significant portion of its net sales from a single product and a decline in demand for that product could significantly impact quarterly net sales. The Company could also be subject to unexpected developments, such as lower-than-anticipated demand for the Company’s products or services, issues with new product or service introductions, information technology system failures or network disruptions, or failure of one of the Company’s logistics, supply or manufacturing partners. 
+
+Apple Inc. | 2024 Form 10-K | 15 
+
+## _**The Company’s financial performance is subject to risks associated with changes in the value of the U.S. dollar relative to local currencies.**_ 
+
+The Company’s primary exposure to movements in foreign exchange rates relates to non–U.S. dollar–denominated sales, cost of sales and operating expenses worldwide. Gross margins on the Company’s products in foreign countries and on products that include components obtained from foreign suppliers have in the past been adversely affected and could in the future be materially adversely affected by foreign exchange rate fluctuations. 
+
+--- Candidate 3 (around line 697) ---
+|Total net sales|$ 391,035||2 %|$ 383,285||(3)%|$ 394,328|
+
+
+
+## _Americas_ 
+
+Americas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. 
+
+## _Europe_ 
+
+Europe net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone. 
+
+## _Greater China_ 
+
+--- Candidate 4 (around line 701) ---
+## _Americas_ 
+
+Americas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. 
+
+## _Europe_ 
+
+Europe net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone. 
+
+## _Greater China_ 
+
+Greater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024. 
+
+## _Japan_ 
+
+--- Candidate 5 (around line 713) ---
+## _Japan_ 
+
+Japan net sales increased during 2024 compared to 2023 due primarily to higher net sales of iPhone. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during 2024. 
+
+## _Rest of Asia Pacific_ 
+
+Rest of Asia Pacific net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Rest of Asia Pacific net sales during 2024. 
+
+Apple Inc. | 2024 Form 10-K | 22 
+
+## **Products and Services Performance** 
+
+The following table shows net sales by category for 2024, 2023 and 2022 (dollars in millions): 
+
+
+====================================================================================================
+Q028: How did Apple's net income change from fiscal 2023 to fiscal 2024?
+Category: temporal
+Search terms: net income
+====================================================================================================
+
+DOCUMENT: AAPL_2024_10K
+
+--- Candidate 1 (around line 964) ---
+|Total operating expenses|57,467||54,847||51,345|
+|||||||
+|Operating income|123,216||114,301||119,437|
+|Other income/(expense), net|269||(565)||(334)|
+|Income before provision for income taxes|123,485||113,736||119,103|
+|Provision for income taxes|29,749||16,741||19,300|
+|Net income|$ 93,736||$ 96,995||$ 99,803|
+|||||||
+|Earnings per share:||||||
+|Basic|$ 6.11||$ 6.16||$ 6.15|
+|Diluted|$ 6.08||$ 6.13||$ 6.11|
+|||||||
+|Shares used in computing earnings per share:||||||
+
+--- Candidate 2 (around line 986) ---
+## **Apple Inc.** 
+
+## **CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME** 
+
+(In millions) 
+
+|Net income|||**Years ended**|**Years ended**||
+|---|---|---|---|---|---|
+||**September 28,**<br>**2024**<br>$ 93,736||**September 30,**<br>**2023**<br>$ 96,995||**September 24,**<br>**2022**|
+||||||$ 99,803|
+|Other comprehensive income/(loss):||||||
+|Change in foreign currency translation, net of tax|395||(765)||(1,511)|
+|||||||
+
+--- Candidate 3 (around line 995) ---
+||||||$ 99,803|
+|Other comprehensive income/(loss):||||||
+|Change in foreign currency translation, net of tax|395||(765)||(1,511)|
+|||||||
+|Change in unrealized gains/losses on derivative instruments, net of tax:||||||
+|Change in fair value of derivative instruments|(832)||323||3,212|
+|Adjustment for net (gains)/losses realized and included in net income|(1,337)||(1,717)||(1,074)|
+|Total change in unrealized gains/losses on derivative instruments|(2,169)||(1,394)||2,138|
+|||||||
+|Change in unrealized gains/losses on marketable debt securities, net of tax:||||||
+|Change in fair value of marketable debt securities|5,850||1,563||(12,104)|
+|Adjustment for net (gains)/losses realized and included in net income|204||253||205|
+|Total change in unrealized gains/losses on marketable debt securities|6,054||1,816||(11,899)|
+
+--- Candidate 4 (around line 1000) ---
+|Change in fair value of derivative instruments|(832)||323||3,212|
+|Adjustment for net (gains)/losses realized and included in net income|(1,337)||(1,717)||(1,074)|
+|Total change in unrealized gains/losses on derivative instruments|(2,169)||(1,394)||2,138|
+|||||||
+|Change in unrealized gains/losses on marketable debt securities, net of tax:||||||
+|Change in fair value of marketable debt securities|5,850||1,563||(12,104)|
+|Adjustment for net (gains)/losses realized and included in net income|204||253||205|
+|Total change in unrealized gains/losses on marketable debt securities|6,054||1,816||(11,899)|
+|||||||
+|Total other comprehensive income/(loss)|4,280||(343)||(11,272)|
+|Total comprehensive income|$ 98,016||$ 96,652||$ 88,531|
+
+
+
+--- Candidate 5 (around line 1087) ---
+|Common stock withheld related to net share settlement of equity awards|(3,993)||(3,521)||(2,971)|
+|Share-based compensation|12,034||11,138||9,280|
+|Ending balances|83,276||73,812||64,849|
+|||||||
+|Retained earnings/(Accumulated deficit):||||||
+|Beginning balances|(214)||(3,068)||5,562|
+|Net income|93,736||96,995||99,803|
+|Dividends and dividend equivalents declared|(15,218)||(14,996)||(14,793)|
+|Common stock withheld related to net share settlement of equity awards|(1,612)||(2,099)||(3,454)|
+|Common stock repurchased|(95,846)||(77,046)||(90,186)|
+|Ending balances|(19,154)||(214)||(3,068)|
+|||||||
+|Accumulated other comprehensive income/(loss):||||||
+
+
+====================================================================================================
+Q029: How did Microsoft's total revenue change from fiscal 2023 to fiscal 2024?
+Category: temporal
+Search terms: revenue
+====================================================================================================
+
+DOCUMENT: MSFT_2023_10K
+
+--- Candidate 1 (around line 361) ---
+- •LinkedIn, including Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. 
+
+- •Dynamics business solutions, including Dynamics 365, comprising a set of intelligent, cloud-based applications across ERP, CRM (including Customer Insights), Power Apps, and Power Automate; and on-premises ERP and CRM applications. 
+
+## _**Office Commercial**_ 
+
+Office Commercial is designed to increase personal, team, and organizational productivity through a range of products and services. Growth depends on our ability to reach new users in new markets such as frontline workers, small and medium businesses, and growth markets, as well as add value to our core product and service offerings to span productivity categories such as communication, collaboration, analytics, security, and compliance. Office Commercial revenue is mainly affected by a combination of continued installed base growth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Office 365. 
+
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed onpremises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+11 
+
+--- Candidate 2 (around line 365) ---
+## _**Office Commercial**_ 
+
+Office Commercial is designed to increase personal, team, and organizational productivity through a range of products and services. Growth depends on our ability to reach new users in new markets such as frontline workers, small and medium businesses, and growth markets, as well as add value to our core product and service offerings to span productivity categories such as communication, collaboration, analytics, security, and compliance. Office Commercial revenue is mainly affected by a combination of continued installed base growth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Office 365. 
+
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed onpremises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+11 
+
+PART I 
+
+Item 1 
+
+--- Candidate 3 (around line 375) ---
+PART I 
+
+Item 1 
+
+## _**LinkedIn**_ 
+
+LinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market, sell, and learn. Our vision is to create economic opportunity for every member of the global workforce through the ongoing development of the world’s first Economic Graph, a digital representation of the global economy. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Talent Solutions provide insights for workforce planning and tools to hire, nurture, and develop talent. Talent Solutions also includes Learning Solutions, which help businesses close critical skills gaps in times where companies are having to do more with existing talent. Marketing Solutions help companies reach, engage, and convert their audiences at scale. Premium Subscriptions enable professionals to manage their professional identity, grow their network, find jobs, and connect with talent through additional services like premium search. Sales Solutions help companies strengthen customer relationships, empower teams with digital selling tools, and acquire new opportunities. LinkedIn has over 950 million members and has offices around the globe. Growth will depend on our ability to increase the number of LinkedIn members and our ability to continue offering services that provide value for our members and increase their engagement. LinkedIn revenue is mainly affected by demand from enterprises and professional organizations for subscriptions to Talent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored content delivered to those members to drive Marketing Solutions. 
+
+## _**Dynamics**_ 
+
+Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”), customer relationship management (“CRM”), supply chain management, and other application development platforms for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including Power Apps and Power Automate. 
+
+## _Competition_ 
+
+--- Candidate 4 (around line 379) ---
+## _**LinkedIn**_ 
+
+LinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market, sell, and learn. Our vision is to create economic opportunity for every member of the global workforce through the ongoing development of the world’s first Economic Graph, a digital representation of the global economy. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Talent Solutions provide insights for workforce planning and tools to hire, nurture, and develop talent. Talent Solutions also includes Learning Solutions, which help businesses close critical skills gaps in times where companies are having to do more with existing talent. Marketing Solutions help companies reach, engage, and convert their audiences at scale. Premium Subscriptions enable professionals to manage their professional identity, grow their network, find jobs, and connect with talent through additional services like premium search. Sales Solutions help companies strengthen customer relationships, empower teams with digital selling tools, and acquire new opportunities. LinkedIn has over 950 million members and has offices around the globe. Growth will depend on our ability to increase the number of LinkedIn members and our ability to continue offering services that provide value for our members and increase their engagement. LinkedIn revenue is mainly affected by demand from enterprises and professional organizations for subscriptions to Talent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored content delivered to those members to drive Marketing Solutions. 
+
+## _**Dynamics**_ 
+
+Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”), customer relationship management (“CRM”), supply chain management, and other application development platforms for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including Power Apps and Power Automate. 
+
+## _Competition_ 
+
+Competitors to Office include software and global application vendors, such as Apple, Cisco Systems, Meta, Google, Okta, Proofpoint, Slack, Symantec, Zoom, and numerous web-based and mobile application competitors as well as local application developers. Apple distributes versions of its pre-installed application software, such as email and calendar products, through its PCs, tablets, and phones. Cisco Systems is using its position in enterprise communications equipment to grow its unified communications business. Meta offers communication tools to enable productivity and engagement within organizations. Google provides a hosted messaging and productivity suite. Slack provides teamwork and collaboration software. Zoom offers videoconferencing and cloud phone solutions. Okta, Proofpoint, and Symantec provide security solutions across email security, information protection, identity, and governance. Web-based offerings competing with individual applications have also positioned themselves as alternatives to our products and services. We compete by providing powerful, flexible, secure, integrated industry-specific, and easy-to-use productivity and collaboration tools and services that create comprehensive solutions and work well with technologies our customers already have both on-premises or in the cloud. 
+
+LinkedIn faces competition from online professional networks, recruiting companies, talent management companies, and larger companies that are focusing on talent management and human resource services; job boards; traditional recruiting firms; and companies that provide learning and development products and services. Marketing Solutions competes with online and offline outlets that generate revenue from advertisers and marketers, and Sales Solutions competes with online and offline outlets for companies with lead generation and customer intelligence and insights. 
+
+--- Candidate 5 (around line 385) ---
+Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”), customer relationship management (“CRM”), supply chain management, and other application development platforms for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including Power Apps and Power Automate. 
+
+## _Competition_ 
+
+Competitors to Office include software and global application vendors, such as Apple, Cisco Systems, Meta, Google, Okta, Proofpoint, Slack, Symantec, Zoom, and numerous web-based and mobile application competitors as well as local application developers. Apple distributes versions of its pre-installed application software, such as email and calendar products, through its PCs, tablets, and phones. Cisco Systems is using its position in enterprise communications equipment to grow its unified communications business. Meta offers communication tools to enable productivity and engagement within organizations. Google provides a hosted messaging and productivity suite. Slack provides teamwork and collaboration software. Zoom offers videoconferencing and cloud phone solutions. Okta, Proofpoint, and Symantec provide security solutions across email security, information protection, identity, and governance. Web-based offerings competing with individual applications have also positioned themselves as alternatives to our products and services. We compete by providing powerful, flexible, secure, integrated industry-specific, and easy-to-use productivity and collaboration tools and services that create comprehensive solutions and work well with technologies our customers already have both on-premises or in the cloud. 
+
+LinkedIn faces competition from online professional networks, recruiting companies, talent management companies, and larger companies that are focusing on talent management and human resource services; job boards; traditional recruiting firms; and companies that provide learning and development products and services. Marketing Solutions competes with online and offline outlets that generate revenue from advertisers and marketers, and Sales Solutions competes with online and offline outlets for companies with lead generation and customer intelligence and insights. 
+
+Dynamics competes with cloud-based and on-premises business solution providers such as Oracle, Salesforce, and SAP. 
+
+12 
+
+PART I 
+
+DOCUMENT: MSFT_2024_10K
+
+--- Candidate 1 (around line 280) ---
+8 
+
+PART I Item 1 
+
+## _**Office Commercial**_ 
+
+Office Commercial is designed to increase personal, team, and organizational productivity through a range of products and services. Growth depends on our ability to reach new users in new markets such as frontline workers, small and medium businesses, and growth markets, as well as add value to our core product and service offerings to span AI and productivity categories such as communication, collaboration, analytics, security, and compliance. Office Commercial revenue is mainly affected by a combination of continued installed base growth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Office 365. 
+
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set with new features including AI tools, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed on-premises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+## _**LinkedIn**_ 
+
+--- Candidate 2 (around line 284) ---
+## _**Office Commercial**_ 
+
+Office Commercial is designed to increase personal, team, and organizational productivity through a range of products and services. Growth depends on our ability to reach new users in new markets such as frontline workers, small and medium businesses, and growth markets, as well as add value to our core product and service offerings to span AI and productivity categories such as communication, collaboration, analytics, security, and compliance. Office Commercial revenue is mainly affected by a combination of continued installed base growth and average revenue per user expansion, as well as the continued shift from Office licensed on-premises to Office 365. 
+
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set with new features including AI tools, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed on-premises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+## _**LinkedIn**_ 
+
+LinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market, sell, and learn. Our vision is to create economic opportunity for every member of the global workforce through the ongoing development of the world’s first Economic Graph, a digital representation of the global economy. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions designed to offer AI-enabled insights and productivity: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Talent Solutions provide insights for workforce planning and tools to hire, nurture, and develop talent. Talent Solutions also includes Learning Solutions, which help businesses close critical skills gaps in times where companies are having to do more with existing talent. Marketing Solutions help companies reach, engage, and convert their audiences at scale. Premium Subscriptions enable professionals to manage their professional identity, grow their network, find jobs, access knowledge, and connect with talent through additional services like premium search. Sales Solutions help companies strengthen customer relationships, empower teams with digital selling tools, and acquire new opportunities. Growth will depend on our ability to increase the number of LinkedIn members and our ability to continue offering insight and AI-enabled services that provide value for our members and increase their engagement. LinkedIn revenue is mainly affected by demand from enterprises and professionals for subscriptions to Talent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored content delivered to those members to drive Marketing Solutions. 
+
+## _**Dynamics**_ 
+
+--- Candidate 3 (around line 288) ---
+## _**Office Consumer**_ 
+
+Office Consumer is designed to increase personal productivity and creativity through a range of products and services. Growth depends on our ability to reach new users, add value to our core product set with new features including AI tools, and continue to expand our product and service offerings into new markets. Office Consumer revenue is mainly affected by the percentage of customers that buy Office with their new devices and the continued shift from Office licensed on-premises to Microsoft 365 Consumer subscriptions. Office Consumer Services revenue is mainly affected by the demand for communication and storage through Skype, Outlook.com, and OneDrive, which is largely driven by subscriptions, advertising, and the sale of minutes. 
+
+## _**LinkedIn**_ 
+
+LinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market, sell, and learn. Our vision is to create economic opportunity for every member of the global workforce through the ongoing development of the world’s first Economic Graph, a digital representation of the global economy. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions designed to offer AI-enabled insights and productivity: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Talent Solutions provide insights for workforce planning and tools to hire, nurture, and develop talent. Talent Solutions also includes Learning Solutions, which help businesses close critical skills gaps in times where companies are having to do more with existing talent. Marketing Solutions help companies reach, engage, and convert their audiences at scale. Premium Subscriptions enable professionals to manage their professional identity, grow their network, find jobs, access knowledge, and connect with talent through additional services like premium search. Sales Solutions help companies strengthen customer relationships, empower teams with digital selling tools, and acquire new opportunities. Growth will depend on our ability to increase the number of LinkedIn members and our ability to continue offering insight and AI-enabled services that provide value for our members and increase their engagement. LinkedIn revenue is mainly affected by demand from enterprises and professionals for subscriptions to Talent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored content delivered to those members to drive Marketing Solutions. 
+
+## _**Dynamics**_ 
+
+Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”), customer relationship management (“CRM”), and supply chain management, as well as other low code application development platforms and AI offerings, for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including our low code development platforms, such as Power Apps and Power Automate. 
+
+9 
+
+--- Candidate 4 (around line 292) ---
+## _**LinkedIn**_ 
+
+LinkedIn connects the world’s professionals to make them more productive and successful and transforms the way companies hire, market, sell, and learn. Our vision is to create economic opportunity for every member of the global workforce through the ongoing development of the world’s first Economic Graph, a digital representation of the global economy. In addition to LinkedIn’s free services, LinkedIn offers monetized solutions designed to offer AI-enabled insights and productivity: Talent Solutions, Marketing Solutions, Premium Subscriptions, and Sales Solutions. Talent Solutions provide insights for workforce planning and tools to hire, nurture, and develop talent. Talent Solutions also includes Learning Solutions, which help businesses close critical skills gaps in times where companies are having to do more with existing talent. Marketing Solutions help companies reach, engage, and convert their audiences at scale. Premium Subscriptions enable professionals to manage their professional identity, grow their network, find jobs, access knowledge, and connect with talent through additional services like premium search. Sales Solutions help companies strengthen customer relationships, empower teams with digital selling tools, and acquire new opportunities. Growth will depend on our ability to increase the number of LinkedIn members and our ability to continue offering insight and AI-enabled services that provide value for our members and increase their engagement. LinkedIn revenue is mainly affected by demand from enterprises and professionals for subscriptions to Talent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored content delivered to those members to drive Marketing Solutions. 
+
+## _**Dynamics**_ 
+
+Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”), customer relationship management (“CRM”), and supply chain management, as well as other low code application development platforms and AI offerings, for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications, including our low code development platforms, such as Power Apps and Power Automate. 
+
+9 
+
+PART I Item 1 
+
+## _Competition_ 
+
+--- Candidate 5 (around line 302) ---
+PART I Item 1 
+
+## _Competition_ 
+
+Competitors to Office include software and global application vendors, such as Apple, Cisco Systems, Google, Meta, Proofpoint, Slack, Symantec, Zoom, and numerous web-based and mobile application competitors as well as local application developers. Apple distributes versions of its pre-installed application software, such as email and calendar products, through its PCs, tablets, and phones. Cisco Systems is using its position in enterprise communications equipment to grow its unified communications business. Google provides a hosted messaging and productivity suite. Meta offers communication tools to enable productivity and engagement within organizations. Proofpoint and Symantec provide security solutions across email security, information protection, and governance. Slack provides teamwork and collaboration software. Zoom offers videoconferencing and cloud phone solutions. Web-based offerings competing with individual applications have also positioned themselves as alternatives to our products and services. We compete by providing powerful, flexible, secure, integrated industry-specific, and easy-to-use productivity and collaboration tools and services that create comprehensive solutions and work well with technologies our customers already have both on-premises or in the cloud. 
+
+LinkedIn faces competition from online professional networks, recruiting companies, talent management companies, and larger companies that are focusing on talent management and human resource services; job boards; traditional recruiting firms; and companies that provide learning and development products and services. Marketing Solutions competes with online and offline outlets that generate revenue from advertisers and marketers, and Sales Solutions competes with online and offline outlets for companies with lead generation and customer intelligence and insights. 
+
+Dynamics competes with cloud-based and on-premises business solution providers such as Oracle, Salesforce, SAP, Service Now, UI Path, and WorkDay. 
+
+## **Intelligent Cloud** 
+
+Our Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that can power modern business and developers. This segment primarily comprises: 
+
+
+====================================================================================================
+Q030: How did Microsoft's net income change from fiscal 2023 to fiscal 2024?
+Category: temporal
+Search terms: net income
+====================================================================================================
+
+DOCUMENT: MSFT_2023_10K
+
+--- Candidate 1 (around line 1170) ---
+## **Seasonality** 
+
+Our revenue fluctuates quarterly and is generally higher in the second and fourth quarters of our fiscal year. Second quarter revenue is driven by corporate year-end spending trends in our major markets and holiday season spending by consumers, and fourth quarter revenue is driven by the volume of multi-year on-premises contracts executed during the period. 
+
+## **Change in Accounting Estimate** 
+
+In July 2022, we completed an assessment of the useful lives of our server and network equipment. Due to investments in software that increased efficiencies in how we operate our server and network equipment, as well as advances in technology, we determined we should increase the estimated useful lives of both server and network equipment from four years to six years. This change in accounting estimate was effective beginning fiscal year 2023. Based on the carrying amount of server and network equipment included in property and equipment, net as of June 30, 2022, the effect of this change in estimate for fiscal year 2023 was an increase in operating income of $3.7 billion and net income of $3.0 billion, or $0.40 per both basic and diluted share. 
+
+41 
+
+PART II 
+
+Item 7 
+
+--- Candidate 2 (around line 1261) ---
+||||||**Percentage**|
+|---|---|---|---|---|---|
+|**(In millions, except percentages and per share amounts)**||**2023**||**2022**|**Change**|
+|Revenue|**$**|**211,915**|$|198,270|7%|
+|Gross margin||**146,052**||135,620|8%|
+|Operating income||**88,523**||83,383|6%|
+|Net income||**72,361**||72,738|(1)%|
+|Diluted earnings per share||**9.68**||9.65|0%|
+|Adjusted gross margin (non-GAAP)||**146,204**||135,620|<br>8%|
+|Adjusted operating income (non-GAAP)||**89,694**||83,383|<br>8%|
+|Adjusted net income (non-GAAP)||**73,307**||69,447|6%|
+|Adjusted diluted earnings per share (non-GAAP)||**9.81**||9.21|7%|
+
+
+--- Candidate 3 (around line 1265) ---
+|Gross margin||**146,052**||135,620|8%|
+|Operating income||**88,523**||83,383|6%|
+|Net income||**72,361**||72,738|(1)%|
+|Diluted earnings per share||**9.68**||9.65|0%|
+|Adjusted gross margin (non-GAAP)||**146,204**||135,620|<br>8%|
+|Adjusted operating income (non-GAAP)||**89,694**||83,383|<br>8%|
+|Adjusted net income (non-GAAP)||**73,307**||69,447|6%|
+|Adjusted diluted earnings per share (non-GAAP)||**9.81**||9.21|7%|
+
+
+
+Adjusted gross margin, operating income, net income, and diluted earnings per share (“EPS”) are non-GAAP financial measures. Current year nonGAAP financial measures exclude the impact of the Q2 charge, which includes employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. Prior year non-GAAP financial measures exclude the net income tax benefit related to transfer of intangible properties in the first quarter of fiscal year 2022. Refer to Note 12 – Income Taxes of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K) for further discussion. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results. 
+
+
+--- Candidate 4 (around line 1270) ---
+|Adjusted operating income (non-GAAP)||**89,694**||83,383|<br>8%|
+|Adjusted net income (non-GAAP)||**73,307**||69,447|6%|
+|Adjusted diluted earnings per share (non-GAAP)||**9.81**||9.21|7%|
+
+
+
+Adjusted gross margin, operating income, net income, and diluted earnings per share (“EPS”) are non-GAAP financial measures. Current year nonGAAP financial measures exclude the impact of the Q2 charge, which includes employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. Prior year non-GAAP financial measures exclude the net income tax benefit related to transfer of intangible properties in the first quarter of fiscal year 2022. Refer to Note 12 – Income Taxes of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K) for further discussion. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results. 
+
+## _**Fiscal Year 2023 Compared with Fiscal Year 2022**_ 
+
+Revenue increased $13.6 billion or 7% driven by growth in Intelligent Cloud and Productivity and Business Processes, offset in part by a decline in More Personal Computing. Intelligent Cloud revenue increased driven by Azure and other cloud services. Productivity and Business Processes revenue increased driven by Office 365 Commercial and LinkedIn. More Personal Computing revenue decreased driven by Windows  and Devices. 
+
+Cost of revenue increased $3.2 billion or 5% driven by growth in Microsoft Cloud, offset in part by the change in accounting estimate. 
+
+--- Candidate 5 (around line 1290) ---
+Operating expenses increased $5.3 billion or 10% driven by employee severance expenses, 2 points of growth from the Nuance and Xandr acquisitions, investments in cloud engineering, and LinkedIn. 
+
+Operating income increased $5.1 billion or 6% driven by growth in Productivity and Business Processes and Intelligent Cloud and the change in accounting estimate, offset in part by a decline in More Personal Computing. 
+
+Revenue, gross margin, and operating income included an unfavorable foreign currency impact of 4%, 4%, and 6%, respectively. Cost of revenue and operating expenses both included a favorable foreign currency impact of 2%. 
+
+Current year gross margin, operating income, net income, and diluted EPS were negatively impacted by the Q2 charge, which resulted in decreases of $152 million, $1.2 billion, $946 million, and $0.13, respectively. Prior year net income and diluted EPS were positively impacted by the net tax benefit related to the transfer of intangible properties, which resulted in an increase to net income and diluted EPS of $3.3 billion and $0.44, respectively. 
+
+44 
+
+PART II 
+
+Item 7 
+
+DOCUMENT: MSFT_2024_10K
+
+--- Candidate 1 (around line 1201) ---
+||||||**Percentage**|
+|---|---|---|---|---|---|
+||**(In millions, except percentages and per share amounts)**||**2024**|<br>**2023**|<br>**Change**|
+||Revenue|**$**|**245,122**|$ 211,915|<br>16%|
+||Gross margin||**171,008**|<br>146,052|<br>17%|
+||Operating income||**109,433**|<br>88,523|<br>24%|
+||Net income||**88,136**|<br>72,361|<br>22%|
+||Diluted earnings per share||**11.80**|<br>9.68|<br>22%|
+||Adjusted gross margin (non-GAAP)||**171,008**|146,204|<br>17%|
+||Adjusted operating income (non-GAAP)||**109,433**|89,694|<br>22%|
+||Adjusted net income (non-GAAP)||**88,136**|<br>73,307|<br>20%|
+||Adjusted diluted earnings per share (non-GAAP)||**11.80**|<br>9.81|<br>20%|
+
+
+--- Candidate 2 (around line 1205) ---
+||Gross margin||**171,008**|<br>146,052|<br>17%|
+||Operating income||**109,433**|<br>88,523|<br>24%|
+||Net income||**88,136**|<br>72,361|<br>22%|
+||Diluted earnings per share||**11.80**|<br>9.68|<br>22%|
+||Adjusted gross margin (non-GAAP)||**171,008**|146,204|<br>17%|
+||Adjusted operating income (non-GAAP)||**109,433**|89,694|<br>22%|
+||Adjusted net income (non-GAAP)||**88,136**|<br>73,307|<br>20%|
+||Adjusted diluted earnings per share (non-GAAP)||**11.80**|<br>9.81|<br>20%|
+
+
+
+Adjusted gross margin, operating income, net income, and diluted earnings per share (“EPS”) are non-GAAP financial measures. Prior year non-GAAP financial measures exclude the impact of a $1.2 billion charge in the second quarter of fiscal year 2023 (“Q2 charge”), which included employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results. 
+
+
+--- Candidate 3 (around line 1210) ---
+||Adjusted operating income (non-GAAP)||**109,433**|89,694|<br>22%|
+||Adjusted net income (non-GAAP)||**88,136**|<br>73,307|<br>20%|
+||Adjusted diluted earnings per share (non-GAAP)||**11.80**|<br>9.81|<br>20%|
+
+
+
+Adjusted gross margin, operating income, net income, and diluted earnings per share (“EPS”) are non-GAAP financial measures. Prior year non-GAAP financial measures exclude the impact of a $1.2 billion charge in the second quarter of fiscal year 2023 (“Q2 charge”), which included employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results. 
+
+## _**Fiscal Year 2024 Compared with Fiscal Year 2023**_ 
+
+Revenue increased $33.2 billion or 16% driven by growth across each of our segments. Intelligent Cloud revenue increased driven by Azure. Productivity and Business Processes revenue increased driven by Office 365 Commercial. More Personal Computing revenue increased driven by Gaming. 
+
+Cost of revenue increased $8.3 billion or 13% driven by growth in Microsoft Cloud and Gaming, offset in part by a decline in Devices. 
+
+--- Candidate 4 (around line 1228) ---
+- Microsoft Cloud gross margin percentage decreased slightly to 71%. Excluding the impact of the change in accounting estimate, Microsoft Cloud gross margin percentage increased slightly driven by improvements in Azure and Office 365 Commercial, inclusive of scaling our AI infrastructure, offset in part by sales mix shift to Azure. 
+
+Operating expenses increased $4.0 billion or 7% driven by Gaming, with 7 points of growth from the Activision Blizzard acquisition, and investments in cloud engineering, offset in part by the prior year Q2 charge. 
+
+Operating income increased $20.9 billion or 24% driven by growth across each of our segments. 
+
+Prior year gross margin, operating income, net income, and diluted EPS were negatively impacted by the Q2 charge, which resulted in decreases of $152 million, $1.2 billion, $946 million, and $0.13, respectively. 
+
+43 
+
+## PART II 
+
+## Item 7 
+
+--- Candidate 5 (around line 1415) ---
+We remain under audit by the IRS for tax years 2014 to 2017. With respect to the audit for tax years 2004 to 2013, on September 26, 2023, we received Notices of Proposed Adjustment (“NOPAs”) from the IRS. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest. As of June 30, 2024, we believe our allowances for income tax contingencies are adequate. We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS’s administrative appeals office and, if necessary, judicial proceedings. We do not expect a final resolution of these issues in the next 12 months. Based on the information currently available, we do not anticipate a significant increase or decrease to our income tax contingencies for these issues within the next 12 months. 
+
+We are subject to income tax in many jurisdictions outside the U.S. Our operations in certain jurisdictions remain subject to examination for tax years 1996 to 2023, some of which are currently under audit by local tax authorities. The resolution of each of these audits is not expected to be material to our consolidated financial statements. 
+
+## NON-GAAP FINANCIAL MEASURES 
+
+Adjusted gross margin, operating income, net income, and diluted EPS are non-GAAP financial measures. Prior year non-GAAP financial measures exclude the impact of the Q2 charge, which includes employee severance expenses, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities. We believe these non-GAAP measures aid investors by providing additional insight into our operational performance and help clarify trends affecting our business. For comparability of reporting, management considers non-GAAP measures in conjunction with GAAP financial results in evaluating business performance. These nonGAAP financial measures presented should not be considered a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP. 
+
+47 
+
+## PART II 
+
+## Item 7 
+
+
+====================================================================================================
+Q031: How did Apple's iPhone net sales change between fiscal 2023 and fiscal 2024?
+Category: temporal
+Search terms: iPhone, net sales
+====================================================================================================
+
+DOCUMENT: AAPL_2024_10K
+
+--- Candidate 1 (around line 701) ---
+## _Americas_ 
+
+Americas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. 
+
+## _Europe_ 
+
+Europe net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone. 
+
+## _Greater China_ 
+
+Greater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024. 
+
+## _Japan_ 
+
+--- Candidate 2 (around line 705) ---
+## _Europe_ 
+
+Europe net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone. 
+
+## _Greater China_ 
+
+Greater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024. 
+
+## _Japan_ 
+
+Japan net sales increased during 2024 compared to 2023 due primarily to higher net sales of iPhone. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during 2024. 
+
+## _Rest of Asia Pacific_ 
+
+--- Candidate 3 (around line 709) ---
+## _Greater China_ 
+
+Greater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024. 
+
+## _Japan_ 
+
+Japan net sales increased during 2024 compared to 2023 due primarily to higher net sales of iPhone. The weakness in the yen relative to the U.S. dollar had an unfavorable year-over-year impact on Japan net sales during 2024. 
+
+## _Rest of Asia Pacific_ 
+
+Rest of Asia Pacific net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. The weakness in foreign currencies relative to the U.S. dollar had a net unfavorable year-over-year impact on Rest of Asia Pacific net sales during 2024. 
+
+Apple Inc. | 2024 Form 10-K | 22 
+
+--- Candidate 4 (around line 736) ---
+
+
+(1) Services net sales include amortization of the deferred value of services bundled in the sales price of certain products. 
+
+## _iPhone_ 
+
+iPhone net sales were relatively flat during 2024 compared to 2023. 
+
+## _Mac_ 
+
+Mac net sales increased during 2024 compared to 2023 due primarily to higher net sales of laptops. 
+
+## _iPad_ 
+
+--- Candidate 5 (around line 1248) ---
+(1) Services net sales include amortization of the deferred value of services bundled in the sales price of certain products. 
+
+Total net sales include $7.7 billion of revenue recognized in 2024 that was included in deferred revenue as of September 30, 2023, $8.2 billion of revenue recognized in 2023 that was included in deferred revenue as of September 24, 2022, and $7.5 billion of revenue recognized in 2022 that was included in deferred revenue as of September 25, 2021. 
+
+Apple Inc. | 2024 Form 10-K | 35 
+
+The Company’s proportion of net sales by disaggregated revenue source was generally consistent for each reportable segment in Note 13, “Segment Information and Geographic Data” for 2024, 2023 and 2022, except in Greater China, where iPhone revenue represented a moderately higher proportion of net sales. 
+
+As of September 28, 2024 and September 30, 2023, the Company had total deferred revenue of $12.8 billion and $12.1 billion, respectively. As of September 28, 2024, the Company expects 64% of total deferred revenue to be realized in less than a year, 25% within one-to-two years, 9% within two-to-three years and 2% in greater than three years. 
+
+## **Note 3 – Earnings Per Share** 
+
+The following table shows the computation of basic and diluted earnings per share for 2024, 2023 and 2022 (net income in millions and shares in thousands): 
+
+
+====================================================================================================
+Q032: How did Apple's Services contribution to total net sales change from fiscal 2023 to fiscal 2024?
+Category: temporal
+Search terms: Services, total net sales
+====================================================================================================
+
+DOCUMENT: AAPL_2024_10K
+
+--- Candidate 1 (around line 307) ---
+Apple Inc. | 2024 Form 10-K | 5 
+
+## _**The Company’s business can be impacted by political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.**_ 
+
+Political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can have a material adverse effect on the Company and its customers, employees, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. 
+
+The Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s business and supply chain. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can increase the cost of the Company’s products and the components and raw materials that go into them, and can require the Company to take various actions, including changing suppliers, restructuring business relationships and operations, and ceasing to offer and distribute affected products, services and third-party applications to its customers. Changing the Company’s business and supply chain in accordance with new or changed restrictions on international trade can be expensive, time-consuming and disruptive to the Company’s operations. Such restrictions can be announced with little or no advance notice, which can create uncertainty, and the Company may not be able to effectively mitigate all adverse impacts from such measures. For example, tensions between governments, including the U.S. and China, have in the past led to tariffs and other restrictions affecting the Company’s business. If disputes and conflicts further escalate in the future, actions by governments in response could be significantly more severe and restrictive and could materially adversely affect the Company’s business. 
+
+Many of the Company’s operations and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. Global climate change is resulting in certain types of natural disasters and extreme weather occurring more frequently or with more intense effects. In addition, the Company’s and its suppliers’ operations and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues and other events beyond the Company’s control. For example, global supply chains can be highly concentrated and geopolitical tensions or conflict could result in significant disruptions. 
+
+Such events can make it difficult or impossible for the Company to manufacture and deliver products to its customers, create delays and inefficiencies in the Company’s supply and manufacturing chain, result in slowdowns and outages to the Company’s service offerings, increase the Company’s costs, and negatively impact consumer spending and demand in affected areas. 
+
+The Company’s operations are also subject to the risks of industrial accidents at its suppliers and contract manufacturers. While the Company’s suppliers are required to maintain safe working environments and operations, an industrial accident could occur and could result in serious injuries or loss of life, disruption to the Company’s business, and harm to the Company’s reputation. Major public health issues, including pandemics such as the COVID-19 pandemic, have adversely affected, and could in the future materially adversely affect, the Company due to their impact on the global economy and demand for consumer products; the imposition of protective public safety measures, such as stringent employee travel restrictions and limitations on freight services and the movement of products between regions; and disruptions in the Company’s operations, supply chain and sales and distribution channels, resulting in interruptions to the supply of current products and offering of existing services, and delays in production ramps of new products and development of new services. 
+
+--- Candidate 2 (around line 134) ---
+|Item 9C.|Disclosure Regarding Foreign Jurisdictions that Prevent Inspections||52|
+|||<br>**Part III**||
+|Item 10.|Directors, Executive Officers and Corporate Governance||52|
+|Item 11.|<br>Executive Compensation||52|
+|Item 12.|<br>Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters||52|
+|Item 13.|<br>Certain Relationships and Related Transactions, and Director Independence||52|
+|Item 14.|<br>Principal Accountant Fees and Services||52|
+|||**Part IV**||
+|Item 15.|Exhibit and Financial Statement Schedules||53|
+|Item 16.|Form 10-K Summary||56|
+
+
+
+
+--- Candidate 3 (around line 151) ---
+## **PART I** 
+
+## **Item 1.    Business** 
+
+## **Company Background** 
+
+The Company designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related services. The Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September. 
+
+## **Products** 
+
+## _iPhone_ 
+
+iPhone® is the Company’s line of smartphones based on its iOS operating system. The iPhone line includes iPhone 16 Pro, iPhone 16, iPhone 15, iPhone 14 ® and iPhone SE . 
+
+--- Candidate 4 (around line 177) ---
+Home includes Apple TV®, the Company’s media streaming and gaming device based on its tvOS® operating system, and HomePod® and HomePod mini®, high-fidelity wireless smart speakers. 
+
+Accessories includes Apple-branded and third-party accessories. 
+
+Apple Inc. | 2024 Form 10-K | 1 
+
+## **Services** 
+
+## _Advertising_ 
+
+The Company’s advertising services include third-party licensing arrangements and the Company’s own advertising platforms. 
+
+## _AppleCare_ 
+
+--- Candidate 5 (around line 181) ---
+Apple Inc. | 2024 Form 10-K | 1 
+
+## **Services** 
+
+## _Advertising_ 
+
+The Company’s advertising services include third-party licensing arrangements and the Company’s own advertising platforms. 
+
+## _AppleCare_ 
+
+The Company offers a portfolio of fee-based service and support products under the AppleCare® brand. The offerings provide priority access to Apple technical support, access to the global Apple authorized service network for repair and replacement services, and in many cases additional coverage for instances of accidental damage or theft and loss, depending on the country and type of product. 
+
+## _Cloud Services_ 
+
+
+====================================================================================================
+Q033: How did Apple's fiscal 2024 revenue compare with Microsoft's fiscal 2024 revenue?
