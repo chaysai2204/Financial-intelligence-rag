@@ -240,3 +240,69 @@ class DenseRetriever:
             )
 
         return documents
+class HybridRetriever:
+    """
+    Azure AI Search hybrid retriever.
+
+    Combines lexical BM25 search with dense
+    vector search in the same search request.
+    """
+
+    def __init__(self, client, embeddings):
+        self.client = client
+        self.embeddings = embeddings
+
+    def invoke(
+        self,
+        query: str,
+        company: str | None = None,
+        year: int | str | None = None,
+        document_id: str | None = None,
+        top_k: int = 20
+    ) -> list:
+        filter_expr = build_filter(
+            company=company,
+            year=year,
+            document_id=document_id,
+        )
+
+        query_vector = self.embeddings.embed_query(query)
+
+        vector_query = VectorizedQuery(
+            vector=query_vector,
+            k_nearest_neighbors=top_k,
+            fields="content_vector",
+        )
+
+        results = self.client.search(
+            search_text=query,
+            vector_queries=[vector_query],
+            top=top_k,
+            filter=filter_expr,
+        )
+
+        documents = []
+
+        for rank, result in enumerate(results, start=1):
+            content = result.get("content", "")
+
+            documents.append(
+                SimpleNamespace(
+                    page_content=content,
+                    metadata={
+                        "rank": rank,
+                        "score": result.get("@search.score"),
+                        "chunk_id": result.get("id"),
+                        "document_id": result.get("document_id"),
+                        "chunk_index": result.get("chunk_index"),
+                        "company": result.get("company"),
+                        "ticker": result.get("ticker"),
+                        "year": result.get("year"),
+                        "filing_type": result.get("filing_type"),
+                        "source_file": result.get("source_file"),
+                        "file_hash": result.get("file_hash"),
+                    }
+                )
+            )
+
+        return documents

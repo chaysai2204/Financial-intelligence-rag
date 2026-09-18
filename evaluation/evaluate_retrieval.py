@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 from vectorstore.azure_ai_search import (
     AzureAISearchVectorStore,
     DenseRetriever,
+    HybridRetriever,
     Retriever,
 )
 from llm.azure_openai import get_embedding_client
@@ -249,11 +250,7 @@ def evaluate_strategy(
           query=query,
           top_k=TOP_K,
         )
-        if index == 1:
-           print("\nDEBUG FIRST RESULT")
-           print("Type:", type(raw_results[0]))
-           print("Attributes:", vars(raw_results[0]))
-           print()
+        
         results = [
            normalize_result(result)
            for result in raw_results
@@ -465,6 +462,10 @@ def main():
        client=store.client,
        embeddings=embedding_client,
     )
+    hybrid_retriever = HybridRetriever(
+      client=store.client,
+      embeddings=embedding_client,
+    )  
 
     bm25_result = evaluate_strategy(
         strategy_name="bm25",
@@ -479,6 +480,12 @@ def main():
         questions=questions,
         mapping=mapping,
     )
+    hybrid_result = evaluate_strategy(
+        strategy_name="hybrid",
+        retriever=hybrid_retriever,
+        questions=questions,
+        mapping=mapping,
+    )
 
     output = {
         "configuration": {
@@ -489,6 +496,7 @@ def main():
         },
         "bm25": bm25_result,
         "dense": dense_result,
+        "hybrid": hybrid_result,
     }
 
     with open(
@@ -507,6 +515,7 @@ def main():
         "configuration": output["configuration"],
         "bm25": bm25_result["summary"],
         "dense": dense_result["summary"],
+        "hybrid": hybrid_result["summary"],
     }
 
     with open(
@@ -523,13 +532,14 @@ def main():
 
     print_summary(bm25_result)
     print_summary(dense_result)
-
+    print_summary(hybrid_result)
     print()
     print("=" * 80)
     print("OUTPUT FILES")
     print("=" * 80)
     print(RAW_OUTPUT_PATH)
     print(SUMMARY_OUTPUT_PATH)
+   
 
 
 if __name__ == "__main__":
