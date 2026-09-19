@@ -1,0 +1,2041 @@
+{
+  "experiment": {
+    "document": "AAPL_2024_10K",
+    "questions": 13,
+    "top_k": 10
+  },
+  "recursive": {
+    "summary": {
+      "questions": 13,
+      "recall@1": 0.34615384615384615,
+      "recall@5": 0.6923076923076923,
+      "recall@10": 0.9230769230769231,
+      "complete@1": 0.3076923076923077,
+      "complete@5": 0.6923076923076923,
+      "complete@10": 0.9230769230769231,
+      "mrr": 0.5416666666666667,
+      "latency_mean_ms": 543.9067949214054,
+      "latency_median_ms": 217.9976670013275
+    },
+    "results": [
+      {
+        "question_id": "Q001",
+        "category": "factual",
+        "question": "What was Apple's total net sales in fiscal 2024?",
+        "latency_ms": 3915.155833994504,
+        "metrics": {
+          "recall@1": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 1,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 1.0
+        },
+        "results": [
+          {
+            "chunk_id": "f6c3acc167d6a857cd9c125ff8f64d6759ba8dfaeaa7063fa52016f792aad75e",
+            "rank": 1,
+            "score": 0.92017937,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1cf3797bc55f2da79863fc307842310ed11dcc16e3b461e5b8b7c21bb5ab047d",
+            "rank": 2,
+            "score": 0.91231436,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "9e7b162ba4aa6c020b2bc27bda0b089af1d3c6a21d503a77c4ab915be4975e56",
+            "rank": 3,
+            "score": 0.90802544,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "60a64b795aced5849cf3c561f1680d4e390215967baa9655eebdded64671df4c",
+            "rank": 4,
+            "score": 0.8996572,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 5,
+            "score": 0.89817685,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 6,
+            "score": 0.8973087,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "cc16ff3e23ceff415e77bd06c9b7e26030041c2e674e4b0ea35f6fc829c42a45",
+            "rank": 7,
+            "score": 0.8935102,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "2f023d1c70959661ade063dc94d982dbaa14ab99f1528fd66ec79e1a9c401cff",
+            "rank": 8,
+            "score": 0.8925058,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 9,
+            "score": 0.88855135,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 10,
+            "score": 0.8882262,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q002",
+        "category": "paraphrase",
+        "question": "How much money did Apple generate from selling its products and services in fiscal 2024?",
+        "latency_ms": 238.25037499773316,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 0,
+          "complete@10": 1,
+          "mrr": 0.16666666666666666
+        },
+        "results": [
+          {
+            "chunk_id": "f6c3acc167d6a857cd9c125ff8f64d6759ba8dfaeaa7063fa52016f792aad75e",
+            "rank": 1,
+            "score": 0.9101456,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1cf3797bc55f2da79863fc307842310ed11dcc16e3b461e5b8b7c21bb5ab047d",
+            "rank": 2,
+            "score": 0.8968307,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "9e7b162ba4aa6c020b2bc27bda0b089af1d3c6a21d503a77c4ab915be4975e56",
+            "rank": 3,
+            "score": 0.8966759,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "3966cccc4eb3a756c269f5d657ebb259fdba99be56b0eae6dcc883b509f40ebb",
+            "rank": 4,
+            "score": 0.88950044,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 5,
+            "score": 0.88747483,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "60a64b795aced5849cf3c561f1680d4e390215967baa9655eebdded64671df4c",
+            "rank": 6,
+            "score": 0.88477474,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 7,
+            "score": 0.884477,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "cc16ff3e23ceff415e77bd06c9b7e26030041c2e674e4b0ea35f6fc829c42a45",
+            "rank": 8,
+            "score": 0.88396627,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "2f023d1c70959661ade063dc94d982dbaa14ab99f1528fd66ec79e1a9c401cff",
+            "rank": 9,
+            "score": 0.877518,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 10,
+            "score": 0.8771201,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q004",
+        "category": "temporal",
+        "question": "How did Apple's net sales change from fiscal 2023 to fiscal 2024?",
+        "latency_ms": 220.56162499939092,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 0.3333333333333333
+        },
+        "results": [
+          {
+            "chunk_id": "1cf3797bc55f2da79863fc307842310ed11dcc16e3b461e5b8b7c21bb5ab047d",
+            "rank": 1,
+            "score": 0.9123093,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 2,
+            "score": 0.9063632,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f6c3acc167d6a857cd9c125ff8f64d6759ba8dfaeaa7063fa52016f792aad75e",
+            "rank": 3,
+            "score": 0.9056259,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 4,
+            "score": 0.9024974,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "cc16ff3e23ceff415e77bd06c9b7e26030041c2e674e4b0ea35f6fc829c42a45",
+            "rank": 5,
+            "score": 0.901753,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "9e7b162ba4aa6c020b2bc27bda0b089af1d3c6a21d503a77c4ab915be4975e56",
+            "rank": 6,
+            "score": 0.898486,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 7,
+            "score": 0.8938368,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 8,
+            "score": 0.8925705,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "60a64b795aced5849cf3c561f1680d4e390215967baa9655eebdded64671df4c",
+            "rank": 9,
+            "score": 0.88776034,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2f023d1c70959661ade063dc94d982dbaa14ab99f1528fd66ec79e1a9c401cff",
+            "rank": 10,
+            "score": 0.8854334,
+            "document_id": "AAPL_2023_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q006",
+        "category": "factual",
+        "question": "What were Apple's Services net sales in fiscal 2024?",
+        "latency_ms": 208.67362499120645,
+        "metrics": {
+          "recall@1": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 1,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 1.0
+        },
+        "results": [
+          {
+            "chunk_id": "f6c3acc167d6a857cd9c125ff8f64d6759ba8dfaeaa7063fa52016f792aad75e",
+            "rank": 1,
+            "score": 0.9219042,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1cf3797bc55f2da79863fc307842310ed11dcc16e3b461e5b8b7c21bb5ab047d",
+            "rank": 2,
+            "score": 0.9083537,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "9e7b162ba4aa6c020b2bc27bda0b089af1d3c6a21d503a77c4ab915be4975e56",
+            "rank": 3,
+            "score": 0.90664953,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 4,
+            "score": 0.9019602,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 5,
+            "score": 0.9018604,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "60a64b795aced5849cf3c561f1680d4e390215967baa9655eebdded64671df4c",
+            "rank": 6,
+            "score": 0.8961235,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "cc16ff3e23ceff415e77bd06c9b7e26030041c2e674e4b0ea35f6fc829c42a45",
+            "rank": 7,
+            "score": 0.89503384,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 8,
+            "score": 0.890104,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 9,
+            "score": 0.8896852,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2f023d1c70959661ade063dc94d982dbaa14ab99f1528fd66ec79e1a9c401cff",
+            "rank": 10,
+            "score": 0.8890658,
+            "document_id": "AAPL_2023_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q011",
+        "category": "factual",
+        "question": "What was Apple's net income in fiscal 2024?",
+        "latency_ms": 185.96887501189485,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 0.25
+        },
+        "results": [
+          {
+            "chunk_id": "f6c3acc167d6a857cd9c125ff8f64d6759ba8dfaeaa7063fa52016f792aad75e",
+            "rank": 1,
+            "score": 0.9073808,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1cf3797bc55f2da79863fc307842310ed11dcc16e3b461e5b8b7c21bb5ab047d",
+            "rank": 2,
+            "score": 0.8991572,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "9e7b162ba4aa6c020b2bc27bda0b089af1d3c6a21d503a77c4ab915be4975e56",
+            "rank": 3,
+            "score": 0.89410883,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "60a64b795aced5849cf3c561f1680d4e390215967baa9655eebdded64671df4c",
+            "rank": 4,
+            "score": 0.8912652,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 5,
+            "score": 0.8882035,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "de6128aa62db6ab6c7149fbeae40520e68ccbda1bd359835c1ff82cee2f4091e",
+            "rank": 6,
+            "score": 0.8880621,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 7,
+            "score": 0.8849309,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1fb45e536b947607674f06ef3c6a229744620b1954e227da4828d9c35d3854d9",
+            "rank": 8,
+            "score": 0.8842179,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2f023d1c70959661ade063dc94d982dbaa14ab99f1528fd66ec79e1a9c401cff",
+            "rank": 9,
+            "score": 0.883732,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "3966cccc4eb3a756c269f5d657ebb259fdba99be56b0eae6dcc883b509f40ebb",
+            "rank": 10,
+            "score": 0.8832773,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q015",
+        "category": "paraphrase",
+        "question": "How much profit did Apple keep after all expenses in fiscal 2024?",
+        "latency_ms": 237.12870801682584,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 0.5
+        },
+        "results": [
+          {
+            "chunk_id": "f6c3acc167d6a857cd9c125ff8f64d6759ba8dfaeaa7063fa52016f792aad75e",
+            "rank": 1,
+            "score": 0.88871306,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "60a64b795aced5849cf3c561f1680d4e390215967baa9655eebdded64671df4c",
+            "rank": 2,
+            "score": 0.878163,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1cf3797bc55f2da79863fc307842310ed11dcc16e3b461e5b8b7c21bb5ab047d",
+            "rank": 3,
+            "score": 0.87680537,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "9e7b162ba4aa6c020b2bc27bda0b089af1d3c6a21d503a77c4ab915be4975e56",
+            "rank": 4,
+            "score": 0.8758003,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "78ccdaaba58b0c260bf0459dbc69c87da3235a5b49461c37e919be9800c5ad39",
+            "rank": 5,
+            "score": 0.8726149,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2f023d1c70959661ade063dc94d982dbaa14ab99f1528fd66ec79e1a9c401cff",
+            "rank": 6,
+            "score": 0.87245595,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "de6128aa62db6ab6c7149fbeae40520e68ccbda1bd359835c1ff82cee2f4091e",
+            "rank": 7,
+            "score": 0.8721801,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "4cc4c1ec6c4d66c3a6dfa97f71c0459f39f00aeda1953b1b5de37d38c8723d54",
+            "rank": 8,
+            "score": 0.87193996,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 9,
+            "score": 0.8708457,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1fb45e536b947607674f06ef3c6a229744620b1954e227da4828d9c35d3854d9",
+            "rank": 10,
+            "score": 0.8672167,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q020",
+        "category": "paraphrase",
+        "question": "How much money did Apple generate from iPhone sales during fiscal 2024?",
+        "latency_ms": 217.9976670013275,
+        "metrics": {
+          "recall@1": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 1,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 1.0
+        },
+        "results": [
+          {
+            "chunk_id": "f6c3acc167d6a857cd9c125ff8f64d6759ba8dfaeaa7063fa52016f792aad75e",
+            "rank": 1,
+            "score": 0.90643716,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "9e7b162ba4aa6c020b2bc27bda0b089af1d3c6a21d503a77c4ab915be4975e56",
+            "rank": 2,
+            "score": 0.8990431,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "1cf3797bc55f2da79863fc307842310ed11dcc16e3b461e5b8b7c21bb5ab047d",
+            "rank": 3,
+            "score": 0.8942991,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "cc16ff3e23ceff415e77bd06c9b7e26030041c2e674e4b0ea35f6fc829c42a45",
+            "rank": 4,
+            "score": 0.88661075,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 5,
+            "score": 0.88402605,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "3966cccc4eb3a756c269f5d657ebb259fdba99be56b0eae6dcc883b509f40ebb",
+            "rank": 6,
+            "score": 0.88041776,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 7,
+            "score": 0.88036656,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "60a64b795aced5849cf3c561f1680d4e390215967baa9655eebdded64671df4c",
+            "rank": 8,
+            "score": 0.87380344,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 9,
+            "score": 0.87321025,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "dce8fb7d7d65e024a83ffd53a6d67880ed1650df41ac0a294be9c12e5d68990a",
+            "rank": 10,
+            "score": 0.87091756,
+            "document_id": "AAPL_2023_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q021",
+        "category": "qualitative",
+        "question": "What risks did Apple identify related to its global supply chain in fiscal 2024?",
+        "latency_ms": 189.89650000003166,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "complete@1": 0,
+          "complete@5": 0,
+          "complete@10": 0,
+          "mrr": 0.0
+        },
+        "results": [
+          {
+            "chunk_id": "4d10cffa65ade70ccd6a38ab9a94eb499210e6b6b3ddf15069469f00be2a6ed2",
+            "rank": 1,
+            "score": 0.87918186,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "b1b3575adc8665b75ad7e184f53f9da156e86fc73a1369e4bb847edc108c0c47",
+            "rank": 2,
+            "score": 0.87894696,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "b469397c51433413ec25cf376b1a479df867021754c3851e52bbbd1912d13729",
+            "rank": 3,
+            "score": 0.878174,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "b8be586e507fa795378d60211076df4196d2d34a14b7fb144760c001018368a6",
+            "rank": 4,
+            "score": 0.87151,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "a084342b54dcd349b8ca847229e5e1ef8e446f07ad3bd63ab1887acf73eada35",
+            "rank": 5,
+            "score": 0.86974275,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 6,
+            "score": 0.8671685,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 7,
+            "score": 0.86620677,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ffe0b813d04e64cb0602fe45af396fdc37cc40e95113ceac63765edf67ec041e",
+            "rank": 8,
+            "score": 0.865362,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "cdcf28763b5ff377dcaef67d65699ba1b0db8d1f7ad4e42361e76d935e19f982",
+            "rank": 9,
+            "score": 0.86523116,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "e1e222be2107bd367098efe2b782540d4868944c7c535b32c756b8f0178c2194",
+            "rank": 10,
+            "score": 0.86498666,
+            "document_id": "NVDA_2023_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q027",
+        "category": "temporal",
+        "question": "How did Apple's Services net sales change from fiscal 2023 to fiscal 2024?",
+        "latency_ms": 823.6785839835647,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 0.5
+        },
+        "results": [
+          {
+            "chunk_id": "1cf3797bc55f2da79863fc307842310ed11dcc16e3b461e5b8b7c21bb5ab047d",
+            "rank": 1,
+            "score": 0.90627927,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "f6c3acc167d6a857cd9c125ff8f64d6759ba8dfaeaa7063fa52016f792aad75e",
+            "rank": 2,
+            "score": 0.9057548,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 3,
+            "score": 0.90409136,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "cc16ff3e23ceff415e77bd06c9b7e26030041c2e674e4b0ea35f6fc829c42a45",
+            "rank": 4,
+            "score": 0.89948696,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 5,
+            "score": 0.8979937,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "9e7b162ba4aa6c020b2bc27bda0b089af1d3c6a21d503a77c4ab915be4975e56",
+            "rank": 6,
+            "score": 0.8959894,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "f63fff2d228627a3a308634c5c1bd9fe3e1c4e1c93889c12006b1db14e2727b1",
+            "rank": 7,
+            "score": 0.885886,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 8,
+            "score": 0.88586366,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 9,
+            "score": 0.885763,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "60a64b795aced5849cf3c561f1680d4e390215967baa9655eebdded64671df4c",
+            "rank": 10,
+            "score": 0.881113,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q028",
+        "category": "temporal",
+        "question": "How did Apple's net income change from fiscal 2023 to fiscal 2024?",
+        "latency_ms": 272.95225000125356,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 0,
+          "complete@10": 1,
+          "mrr": 0.125
+        },
+        "results": [
+          {
+            "chunk_id": "1cf3797bc55f2da79863fc307842310ed11dcc16e3b461e5b8b7c21bb5ab047d",
+            "rank": 1,
+            "score": 0.90045786,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 2,
+            "score": 0.8941144,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f6c3acc167d6a857cd9c125ff8f64d6759ba8dfaeaa7063fa52016f792aad75e",
+            "rank": 3,
+            "score": 0.8928158,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 4,
+            "score": 0.8875883,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "cc16ff3e23ceff415e77bd06c9b7e26030041c2e674e4b0ea35f6fc829c42a45",
+            "rank": 5,
+            "score": 0.88729525,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 6,
+            "score": 0.88581073,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "9e7b162ba4aa6c020b2bc27bda0b089af1d3c6a21d503a77c4ab915be4975e56",
+            "rank": 7,
+            "score": 0.8852649,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "60a64b795aced5849cf3c561f1680d4e390215967baa9655eebdded64671df4c",
+            "rank": 8,
+            "score": 0.88093364,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 9,
+            "score": 0.8799578,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2f023d1c70959661ade063dc94d982dbaa14ab99f1528fd66ec79e1a9c401cff",
+            "rank": 10,
+            "score": 0.87904614,
+            "document_id": "AAPL_2023_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q031",
+        "category": "temporal",
+        "question": "How did Apple's iPhone net sales change between fiscal 2023 and fiscal 2024?",
+        "latency_ms": 182.1533750044182,
+        "metrics": {
+          "recall@1": 0.5,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 1.0
+        },
+        "results": [
+          {
+            "chunk_id": "f6c3acc167d6a857cd9c125ff8f64d6759ba8dfaeaa7063fa52016f792aad75e",
+            "rank": 1,
+            "score": 0.90455616,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "cc16ff3e23ceff415e77bd06c9b7e26030041c2e674e4b0ea35f6fc829c42a45",
+            "rank": 2,
+            "score": 0.90367043,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "1cf3797bc55f2da79863fc307842310ed11dcc16e3b461e5b8b7c21bb5ab047d",
+            "rank": 3,
+            "score": 0.90236783,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 4,
+            "score": 0.901172,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 5,
+            "score": 0.9008793,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "9e7b162ba4aa6c020b2bc27bda0b089af1d3c6a21d503a77c4ab915be4975e56",
+            "rank": 6,
+            "score": 0.9007696,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 7,
+            "score": 0.88917124,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 8,
+            "score": 0.8847241,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "b32f5c03d42c6a7729a0f9107992343661713548b3422a1479d824a9e5f71b71",
+            "rank": 9,
+            "score": 0.88131756,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "3d5f109b1a5cfeaac9e5ce9ab351471d6b15af6ead0393d04fdd071d6ef8e959",
+            "rank": 10,
+            "score": 0.8763421,
+            "document_id": "AAPL_2023_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q032",
+        "category": "temporal",
+        "question": "How did Apple's Services contribution to total net sales change from fiscal 2023 to fiscal 2024?",
+        "latency_ms": 183.92145799589343,
+        "metrics": {
+          "recall@1": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 1,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 1.0
+        },
+        "results": [
+          {
+            "chunk_id": "f6c3acc167d6a857cd9c125ff8f64d6759ba8dfaeaa7063fa52016f792aad75e",
+            "rank": 1,
+            "score": 0.90714073,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 2,
+            "score": 0.9053157,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1cf3797bc55f2da79863fc307842310ed11dcc16e3b461e5b8b7c21bb5ab047d",
+            "rank": 3,
+            "score": 0.90426755,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "cc16ff3e23ceff415e77bd06c9b7e26030041c2e674e4b0ea35f6fc829c42a45",
+            "rank": 4,
+            "score": 0.9039462,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 5,
+            "score": 0.899914,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "9e7b162ba4aa6c020b2bc27bda0b089af1d3c6a21d503a77c4ab915be4975e56",
+            "rank": 6,
+            "score": 0.8986433,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "f63fff2d228627a3a308634c5c1bd9fe3e1c4e1c93889c12006b1db14e2727b1",
+            "rank": 7,
+            "score": 0.88933975,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 8,
+            "score": 0.88724697,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 9,
+            "score": 0.88656443,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "60a64b795aced5849cf3c561f1680d4e390215967baa9655eebdded64671df4c",
+            "rank": 10,
+            "score": 0.8792543,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q040",
+        "category": "evidence_seeking",
+        "question": "What evidence does Apple provide about the importance of Services to its fiscal 2024 sales?",
+        "latency_ms": 194.44945798022673,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 0,
+          "complete@10": 1,
+          "mrr": 0.16666666666666666
+        },
+        "results": [
+          {
+            "chunk_id": "f6c3acc167d6a857cd9c125ff8f64d6759ba8dfaeaa7063fa52016f792aad75e",
+            "rank": 1,
+            "score": 0.8886195,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1cf3797bc55f2da79863fc307842310ed11dcc16e3b461e5b8b7c21bb5ab047d",
+            "rank": 2,
+            "score": 0.87874085,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 3,
+            "score": 0.8784007,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "9e7b162ba4aa6c020b2bc27bda0b089af1d3c6a21d503a77c4ab915be4975e56",
+            "rank": 4,
+            "score": 0.87751335,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 5,
+            "score": 0.87385213,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 6,
+            "score": 0.87295955,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 7,
+            "score": 0.87188184,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "cc16ff3e23ceff415e77bd06c9b7e26030041c2e674e4b0ea35f6fc829c42a45",
+            "rank": 8,
+            "score": 0.8676474,
+            "document_id": "AAPL_2023_10K"
+          },
+          {
+            "chunk_id": "60a64b795aced5849cf3c561f1680d4e390215967baa9655eebdded64671df4c",
+            "rank": 9,
+            "score": 0.8662393,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "263b36eb3a4560dc0413cb8830974660ebf399306df511e86ecfdee5740d0a59",
+            "rank": 10,
+            "score": 0.8658686,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      }
+    ]
+  },
+  "structural_v2": {
+    "summary": {
+      "questions": 13,
+      "recall@1": 0.2692307692307692,
+      "recall@5": 0.6538461538461539,
+      "recall@10": 0.9230769230769231,
+      "complete@1": 0.23076923076923078,
+      "complete@5": 0.6153846153846154,
+      "complete@10": 0.9230769230769231,
+      "mrr": 0.4896214896214896,
+      "latency_mean_ms": 274.69197422928676,
+      "latency_median_ms": 247.02750000869855
+    },
+    "results": [
+      {
+        "question_id": "Q001",
+        "category": "factual",
+        "question": "What was Apple's total net sales in fiscal 2024?",
+        "latency_ms": 406.6769579949323,
+        "metrics": {
+          "recall@1": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 1,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 1.0
+        },
+        "results": [
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 1,
+            "score": 0.92015845,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe",
+            "rank": 2,
+            "score": 0.8965851,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01",
+            "rank": 3,
+            "score": 0.8947066,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "rank": 4,
+            "score": 0.8944987,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 5,
+            "score": 0.8923569,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 6,
+            "score": 0.8882419,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "17fddd52b3b1639504eb46f7d1d373706c8991e4639379c13c26472fa5d02d1d",
+            "rank": 7,
+            "score": 0.8855517,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1eed4f1e93221d1d66e7eb38e009620ad67fae94e1dfa8dea5ec5e1a31a0388d",
+            "rank": 8,
+            "score": 0.88541675,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 9,
+            "score": 0.87290317,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "3b5095e03cd26e1850861e622b10a44b69b923f6c70e47f759ad63424effa078",
+            "rank": 10,
+            "score": 0.87238663,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q002",
+        "category": "paraphrase",
+        "question": "How much money did Apple generate from selling its products and services in fiscal 2024?",
+        "latency_ms": 188.88462500763126,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 0.25
+        },
+        "results": [
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 1,
+            "score": 0.9101456,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "rank": 2,
+            "score": 0.8836909,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01",
+            "rank": 3,
+            "score": 0.8823636,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe",
+            "rank": 4,
+            "score": 0.8808535,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 5,
+            "score": 0.8794068,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 6,
+            "score": 0.87921435,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1eed4f1e93221d1d66e7eb38e009620ad67fae94e1dfa8dea5ec5e1a31a0388d",
+            "rank": 7,
+            "score": 0.875099,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 8,
+            "score": 0.8742262,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "17fddd52b3b1639504eb46f7d1d373706c8991e4639379c13c26472fa5d02d1d",
+            "rank": 9,
+            "score": 0.87021464,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "58e00de0b53743815fff1ee4c42fd8df2ac6f0bdc5ad2675c7eef5ac557ae67f",
+            "rank": 10,
+            "score": 0.868004,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q004",
+        "category": "temporal",
+        "question": "How did Apple's net sales change from fiscal 2023 to fiscal 2024?",
+        "latency_ms": 231.55541700543836,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 0.5
+        },
+        "results": [
+          {
+            "chunk_id": "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01",
+            "rank": 1,
+            "score": 0.91134745,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 2,
+            "score": 0.9056259,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 3,
+            "score": 0.8938368,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 4,
+            "score": 0.89210594,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 5,
+            "score": 0.8920993,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "rank": 6,
+            "score": 0.89096344,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe",
+            "rank": 7,
+            "score": 0.884105,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1eed4f1e93221d1d66e7eb38e009620ad67fae94e1dfa8dea5ec5e1a31a0388d",
+            "rank": 8,
+            "score": 0.8742153,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "57f069531bfb064a5161a49cadb1a4c7ccc3581926f32dba81ab03e71c2585de",
+            "rank": 9,
+            "score": 0.8712334,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "17fddd52b3b1639504eb46f7d1d373706c8991e4639379c13c26472fa5d02d1d",
+            "rank": 10,
+            "score": 0.87006044,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q006",
+        "category": "factual",
+        "question": "What were Apple's Services net sales in fiscal 2024?",
+        "latency_ms": 346.1810830049217,
+        "metrics": {
+          "recall@1": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 1,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 1.0
+        },
+        "results": [
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 1,
+            "score": 0.9219042,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "rank": 2,
+            "score": 0.90468377,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01",
+            "rank": 3,
+            "score": 0.9024748,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe",
+            "rank": 4,
+            "score": 0.89338404,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 5,
+            "score": 0.8896852,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 6,
+            "score": 0.8874852,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1eed4f1e93221d1d66e7eb38e009620ad67fae94e1dfa8dea5ec5e1a31a0388d",
+            "rank": 7,
+            "score": 0.8805907,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 8,
+            "score": 0.8799296,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 9,
+            "score": 0.87922955,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "17fddd52b3b1639504eb46f7d1d373706c8991e4639379c13c26472fa5d02d1d",
+            "rank": 10,
+            "score": 0.8781679,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q011",
+        "category": "factual",
+        "question": "What was Apple's net income in fiscal 2024?",
+        "latency_ms": 261.5776669990737,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 0,
+          "complete@10": 1,
+          "mrr": 0.14285714285714285
+        },
+        "results": [
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 1,
+            "score": 0.9073808,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe",
+            "rank": 2,
+            "score": 0.8884624,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1eed4f1e93221d1d66e7eb38e009620ad67fae94e1dfa8dea5ec5e1a31a0388d",
+            "rank": 3,
+            "score": 0.8880621,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 4,
+            "score": 0.8859553,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01",
+            "rank": 5,
+            "score": 0.8845531,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "rank": 6,
+            "score": 0.88191295,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "3b5095e03cd26e1850861e622b10a44b69b923f6c70e47f759ad63424effa078",
+            "rank": 7,
+            "score": 0.8793874,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ad7444a1c0841824d911a290b84243fff8217f8cc65af115d8184258bae7856a",
+            "rank": 8,
+            "score": 0.8779468,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 9,
+            "score": 0.8763689,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "58e00de0b53743815fff1ee4c42fd8df2ac6f0bdc5ad2675c7eef5ac557ae67f",
+            "rank": 10,
+            "score": 0.87255883,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q015",
+        "category": "paraphrase",
+        "question": "How much profit did Apple keep after all expenses in fiscal 2024?",
+        "latency_ms": 345.67370801232755,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 0,
+          "complete@10": 1,
+          "mrr": 0.1111111111111111
+        },
+        "results": [
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 1,
+            "score": 0.88871306,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe",
+            "rank": 2,
+            "score": 0.8738941,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1eed4f1e93221d1d66e7eb38e009620ad67fae94e1dfa8dea5ec5e1a31a0388d",
+            "rank": 3,
+            "score": 0.8721801,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ad7444a1c0841824d911a290b84243fff8217f8cc65af115d8184258bae7856a",
+            "rank": 4,
+            "score": 0.87193996,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 5,
+            "score": 0.8672506,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "rank": 6,
+            "score": 0.8662848,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "9efd82b0a5fa8e9c8337b69493a3dcfca33b7d5a222fbdb24dc7af7df393ce07",
+            "rank": 7,
+            "score": 0.8662643,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "17fddd52b3b1639504eb46f7d1d373706c8991e4639379c13c26472fa5d02d1d",
+            "rank": 8,
+            "score": 0.8656823,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "3b5095e03cd26e1850861e622b10a44b69b923f6c70e47f759ad63424effa078",
+            "rank": 9,
+            "score": 0.86233264,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01",
+            "rank": 10,
+            "score": 0.8610802,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q020",
+        "category": "paraphrase",
+        "question": "How much money did Apple generate from iPhone sales during fiscal 2024?",
+        "latency_ms": 262.77154198032804,
+        "metrics": {
+          "recall@1": 1.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 1,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 1.0
+        },
+        "results": [
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 1,
+            "score": 0.90643716,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01",
+            "rank": 2,
+            "score": 0.8789494,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 3,
+            "score": 0.8751682,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "rank": 4,
+            "score": 0.8747486,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe",
+            "rank": 5,
+            "score": 0.8703293,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1eed4f1e93221d1d66e7eb38e009620ad67fae94e1dfa8dea5ec5e1a31a0388d",
+            "rank": 6,
+            "score": 0.8690283,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 7,
+            "score": 0.8682926,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 8,
+            "score": 0.8674557,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "17fddd52b3b1639504eb46f7d1d373706c8991e4639379c13c26472fa5d02d1d",
+            "rank": 9,
+            "score": 0.86410946,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ad7444a1c0841824d911a290b84243fff8217f8cc65af115d8184258bae7856a",
+            "rank": 10,
+            "score": 0.859419,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q021",
+        "category": "qualitative",
+        "question": "What risks did Apple identify related to its global supply chain in fiscal 2024?",
+        "latency_ms": 247.02750000869855,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 0.0,
+          "complete@1": 0,
+          "complete@5": 0,
+          "complete@10": 0,
+          "mrr": 0.0
+        },
+        "results": [
+          {
+            "chunk_id": "eac91050d018eac56958023c59eafaf742533a769e201b967d32949fbc3a68cf",
+            "rank": 1,
+            "score": 0.87918186,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "75c2db4a94f5d11624410d4af3a791b8e0c993afb0981cc25f70bdaccdde0a42",
+            "rank": 2,
+            "score": 0.8780762,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ab76f14d146fff46ded64ba4e836015df37cc33e6e7c8bafdabfdeef1cd8c4d5",
+            "rank": 3,
+            "score": 0.87151,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 4,
+            "score": 0.8671685,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8c6a34b596ade597255a9739a69830db596a532c9eeaf965f159bdf9471d6b4f",
+            "rank": 5,
+            "score": 0.865362,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1e0458f11509af3de7f07a2833cd1f7b6370f5fc638decf9712aaedc4e0aa0cd",
+            "rank": 6,
+            "score": 0.8653464,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 7,
+            "score": 0.8607713,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "3f90b0c02e2dfaf6fdb0505b9c7af54c47faacaa607981ec8aee7ba6c0db8906",
+            "rank": 8,
+            "score": 0.86027795,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "88245dfabb27cf7f4507d98fc9902a6347501d0b87800c89d6ffde6d37fc015d",
+            "rank": 9,
+            "score": 0.8600351,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "7e1da892fa49265a768bb7b2b548bb69b7182ed0f2af0dedc18f0c2b82a15b2c",
+            "rank": 10,
+            "score": 0.85923445,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q027",
+        "category": "temporal",
+        "question": "How did Apple's Services net sales change from fiscal 2023 to fiscal 2024?",
+        "latency_ms": 352.49979098443873,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 0.5
+        },
+        "results": [
+          {
+            "chunk_id": "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01",
+            "rank": 1,
+            "score": 0.90709543,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 2,
+            "score": 0.9057548,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "rank": 3,
+            "score": 0.8946647,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 4,
+            "score": 0.8894391,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 5,
+            "score": 0.88586366,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 6,
+            "score": 0.88098675,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe",
+            "rank": 7,
+            "score": 0.8781306,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1eed4f1e93221d1d66e7eb38e009620ad67fae94e1dfa8dea5ec5e1a31a0388d",
+            "rank": 8,
+            "score": 0.86806816,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "57f069531bfb064a5161a49cadb1a4c7ccc3581926f32dba81ab03e71c2585de",
+            "rank": 9,
+            "score": 0.8669331,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 10,
+            "score": 0.86255145,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q028",
+        "category": "temporal",
+        "question": "How did Apple's net income change from fiscal 2023 to fiscal 2024?",
+        "latency_ms": 238.71424997923896,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 0.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 0,
+          "complete@10": 1,
+          "mrr": 0.1111111111111111
+        },
+        "results": [
+          {
+            "chunk_id": "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01",
+            "rank": 1,
+            "score": 0.89689875,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 2,
+            "score": 0.8928158,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 3,
+            "score": 0.8836649,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 4,
+            "score": 0.8799578,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe",
+            "rank": 5,
+            "score": 0.87757915,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "rank": 6,
+            "score": 0.8774071,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1eed4f1e93221d1d66e7eb38e009620ad67fae94e1dfa8dea5ec5e1a31a0388d",
+            "rank": 7,
+            "score": 0.8765267,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 8,
+            "score": 0.87392676,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "3b5095e03cd26e1850861e622b10a44b69b923f6c70e47f759ad63424effa078",
+            "rank": 9,
+            "score": 0.8718073,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "57f069531bfb064a5161a49cadb1a4c7ccc3581926f32dba81ab03e71c2585de",
+            "rank": 10,
+            "score": 0.86658424,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q031",
+        "category": "temporal",
+        "question": "How did Apple's iPhone net sales change between fiscal 2023 and fiscal 2024?",
+        "latency_ms": 230.65345801296644,
+        "metrics": {
+          "recall@1": 0.5,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 1.0
+        },
+        "results": [
+          {
+            "chunk_id": "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01",
+            "rank": 1,
+            "score": 0.9074956,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 2,
+            "score": 0.90455616,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 3,
+            "score": 0.8907715,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "rank": 4,
+            "score": 0.885042,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 5,
+            "score": 0.88491607,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 6,
+            "score": 0.8847241,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe",
+            "rank": 7,
+            "score": 0.8700861,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1eed4f1e93221d1d66e7eb38e009620ad67fae94e1dfa8dea5ec5e1a31a0388d",
+            "rank": 8,
+            "score": 0.8677501,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 9,
+            "score": 0.8609875,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "57f069531bfb064a5161a49cadb1a4c7ccc3581926f32dba81ab03e71c2585de",
+            "rank": 10,
+            "score": 0.8607731,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q032",
+        "category": "temporal",
+        "question": "How did Apple's Services contribution to total net sales change from fiscal 2023 to fiscal 2024?",
+        "latency_ms": 233.38054100167938,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 1,
+          "complete@10": 1,
+          "mrr": 0.5
+        },
+        "results": [
+          {
+            "chunk_id": "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01",
+            "rank": 1,
+            "score": 0.90793544,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 2,
+            "score": 0.90714073,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "rank": 3,
+            "score": 0.89586383,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 4,
+            "score": 0.8925122,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 5,
+            "score": 0.88724697,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "f4d90deb7b6af1fb136aff107b50c8c70a93c659361de5161790abea92afe3ef",
+            "rank": 6,
+            "score": 0.8783535,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe",
+            "rank": 7,
+            "score": 0.87630713,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "1eed4f1e93221d1d66e7eb38e009620ad67fae94e1dfa8dea5ec5e1a31a0388d",
+            "rank": 8,
+            "score": 0.8642367,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "57f069531bfb064a5161a49cadb1a4c7ccc3581926f32dba81ab03e71c2585de",
+            "rank": 9,
+            "score": 0.86312294,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "17fddd52b3b1639504eb46f7d1d373706c8991e4639379c13c26472fa5d02d1d",
+            "rank": 10,
+            "score": 0.86166424,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      },
+      {
+        "question_id": "Q040",
+        "category": "evidence_seeking",
+        "question": "What evidence does Apple provide about the importance of Services to its fiscal 2024 sales?",
+        "latency_ms": 225.39912498905323,
+        "metrics": {
+          "recall@1": 0.0,
+          "recall@5": 0.5,
+          "recall@10": 1.0,
+          "complete@1": 0,
+          "complete@5": 0,
+          "complete@10": 1,
+          "mrr": 0.25
+        },
+        "results": [
+          {
+            "chunk_id": "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935",
+            "rank": 1,
+            "score": 0.8886195,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "da0dd9f11af58e71afa87f9125a50396c6a76cc507f32fd78e2fc435689ac57e",
+            "rank": 2,
+            "score": 0.8784007,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01",
+            "rank": 3,
+            "score": 0.87815535,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "rank": 4,
+            "score": 0.8746003,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "dcfad2447442f732a64b18d0ffd875fc973aba7d6112dae5d6af058c6d2a52ef",
+            "rank": 5,
+            "score": 0.86673284,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "2362ecd49fa856107e75eb6fdac79e9c10f3ebad7600a5621a425562b9141b04",
+            "rank": 6,
+            "score": 0.8658686,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "ca61122d8ac760c9acb77ce6a5b7da8291e0a75c4f05e775a48a276ead431134",
+            "rank": 7,
+            "score": 0.86360914,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe",
+            "rank": 8,
+            "score": 0.8628865,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "rank": 9,
+            "score": 0.8604719,
+            "document_id": "AAPL_2024_10K"
+          },
+          {
+            "chunk_id": "58e00de0b53743815fff1ee4c42fd8df2ac6f0bdc5ad2675c7eef5ac557ae67f",
+            "rank": 10,
+            "score": 0.8590231,
+            "document_id": "AAPL_2024_10K"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "Q001": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe"
+          ],
+          [
+            "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86"
+          ],
+          [
+            "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935"
+          ]
+        ]
+      }
+    ]
+  },
+  "Q002": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe"
+          ]
+        ]
+      }
+    ]
+  },
+  "Q004": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe"
+          ],
+          [
+            "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86"
+          ],
+          [
+            "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935"
+          ]
+        ]
+      }
+    ]
+  },
+  "Q006": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86"
+          ],
+          [
+            "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935"
+          ],
+          [
+            "8269a4b2e5552507bd59474307c85bed843ad7e23df91c45d635bbd2b86ccfbe"
+          ]
+        ]
+      }
+    ]
+  },
+  "Q011": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "3b5095e03cd26e1850861e622b10a44b69b923f6c70e47f759ad63424effa078"
+          ],
+          [
+            "a42a42372f16b742af7c762a3e9437e7d05c7f65277521387a7ac98e5205f018"
+          ]
+        ]
+      }
+    ]
+  },
+  "Q015": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "3b5095e03cd26e1850861e622b10a44b69b923f6c70e47f759ad63424effa078"
+          ],
+          [
+            "a42a42372f16b742af7c762a3e9437e7d05c7f65277521387a7ac98e5205f018"
+          ]
+        ]
+      }
+    ]
+  },
+  "Q020": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86"
+          ],
+          [
+            "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935"
+          ]
+        ]
+      }
+    ]
+  },
+  "Q021": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "8fa97f1bd7ff0bbb2ed0bf235192d112689b19f10d1c53ce697808e6afc3f9d5",
+            "e034f54d73a54a81c0d71dffd25440151d5588bdfb84d4508f7570d8f30de1be",
+            "cdcf28763b5ff377dcaef67d65699ba1b0db8d1f7ad4e42361e76d935e19f982"
+          ]
+        ]
+      }
+    ]
+  },
+  "Q027": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86"
+          ],
+          [
+            "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935"
+          ]
+        ]
+      }
+    ]
+  },
+  "Q028": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "3b5095e03cd26e1850861e622b10a44b69b923f6c70e47f759ad63424effa078"
+          ],
+          [
+            "a42a42372f16b742af7c762a3e9437e7d05c7f65277521387a7ac98e5205f018"
+          ]
+        ]
+      }
+    ]
+  },
+  "Q031": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86",
+            "53605b269c1b156ac75ee489e46a84c40f1ceae54009f8cd63abf9dbbebf5d01"
+          ]
+        ]
+      }
+    ]
+  },
+  "Q032": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86"
+          ],
+          [
+            "675c60d95a1338db4e1b1f5878ce12ac195d0cdc911b6f15f900a49901279935"
+          ]
+        ]
+      }
+    ]
+  },
+  "Q040": {
+    "evidence_items": [
+      {
+        "evidence_index": 1,
+        "acceptable_chunk_groups": [
+          [
+            "04a7f38418edf8e5ff8f874cfce71a302567ca8cd42e51061b7e8ce2448322c6",
+            "2844d0c7abbb693cac8944974c520d3e43f8ca9d32e43643b2e09d25bbfe0e86"
+          ]
+        ]
+      }
+    ]
+  }
+}
