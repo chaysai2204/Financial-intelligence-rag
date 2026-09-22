@@ -1,111 +1,202 @@
+from decimal import Decimal, InvalidOperation
+
 from sqlalchemy import text
 
 from database.postgres_sql import get_engine
 
 
-def _format_list_field(metrics: dict, *keys: str) -> str | None:
-    value = next((metrics.get(key) for key in keys if metrics.get(key) is not None), None)
+def _normalize_numeric(value):
+    """
+    Convert extracted financial values to numeric values in USD millions.
+
+    Examples:
+        "$391,035"          -> Decimal("391035")
+        "391,035"           -> Decimal("391035")
+        "$391.035 billion"  -> Decimal("391035")
+        None                -> None
+    """
+
     if value is None:
         return None
+
+    text_value = str(value).strip().lower()
+
+    is_billion = "billion" in text_value
+
+    cleaned = (
+        text_value
+        .replace("$", "")
+        .replace(",", "")
+        .replace("billions", "")
+        .replace("billion", "")
+        .replace("millions", "")
+        .replace("million", "")
+        .strip()
+    )
+
+    try:
+        number = Decimal(cleaned)
+    except InvalidOperation:
+        return None
+
+    if is_billion:
+        number *= Decimal("1000")
+
+    return number
+
+
+def _format_list_field(metrics: dict, *keys: str) -> str | None:
+    """
+    Convert list-based qualitative fields to newline-separated text.
+    """
+
+    value = next(
+        (
+            metrics.get(key)
+            for key in keys
+            if metrics.get(key) is not None
+        ),
+        None,
+    )
+
+    if value is None:
+        return None
+
     if isinstance(value, str):
         return value
-    return "\n".join(value)
+
+    return "\n".join(str(item) for item in value)
 
 
 def save_metrics(
+    *,
+    document_id: str,
     company: str,
-    year: int,
-    metrics: dict
+    ticker: str,
+    fiscal_year: int,
+    filing_type: str,
+    metrics: dict,
 ) -> None:
     """
-    Save extracted financial metrics to PostgreSQL.
+    Insert or update financial metrics for one filing.
 
-    Args:
-        company: Company name.
-        year: Fiscal year.
-        metrics: Extracted KPI dictionary.
+    Numeric KPI values are stored in USD millions.
     """
+
     engine = get_engine()
 
     query = """
     INSERT INTO financial_metrics (
+        document_id,
         company,
-        year,
+        ticker,
+        fiscal_year,
+        filing_type,
         revenue,
         net_income,
         operating_income,
-        cash_flow,
+        operating_cash_flow,
         total_assets,
         total_liabilities,
         risk_factors,
         growth_drivers
     )
     VALUES (
+        :document_id,
         :company,
-        :year,
+        :ticker,
+        :fiscal_year,
+        :filing_type,
         :revenue,
         :net_income,
         :operating_income,
-        :cash_flow,
+        :operating_cash_flow,
         :total_assets,
         :total_liabilities,
         :risk_factors,
         :growth_drivers
     )
+
+    ON CONFLICT (ticker, fiscal_year, filing_type)
+
+    DO UPDATE SET
+        document_id = EXCLUDED.document_id,
+        company = EXCLUDED.company,
+
+        revenue = EXCLUDED.revenue,
+        net_income = EXCLUDED.net_income,
+        operating_income = EXCLUDED.operating_income,
+        operating_cash_flow = EXCLUDED.operating_cash_flow,
+        total_assets = EXCLUDED.total_assets,
+        total_liabilities = EXCLUDED.total_liabilities,
+
+        risk_factors = EXCLUDED.risk_factors,
+        growth_drivers = EXCLUDED.growth_drivers,
+
+        updated_at = CURRENT_TIMESTAMP;
     """
 
-    # Use both capitalized and lower‑case keys from the extraction model
     params = {
+        "document_id": document_id,
         "company": company,
-        "year": str(year),
-        "revenue": metrics.get("Revenue") or metrics.get("revenue"),
-        "net_income": metrics.get("Net Income") or metrics.get("net_income"),
-        "operating_income": metrics.get("Operating Income") or metrics.get("operating_income"),
-        "cash_flow": metrics.get("Cash Flow from Operating Activities") or metrics.get("cash_flow"),
-        "total_assets": metrics.get("Total Assets") or metrics.get("total_assets"),
-        "total_liabilities": metrics.get("Total Liabilities") or metrics.get("total_liabilities"),
-        "risk_factors": _format_list_field(
-            metrics, "Top Risk Factors", "risk_factors", "top_risk_factors"
+        "ticker": ticker,
+        "fiscal_year": fiscal_year,
+        "filing_type": filing_type,
+
+        "revenue": _normalize_numeric(
+            metrics.get("revenue")
+            or metrics.get("Revenue")
         ),
+
+        "net_income": _normalize_numeric(
+            metrics.get("net_income")
+            or metrics.get("Net Income")
+        ),
+
+        "operating_income": _normalize_numeric(
+            metrics.get("operating_income")
+            or metrics.get("Operating Income")
+        ),
+
+        "operating_cash_flow": _normalize_numeric(
+            metrics.get("cash_flow")
+            or metrics.get(
+                "Cash Flow from Operating Activities"
+            )
+        ),
+
+        "total_assets": _normalize_numeric(
+            metrics.get("total_assets")
+            or metrics.get("Total Assets")
+        ),
+
+        "total_liabilities": _normalize_numeric(
+            metrics.get("total_liabilities")
+            or metrics.get("Total Liabilities")
+        ),
+
+        "risk_factors": _format_list_field(
+            metrics,
+            "risk_factors",
+            "top_risk_factors",
+            "Top Risk Factors",
+        ),
+
         "growth_drivers": _format_list_field(
-            metrics, "Top Growth Drivers", "growth_drivers", "top_growth_drivers"
+            metrics,
+            "growth_drivers",
+            "top_growth_drivers",
+            "Top Growth Drivers",
         ),
     }
 
     with engine.begin() as connection:
-        connection.execute(text(query), params)
+        connection.execute(
+            text(query),
+            params,
+        )
 
     print(
-        f"Successfully saved metrics for {company} {year}"
-    )
-
-if __name__ == "__main__":
-    sample_metrics = {
-        "Revenue": "$391,035",
-        "Net Income": "$93,736",
-        "Operating Income": "$123,216",
-        "Cash Flow from Operating Activities": "$118,254",
-        "Total Assets": "$364,980",
-        "Total Liabilities": "$308,030",
-        "Top Risk Factors": [
-            'Macroeconomic conditions including inflation, interest rates, and currency fluctuations could materially impact results.',
-            'High competition with aggressive pricing, short product life cycles, and rapid technological changes.',
-            'Dependence on single or limited sources for certain components, with potential supply shortages.',
-            'Exposure to foreign exchange rate fluctuations impacting sales and margins.',
-            'Legal and regulatory challenges, including significant tax disputes such as the State Aid Decision.'
-        ],
-        "Top Growth Drivers": [
-            'Increased Services revenue from advertising, App Store, and cloud services.',
-            'Higher Mac sales driven by increased laptop demand.',
-            'Continued strong iPhone sales performance.',
-            'Ingest your first company financial statement (e.g., 10-K, 10-Q reports in PDF format) using the sidebar uploader.',
-            'Our AI engine will parse the financial metrics, risks, and growth drivers.',
-            '<button id="refreshBtn" class="refresh-button" title="Refresh data"><svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 4V1L8 5l4 4V6c3.31 0 6 2.69 6 6a6 6 0 01-5.65 5.99L12 18a6 6 0 01-5.99-5.65L6 12H4a8 8 0 0016 0c0-4.42-3.58-8-8-8z"/></svg></button>t capital return program.'
-        ]
-    }
-
-    save_metrics(
-        company="Apple",
-        year=2024,
-        metrics=sample_metrics
+        f"Saved metrics for "
+        f"{ticker} {fiscal_year} {filing_type}"
     )
