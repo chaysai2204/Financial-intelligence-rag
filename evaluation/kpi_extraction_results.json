@@ -1,0 +1,402 @@
+{
+  "results": [
+    {
+      "document_id": "AAPL_2024_10K",
+      "company": "Apple",
+      "fiscal_year": 2024,
+      "kpi": "revenue",
+      "expected_raw": "391035",
+      "predicted_raw": "391,035",
+      "expected_normalized": 391035,
+      "predicted_normalized": 391035,
+      "status": "correct"
+    },
+    {
+      "document_id": "AAPL_2024_10K",
+      "company": "Apple",
+      "fiscal_year": 2024,
+      "kpi": "net_income",
+      "expected_raw": "93736",
+      "predicted_raw": "$ 93,736",
+      "expected_normalized": 93736,
+      "predicted_normalized": 93736,
+      "status": "correct"
+    },
+    {
+      "document_id": "AAPL_2024_10K",
+      "company": "Apple",
+      "fiscal_year": 2024,
+      "kpi": "operating_income",
+      "expected_raw": "123216",
+      "predicted_raw": "123,216",
+      "expected_normalized": 123216,
+      "predicted_normalized": 123216,
+      "status": "correct"
+    },
+    {
+      "document_id": "AAPL_2024_10K",
+      "company": "Apple",
+      "fiscal_year": 2024,
+      "kpi": "cash_flow",
+      "expected_raw": "118254",
+      "predicted_raw": "118,254",
+      "expected_normalized": 118254,
+      "predicted_normalized": 118254,
+      "status": "correct"
+    },
+    {
+      "document_id": "AAPL_2024_10K",
+      "company": "Apple",
+      "fiscal_year": 2024,
+      "kpi": "total_assets",
+      "expected_raw": "364980",
+      "predicted_raw": "$ 364,980",
+      "expected_normalized": 364980,
+      "predicted_normalized": 364980,
+      "status": "correct"
+    },
+    {
+      "document_id": "AAPL_2024_10K",
+      "company": "Apple",
+      "fiscal_year": 2024,
+      "kpi": "total_liabilities",
+      "expected_raw": "308030",
+      "predicted_raw": "308,030",
+      "expected_normalized": 308030,
+      "predicted_normalized": 308030,
+      "status": "correct"
+    },
+    {
+      "document_id": "MSFT_2024_10K",
+      "company": "Microsoft",
+      "fiscal_year": 2024,
+      "kpi": "revenue",
+      "expected_raw": "245122",
+      "predicted_raw": "245,122",
+      "expected_normalized": 245122,
+      "predicted_normalized": 245122,
+      "status": "correct"
+    },
+    {
+      "document_id": "MSFT_2024_10K",
+      "company": "Microsoft",
+      "fiscal_year": 2024,
+      "kpi": "net_income",
+      "expected_raw": "88136",
+      "predicted_raw": "88,136",
+      "expected_normalized": 88136,
+      "predicted_normalized": 88136,
+      "status": "correct"
+    },
+    {
+      "document_id": "MSFT_2024_10K",
+      "company": "Microsoft",
+      "fiscal_year": 2024,
+      "kpi": "operating_income",
+      "expected_raw": "109433",
+      "predicted_raw": "109,433",
+      "expected_normalized": 109433,
+      "predicted_normalized": 109433,
+      "status": "correct"
+    },
+    {
+      "document_id": "MSFT_2024_10K",
+      "company": "Microsoft",
+      "fiscal_year": 2024,
+      "kpi": "cash_flow",
+      "expected_raw": "118548",
+      "predicted_raw": "118,548",
+      "expected_normalized": 118548,
+      "predicted_normalized": 118548,
+      "status": "correct"
+    },
+    {
+      "document_id": "MSFT_2024_10K",
+      "company": "Microsoft",
+      "fiscal_year": 2024,
+      "kpi": "total_assets",
+      "expected_raw": "512163",
+      "predicted_raw": "512,163",
+      "expected_normalized": 512163,
+      "predicted_normalized": 512163,
+      "status": "correct"
+    },
+    {
+      "document_id": "MSFT_2024_10K",
+      "company": "Microsoft",
+      "fiscal_year": 2024,
+      "kpi": "total_liabilities",
+      "expected_raw": "243686",
+      "predicted_raw": "243,686",
+      "expected_normalized": 243686,
+      "predicted_normalized": 243686,
+      "status": "correct"
+    },
+    {
+      "document_id": "NVDA_2023_10K",
+      "company": "NVIDIA",
+      "fiscal_year": 2023,
+      "kpi": "revenue",
+      "expected_raw": "26974",
+      "predicted_raw": "$ 26,974",
+      "expected_normalized": 26974,
+      "predicted_normalized": 26974,
+      "status": "correct"
+    },
+    {
+      "document_id": "NVDA_2023_10K",
+      "company": "NVIDIA",
+      "fiscal_year": 2023,
+      "kpi": "net_income",
+      "expected_raw": "4368",
+      "predicted_raw": "$ 4,368",
+      "expected_normalized": 4368,
+      "predicted_normalized": 4368,
+      "status": "correct"
+    },
+    {
+      "document_id": "NVDA_2023_10K",
+      "company": "NVIDIA",
+      "fiscal_year": 2023,
+      "kpi": "operating_income",
+      "expected_raw": "4224",
+      "predicted_raw": "4,224",
+      "expected_normalized": 4224,
+      "predicted_normalized": 4224,
+      "status": "correct"
+    },
+    {
+      "document_id": "NVDA_2023_10K",
+      "company": "NVIDIA",
+      "fiscal_year": 2023,
+      "kpi": "cash_flow",
+      "expected_raw": "5641",
+      "predicted_raw": "$ 5,641",
+      "expected_normalized": 5641,
+      "predicted_normalized": 5641,
+      "status": "correct"
+    },
+    {
+      "document_id": "NVDA_2023_10K",
+      "company": "NVIDIA",
+      "fiscal_year": 2023,
+      "kpi": "total_assets",
+      "expected_raw": "41182",
+      "predicted_raw": "$ 41,182",
+      "expected_normalized": 41182,
+      "predicted_normalized": 41182,
+      "status": "correct"
+    },
+    {
+      "document_id": "NVDA_2023_10K",
+      "company": "NVIDIA",
+      "fiscal_year": 2023,
+      "kpi": "total_liabilities",
+      "expected_raw": "19081",
+      "predicted_raw": "$ 19,081",
+      "expected_normalized": 19081,
+      "predicted_normalized": 19081,
+      "status": "correct"
+    },
+    {
+      "document_id": "AMZN_2024_10K",
+      "company": "Amazon",
+      "fiscal_year": 2024,
+      "kpi": "revenue",
+      "expected_raw": "637959",
+      "predicted_raw": "$ 637,959",
+      "expected_normalized": 637959,
+      "predicted_normalized": 637959,
+      "status": "correct"
+    },
+    {
+      "document_id": "AMZN_2024_10K",
+      "company": "Amazon",
+      "fiscal_year": 2024,
+      "kpi": "net_income",
+      "expected_raw": "59248",
+      "predicted_raw": "$ 59,248",
+      "expected_normalized": 59248,
+      "predicted_normalized": 59248,
+      "status": "correct"
+    },
+    {
+      "document_id": "AMZN_2024_10K",
+      "company": "Amazon",
+      "fiscal_year": 2024,
+      "kpi": "operating_income",
+      "expected_raw": "68593",
+      "predicted_raw": "$ 68,593",
+      "expected_normalized": 68593,
+      "predicted_normalized": 68593,
+      "status": "correct"
+    },
+    {
+      "document_id": "AMZN_2024_10K",
+      "company": "Amazon",
+      "fiscal_year": 2024,
+      "kpi": "cash_flow",
+      "expected_raw": "115877",
+      "predicted_raw": "115,877",
+      "expected_normalized": 115877,
+      "predicted_normalized": 115877,
+      "status": "correct"
+    },
+    {
+      "document_id": "AMZN_2024_10K",
+      "company": "Amazon",
+      "fiscal_year": 2024,
+      "kpi": "total_assets",
+      "expected_raw": "624894",
+      "predicted_raw": "$ 624,894",
+      "expected_normalized": 624894,
+      "predicted_normalized": 624894,
+      "status": "correct"
+    },
+    {
+      "document_id": "AMZN_2024_10K",
+      "company": "Amazon",
+      "fiscal_year": 2024,
+      "kpi": "total_liabilities",
+      "expected_raw": "338924",
+      "predicted_raw": null,
+      "expected_normalized": 338924,
+      "predicted_normalized": null,
+      "status": "missing"
+    },
+    {
+      "document_id": "GOOGL_2024_10K",
+      "company": "Alphabet",
+      "fiscal_year": 2024,
+      "kpi": "revenue",
+      "expected_raw": "350018",
+      "predicted_raw": "$ 350,018",
+      "expected_normalized": 350018,
+      "predicted_normalized": 350018,
+      "status": "correct"
+    },
+    {
+      "document_id": "GOOGL_2024_10K",
+      "company": "Alphabet",
+      "fiscal_year": 2024,
+      "kpi": "net_income",
+      "expected_raw": "100118",
+      "predicted_raw": "$ 100,118",
+      "expected_normalized": 100118,
+      "predicted_normalized": 100118,
+      "status": "correct"
+    },
+    {
+      "document_id": "GOOGL_2024_10K",
+      "company": "Alphabet",
+      "fiscal_year": 2024,
+      "kpi": "operating_income",
+      "expected_raw": "112390",
+      "predicted_raw": "$ 112,390",
+      "expected_normalized": 112390,
+      "predicted_normalized": 112390,
+      "status": "correct"
+    },
+    {
+      "document_id": "GOOGL_2024_10K",
+      "company": "Alphabet",
+      "fiscal_year": 2024,
+      "kpi": "cash_flow",
+      "expected_raw": "125299",
+      "predicted_raw": "125,299",
+      "expected_normalized": 125299,
+      "predicted_normalized": 125299,
+      "status": "correct"
+    },
+    {
+      "document_id": "GOOGL_2024_10K",
+      "company": "Alphabet",
+      "fiscal_year": 2024,
+      "kpi": "total_assets",
+      "expected_raw": "450256",
+      "predicted_raw": "$ 450,256",
+      "expected_normalized": 450256,
+      "predicted_normalized": 450256,
+      "status": "correct"
+    },
+    {
+      "document_id": "GOOGL_2024_10K",
+      "company": "Alphabet",
+      "fiscal_year": 2024,
+      "kpi": "total_liabilities",
+      "expected_raw": "125172",
+      "predicted_raw": "$ 125,172",
+      "expected_normalized": 125172,
+      "predicted_normalized": 125172,
+      "status": "correct"
+    }
+  ],
+  "summary": {
+    "total_cases": 30,
+    "correct": 29,
+    "incorrect": 0,
+    "missing": 1,
+    "accuracy": 0.9666666666666667,
+    "incorrect_rate": 0.0,
+    "missing_rate": 0.03333333333333333,
+    "per_kpi": {
+      "revenue": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "net_income": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "operating_income": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "cash_flow": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "total_assets": {
+        "total": 5,
+        "correct": 5,
+        "accuracy": 1.0
+      },
+      "total_liabilities": {
+        "total": 5,
+        "correct": 4,
+        "accuracy": 0.8
+      }
+    },
+    "per_company": {
+      "Alphabet": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "Amazon": {
+        "total": 6,
+        "correct": 5,
+        "accuracy": 0.8333333333333334
+      },
+      "Apple": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "Microsoft": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      },
+      "NVIDIA": {
+        "total": 6,
+        "correct": 6,
+        "accuracy": 1.0
+      }
+    }
+  }
+}

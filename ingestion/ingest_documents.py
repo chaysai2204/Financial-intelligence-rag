@@ -3,7 +3,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from langchain_openai import AzureOpenAIEmbeddings
-
+from llm.azure_openai import get_embedding_client
 from ingestion.file_validator import validate_pdf_file
 from ingestion.pdf_to_markdown import PDFToMarkdownConverter
 from ingestion.semantic_chunker import chunk_markdown
@@ -241,7 +241,23 @@ def ingest_directory(
 
 
 if __name__ == "__main__":
-    ingest_directory(
-        "data/raw_pdfs",
-        extract_kpis=False
+    embeddings = get_embedding_client()
+
+    vector_store = AzureAISearchVectorStore(
+        endpoint=os.getenv("AZURE_SEARCH_ENDPOINT"),
+        api_key=os.getenv("AZURE_SEARCH_API_KEY"),
+        index_name=os.getenv("AZURE_SEARCH_INDEX_NAME"),
     )
+
+    files_to_ingest = [
+        "data/raw_pdfs/amazon/AMZN_2024_10-K.pdf",
+        "data/raw_pdfs/alphabet/GOOGL_2024_10-K.pdf",
+    ]
+
+    for pdf_path in files_to_ingest:
+        ingest_document(
+            pdf_path,
+            embeddings,
+            vector_store,
+            extract_kpis=False,
+        )

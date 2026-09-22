@@ -1,0 +1,67 @@
+{
+    "AAPL_2024_10K": {
+      "company": "Apple",
+      "ticker": "AAPL",
+      "fiscal_year": 2024,
+      "metrics": {
+        "revenue": "391035",
+        "net_income": "93736",
+        "operating_income": "123216",
+        "cash_flow": "118254",
+        "total_assets": "364980",
+        "total_liabilities": "308030"
+      }
+    },
+    "MSFT_2024_10K": {
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "fiscal_year": 2024,
+      "metrics": {
+        "revenue": "245122",
+        "net_income": "88136",
+        "operating_income": "109433",
+        "cash_flow": "118548",
+        "total_assets": "512163",
+        "total_liabilities": "243686"
+      }
+    },
+    "NVDA_2023_10K": {
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "fiscal_year": 2023,
+      "metrics": {
+        "revenue": "26974",
+        "net_income": "4368",
+        "operating_income": "4224",
+        "cash_flow": "5641",
+        "total_assets": "41182",
+        "total_liabilities": "19081"
+      }
+    },
+    "AMZN_2024_10K": {
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "fiscal_year": 2024,
+      "metrics": {
+        "revenue": "637959",
+        "net_income": "59248",
+        "operating_income": "68593",
+        "cash_flow": "115877",
+        "total_assets": "624894",
+        "total_liabilities": "338924"
+      }
+    },
+    "GOOGL_2024_10K": {
+      "company": "Alphabet",
+      "ticker": "GOOGL",
+      "fiscal_year": 2024,
+      "metrics": {
+        "revenue": "350018",
+        "net_income": "100118",
+        "operating_income": "112390",
+        "cash_flow": "125299",
+        "total_assets": "450256",
+        "total_liabilities": "125172"
+      }
+    }
+  }

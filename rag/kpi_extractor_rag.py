@@ -1,11 +1,17 @@
 import os
-from types import SimpleNamespace
 
 from dotenv import load_dotenv
 from pydantic import AliasChoices, BaseModel, ConfigDict, Field
 
-from llm.azure_openai import get_structured_completion
-from vectorstore.azure_ai_search import AzureAISearchVectorStore
+from llm.azure_openai import (
+    get_embedding_client,
+    get_structured_completion,
+)
+
+from vectorstore.azure_ai_search import (
+    AzureAISearchVectorStore,
+    DenseRetriever,
+)
 
 load_dotenv()
 
@@ -13,20 +19,42 @@ load_dotenv()
 class FinancialMetrics(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
-    revenue: str | int | None = Field(None, alias="Revenue")
-    net_income: str | int | None = Field(None, alias="Net Income")
-    operating_income: str | int | None = Field(None, alias="Operating Income")
+    revenue: str | int | None = Field(
+        None,
+        alias="Revenue",
+    )
+
+    net_income: str | int | None = Field(
+        None,
+        alias="Net Income",
+    )
+
+    operating_income: str | int | None = Field(
+        None,
+        alias="Operating Income",
+    )
+
     cash_flow: str | int | None = Field(
         None,
         validation_alias=AliasChoices(
             "Cash Flow from Operating Activities",
+            "CashFlowFromOperatingActivities",
             "cash_flow",
             "cash_flow_from_operating_activities",
             "cash_flow_operating_activities",
         ),
     )
-    total_assets: str | int | None = Field(None, alias="Total Assets")
-    total_liabilities: str | int | None = Field(None, alias="Total Liabilities")
+
+    total_assets: str | int | None = Field(
+        None,
+        alias="Total Assets",
+    )
+
+    total_liabilities: str | int | None = Field(
+        None,
+        alias="Total Liabilities",
+    )
+
     risk_factors: str | list | None = Field(
         None,
         validation_alias=AliasChoices(
@@ -35,6 +63,7 @@ class FinancialMetrics(BaseModel):
             "top_risk_factors",
         ),
     )
+
     growth_drivers: str | list | None = Field(
         None,
         validation_alias=AliasChoices(
@@ -45,172 +74,234 @@ class FinancialMetrics(BaseModel):
     )
 
 
-class Retriever:
-    def __init__(self, client):
-        self.client = client
-
-    def invoke(
-        self,
-        query: str,
-        company: str | None = None,
-        year: int | None = None,
-        top_k: int = 20
-    ) -> list:
-        """
-        Retrieve relevant chunks from Azure AI Search.
-        """
-        filter_expr = None
-
-        if company and year:
-            filter_expr = (
-                f"company eq '{company}' "
-                f"and year eq '{year}'"
-            )
-
-        results = (
-            self.client.search(
-                search_text=query,
-                top=top_k,
-                filter=filter_expr
-            )
-            if filter_expr
-            else self.client.search(
-                search_text=query,
-                top=top_k
-            )
-        )
-
-        documents = []
-
-        for result in results:
-            content = result.get("content", "")
-            documents.append(
-                SimpleNamespace(
-                    page_content=content
-                )
-            )
-
-        return documents
-
-
 def retrieve_context(
-    retriever: Retriever,
-    company: str,
-    year: int
-) -> str:
-    """
-    Retrieve broad financial context from the vector store.
-    """
-    query = f"""
-    Annual report financial statements,
-    income statement,
-    balance sheet,
-    cash flow statement,
-    risks,
-    growth drivers,
-    financial performance
-    for {company} fiscal year {year}
-    """
-
-    documents = retriever.invoke(
-        query=query,
-        company=company,
-        year=year,
-        top_k=20
-    )
-    #print(documents)
-    return "\n\n".join(
-        doc.page_content
-        for doc in documents
-    )
-
-
-def build_extraction_prompt(
+    retriever: DenseRetriever,
     company: str,
     year: int,
-    context: str
-) -> str:
+) -> dict[str, str]:
     """
-    Build KPI extraction prompt.
+    Retrieve statement-specific evidence for KPI extraction.
+
+    Income statement uses a smaller retrieval depth because
+    the relevant KPIs are usually located together.
+
+    Balance sheet and cash-flow retrieval use a slightly
+    larger depth because tables may span multiple chunks.
     """
-    return f"""
-You are an expert financial analyst.
 
-Company: {company}
-Year: {year}
+    queries = {
+        "income_statement": {
+            "query": (
+                "consolidated statements of operations "
+                "total net sales revenue operating income net income"
+            ),
+            "top_k": 3,
+        },
+        "balance_sheet": {
+            "query": (
+                "consolidated balance sheets "
+                "total assets total liabilities"
+            ),
+            "top_k": 5,
+        },
+        "cash_flow": {
+            "query": (
+                "consolidated statements of cash flows "
+                "net cash provided by operating activities "
+                "cash generated by operating activities"
+            ),
+            "top_k": 5,
+        },
+    }
 
-Context:
-{context}
+    contexts = {}
 
-Extract the following information:
+    for statement_type, config in queries.items():
+        documents = retriever.invoke(
+            query=config["query"],
+            company=company,
+            year=year,
+            top_k=config["top_k"],
+        )
 
-1. Revenue
-2. Net Income
-3. Operating Income
-4. Cash Flow from Operating Activities
-5. Total Assets
-6. Total Liabilities
-7. Top Risk Factors
-8. Top Growth Drivers
+        blocks = []
 
-Instructions:
+        for doc in documents:
+            metadata = doc.metadata
 
-- Use only the provided context.
-- Return null if unavailable.
-- Financial values must match the report exactly.
-- Risk factors should be concise.
-- Growth drivers should be concise.
-- Return valid JSON only.
-"""
+            blocks.append(
+                f"Document: {metadata.get('document_id')}\n"
+                f"Company: {metadata.get('company')}\n"
+                f"Fiscal Year: {metadata.get('year')}\n"
+                f"Evidence:\n{doc.page_content}"
+            )
+
+        contexts[statement_type] = "\n\n---\n\n".join(blocks)
+
+    return contexts
 
 
 def extract_financial_metrics(
-    retriever: Retriever,
+    retriever: DenseRetriever,
     company: str,
-    year: int
+    year: int,
 ) -> dict:
     """
-    Extract KPIs using RAG.
+    Extract six numeric financial KPIs using
+    statement-specific retrieval contexts.
     """
-    context = retrieve_context(
+
+    contexts = retrieve_context(
         retriever=retriever,
         company=company,
-        year=year
-    )
-
-
-    prompt = build_extraction_prompt(
-        company=company,
         year=year,
-        context=context
+    )
+    
+    # ---------------------------------------------------------
+    # 1. Income Statement
+    # ---------------------------------------------------------
+
+    income_prompt = f"""
+You are an expert financial analyst.
+
+Company: {company}
+Fiscal Year: {year}
+
+Evidence:
+{contexts["income_statement"]}
+
+Extract ONLY these values for fiscal year {year}:
+
+- Revenue
+- Operating Income
+- Net Income
+
+Instructions:
+- Use only the provided evidence.
+- Use consolidated company-level values, not segment-level values.
+- Revenue means total net sales or total revenue for the company.
+- Preserve the reported numerical values exactly.
+- Do not round values.
+- Do not convert values to another unit.
+- Do not use values from another fiscal year.
+- Return null only if the value is genuinely unavailable.
+- Return valid JSON only.
+"""
+
+    income_metrics = get_structured_completion(
+        prompt=income_prompt,
+        response_model=FinancialMetrics,
     )
 
-    metrics = get_structured_completion(
-        prompt=prompt,
-        response_model=FinancialMetrics
+    # ---------------------------------------------------------
+    # 2. Balance Sheet
+    # ---------------------------------------------------------
+
+    balance_prompt = f"""
+You are an expert financial analyst.
+
+Company: {company}
+Fiscal Year: {year}
+
+Evidence:
+{contexts["balance_sheet"]}
+
+Extract ONLY these values for fiscal year {year}:
+
+- Total Assets
+- Total Liabilities
+
+Instructions:
+- Use only the provided evidence.
+- Use consolidated company-level values.
+- Preserve the reported numerical values exactly.
+- Do not calculate or estimate values.
+- Do not round values.
+- Do not convert values to another unit.
+- Do not use values from another fiscal year.
+- Return null only if the value is genuinely unavailable.
+- Return valid JSON only.
+"""
+
+    balance_metrics = get_structured_completion(
+        prompt=balance_prompt,
+        response_model=FinancialMetrics,
     )
 
-    return metrics.model_dump()
+    # ---------------------------------------------------------
+    # 3. Cash-Flow Statement
+    # ---------------------------------------------------------
+
+    cash_flow_prompt = f"""
+You are an expert financial analyst.
+
+Company: {company}
+Fiscal Year: {year}
+
+Evidence:
+{contexts["cash_flow"]}
+
+Extract ONLY this value for fiscal year {year}:
+
+- Cash Flow from Operating Activities
+
+Instructions:
+- Use only the provided evidence.
+- Prefer the exact value from the consolidated statement of cash flows.
+- Use net cash provided by operating activities or cash generated by operating activities.
+- Preserve the reported numerical value exactly.
+- Do not use a rounded narrative value when an exact table value is available.
+- Do not round values.
+- Do not convert values to another unit.
+- Do not use investing cash flow.
+- Do not use financing cash flow.
+- Do not use values from another fiscal year.
+- Return null only if the value is genuinely unavailable.
+- Return valid JSON only.
+"""
+
+    cash_flow_metrics = get_structured_completion(
+        prompt=cash_flow_prompt,
+        response_model=FinancialMetrics,
+    )
+
+    return {
+        "revenue": income_metrics.revenue,
+        "net_income": income_metrics.net_income,
+        "operating_income": income_metrics.operating_income,
+        "cash_flow": cash_flow_metrics.cash_flow,
+        "total_assets": balance_metrics.total_assets,
+        "total_liabilities": balance_metrics.total_liabilities,
+        "risk_factors": None,
+        "growth_drivers": None,
+    }
 
 
 def main() -> None:
+    """
+    Manual single-company test.
+    """
+
     company = "Apple"
     year = 2024
 
     vector_store = AzureAISearchVectorStore(
         endpoint=os.getenv("AZURE_SEARCH_ENDPOINT"),
         api_key=os.getenv("AZURE_SEARCH_API_KEY"),
-        index_name=os.getenv("AZURE_SEARCH_INDEX_NAME")
+        index_name=os.getenv("AZURE_SEARCH_INDEX_NAME"),
     )
 
-    retriever = Retriever(
-        vector_store.client
+    embeddings = get_embedding_client()
+
+    retriever = DenseRetriever(
+        client=vector_store.client,
+        embeddings=embeddings,
     )
 
     results = extract_financial_metrics(
         retriever=retriever,
         company=company,
-        year=year
+        year=year,
     )
 
     print(f"\nExtracted KPIs for {company} {year}\n")
@@ -220,14 +311,6 @@ def main() -> None:
         print(value)
         print("-" * 80)
 
-
-    from database.save_metrics import save_metrics
-
-    save_metrics(
-        company=company,
-        year=year,
-        metrics=results
-    )
 
 if __name__ == "__main__":
     main()
