@@ -1,0 +1,648 @@
+{
+  "configuration": {
+    "retriever": "query_aware_dense_v2",
+    "final_top_k": 5,
+    "per_target_k": 5,
+    "explicit_source_provenance": true
+  },
+  "summary": {
+    "questions_tested": 7,
+    "improved": 3,
+    "unchanged": 4,
+    "regressed": 0,
+    "fully_correct": 3,
+    "baseline_correctness_total": 7,
+    "query_aware_v2_correctness_total": 10
+  },
+  "results": [
+    {
+      "question_id": "Q021",
+      "question": "What risks did Apple identify related to its global supply chain in fiscal 2024?",
+      "category": "qualitative",
+      "reference_answer": "Apple identified supply-chain risks including reliance on outsourced manufacturing and logistics partners, supplier concentration, component shortages, trade restrictions, geopolitical tensions, natural disasters, and other disruptions that could affect production and distribution.",
+      "baseline": {
+        "answer": "Apple\u2019s 2024 Form 10\u2011K flags several supply\u2011chain risks, including:\n\n- Broad economic/market effects: uncertainty or declines in global or regional economic conditions can harm demand and \u201chave a significant impact\u201d on the Company\u2019s suppliers, contract manufacturers, logistics providers, distributors, cellular carriers and other channel partners and developers [Source 1].  \n- Financial distress at partners: those conditions can lead to supplier/partner financial instability, inability to obtain credit and insolvency, which can reduce or interrupt supply [Source 1].  \n- Credit and counterparty risk: adverse conditions can increase credit and collectibility risk on Apple\u2019s trade receivables and raise the risk of failures by derivative counterparties and other financial institutions [Source 1].  \n- Financing/liquidity and asset\u2011value impacts: economic stress can limit Apple\u2019s ability to issue new debt, reduce liquidity, and cause declines in the fair value of its financial instruments [Source 1].  \n- Cybersecurity and data\u2011sharing risks with third\u2011party suppliers: Apple relies on global suppliers that are exposed to ransomware and other malicious attacks; losses, unauthorized access to, or release of confidential information shared with suppliers could disrupt operations and materially harm Apple\u2019s business, reputation and financial condition [Source 5].",
+        "evaluation": {
+          "correctness_score": 1,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "abstention_score": null,
+          "correctness_reason": "The generated answer correctly lists several supply-chain risks (economic impacts on partners, partner financial distress, credit/counterparty risk, liquidity/financing impacts, and cybersecurity risks). However, it omits other risks named in the reference (supplier concentration/single-source reliance, component shortages, trade restrictions, geopolitical tensions, natural disasters and other disruptions), so it is incomplete.",
+          "groundedness_reason": "All claims made in the generated answer are supported by the retrieved evidence (primarily Source 1 for economic/financial risks and Source 5 for cybersecurity). No significant unsupported claims were introduced.",
+          "citation_reason": "The provided citations (Source 1 and Source 5) appropriately support the corresponding bullets in the answer. Although Source 2 in the retrieval contains additional supply-chain risks not mentioned in the answer, the citations included do accurately back the claims that were made.",
+          "abstention_reason": ""
+        }
+      },
+      "query_aware_v2": {
+        "answer": "Apple identified several supply\u2011chain\u2013related risks in its fiscal 2024 Form 10\u2011K:\n\n- Adverse economic conditions can materially harm the Company\u2019s suppliers, contract manufacturers, logistics providers, distributors, cellular carriers and other channel partners, potentially causing financial instability, inability to obtain credit and insolvency. [Source 1]\n\n- Such adverse conditions can also increase credit and collectibility risk on Apple\u2019s trade receivables and expose the Company to the failure of derivative counterparties and other financial institutions, limitations on its ability to issue new debt, reduced liquidity and declines in the fair values of its financial instruments. [Source 1]\n\n- Apple relies on global suppliers and other third parties that may be subject to ransomware or other malicious attacks that can disrupt operations; Apple\u2019s protections are not always effective and losses or unauthorized access to confidential information provided to or accessible by those third parties could materially harm Apple\u2019s business, reputation, results of operations and financial condition. [Source 3]\n\n- Unexpected developments, including the failure of one of Apple\u2019s logistics, supply or manufacturing partners, could adversely affect net sales, cost of sales and operating expenses. [Source 4]\n\n- Macro\u2011economic factors (including inflation, interest rates and currency fluctuations) have directly and indirectly impacted, and could in the future materially impact, Apple\u2019s results and financial condition\u2014factors that can affect the global supply chain and related operations. [Source 5]\n\n- Retail\u2011channel and inventory\u2011management risks tied to supplier/partner relationships and inventory value fluctuations (including obtaining and renewing leases for retail locations and managing retail partner relationships) could also adversely affect Apple\u2019s retail operations. [Source 2]",
+        "sources": [
+          {
+            "citation_id": 1,
+            "document_id": "AAPL_2024_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 27,
+            "rank": 1,
+            "evidence": "In addition to an adverse impact on demand for the Company\u2019s products and services, uncertainty about, or a decline in, global or regional economic conditions can have a significant impact on the Company\u2019s suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners, and developers. Potential outcomes include financial instability; inability to obtain credit to finance business operations; and insolvency. \n\nAdverse economic conditions can also lead to increased credit and collectibility risk on the Company\u2019s trade receivables; the failure of derivative counterparties and other financial institutions; limitations on the Company\u2019s ability to issue new debt; reduced liquidity; and declines in the fair values of the Company\u2019s financial instruments. These and other impacts can materially adversely affect the Company\u2019s business, results of operations, financial condition and stock price. \n\nApple Inc. | 2024 Form 10-K | 5"
+          },
+          {
+            "citation_id": 2,
+            "document_id": "AAPL_2024_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 69,
+            "rank": 2,
+            "evidence": "## _**The Company\u2019s retail stores are subject to numerous risks and uncertainties.**_ \n\nThe Company\u2019s retail operations are subject to many factors that pose risks and uncertainties and could adversely impact the Company\u2019s business, results of operations and financial condition, including macroeconomic factors that could have an adverse effect on general retail activity. Other factors include the Company\u2019s ability to: manage costs associated with retail store construction and operation; manage relationships with existing retail partners; manage costs associated with fluctuations in the value of retail inventory; and obtain and renew leases in quality retail locations at a reasonable cost. \n\nApple Inc. | 2024 Form 10-K | 12 \n\n## **Legal and Regulatory Compliance Risks**"
+          },
+          {
+            "citation_id": 3,
+            "document_id": "AAPL_2024_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 65,
+            "rank": 3,
+            "evidence": "The Company\u2019s business also requires it to share confidential information with suppliers and other third parties. The Company relies on global suppliers that are also exposed to ransomware and other malicious attacks that can disrupt business operations. Although the Company takes steps to secure confidential information that is provided to or accessible by third parties working on the Company\u2019s behalf, such measures are not always effective and losses or unauthorized access to, or releases of, confidential information occur. Such incidents and other malicious attacks could materially adversely affect the Company\u2019s business, reputation, results of operations and financial condition. \n\nApple Inc. | 2024 Form 10-K | 11"
+          },
+          {
+            "citation_id": 4,
+            "document_id": "AAPL_2024_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 90,
+            "rank": 4,
+            "evidence": "The Company has historically experienced higher net sales in its first quarter compared to other quarters in its fiscal year due in part to seasonal holiday demand. Additionally, new product and service introductions can significantly impact net sales, cost of sales and operating expenses. Further, the Company generates a significant portion of its net sales from a single product and a decline in demand for that product could significantly impact quarterly net sales. The Company could also be subject to unexpected developments, such as lower-than-anticipated demand for the Company\u2019s products or services, issues with new product or service introductions, information technology system failures or network disruptions, or failure of one of the Company\u2019s logistics, supply or manufacturing partners. \n\nApple Inc. | 2024 Form 10-K | 15"
+          },
+          {
+            "citation_id": 5,
+            "document_id": "AAPL_2024_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 116,
+            "rank": 5,
+            "evidence": "## **Macroeconomic Conditions** \n\nMacroeconomic conditions, including inflation, interest rates and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company\u2019s results of operations and financial condition. \n\nApple Inc. | 2024 Form 10-K | 21 \n\n## **Segment Operating Performance** \n\nThe following table shows net sales by reportable segment for 2024, 2023 and 2022 (dollars in millions): \n\n|Americas|**2024**<br>$ 167,045|**2024**<br>$ 167,045|**Change**<br>3 %|**2023**<br>$ 162,560|**2023**<br>$ 162,560|**Change**<br>(4)%|**2022**|\n|---|---|---|---|---|---|---|---|\n||||||||$ 169,658|\n|Europe|101,328||7 %|94,294||(1)%|95,118|\n|Greater China|66,952||(8)%|72,559||(2)%|74,200|\n|Japan|25,052||3 %|24,257||(7)%|25,977|\n|Rest of Asia Pacific|30,658||4 %|29,615||1 %|29,375|\n|Total net sales|$ 391,035||2 %|$ 383,285||(3)%|$ 394,328|\n\n\n\n## _Americas_ \n\nAmericas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. \n\n## _Europe_ \n\nEurope net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone. \n\n## _Greater China_ \n\nGreater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024."
+          }
+        ],
+        "evaluation": {
+          "correctness_score": 1,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "correctness_reason": "The answer correctly lists several supply-chain risks Apple disclosed (supplier/contract manufacturer/logistics failures, financial/credit risks, cyberattacks, macroeconomic and retail/inventory risks) but is incomplete relative to the reference answer \u2014 it omits supplier concentration, component shortages, trade restrictions, geopolitical tensions, natural disasters and other disruption types mentioned in the reference.",
+          "groundedness_reason": "Each factual claim the generated answer makes is supported by the retrieved 2024 Form 10-K excerpts (e.g., supplier/contract manufacturer/logistics impacts and financial instability in Source 1; cyber threats in Source 3; failure of logistics/supply/manufacturing partners in Source 4; macroeconomic factors in Source 5; retail/inventory risks in Source 2).",
+          "citation_reason": "The answer includes specific citations (Sources 1\u20135) that correspond to the supporting excerpts from Apple\u2019s 2024 Form 10-K and appropriately back the individual claims."
+        },
+        "retrieval_latency_ms": 687.1764169773087,
+        "generation_latency_ms": 9616.145083040465
+      },
+      "correctness_change": 0
+    },
+    {
+      "question_id": "Q022",
+      "question": "What competitive pressures did Microsoft discuss in its fiscal 2024 filing?",
+      "category": "qualitative",
+      "reference_answer": "Microsoft described competition across its cloud, AI, security, server, database, business intelligence, and other software businesses from large technology companies, specialized vendors, emerging AI companies, and open-source offerings.",
+      "baseline": {
+        "answer": "In its fiscal 2024 filing Microsoft said the industry is \u201cdynamic and highly competitive,\u201d with frequent changes in technologies and business models and ongoing \u201ccompetitive forces\u201d that drive the company\u2019s R&D and strategy [Source 3].  It also identified specific competitive areas the company is focused on, including: \n\n- Security: competing across security, compliance, identity, and management solutions across clouds and platforms [Source 5].  \n- Gaming: competing to \u201cinvent new gaming experiences\u201d across consoles, PC and other devices [Source 5].  \n- Windows and services ecosystem: competing to grow Windows/PC share and to drive engagement with services (Microsoft 365 Consumer, Teams, Edge, Bing, Xbox Game Pass) as a way to fuel its cloud business [Source 5].  \n- More generally, Microsoft noted its need to transcend current product categories, business models, and sales motions to sustain future growth amid these competitive pressures [Source 5; Source 3].",
+        "evaluation": {
+          "correctness_score": 1,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "abstention_score": null,
+          "correctness_reason": "The answer is partially correct: it accurately reports that Microsoft described the industry as dynamic and highly competitive and correctly lists competition in security, gaming, and the Windows/services ecosystem. However, it omits other important competitive areas mentioned in the reference answer (cloud, AI, server, database, business intelligence, and other software businesses) and the types of competitors (large technology companies, specialized vendors, emerging AI companies, and open\u2011source offerings).",
+          "groundedness_reason": "The claims made (industry is dynamic; competition in security, gaming, and Windows/services) are supported by the retrieved evidence (Source 3 and Source 5). The missing items are not asserted in the generated answer rather than contradicted by the evidence.",
+          "citation_reason": "The answer\u2019s statements are backed by the cited sources: Source 3 supports the \u2018dynamic and highly competitive\u2019 statement and Source 5 supports the points about security, gaming, and Windows/services.",
+          "abstention_reason": null
+        }
+      },
+      "query_aware_v2": {
+        "answer": "In its fiscal 2024 Form 10\u2011K, Microsoft said it faces both commercial competitive pressures and regulatory/antitrust scrutiny:\n\n- Gaming and entertainment competition: Xbox and Microsoft\u2019s cloud gaming services compete with other online gaming ecosystems and game\u2011streaming services (specifically naming Amazon, Apple, Meta, and Tencent), and with console platforms from Nintendo and Sony; Microsoft also competes with other providers of entertainment services such as video\u2011streaming platforms [Source 3].  \n- Search and advertising competition: Microsoft\u2019s search and news advertising business competes with Google, OpenAI, and a wide array of websites and social platforms such as Meta [Source 3].  \n- Regulatory and antitrust pressure: governments\u2019 enforcement of competition laws and new digital\u2011market regulation may limit how Microsoft designs and markets products; the filing notes active enforcement in jurisdictions including the EU, UK, U.S., and China, and cites the EU Digital Markets Act\u2019s designation of Windows and LinkedIn as core platform services (with related obligations) and continued Commission scrutiny of flagship products and the terms for technologies such as file formats, programming interfaces, and protocols [Source 5].",
+        "sources": [
+          {
+            "citation_id": 1,
+            "document_id": "MSFT_2024_10K",
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 191,
+            "rank": 1,
+            "evidence": "## OVERVIEW \n\nMicrosoft is a technology company committed to making digital technology and artificial intelligence (\u201cAI\u201d) available broadly and doing so responsibly, with a mission to empower every person and every organization on the planet to achieve more. We create platforms and tools, powered by AI, that deliver innovative solutions that meet the evolving needs of our customers. \n\nWe generate revenue by offering a wide range of cloud-based solutions, content, and other services to people and businesses; licensing and supporting an array of software products; delivering relevant online advertising to a global audience; and designing and selling devices. Our most significant expenses are related to compensating employees; supporting and investing in our cloud-based services, including datacenter operations; designing, manufacturing, marketing, and selling our other products and services; and income taxes. \n\nHighlights from fiscal year 2024 compared with fiscal year 2023 included: \n\n- Microsoft Cloud revenue increased 23% to $137.4 billion. \n\n- Office Commercial products and cloud services revenue increased 14% driven by Office 365 Commercial growth of 16%. \n\n- Office Consumer products and cloud services revenue increased 4% and Microsoft 365 Consumer subscribers grew to 82.5 million. \n\n- LinkedIn revenue increased 9%. \n\n- Dynamics products and cloud services revenue increased 19% driven by Dynamics 365 growth of 24%."
+          },
+          {
+            "citation_id": 2,
+            "document_id": "MSFT_2024_10K",
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 4,
+            "rank": 2,
+            "evidence": "## **MICROSOFT CORPORATION FORM 10-K For the Fiscal Year Ended June 30, 2024 INDEX**"
+          },
+          {
+            "citation_id": 3,
+            "document_id": "MSFT_2024_10K",
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 60,
+            "rank": 3,
+            "evidence": "Xbox and our cloud gaming services face competition from various online gaming ecosystems and game streaming services, including those operated by Amazon, Apple, Meta, and Tencent. We also compete with other providers of entertainment services such as video streaming platforms. Our gaming platform competes with console platforms from Nintendo and Sony, both of which have a large, established base of customers. We believe our gaming platform is effectively positioned against, and uniquely differentiated from, competitive products and services based on significant innovation in hardware architecture, user interface, developer tools, online gaming and entertainment services, and continued strong content from our own first-party game franchises as well as other digital content offerings. \n\nOur Search and news advertising business competes with Google, OpenAI, and a wide array of websites, social platforms like Meta, and portals that provide content and online offerings to end users. \n\n13 \n\nItem 1"
+          },
+          {
+            "citation_id": 4,
+            "document_id": "MSFT_2024_10K",
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 370,
+            "rank": 4,
+            "evidence": "## PART II \n\nRevenue, classified by significant product and service offerings, was as follows: \n\n|**(In millions)**<br>|||\n|---|---|---|\n|**Year Ended June 30,**<br>**2024**|**2023**|**2022**|\n|Server products and cloud services<br> **$**<br>**97,726**|$ 79,970|$ 67,350|\n|Office products and cloud services<br> <br>**54,875**|48,848|44,970|\n|Windows<br> <br>**23,244**|21,507|24,732|\n|Gaming<br> <br>**21,503**<br>|15,466<br>|16,230|\n|LinkedIn<br>**16,372**|14,989|13,631|\n|Search and news advertising<br> <br>**12,576**|12,158|11,526|\n|Enterprise and partner services<br> <br>**7,594**|7,900|7,605|\n|Dynamics products and cloud services<br> <br>**6,481**|5,437|4,687|\n|Devices<br> <br>**4,706**|5,521|7,306|\n|Other<br> <br>**45**|119|233|\n|Total<br> **$**<br>**245,122**|$ 211,915|$ 198,270|\n\n\n\nWe have recast certain prior period amounts to conform to the way we internally manage and monitor our business. \n\nOur Microsoft Cloud revenue, which includes Azure and other cloud services, Office 365 Commercial, the commercial portion of LinkedIn, Dynamics 365, and other commercial cloud properties, was $137.4 billion, $111.6 billion, and $91.4 billion in fiscal years 2024, 2023, and 2022, respectively. These amounts are primarily included in Server products and cloud services, Office products and cloud services, LinkedIn, and Dynamics products and cloud services in the table above."
+          },
+          {
+            "citation_id": 5,
+            "document_id": "MSFT_2024_10K",
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 141,
+            "rank": 5,
+            "evidence": "## LEGAL, REGULATORY, AND LITIGATION RISKS \n\n**Government enforcement under competition laws and new market regulation may limit how we design and market our products.** Government agencies closely scrutinize us under U.S. and foreign competition laws. Governments are actively enforcing competition laws and regulations and enacting new regulations to intervene in digital markets, and this includes markets such as the EU, the United Kingdom, the U.S., and China. Some jurisdictions also allow competitors or consumers to assert claims of anti-competitive conduct. U.S. and foreign antitrust authorities have previously brought enforcement actions and continue to scrutinize our business. \n\nFor example, the European Commission (\u201cthe Commission\u201d) has designated Windows and LinkedIn as core platform services subject to obligations under the EU Digital Markets Act, which prohibits certain self-preferencing behaviors and places limitations on certain data use among other obligations. The Commission also continues to closely scrutinize the design of high-volume Microsoft products and the terms on which we make certain technologies used in these products, such as file formats, programming interfaces, and protocols, available to other companies. Flagship product releases such as Microsoft 365 and Windows can receive significant scrutiny under EU or other competition laws."
+          }
+        ],
+        "evaluation": {
+          "correctness_score": 1,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "correctness_reason": "The generated answer correctly identifies gaming, search/advertising, and regulatory/antitrust competitive pressures that Microsoft discussed in its fiscal 2024 10-K, but it is incomplete compared with the reference answer: it omits discussion of competition across cloud, AI, security, server, database, business intelligence, other software businesses, and from specialized vendors, emerging AI companies, and open-source offerings.",
+          "groundedness_reason": "All factual claims made in the generated answer (competition in gaming naming Amazon/Apple/Meta/Tencent; search competing with Google/OpenAI/other sites and social platforms; regulatory/antitrust scrutiny and the EU DMA) are directly supported by the provided retrieved evidence (Sources 3 and 5).",
+          "citation_reason": "The generated answer cites Source 3 for gaming and search competition and Source 5 for regulatory/antitrust pressure; those sources in the retrieved evidence explicitly support the corresponding claims."
+        },
+        "retrieval_latency_ms": 261.2127919564955,
+        "generation_latency_ms": 7205.234667053446
+      },
+      "correctness_change": 0
+    },
+    {
+      "question_id": "Q024",
+      "question": "What risks did Apple identify from depending on third-party suppliers and manufacturing partners in fiscal 2023?",
+      "category": "qualitative",
+      "reference_answer": "Apple said outsourcing manufacturing and logistics reduces its direct control and exposes it to risks involving product quality and quantity, supply availability, logistics, supplier concentration, and pricing or cost pressures.",
+      "baseline": {
+        "answer": "In its fiscal 2023 Form 10\u2011K Apple said it depended on single\u2011source and other outsourcing partners (many in Asia) and identified these risks from that dependence [Source 1]:\n\n- Failure of those partners to perform could increase Apple\u2019s costs or reduce the supply of components or finished goods [Source 1].  \n- Manufacturing, logistics or transit can be disrupted by events such as natural or man\u2011made disasters, information\u2011technology system failures, commercial disputes, armed conflict, economic or business problems, labor, environmental or public\u2011health issues, political issues, or international trade disputes [Source 1].  \n- Apple has invested in manufacturing process equipment that is held by some outsourcing partners and made prepayments to suppliers; if partners experience severe financial problems or other disruptions, supply can be reduced or terminated and the recoverability of that equipment or those prepayments can be negatively impacted [Source 1].",
+        "evaluation": {
+          "correctness_score": 1,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "abstention_score": null,
+          "correctness_reason": "The answer accurately lists multiple risks Apple identified in fiscal 2023 (performance failures, supply/cost impacts, disruptions from various events, and risks to equipment/prepayments). However, it omits explicit mention of some points in the reference answer such as product quality/quantity and supplier concentration, so it is partially but not fully complete.",
+          "groundedness_reason": "All factual claims in the generated answer are supported by the retrieved evidence (primarily Source 1), which describes reliance on single\u2011source and outsourcing partners and the listed disruption and financial risks.",
+          "citation_reason": "The claims are directly cited to Source 1, which contains the described language about partner performance failures, disruption causes, and risks to invested equipment and prepayments; the citations appropriately support the statements.",
+          "abstention_reason": null
+        }
+      },
+      "query_aware_v2": {
+        "answer": "In its 2023 Form 10\u2011K (fiscal 2023), Apple identified the following risks from depending on third\u2011party suppliers and manufacturing partners:\n\n- Reliance on single\u2011source outsourcing partners for many components and on outsourcing partners (primarily in Asia) for final assembly \u2014 a failure of these partners to perform can negatively affect the Company\u2019s cost or supply of components or finished goods [Source 1].  \n- Disruption of manufacturing, logistics or transit in the locations where those partners operate due to natural or man\u2011made disasters, information\u2011technology system failures, commercial disputes, armed conflict, economic or business problems, labor or environmental issues, public\u2011health or political issues, or international trade disputes [Source 1].  \n- Risk that manufacturing process equipment held at outsourcing partners and prepayments made to suppliers under long\u2011term supply agreements may not be recoverable if those partners experience severe financial problems or other business disruptions; such events could reduce or terminate continued supply [Source 1].  \n- More generally, political events, trade and other international disputes, war, terrorism, natural disasters, public\u2011health issues, industrial accidents and other business interruptions can harm or disrupt international commerce and could have a material adverse effect on Apple and its suppliers, contract manufacturers, logistics providers and other channel partners [Source 3].",
+        "sources": [
+          {
+            "citation_id": 1,
+            "document_id": "AAPL_2023_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2023",
+            "filing_type": "10-K",
+            "chunk_index": 42,
+            "rank": 1,
+            "evidence": "Apple Inc. | 2023 Form 10-K | 7 \n\nThe Company relies on single-source outsourcing partners in the U.S., Asia and Europe to supply and manufacture many components, and on outsourcing partners primarily located in Asia, for final assembly of substantially all of the Company\u2019s hardware products. Any failure of these partners to perform can have a negative impact on the Company\u2019s cost or supply of components or finished goods. In addition, manufacturing or logistics in these locations or transit to final destinations can be disrupted for a variety of reasons, including natural and man-made disasters, information technology system failures, commercial disputes, armed conflict, economic, business, labor, environmental, public health or political issues, or international trade disputes. \n\nThe Company has invested in manufacturing process equipment, much of which is held at certain of its outsourcing partners, and has made prepayments to certain of its suppliers associated with long-term supply agreements. While these arrangements help ensure the supply of components and finished goods, if these outsourcing partners or suppliers experience severe financial problems or other disruptions in their business, such continued supply can be reduced or terminated, and the recoverability of manufacturing process equipment or prepayments can be negatively impacted."
+          },
+          {
+            "citation_id": 2,
+            "document_id": "AAPL_2023_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2023",
+            "filing_type": "10-K",
+            "chunk_index": 55,
+            "rank": 2,
+            "evidence": "The Company\u2019s minority market share in the global smartphone, personal computer and tablet markets can make developers less inclined to develop or upgrade software for the Company\u2019s products and more inclined to devote their resources to developing and upgrading software for competitors\u2019 products with larger market share. When developers focus their efforts on these competing platforms, the availability and quality of applications for the Company\u2019s devices can suffer. \n\nThe Company relies on the continued availability and development of compelling and innovative software applications for its products. The Company\u2019s products and operating systems are subject to rapid technological change, and when third-party developers are unable to or choose not to keep up with this pace of change, their applications can fail to take advantage of these changes to deliver improved customer experiences, can operate incorrectly, and can result in dissatisfied customers and lower customer demand for the Company\u2019s products. \n\nApple Inc. | 2023 Form 10-K | 9"
+          },
+          {
+            "citation_id": 3,
+            "document_id": "AAPL_2023_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2023",
+            "filing_type": "10-K",
+            "chunk_index": 28,
+            "rank": 3,
+            "evidence": "## _**The Company\u2019s business can be impacted by political events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.**_ \n\nPolitical events, trade and other international disputes, war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can harm or disrupt international commerce and the global economy, and could have a material adverse effect on the Company and its customers, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners. \n\nApple Inc. | 2023 Form 10-K | 5"
+          },
+          {
+            "citation_id": 4,
+            "document_id": "AAPL_2023_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2023",
+            "filing_type": "10-K",
+            "chunk_index": 20,
+            "rank": 4,
+            "evidence": "In addition to Company-owned intellectual property, many of the Company\u2019s products and services are designed to include intellectual property owned by third parties. It may be necessary in the future to seek or renew licenses relating to various aspects of the Company\u2019s products, processes and services. While the Company has generally been able to obtain such licenses on commercially reasonable terms in the past, there is no guarantee that such licenses could be obtained in the future on reasonable terms or at all. \n\nApple Inc. | 2023 Form 10-K | 3"
+          },
+          {
+            "citation_id": 5,
+            "document_id": "AAPL_2023_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2023",
+            "filing_type": "10-K",
+            "chunk_index": 91,
+            "rank": 5,
+            "evidence": "## _**The Company is exposed to credit risk and fluctuations in the values of its investment portfolio.**_ \n\nThe Company\u2019s investments can be negatively affected by changes in liquidity, credit deterioration, financial results, market and economic conditions, political risk, sovereign risk, interest rate fluctuations or other factors. As a result, the value and liquidity of the Company\u2019s cash, cash equivalents and marketable securities may fluctuate substantially. Therefore, although the Company has not realized any significant losses on its cash, cash equivalents and marketable securities, future fluctuations in their value could result in significant losses and could have a material adverse impact on the Company\u2019s results of operations and financial condition. \n\nApple Inc. | 2023 Form 10-K | 15"
+          }
+        ],
+        "evaluation": {
+          "correctness_score": 2,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "correctness_reason": "The generated answer accurately lists the principal risks Apple identified in the 2023 Form 10-K: reliance on single\u2011source and primarily Asia\u2011based outsourcing partners, potential disruptions to manufacturing/logistics from a wide range of events, risks to recoverability of equipment and prepayments if partners suffer financial or operational problems, and broader political/trade/business interruption risks. These correspond to the reference answer\u2019s points about reduced direct control and exposure to supply availability, supplier concentration, and pricing/cost pressures (cost/supply impacts are explicitly mentioned).",
+          "groundedness_reason": "Each major claim in the generated answer is supported by the retrieved evidence (Source 1 documents reliance on single\u2011source partners, disruption causes, and recoverability of equipment/prepayments; Source 3 covers political/trade and other interruptions). No important factual claims are unsupported or contradicted by the provided sources.",
+          "citation_reason": "The generated answer cites Source 1 for the specific supplier and disruption risks and Source 3 for broader international/trade interruption risks; these citations align with and support the associated claims and correctly attribute the information to Apple\u2019s 2023 Form 10\u2011K."
+        },
+        "retrieval_latency_ms": 242.10262496490031,
+        "generation_latency_ms": 10197.276833001524
+      },
+      "correctness_change": 1
+    },
+    {
+      "question_id": "Q025",
+      "question": "What cybersecurity risks did Microsoft discuss in its fiscal 2024 filing?",
+      "category": "qualitative",
+      "reference_answer": "Microsoft described cybersecurity risks from hackers and nation-state actors using malware, vulnerability exploitation, social engineering, compromised accounts and supply chains, and increasingly sophisticated attack methods. Such incidents could disrupt services, expose data, increase costs, create legal or regulatory risk, and damage Microsoft's financial condition, competitive position, and reputation.",
+      "baseline": {
+        "answer": "Summary of the cybersecurity risks Microsoft discussed in its fiscal 2024 filing:\n\n- Cyberattacks and security vulnerabilities that could lead to reduced revenue, increased costs, liability claims, or harm to Microsoft\u2019s reputation or competitive position [3][4].  \n- The company noted the cybersecurity threat environment is \u201cincreasingly challenging\u201d and that Microsoft and the wider digital ecosystem are under constant and increasing threat [2].  \n- Microsoft said these risks are described in its Risk Factors (Part I, Item 1A) but, as of the filing date, it does not believe any cybersecurity risks have materially affected or are reasonably likely to materially affect its results of operations or financial condition [2].  \n- In response, Microsoft launched and expanded the Secure Future Initiative (SFI) (Nov 2023; expanded May 2024) to focus on continual improvement in cybersecurity, organized around the principles Secure by Design, Secure by Default, and Secure Operations [1].",
+        "evaluation": {
+          "correctness_score": 1,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "abstention_score": null,
+          "correctness_reason": "The answer correctly summarizes high-level cybersecurity risks and Microsoft\u2019s response (SFI) but omits specific threat actors and tactics noted in the reference (e.g., hackers and nation-state actors, malware, exploitation of vulnerabilities, social engineering, compromised accounts and supply chains, and increasingly sophisticated attack methods).",
+          "groundedness_reason": "All claims in the generated answer are supported by the retrieved evidence excerpts (Risk Factors, statements about the challenging threat environment, and the SFI initiative). No important supported claims are contradicted by the evidence.",
+          "citation_reason": "The answer includes citations ([1],[2],[3],[4]) that correspond to the provided evidence items and those sources support the specific claims made (risk impacts, threat environment, Risk Factors statement, and SFI details).",
+          "abstention_reason": null
+        }
+      },
+      "query_aware_v2": {
+        "answer": "Microsoft\u2019s fiscal 2024 Form 10\u2011K discusses cybersecurity, data privacy, and platform\u2011abuse risks and states several specific concerns and observations:\n\n- It identifies cyberattacks and security vulnerabilities as risks that \u201ccould lead to reduced revenue, increased costs, liability claims, or harm to our reputation or competitive position.\u201d [Source 3]\n\n- It says the cybersecurity threat environment is \u201cincreasingly challenging\u201d and that Microsoft and the broader digital ecosystem are \u201cunder constant and increasing threat.\u201d [Source 2]\n\n- It notes that Microsoft describes risks from cybersecurity threats (including previous cybersecurity incidents) in the \u201cRisk Factors\u201d section (Part I, Item 1A) of the filing. [Source 2]\n\n- At the same time, Microsoft states that, as of the filing date, it does not believe any cybersecurity risks have materially affected or are reasonably likely to materially affect its results of operations or financial condition. [Source 2]\n\n(As context, Microsoft explains its Secure Future Initiative (SFI) \u2014 launched November 2023 and expanded May 2024 \u2014 and the security principles that guide its strategy and response to the evolving threat landscape.) [Source 1]",
+        "sources": [
+          {
+            "citation_id": 1,
+            "document_id": "MSFT_2024_10K",
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 176,
+            "rank": 1,
+            "evidence": "## RISK MANAGEMENT AND STRATEGY \n\nMicrosoft plays a central role in the world\u2019s digital ecosystem. We have made it the top corporate priority to protect the computing environment used by our customers and employees and to support the resiliency of our cloud infrastructure and services, products, devices, and our internal corporate resources from determined adversaries. In response to the evolving cybersecurity threat landscape, we launched the Secure Future Initiative (\u201cSFI\u201d) in November 2023 and expanded the scope of SFI in May 2024. The SFI focuses our business strategy and efforts on continual improvement in cybersecurity protection, and is aligned around three security principles: \n\n- **Secure by Design:** Security comes first when designing any product or service. \n\n- **Secure by Default:** Security protections are enabled and enforced by default, require no extra effort, and are not optional. \n\n- **Secure Operations:** Security controls and monitoring will continuously be improved to meet current and future threats."
+          },
+          {
+            "citation_id": 2,
+            "document_id": "MSFT_2024_10K",
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 182,
+            "rank": 2,
+            "evidence": "We describe the risks from cybersecurity threats, including previous cybersecurity incidents, in section \u201cRisk Factors\u201d (Part I, Item 1A of this Form 10-K). As of the date of this Form 10-K, we do not believe any risks from cybersecurity threats have materially affected or are reasonably likely to materially affect us, including our results of operations or financial condition. However, the cybersecurity threat environment is increasingly challenging, and we, along with the entire digital ecosystem, are under constant and increasing threat. As discussed above, our business strategy is tied to the SFI and we are committed to continuously monitoring cybersecurity threats, enhancing the security of our products, investing in our cybersecurity infrastructure, and collaborating with peers, customers, service providers, regulators, and governments to advance our and the entire digital ecosystem\u2019s cybersecurity defenses and resiliency."
+          },
+          {
+            "citation_id": 3,
+            "document_id": "MSFT_2024_10K",
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 105,
+            "rank": 3,
+            "evidence": "## PART I \n\n## CYBERSECURITY, DATA PRIVACY, AND PLATFORM ABUSE RISKS \n\n**Cyberattacks and security vulnerabilities could lead to reduced revenue, increased costs, liability claims, or harm to our reputation or competitive position.**"
+          },
+          {
+            "citation_id": 4,
+            "document_id": "MSFT_2024_10K",
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 184,
+            "rank": 4,
+            "evidence": "Our CISO leads the strategy, engineering, and operations of cybersecurity across the company, and reports to the EVP of Microsoft Security. Our CISO has extensive experience assessing and managing cybersecurity programs and cybersecurity risk. Before joining Microsoft, our CISO served in a prior Chief Technology Officer role as well as in senior leadership, engineering, and operational roles within multiple organizations. In addition to the Board\u2019s oversight of cybersecurity risk, to support the CISO, we have established a Cybersecurity Governance Council (\u201cCGC\u201d) charged with overseeing initiatives that safeguard Microsoft\u2019s infrastructure. The CGC is comprised of an executive-level team of Deputy CISOs with cybersecurity backgrounds and expertise relevant to their roles. The CGC responsibilities include approving our enterprise security risk assessment process and results, determining the appropriate cybersecurity risk level and mitigations, reviewing the NIST CSF alignment, and supporting compliance with cybersecurity regulations. Our cybersecurity efforts are supported directly by Microsoft\u2019s security and threat intelligence experts and our employees across the company, all of whom receive cybersecurity awareness training and education and are expected to support our efforts. \n\n35 \n\nItem 2, 3, 4"
+          },
+          {
+            "citation_id": 5,
+            "document_id": "MSFT_2024_10K",
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 4,
+            "rank": 5,
+            "evidence": "## **MICROSOFT CORPORATION FORM 10-K For the Fiscal Year Ended June 30, 2024 INDEX**"
+          }
+        ],
+        "evaluation": {
+          "correctness_score": 1,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "correctness_reason": "The generated answer correctly summarizes high-level cybersecurity risks Microsoft discussed (e.g., cyberattacks, vulnerabilities, potential financial/reputational impact, the challenging threat environment, and the Secure Future Initiative). However it omits several important specifics present in the reference answer and the 10-K, such as threats from hackers and nation\u2011state actors and particular methods (malware, vulnerability exploitation, social engineering, compromised accounts and supply chains, and increasingly sophisticated attack methods).",
+          "groundedness_reason": "All factual claims made in the generated answer are supported by the retrieved evidence (Sources 1\u20133). The omitted adversary types and attack methods are not asserted in the generated answer, so there are no unsupported factual claims.",
+          "citation_reason": "Citations in the generated answer align with the retrieved sources: Source 3 supports the stated potential impacts, Source 2 supports the comments about the threat environment and Risk Factors, and Source 1 supports the description of the Secure Future Initiative and security principles. Citations are appropriate and correctly attributed to Microsoft."
+        },
+        "retrieval_latency_ms": 399.02300003450364,
+        "generation_latency_ms": 12307.900833024178
+      },
+      "correctness_change": 0
+    },
+    {
+      "question_id": "Q036",
+      "question": "How did Apple and Microsoft describe competitive pressures in their fiscal 2024 filings?",
+      "category": "cross_company",
+      "reference_answer": "Apple emphasized aggressive price competition, margin pressure, rapid technological change, short product cycles and the need for continual innovation. Microsoft described competition across numerous markets including productivity software, cloud and AI, operating systems, security and platform ecosystems from established technology companies, emerging competitors and open-source offerings.",
+      "baseline": {
+        "answer": "Apple (fiscal 2024)\n- Described its product and service markets as \u201chighly competitive,\u201d characterized by aggressive price competition that puts downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards, and rapid competitor adoption of technological advances [Source 1].  \n- Said competitors often compete through aggressive pricing and very low cost structures, and by imitating Apple\u2019s products and infringing on its intellectual property [Source 1].  \n- Stated its ability to compete depends on timely introduction of innovative products and services, noting Apple designs and develops nearly the entire solution for its products, and that principal competitive factors include price; product and service features (including security); relative price and performance; quality and reliability; design innovation; a strong third\u2011party ecosystem; marketing and distribution; service and support; and corporate reputation [Source 1].\n\nMicrosoft (fiscal 2024)\n- I do not have Microsoft\u2019s fiscal 2024 filing in the provided sources, so I don\u2019t have enough information to describe how Microsoft characterized competitive pressures in its fiscal 2024 filing.",
+        "evaluation": {
+          "correctness_score": 1,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "abstention_score": null,
+          "correctness_reason": "The answer correctly and accurately summarizes Apple's description of competitive pressures from the provided evidence, but it fails to describe Microsoft\u2019s fiscal 2024 characterization (it only states that Microsoft\u2019s filing wasn\u2019t available), so it is incomplete relative to the full question.",
+          "groundedness_reason": "The Apple claims are directly supported by the retrieved evidence (Source 1). The statement that Microsoft\u2019s filing was not provided is consistent with the absence of Microsoft content in the retrieved evidence.",
+          "citation_reason": "Apple statements are cited to Source 1 which supports the claims. The answer\u2019s claim about lacking Microsoft sources is a factual statement about the retrieved evidence and thus not contradicted by the provided citations.",
+          "abstention_reason": null
+        }
+      },
+      "query_aware_v2": {
+        "answer": "Apple (fiscal 2024): Apple described its markets as \u201chighly competitive,\u201d noting aggressive price competition and resulting downward pressure on gross margins, frequent new product introductions, short product life cycles, evolving industry standards, rapid competitor adoption of technology, and price sensitivity among customers [Source 1]. Apple said it faces substantial competition in smartphones, personal computers and tablets, has a minority market share in those global markets, and competes with rivals that may have broader product lines, lower-priced products, larger installed device bases, and the ability to cut prices or sell at little to no profit; Apple also warned competitors imitate its features or collaborate to offer more integrated solutions [Source 3]. Apple stated its competitive success depends heavily on timely introduction of innovative products and on factors such as price, product and security features, price/performance, quality and reliability, design innovation, a strong third\u2011party ecosystem, distribution and support, and corporate reputation [Source 1].\n\nMicrosoft (fiscal 2024): Microsoft described competitive pressures across several businesses. It said Xbox and its cloud gaming services compete with online gaming ecosystems and streaming services (including Amazon, Apple, Meta, and Tencent) and with console platforms from Nintendo and Sony, while asserting its gaming platform is differentiated by innovations in hardware architecture, user interface, developer tools, online services, and strong first\u2011party content [Source 2]. Microsoft said its Search and news advertising business competes with Google, OpenAI, a wide array of websites and social platforms such as Meta, and other portals [Source 2]. Microsoft also stated Windows faces competition from alternative platforms and devices (mainly Apple and Google), and that Microsoft Defender for Endpoint competes with CrowdStrike; Microsoft said Windows competes by offering choice, value, flexibility, security, ease of use, and broad compatibility, and that its Devices business faces competition from various computer, tablet and hardware manufacturers (including Apple and Windows OEMs) [Source 4].",
+        "sources": [
+          {
+            "citation_id": 1,
+            "document_id": "AAPL_2024_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 15,
+            "rank": 1,
+            "evidence": "## **Competition** \n\nThe markets for the Company\u2019s products and services are highly competitive, and are characterized by aggressive price competition and resulting downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards, continual improvement in product price and performance characteristics, rapid adoption of technological advancements by competitors, and price sensitivity on the part of consumers and businesses. Many of the Company\u2019s competitors seek to compete primarily through aggressive pricing and very low cost structures, and by imitating the Company\u2019s products and infringing on its intellectual property. \n\nApple Inc. | 2024 Form 10-K | 2 \n\nThe Company\u2019s ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies to the marketplace. The Company designs and develops nearly the entire solution for its products, including the hardware, operating system, numerous software applications and related services. Principal competitive factors important to the Company include price, product and service features (including security features), relative price and performance, product and service quality and reliability, design innovation, a strong third-party software and accessories ecosystem, marketing and distribution capability, service and support, and corporate reputation."
+          },
+          {
+            "citation_id": 2,
+            "document_id": "MSFT_2024_10K",
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 60,
+            "rank": 1,
+            "evidence": "Xbox and our cloud gaming services face competition from various online gaming ecosystems and game streaming services, including those operated by Amazon, Apple, Meta, and Tencent. We also compete with other providers of entertainment services such as video streaming platforms. Our gaming platform competes with console platforms from Nintendo and Sony, both of which have a large, established base of customers. We believe our gaming platform is effectively positioned against, and uniquely differentiated from, competitive products and services based on significant innovation in hardware architecture, user interface, developer tools, online gaming and entertainment services, and continued strong content from our own first-party game franchises as well as other digital content offerings. \n\nOur Search and news advertising business competes with Google, OpenAI, and a wide array of websites, social platforms like Meta, and portals that provide content and online offerings to end users. \n\n13 \n\nItem 1"
+          },
+          {
+            "citation_id": 3,
+            "document_id": "AAPL_2024_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 36,
+            "rank": 2,
+            "evidence": "The Company has a minority market share in the global smartphone, personal computer and tablet markets. The Company faces substantial competition in these markets from companies that have significant technical, marketing, distribution and other resources, as well as established hardware, software and digital content supplier relationships. In addition, some of the Company\u2019s competitors have broader product lines, lower-priced products and a larger installed base of active devices. Competition has been particularly intense as competitors have aggressively cut prices and lowered product margins. Certain competitors have the resources, experience or cost structures to provide products at little or no profit or even at a loss. Some of the markets in which the Company competes have from time to time experienced little to no growth or contracted overall. \n\nAdditionally, the Company faces significant competition as competitors imitate the Company\u2019s product features and applications within their products or collaborate to offer solutions that are more competitive than those they currently offer. The Company also expects competition to intensify as competitors imitate the Company\u2019s approach to providing components seamlessly within their offerings or work collaboratively to offer integrated solutions."
+          },
+          {
+            "citation_id": 4,
+            "document_id": "MSFT_2024_10K",
+            "company": "Microsoft",
+            "ticker": "MSFT",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 59,
+            "rank": 2,
+            "evidence": "## _Competition_ \n\nWindows faces competition from various software products and from alternative platforms and devices, mainly from Apple and Google, and Microsoft Defender for Endpoint competes with CrowdStrike on endpoint security solutions. We believe Windows competes effectively by giving customers choice, value, flexibility, security, an easy-to-use interface, and compatibility with a broad range of hardware and software applications, including those that enable productivity. \n\nDevices face competition from various computer, tablet, and hardware manufacturers who offer a unique combination of high-quality industrial design and innovative technologies across various price points. These manufacturers, many of which are also current or potential partners and customers, include Apple and our Windows OEMs."
+          },
+          {
+            "citation_id": 5,
+            "document_id": "AAPL_2024_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 54,
+            "rank": 3,
+            "evidence": "Apple Inc. | 2024 Form 10-K | 9"
+          }
+        ],
+        "evaluation": {
+          "correctness_score": 2,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "correctness_reason": "The generated answer accurately summarizes how Apple described aggressive price competition, margin pressure, rapid product cycles, technological change, imitation by competitors, and the need for continual innovation. It also correctly summarizes Microsoft\u2019s description of competition across gaming, search/advertising, Windows (OS), security (Defender), and Devices, matching the retrieved filings.",
+          "groundedness_reason": "All substantive claims in the generated answer are supported by the provided evidence: Apple details come from Sources 1 and 3 (AAPL_2024_10K) and Microsoft details come from Sources 2 and 4 (MSFT_2024_10K). No important assertions are made that are unsupported by those sources.",
+          "citation_reason": "The answer includes specific source citations that correspond to the claims (Apple references Source 1 and 3; Microsoft references Source 2 and 4), and those sources contain the quoted or paraphrased content used in the summary."
+        },
+        "retrieval_latency_ms": 486.55883298488334,
+        "generation_latency_ms": 9954.750042001251
+      },
+      "correctness_change": 1
+    },
+    {
+      "question_id": "Q038",
+      "question": "How did Apple and NVIDIA describe risks arising from third-party manufacturing relationships in their fiscal 2023 filings?",
+      "category": "cross_company",
+      "reference_answer": "Apple said outsourcing manufacturing reduces its direct control over production and distribution and exposes it to partner failures and disruptions. NVIDIA similarly said dependence on third-party foundries, suppliers and subcontractors reduces its control over product quantity, quality, manufacturing yields and delivery schedules.",
+      "baseline": {
+        "answer": "Apple (fiscal 2023): Apple said it relies on single-source outsourcing partners in the U.S., Asia and Europe for many components and on outsourcing partners primarily in Asia for final assembly of substantially all hardware products; failures by those partners can negatively affect the Company\u2019s cost or supply of components or finished goods. Apple noted manufacturing or logistics (including transit) can be disrupted for many reasons (natural or man-made disasters, IT failures, commercial disputes, armed conflict, economic, labor, environmental, public health or political issues, or international trade disputes). Apple also disclosed that it has invested in manufacturing process equipment (much of which is held at certain outsourcing partners) and made prepayments to certain suppliers, and that severe financial problems or other disruptions at those partners could reduce or terminate supply and impair recoverability of that equipment or prepayments [Source 1].\n\nNVIDIA (fiscal 2023): I do not have NVIDIA\u2019s fiscal 2023 filing in the provided sources, so I cannot describe how NVIDIA characterized third\u2011party manufacturing risks. If you provide NVIDIA\u2019s 2023 Form 10\u2011K (or the relevant excerpt), I can summarize its disclosure.",
+        "evaluation": {
+          "correctness_score": 1,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "abstention_score": null,
+          "correctness_reason": "The Apple description is accurate and captures the important points from the retrieved Apple 2023 filing. However, the response is incomplete because it does not provide NVIDIA's fiscal 2023 description (it correctly states NVIDIA's filing was not provided).",
+          "groundedness_reason": "Apple claims are directly supported by the provided Source 1 excerpt. The statement that NVIDIA's filing was not available is consistent with the retrieved evidence set, which contains no NVIDIA filing.",
+          "citation_reason": "The Apple summary is cited to Source 1 which contains the relevant language. The answer appropriately notes the absence of a NVIDIA source rather than making unsupported claims.",
+          "abstention_reason": ""
+        }
+      },
+      "query_aware_v2": {
+        "answer": "Summary of how each company described risks from third\u2011party manufacturing relationships in their fiscal 2023 filings:\n\n- Apple (Fiscal 2023): Apple said it relies on single\u2011source outsourcing partners in the U.S., Asia and Europe for many components and on outsourcing partners primarily in Asia for final assembly of substantially all of its hardware products, and that any failure of these partners can negatively affect the Company\u2019s cost or supply of components or finished goods. Apple also warned that manufacturing, logistics or transit in those locations can be disrupted for many causes (for example, natural or man\u2011made disasters, IT failures, commercial disputes, armed conflict, economic/business/labor/environmental/public health/political issues, or international trade disputes). Apple further noted it has invested in manufacturing process equipment (much of which is held at outsourcing partners) and made prepayments to certain suppliers, and that severe financial problems or other disruptions at those partners could reduce or terminate supply and impair recoverability of that equipment or prepayments [Apple, 2023 Form 10\u2011K; Source 1].\n\n- NVIDIA (Fiscal 2023): NVIDIA described that reliance on partners to supply and manufacture components reduces its direct control over production and increases the risk that its complex hardware and software products may contain defects, security vulnerabilities or experience failures (including failures discovered only after shipment). NVIDIA said it generally remains responsible to customers for warranty defects even when arrangements provide for reimbursement, and warned that dependency on third\u2011party foundries and subcontractors (for wafer manufacture, assembly, test and packaging) reduces control over quantity/quality, manufacturing yields and delivery schedules. NVIDIA also identified risks such as lack of guaranteed wafer/component capacity, decommitment or higher prices from incorrect demand estimates or late ordering, and said these supply\u2011chain dependencies could impair its ability to meet customer demand, scale its supply chain and could negatively affect its operations, gross margin, revenue and financial results [NVIDIA, 2023 Form 10\u2011K; Sources 2, 4].\n\nIf you would like, I can pull the exact quoted passages from the filings underlying each point.",
+        "sources": [
+          {
+            "citation_id": 1,
+            "document_id": "AAPL_2023_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2023",
+            "filing_type": "10-K",
+            "chunk_index": 42,
+            "rank": 1,
+            "evidence": "Apple Inc. | 2023 Form 10-K | 7 \n\nThe Company relies on single-source outsourcing partners in the U.S., Asia and Europe to supply and manufacture many components, and on outsourcing partners primarily located in Asia, for final assembly of substantially all of the Company\u2019s hardware products. Any failure of these partners to perform can have a negative impact on the Company\u2019s cost or supply of components or finished goods. In addition, manufacturing or logistics in these locations or transit to final destinations can be disrupted for a variety of reasons, including natural and man-made disasters, information technology system failures, commercial disputes, armed conflict, economic, business, labor, environmental, public health or political issues, or international trade disputes. \n\nThe Company has invested in manufacturing process equipment, much of which is held at certain of its outsourcing partners, and has made prepayments to certain of its suppliers associated with long-term supply agreements. While these arrangements help ensure the supply of components and finished goods, if these outsourcing partners or suppliers experience severe financial problems or other disruptions in their business, such continued supply can be reduced or terminated, and the recoverability of manufacturing process equipment or prepayments can be negatively impacted."
+          },
+          {
+            "citation_id": 2,
+            "document_id": "NVDA_2023_10K",
+            "company": "NVIDIA",
+            "ticker": "NVDA",
+            "year": "2023",
+            "filing_type": "10-K",
+            "chunk_index": 96,
+            "rank": 1,
+            "evidence": "Our hardware and software product offerings are complex and they have in the past and may in the future contain defects or security vulnerabilities, or experience failures or unsatisfactory performance due to any number of issues in design, fabrication, packaging, materials and/or use within a system. These risks may increase as our products are introduced into new devices, markets, technologies and applications or as new versions are released. These risks further increase when we rely on partners to supply and manufacture components that are used in our products, as these arrangements reduce our direct control over production. Although arrangements with component providers may contain provisions for product defect expense reimbursement, we generally remain responsible to the customer for warranty product defects that may occur from time to time. Some failures in our products or services have been in the past and may in the future be only discovered after a product or service has been shipped or used. Undiscovered vulnerabilities in our products or services could result in loss of data or intangible property, or expose our end customers to unscrupulous third parties who develop and deploy malicious software programs that could attack our products or services"
+          },
+          {
+            "citation_id": 3,
+            "document_id": "AAPL_2023_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2023",
+            "filing_type": "10-K",
+            "chunk_index": 20,
+            "rank": 2,
+            "evidence": "In addition to Company-owned intellectual property, many of the Company\u2019s products and services are designed to include intellectual property owned by third parties. It may be necessary in the future to seek or renew licenses relating to various aspects of the Company\u2019s products, processes and services. While the Company has generally been able to obtain such licenses on commercially reasonable terms in the past, there is no guarantee that such licenses could be obtained in the future on reasonable terms or at all. \n\nApple Inc. | 2023 Form 10-K | 3"
+          },
+          {
+            "citation_id": 4,
+            "document_id": "NVDA_2023_10K",
+            "company": "NVIDIA",
+            "ticker": "NVDA",
+            "year": "2023",
+            "filing_type": "10-K",
+            "chunk_index": 92,
+            "rank": 2,
+            "evidence": "## **Dependency on third-party suppliers and their technology to manufacture, assemble, test, package or design our products reduces our control over product quantity and quality, manufacturing yields, development, enhancement and product delivery schedules and could harm our business.** \n\nWe depend on foundries to manufacture our semiconductor wafers using their fabrication equipment and techniques. We do not assemble, test or package our products, but instead contract with independent subcontractors. We also rely on third-party software development tools to assist us in the design, simulation and verification of new products or product enhancements. The design requirements necessary to meet consumer demands for greater functionality from our products may exceed the capabilities of available software development tools. We face several risks which have adversely affected or could adversely affect our ability to meet customer demand and scale our supply chain, negatively impact longer-term demand for our products and services, and adversely affect our business operations, gross margin, revenue and/or financial results, including: \n\n- lack of guaranteed supply of wafer, component and capacity or decommitment and potential higher wafer and component prices, from incorrectly estimating demand and failing to place orders with our suppliers with sufficient quantities or in a timely manner; \n\n20 \n\nTable of Contents"
+          },
+          {
+            "citation_id": 5,
+            "document_id": "AAPL_2023_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2023",
+            "filing_type": "10-K",
+            "chunk_index": 55,
+            "rank": 3,
+            "evidence": "The Company\u2019s minority market share in the global smartphone, personal computer and tablet markets can make developers less inclined to develop or upgrade software for the Company\u2019s products and more inclined to devote their resources to developing and upgrading software for competitors\u2019 products with larger market share. When developers focus their efforts on these competing platforms, the availability and quality of applications for the Company\u2019s devices can suffer. \n\nThe Company relies on the continued availability and development of compelling and innovative software applications for its products. The Company\u2019s products and operating systems are subject to rapid technological change, and when third-party developers are unable to or choose not to keep up with this pace of change, their applications can fail to take advantage of these changes to deliver improved customer experiences, can operate incorrectly, and can result in dissatisfied customers and lower customer demand for the Company\u2019s products. \n\nApple Inc. | 2023 Form 10-K | 9"
+          }
+        ],
+        "evaluation": {
+          "correctness_score": 2,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "correctness_reason": "The generated answer accurately summarizes both companies' descriptions of third-party manufacturing risks: Apple emphasized reduced control and exposure to partner failures/disruptions (including held equipment and prepayments), and NVIDIA emphasized reduced control over quantity, quality, yields and delivery schedules and responsibility for warranty defects. These capture the key points from the reference answer.",
+          "groundedness_reason": "Each major claim in the generated answer is supported by the retrieved evidence: Apple's reliance on single-source outsourcing, disruption risks, investments in equipment/prepayments (Source 1); NVIDIA's reduced control due to dependence on foundries/subcontractors, impacts on quantity/quality/yields/delivery schedules and warranty responsibility (Sources 2 and 4).",
+          "citation_reason": "The generated answer cites the Apple 2023 Form 10-K (Source 1) and NVIDIA 2023 Form 10-K (Sources 2 and 4), which directly support the summarized statements and are correctly attributed to the respective companies."
+        },
+        "retrieval_latency_ms": 434.3318339670077,
+        "generation_latency_ms": 12059.929082985036
+      },
+      "correctness_change": 1
+    },
+    {
+      "question_id": "Q043",
+      "question": "What evidence does Apple provide that international markets are important to its business?",
+      "category": "evidence_seeking",
+      "reference_answer": "Apple states that sales outside the United States represent a majority of its total net sales. It also operates a large global supply chain, with a majority of supplier facilities located outside the United States.",
+      "baseline": {
+        "answer": "Apple\u2019s filings show multiple lines of evidence that international markets matter to its business:\n\n- Apple reports net sales by geographic segment (Americas, Europe, Greater China, Japan and Rest of Asia Pacific) and discloses the dollar amounts \u2014 for 2024, for example, Americas $167,045 million, Europe $101,328 million, Greater China $66,952 million, Japan $25,052 million, Rest of Asia Pacific $30,658 million, and total net sales $391,035 million [Source 4].  \n- The company explains regional drivers of results, attributing 2024 increases in the Americas and Europe to higher Services (and iPhone in Europe) and noting that Greater China net sales fell \u201cdue primarily to lower net sales of iPhone and iPad\u201d and an unfavorable impact from a weaker renminbi [Source 4].  \n- Apple expressly states that macroeconomic conditions (including inflation, interest rates and currency fluctuations) have \u201cdirectly and indirectly impacted, and could in the future materially impact, the Company\u2019s results of operations and financial condition,\u201d underscoring sensitivity to international economic factors [Source 4].  \n- The company frames its products and services as being sold in \u201chighly competitive global markets,\u201d which requires ongoing investment and affects its ability to compete worldwide [Source 2].  \n- Apple also notes that local competitors and country-specific factors (e.g., different labor relations, trade and tax laws, geopolitical events) can affect its international growth and competitive position [Source 3].  \n- Finally, Apple discloses numerous foreign subsidiaries (e.g., entities in Hong Kong, China, Ireland, India, Japan, South Korea, Mexico, Australia, Thailand, Vietnam, Canada and others), demonstrating a broad global operating presence [Source 5].",
+        "evaluation": {
+          "correctness_score": 1,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "abstention_score": null,
+          "correctness_reason": "The answer correctly cites multiple pieces of evidence showing Apple's international presence (regional net sales, regional drivers, macroeconomic sensitivity, global competition, and foreign subsidiaries). However, it omits the specific reference in the reference answer that sales outside the United States represent a majority of total net sales and does not mention the supply-chain point that a majority of supplier facilities are located outside the United States.",
+          "groundedness_reason": "All factual claims made in the generated answer are supported by the retrieved evidence: the geographic net sales table and regional commentary (Source 4), statements about global competition and required investments (Source 2), country-specific risks (Source 3), and the list of foreign subsidiaries (Source 5).",
+          "citation_reason": "Citations are appropriately attached to the corresponding claims (Source 4 for sales and regional discussion; Source 2 for global market competition; Source 3 for local factors; Source 5 for subsidiaries), and these sources support the statements made."
+        }
+      },
+      "query_aware_v2": {
+        "answer": "Apple\u2019s filings provide several pieces of evidence that international markets matter to its business:\n\n- Apple states that its \u201cproducts and services are offered in highly competitive global markets,\u201d emphasizing the global nature of its markets and the need to compete internationally (Apple 2023 Form 10\u2011K) [Source 2].\n\n- Apple reports large, regionally broken\u2011out net sales for fiscal 2024, showing material revenue outside the U.S.: Americas $167,045 million; Europe $101,328 million; Greater China $66,952 million; Japan $25,052 million; Rest of Asia Pacific $30,658 million; total net sales $391,035 million (Apple 2024 Form 10\u2011K) [Source 3].\n\n- Apple describes macroeconomic factors (inflation, interest rates, currency fluctuations) as having \u201cdirectly and indirectly impacted, and could in the future materially impact, the Company\u2019s results of operations and financial condition,\u201d indicating sensitivity to international economic conditions (Apple 2024 Form 10\u2011K) [Source 3].\n\n- Apple explains region\u2011level sales movements in fiscal 2024 (for example, Greater China net sales decreased in 2024 versus 2023 \u201cdue primarily to lower net sales of iPhone and iPad\u201d and unfavorable renminbi movement), showing that country/region performance affects overall results (Apple 2024 Form 10\u2011K) [Source 3].\n\n- Apple lists numerous foreign subsidiaries (e.g., Apple Asia Limited \u2014 Hong Kong; Apple Computer Trading (Shanghai) Co., Ltd. \u2014 China; Apple Distribution International Limited \u2014 Ireland; Apple India Private Limited \u2014 India; Apple Japan, Inc. \u2014 Japan; Apple Korea Limited \u2014 South Korea; Apple Operations Mexico, S.A. de C.V. \u2014 Mexico; Apple Pty Limited \u2014 Australia; etc.), demonstrating an extensive international corporate presence (Apple 2024 Form 10\u2011K, Exhibit 21.1) [Source 4].\n\n- Apple describes how it distributes third\u2011party applications through the App Store and has implemented changes for U.S. and EU regulatory requirements (including the EU Digital Markets Act), showing operational and regulatory engagement across international markets (Apple 2024 Form 10\u2011K) [Source 5].\n\n- Apple also notes that its \u201cminority market share in the global smartphone, personal computer and tablet markets\u201d can affect developer support, which underscores the relevance of global market dynamics to its product ecosystem (Apple 2023 Form 10\u2011K) [Source 1].\n\nIf you would like, I can extract the full regional sales table for fiscal 2024 or summarize year\u2011over\u2011year regional trends shown in the filing.",
+        "sources": [
+          {
+            "citation_id": 1,
+            "document_id": "AAPL_2023_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2023",
+            "filing_type": "10-K",
+            "chunk_index": 55,
+            "rank": 1,
+            "evidence": "The Company\u2019s minority market share in the global smartphone, personal computer and tablet markets can make developers less inclined to develop or upgrade software for the Company\u2019s products and more inclined to devote their resources to developing and upgrading software for competitors\u2019 products with larger market share. When developers focus their efforts on these competing platforms, the availability and quality of applications for the Company\u2019s devices can suffer. \n\nThe Company relies on the continued availability and development of compelling and innovative software applications for its products. The Company\u2019s products and operating systems are subject to rapid technological change, and when third-party developers are unable to or choose not to keep up with this pace of change, their applications can fail to take advantage of these changes to deliver improved customer experiences, can operate incorrectly, and can result in dissatisfied customers and lower customer demand for the Company\u2019s products. \n\nApple Inc. | 2023 Form 10-K | 9"
+          },
+          {
+            "citation_id": 2,
+            "document_id": "AAPL_2023_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2023",
+            "filing_type": "10-K",
+            "chunk_index": 34,
+            "rank": 2,
+            "evidence": "## _**Global markets for the Company\u2019s products and services are highly competitive and subject to rapid technological change, and the Company may be unable to compete effectively in these markets.**_ \n\nThe Company\u2019s products and services are offered in highly competitive global markets characterized by aggressive price competition and resulting downward pressure on gross margins, frequent introduction of new products and services, short product life cycles, evolving industry standards, continual improvement in product price and performance characteristics, rapid adoption of technological advancements by competitors, and price sensitivity on the part of consumers and businesses. \n\nThe Company\u2019s ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies to the marketplace. The Company designs and develops nearly the entire solution for its products, including the hardware, operating system, numerous software applications and related services. As a result, the Company must make significant investments in R&D. There can be no assurance these investments will achieve expected returns, and the Company may not be able to develop and market new products and services successfully. \n\nApple Inc. | 2023 Form 10-K | 6"
+          },
+          {
+            "citation_id": 3,
+            "document_id": "AAPL_2024_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 116,
+            "rank": 3,
+            "evidence": "## **Macroeconomic Conditions** \n\nMacroeconomic conditions, including inflation, interest rates and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company\u2019s results of operations and financial condition. \n\nApple Inc. | 2024 Form 10-K | 21 \n\n## **Segment Operating Performance** \n\nThe following table shows net sales by reportable segment for 2024, 2023 and 2022 (dollars in millions): \n\n|Americas|**2024**<br>$ 167,045|**2024**<br>$ 167,045|**Change**<br>3 %|**2023**<br>$ 162,560|**2023**<br>$ 162,560|**Change**<br>(4)%|**2022**|\n|---|---|---|---|---|---|---|---|\n||||||||$ 169,658|\n|Europe|101,328||7 %|94,294||(1)%|95,118|\n|Greater China|66,952||(8)%|72,559||(2)%|74,200|\n|Japan|25,052||3 %|24,257||(7)%|25,977|\n|Rest of Asia Pacific|30,658||4 %|29,615||1 %|29,375|\n|Total net sales|$ 391,035||2 %|$ 383,285||(3)%|$ 394,328|\n\n\n\n## _Americas_ \n\nAmericas net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services. \n\n## _Europe_ \n\nEurope net sales increased during 2024 compared to 2023 due primarily to higher net sales of Services and iPhone. \n\n## _Greater China_ \n\nGreater China net sales decreased during 2024 compared to 2023 due primarily to lower net sales of iPhone and iPad. The weakness in the renminbi relative to the U.S. dollar had an unfavorable year-over-year impact on Greater China net sales during 2024."
+          },
+          {
+            "citation_id": 4,
+            "document_id": "AAPL_2024_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 410,
+            "rank": 4,
+            "evidence": "## **Questions** \n\nInsider trading laws often depend on specific facts and circumstances. This document provides only general guidance. Please contact [***] or call [***] if you have any questions regarding this policy, Trading Plans, or your specific situation. If you are aware of a possible violation of this policy, you should contact your manager and Apple\u2019s Corporate Legal team. \n\n6 \n\nUpdated September 2024 \n\n**Exhibit 21.1** \n\n## **Subsidiaries of Apple Inc.*** \n\n|Apple Asia Limited|**Jurisdiction**<br>**of Incorporation**|\n|---|---|\n||Hong Kong|\n|Apple Asia LLC|Delaware, U.S.|\n|Apple Canada Inc.|Canada|\n|Apple Computer Trading (Shanghai) Co., Ltd.|China|\n|Apple Distribution International Limited|Ireland|\n|Apple India Private Limited|India|\n|Apple Insurance Company, Inc.|Arizona, U.S.|\n|Apple Japan, Inc.|Japan|\n|Apple Korea Limited|South Korea|\n|Apple Operations International Limited|Ireland|\n|Apple Operations Limited|Ireland|\n|Apple Operations Mexico, S.A. de C.V.|Mexico|\n|Apple Pty Limited|Australia|\n|Apple Sales International Limited|Ireland|\n|Apple South Asia (Thailand) Limited|Thailand|\n|Apple Vietnam Limited Liability Company|Vietnam|\n|Braeburn Capital, Inc.|Nevada, U.S.|\n|iTunes K.K.|Japan|\n\n\n\n* Pursuant to Item 601(b)(21)(ii) of Regulation S-K, the names of other subsidiaries of Apple Inc. are omitted because, considered in the aggregate, they would not constitute a significant subsidiary as of the end of the year covered by this report. \n\n**Exhibit 23.1**"
+          },
+          {
+            "citation_id": 5,
+            "document_id": "AAPL_2024_10K",
+            "company": "Apple",
+            "ticker": "AAPL",
+            "year": "2024",
+            "filing_type": "10-K",
+            "chunk_index": 57,
+            "rank": 5,
+            "evidence": "The Company distributes third-party applications for its products through the App Store. For the vast majority of applications, developers keep all of the revenue they generate on the App Store. Where applicable, the Company retains a commission from sales of applications and sales of digital services or goods initiated within an application. From time to time, the Company has made changes to its products and services, including taking actions in response to litigation, competition, market conditions and legal and regulatory requirements, and expects to make further business changes in the future. For example, in the U.S., the Company has implemented changes to how developers communicate with consumers within apps on the U.S. storefront of the iOS and iPadOS App Store regarding alternative purchasing mechanisms. The Company has also implemented changes to iOS, iPadOS, the App Store and Safari\u00ae in the European Union (\u201cEU\u201d) as it seeks to comply with the Digital Markets Act (the \u201cDMA\u201d), including new business terms and alternative fee structures for iOS and iPadOS apps, alternative methods of distribution for iOS and iPadOS apps, alternative payment processing for apps across the Company\u2019s operating systems, and additional tools and application programming interfaces (\u201cAPIs\u201d) for developers"
+          }
+        ],
+        "evaluation": {
+          "correctness_score": 1,
+          "groundedness_score": 2,
+          "citation_support_score": 2,
+          "correctness_reason": "The answer correctly identifies multiple pieces of evidence from Apple\u2019s filings (regional net sales, macroeconomic sensitivity, regional sales trends, extensive foreign subsidiaries, and regulatory actions) that demonstrate the importance of international markets. However it is incomplete relative to the reference answer: it does not explicitly state Apple\u2019s assertion that sales outside the United States represent a majority of total net sales nor that a majority of supplier facilities are located outside the United States.",
+          "groundedness_reason": "All factual claims made in the generated answer are supported by the retrieved sources: global market competitiveness (Source 2), detailed regional net sales and regional trends and macroeconomic sensitivity (Source 3), list of foreign subsidiaries (Source 4), App Store/regulatory changes (Source 5), and market share comment (Source 1). The answer does not assert the specific supplier-facility majority or an explicit \u2018\u2018sales outside the United States are a majority\u2019\u2019 sentence (which was not present in the provided retrieved evidence).",
+          "citation_reason": "The answer cites appropriate sections of the retrieved 10-K documents for each claim (Sources 1\u20135). Citations align with the supporting evidence supplied in the retrievals and are relevant to the corresponding claims."
+        },
+        "retrieval_latency_ms": 260.8725830214098,
+        "generation_latency_ms": 11574.083916959353
+      },
+      "correctness_change": 0
+    }
+  ]
+}

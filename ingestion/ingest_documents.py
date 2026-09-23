@@ -171,13 +171,12 @@ def ingest_document(
 
         if metrics:
             save_metrics(
-                company=company,
-                year=(
-                    int(year)
-                    if year.isdigit()
-                    else None
-                ),
-                metrics=metrics
+                document_id=metadata.document_id,
+                company=metadata.company,
+                ticker=metadata.ticker,
+                fiscal_year=int(metadata.fiscal_year),
+                filing_type=metadata.filing_type,
+                metrics=metrics,
             )
     else:
         print(

@@ -1,0 +1,3272 @@
+{
+  "experiment": {
+    "retriever": "dense",
+    "chunking": "recursive_markdown_aware",
+    "top_k_values": [
+      5,
+      10
+    ],
+    "questions_per_category": 3,
+    "question_count": 18
+  },
+  "results": [
+    {
+      "question_id": "Q001",
+      "question": "What was Apple's total net sales in fiscal 2024?",
+      "category": "factual",
+      "difficulty": "easy",
+      "reference_answer": "Apple's total net sales in fiscal 2024 were $391.035 billion.",
+      "runs": {
+        "5": {
+          "answer": "Apple\u2019s total net sales for fiscal 2024 were $391,035 million (i.e., $391.035 billion) [Source 4].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 871.8495409702882,
+          "generation_latency_ms": 3642.518625012599,
+          "total_latency_ms": 4514.368165982887,
+          "context_chars": 6561,
+          "prompt_tokens": 2158,
+          "completion_tokens": 232
+        },
+        "10": {
+          "answer": "Apple\u2019s total net sales in fiscal 2024 were $391,035 million [Source 4].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 110,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 123,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 116,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 90,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 314.0378749812953,
+          "generation_latency_ms": 6186.542665993329,
+          "total_latency_ms": 6500.5805409746245,
+          "context_chars": 13319,
+          "prompt_tokens": 4255,
+          "completion_tokens": 542
+        }
+      }
+    },
+    {
+      "question_id": "Q006",
+      "question": "What were Apple's Services net sales in fiscal 2024?",
+      "category": "factual",
+      "difficulty": "easy",
+      "reference_answer": "Apple's Services net sales in fiscal 2024 were $96.169 billion.",
+      "runs": {
+        "5": {
+          "answer": "Apple\u2019s Services net sales in fiscal 2024 were $96,169 million [Source 1].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 338.92233297228813,
+          "generation_latency_ms": 3615.1576249976642,
+          "total_latency_ms": 3954.0799579699524,
+          "context_chars": 6574,
+          "prompt_tokens": 2090,
+          "completion_tokens": 286
+        },
+        "10": {
+          "answer": "Apple\u2019s Services net sales for fiscal 2024 were $96,169 million (\u2248 $96.169 billion) [Source 6].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 110,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 116,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 90,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 123,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 413.1587090087123,
+          "generation_latency_ms": 3504.2385419947095,
+          "total_latency_ms": 3917.397251003422,
+          "context_chars": 13319,
+          "prompt_tokens": 4255,
+          "completion_tokens": 294
+        }
+      }
+    },
+    {
+      "question_id": "Q007",
+      "question": "What were Apple's total net sales in fiscal 2023?",
+      "category": "factual",
+      "difficulty": "easy",
+      "reference_answer": "Apple's total net sales in fiscal 2023 were $383.285 billion.",
+      "runs": {
+        "5": {
+          "answer": "Apple\u2019s total net sales in fiscal 2023 were $383,285 million (about $383.3 billion) [Source 5].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 110,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 123,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 279.7336669755168,
+          "generation_latency_ms": 5532.1262500365265,
+          "total_latency_ms": 5811.859917012043,
+          "context_chars": 6717,
+          "prompt_tokens": 2225,
+          "completion_tokens": 358
+        },
+        "10": {
+          "answer": "Apple\u2019s total net sales in fiscal 2023 were $383.3 billion ( $383,285 million) [Source 1][Source 5].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 110,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 123,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 180,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 179,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 494.4427919690497,
+          "generation_latency_ms": 4669.965583016165,
+          "total_latency_ms": 5164.408374985214,
+          "context_chars": 13407,
+          "prompt_tokens": 4555,
+          "completion_tokens": 361
+        }
+      }
+    },
+    {
+      "question_id": "Q002",
+      "question": "How much money did Apple generate from selling its products and services in fiscal 2024?",
+      "category": "paraphrase",
+      "difficulty": "medium",
+      "reference_answer": "Apple generated $391.035 billion in total net sales in fiscal 2024, consisting of $294.866 billion from products and $96.169 billion from services.",
+      "runs": {
+        "5": {
+          "answer": "Apple\u2019s total net sales in fiscal 2024 were $391,035 million (approximately $391.0 billion) [Source 1].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 115,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 203.4904999891296,
+          "generation_latency_ms": 3316.1889580078423,
+          "total_latency_ms": 3519.679457996972,
+          "context_chars": 6286,
+          "prompt_tokens": 1947,
+          "completion_tokens": 230
+        },
+        "10": {
+          "answer": "Apple reported total net sales of $391,035 million (\u2248 $391.0 billion) in fiscal 2024, comprising $294,866 million (\u2248 $294.9 billion) of Products sales and $96,169 million (\u2248 $96.2 billion) of Services sales [Source 6].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 115,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 110,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 123,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 116,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 221.29137499723583,
+          "generation_latency_ms": 5354.548499977682,
+          "total_latency_ms": 5575.839874974918,
+          "context_chars": 13683,
+          "prompt_tokens": 4433,
+          "completion_tokens": 393
+        }
+      }
+    },
+    {
+      "question_id": "Q015",
+      "question": "How much profit did Apple keep after all expenses in fiscal 2024?",
+      "category": "paraphrase",
+      "difficulty": "medium",
+      "reference_answer": "Apple's net income in fiscal 2024 was $93.736 billion.",
+      "runs": {
+        "5": {
+          "answer": "Apple\u2019s net income (profit after all expenses) for fiscal 2024 was $93,736 million ($93.736 billion) [Source 2].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 121,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 434.5388330402784,
+          "generation_latency_ms": 3764.234333008062,
+          "total_latency_ms": 4198.7731660483405,
+          "context_chars": 6605,
+          "prompt_tokens": 2114,
+          "completion_tokens": 297
+        },
+        "10": {
+          "answer": "Apple\u2019s net income (profit after all expenses) for fiscal 2024 was $93,736 million (about $93.7 billion) [Source 2].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 121,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 123,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 188,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 170,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 134,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 186.40879198210314,
+          "generation_latency_ms": 4472.844250034541,
+          "total_latency_ms": 4659.253042016644,
+          "context_chars": 12794,
+          "prompt_tokens": 4265,
+          "completion_tokens": 363
+        }
+      }
+    },
+    {
+      "question_id": "Q016",
+      "question": "How much money did Microsoft generate from customers in fiscal 2024?",
+      "category": "paraphrase",
+      "difficulty": "medium",
+      "reference_answer": "Microsoft generated $245.122 billion in revenue in fiscal 2024.",
+      "runs": {
+        "5": {
+          "answer": "Microsoft reported total revenue of $245,122 million (i.e., $245.122 billion) for fiscal year 2024 [Source 1].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 370,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 191,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 350,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 173,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 205,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 193.39137501083314,
+          "generation_latency_ms": 4405.648083018605,
+          "total_latency_ms": 4599.039458029438,
+          "context_chars": 7059,
+          "prompt_tokens": 1870,
+          "completion_tokens": 296
+        },
+        "10": {
+          "answer": "Microsoft reported total revenue of $245,122 million (about $245.1 billion) for fiscal year 2024 (year ended June 30, 2024) [Source 1].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 370,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 191,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 350,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 173,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 205,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 208,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 189,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 174,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 210,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 178,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 190.4563750140369,
+          "generation_latency_ms": 4361.812207964249,
+          "total_latency_ms": 4552.268582978286,
+          "context_chars": 13424,
+          "prompt_tokens": 3299,
+          "completion_tokens": 369
+        }
+      }
+    },
+    {
+      "question_id": "Q003",
+      "question": "What risks did NVIDIA identify that could affect its ability to meet product demand?",
+      "category": "qualitative",
+      "difficulty": "medium",
+      "reference_answer": "NVIDIA identified several supply-side risks that could prevent it from meeting customer demand, including inaccurate demand forecasts, insufficient foundry lead time or production capacity, supply constraints at contract manufacturers, and broader disruptions such as natural disasters, pandemics, or geopolitical tensions affecting critical suppliers and manufacturing partners.",
+      "runs": {
+        "5": {
+          "answer": "NVIDIA identified several demand- and supply-side risks that could impair its ability to meet product demand:\n\n- Failure to estimate customer demand properly, leading to mismatches between supply and demand (Source 3).  \n- Dependency on third\u2011party suppliers and their technology, which reduces NVIDIA\u2019s control over product quantity, quality, manufacturing yields, development and delivery schedules (Source 3).  \n- Product defects that can require significant remediation and damage the business (Source 3).  \n- Supply\u2011chain and inventory risks \u2014 supply has grown significantly, and purchase obligations and prepaid supply agreements represented more than half of NVIDIA\u2019s total supply at the end of fiscal 2023, creating risk of inventory provisions if commitments are misaligned with demand (Source 4).  \n- Market and competitive factors (competing technologies, competitor product releases, increased demand for competitive products), rapidly changing customer requirements, new product introductions that reduce demand for existing products, and time\u2011to\u2011market pressures (Sources 2, 4).  \n- External events and policy actions such as sudden or sustained government lockdowns or other health issues, business decisions by third parties, and government policy changes (including gaming restrictions) that can reduce end demand (Source 4).  \n- Shifts in demand for specific end uses \u2014 e.g., demand for accelerated/AI cloud services or cryptocurrency mining \u2014 that affect product demand (Source 4).  \n- Climate\u2011related changes in customer preferences or expectations (for lower energy use) that could reduce demand for computationally powerful but energy\u2011intensive products like GPUs (Source 1).  \n- Dependence on developers and third\u2011party content providers to build applications and make content available on NVIDIA platforms; failure by these parties to do so could reduce customer demand (Source 5).",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 116,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 68,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 69,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 84,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 91,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 269.3697919603437,
+          "generation_latency_ms": 7927.606666984502,
+          "total_latency_ms": 8196.976458944846,
+          "context_chars": 3951,
+          "prompt_tokens": 872,
+          "completion_tokens": 942
+        },
+        "10": {
+          "answer": "NVIDIA identified several supply\u2011and\u2011demand risks that could impair its ability to meet product demand, including:\n\n- Incorrect demand forecasting leading to supply/demand mismatches [Source 3].  \n- Dependence on third\u2011party suppliers and their technologies, which reduces NVIDIA\u2019s control over product quantity, quality, manufacturing yields, development and delivery schedules [Source 3].  \n- Limited suppliers for certain device and datacenter components, and supplier capacity constraints (including competitors using the same suppliers), which can limit available capacity [Source 9].  \n- Component shortages, industry\u2011wide shortages, or legal/regulatory changes that restrict supply sources, any of which can delay or prevent timely replacement supplies [Source 9].  \n- Extended lead times and the need to pay premiums or deposits to secure future supply/capacity, and the risk that NVIDIA may not be able to reduce supply commitments quickly if revenue declines [Source 8].  \n- Quality, reliability, or defect issues in hardware or software that can cause recalls, remediation, delays, or reduced sales and materially affect the company\u2019s ability to deliver products [Source 6][Source 7].  \n- Large purchase obligations and prepaid supply agreements (which recently represented a majority of supply) and the risk of inventory provisions if supply commitments are misaligned with actual demand [Source 4].  \n- Rapidly changing technology, customer requirements, new product introductions, and increased demand for competitive products that can change end demand and create mismatches between supply and demand [Source 4].  \n- Dependence on developers and third parties to build applications and make content available for NVIDIA platforms, which can affect customer demand and thus influence planning and ability to satisfy demand [Source 5].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 116,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 68,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 69,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 84,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 91,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 134,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 96,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 83,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 137,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 81,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 576.0683749685995,
+          "generation_latency_ms": 10243.472457979806,
+          "total_latency_ms": 10819.540832948405,
+          "context_chars": 9458,
+          "prompt_tokens": 1839,
+          "completion_tokens": 1251
+        }
+      }
+    },
+    {
+      "question_id": "Q021",
+      "question": "What risks did Apple identify related to its global supply chain in fiscal 2024?",
+      "category": "qualitative",
+      "difficulty": "medium",
+      "reference_answer": "Apple identified supply-chain risks including reliance on outsourced manufacturing and logistics partners, supplier concentration, component shortages, trade restrictions, geopolitical tensions, natural disasters, and other disruptions that could affect production and distribution.",
+      "runs": {
+        "5": {
+          "answer": "Apple identified several supply\u2011chain risks in fiscal 2024, including:\n\n- Heavy reliance on suppliers, contract manufacturers, logistics providers, distributors, cellular carriers and other channel partners \u2014 and the risk that economic weakness or uncertainty affecting those partners could produce financial instability, inability to obtain credit or insolvency that would harm Apple\u2019s supply and business [Source 1].  \n- Broad financial and liquidity effects tied to supply\u2011chain stress or economic deterioration, including increased credit and collectibility risk on trade receivables, failure of derivative counterparties or other financial institutions, limitations on Apple\u2019s ability to issue new debt, reduced liquidity, and declines in the fair values of Apple\u2019s financial instruments [Source 1].  \n- Exposure to cybersecurity and data\u2011security risks through third\u2011party suppliers and other partners (including ransomware and other malicious attacks); Apple warned that sharing confidential information with suppliers and other third parties can lead to losses or unauthorized disclosure that could materially harm its business, reputation and financial condition [Source 5].  \n- Risks tied to its retail channel that are connected to the broader supply chain, such as macroeconomic effects on retail activity, managing relationships with retail partners, and managing costs and fluctuations in the value of retail inventory [Source 3].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 27,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 42,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 69,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "GOOGL_2024_10K",
+              "company": "Alphabet",
+              "ticker": "GOOGL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 64,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 65,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 295.936124981381,
+          "generation_latency_ms": 14621.631791989785,
+          "total_latency_ms": 14917.567916971166,
+          "context_chars": 4915,
+          "prompt_tokens": 1038,
+          "completion_tokens": 1731
+        },
+        "10": {
+          "answer": "Apple identified several supply\u2011chain\u2013related risks in its 2024 Form 10\u2011K, including:\n\n- Supplier and partner financial distress and related disruption \u2014 global or regional economic weakness could cause financial instability, inability to obtain credit or insolvency among suppliers, contract manufacturers, logistics providers, distributors, carriers and other channel partners, which could materially harm Apple\u2019s business and operations [Source 1].  \n- Increased credit, counterparty and liquidity risks tied to those conditions \u2014 adverse economic conditions can raise credit and collectibility risk on Apple\u2019s trade receivables, cause failures of derivative counterparties or financial institutions, limit Apple\u2019s ability to issue debt, reduce liquidity and lower the fair value of financial instruments [Source 1].  \n- Operational disruptions from IT/network and partner failures \u2014 Apple warned of risks from information\u2011technology system failures or network disruptions and of failures by logistics, supply or manufacturing partners that could interrupt product availability or operations [Source 8].  \n- Cybersecurity and data\u2011security risks involving suppliers and third parties \u2014 ransomware or other malicious attacks on global suppliers and unauthorized access to confidential information shared with suppliers could materially disrupt operations or harm Apple\u2019s reputation and results [Source 5].  \n- Regulatory and trade risks that can affect movement of products \u2014 changes in export/import regulations or other regulatory actions could ban, delay or prohibit importation of Apple products and materially affect the business and supply chain [Source 10].  \n- Macroeconomic and currency exposure \u2014 macroeconomic factors (including inflation, interest rates and currency fluctuations) can materially affect Apple\u2019s results and, in 2024, weakness in the renminbi unfavorably affected Greater China net sales, reflecting regional currency impacts on operations and demand [Source 9].  \n\nIf you\u2019d like, I can group these by likelihood or potential impact based on the disclosures.",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 27,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 42,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 69,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "GOOGL_2024_10K",
+              "company": "Alphabet",
+              "ticker": "GOOGL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 64,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 65,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "GOOGL_2024_10K",
+              "company": "Alphabet",
+              "ticker": "GOOGL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 65,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 28,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 90,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 116,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 75,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 285.70504201343283,
+          "generation_latency_ms": 15733.24600001797,
+          "total_latency_ms": 16018.951042031404,
+          "context_chars": 10127,
+          "prompt_tokens": 2167,
+          "completion_tokens": 1914
+        }
+      }
+    },
+    {
+      "question_id": "Q022",
+      "question": "What competitive pressures did Microsoft discuss in its fiscal 2024 filing?",
+      "category": "qualitative",
+      "difficulty": "medium",
+      "reference_answer": "Microsoft described competition across its cloud, AI, security, server, database, business intelligence, and other software businesses from large technology companies, specialized vendors, emerging AI companies, and open-source offerings.",
+      "runs": {
+        "5": {
+          "answer": "Microsoft said the industry is \"dynamic and highly competitive\" with frequent changes in technologies and business models, and that its future growth depends on transcending current product categories, business models, and sales motions [Source 3][Source 5].  It identified competitive pressure areas it is addressing, including:\n- Security: tackling security across security, compliance, identity, and management across all clouds and platforms [Source 5].  \n- Gaming: inventing new gaming experiences across consoles, PC, and other devices [Source 5].  \n- Platform/service integration: using Windows to fuel its cloud business and drive engagement with services such as Microsoft 365 Consumer, Teams, Edge, Bing, and Xbox Game Pass [Source 5].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 173,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 191,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 175,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 4,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 26,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 422.77670797193423,
+          "generation_latency_ms": 7962.478084024042,
+          "total_latency_ms": 8385.254791995976,
+          "context_chars": 4366,
+          "prompt_tokens": 999,
+          "completion_tokens": 859
+        },
+        "10": {
+          "answer": "Microsoft\u2019s Form 10\u2011K for fiscal 2024 describes multiple competitive pressures, including:\n\n- Aggressive price competition and downward pressure on gross margins [Source 6].  \n- Frequent introduction of new products and services and short product life cycles that require rapid innovation [Source 6; Source 3].  \n- Evolving industry standards and continual improvements in product price and performance by competitors [Source 6].  \n- Rapid adoption of technological advancements by competitors and general price sensitivity of consumers and businesses [Source 6].  \n- Competitors that compete through very low cost structures, aggressive pricing (including selling at little or no profit), and by imitating Microsoft\u2019s products or infringing its intellectual property [Source 6; Source 9].  \n- Intense competition in gaming and cloud gaming from companies such as Amazon, Apple, Meta, and Tencent, and console competition from Nintendo and Sony [Source 7].  \n- Search and news advertising competition from Google, OpenAI, a wide array of websites and social platforms (including Meta), and other portals [Source 7].  \n- Substantial competition in smartphones, personal computers and tablets from firms with greater resources, broader product lines, lower\u2011priced products, and larger installed bases, with some rivals able to cut prices and compress margins; some markets have little to no growth or have contracted [Source 9; Source 10].  \n- Competitors imitating Microsoft\u2019s product features or collaborating to offer more competitive or integrated solutions, with an expectation that competition will intensify [Source 9; Source 10].  \n- The factors Microsoft identifies as principal competitive considerations\u2014price, product/service features (including security), relative price/performance, quality/reliability, design innovation, third\u2011party ecosystem, marketing/distribution, service/support, and corporate reputation [Source 6].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 173,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 191,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 175,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 4,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 26,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 15,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 60,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 370,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 36,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 36,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 297.85229201661423,
+          "generation_latency_ms": 7391.3630829774775,
+          "total_latency_ms": 7689.215374994092,
+          "context_chars": 10924,
+          "prompt_tokens": 2307,
+          "completion_tokens": 763
+        }
+      }
+    },
+    {
+      "question_id": "Q004",
+      "question": "How did Apple's net sales change from fiscal 2023 to fiscal 2024?",
+      "category": "temporal",
+      "difficulty": "medium",
+      "reference_answer": "Apple's total net sales increased from $383.285 billion in fiscal 2023 to $391.035 billion in fiscal 2024, an increase of $7.750 billion, or approximately 2.0%.",
+      "runs": {
+        "5": {
+          "answer": "Apple\u2019s total net sales rose from $383,285 million in fiscal 2023 to $391,035 million in fiscal 2024 \u2014 an increase of $7,750 million, or about 2% year over year [Source 3][Source 4].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 110,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 348.9572909893468,
+          "generation_latency_ms": 6792.275207990315,
+          "total_latency_ms": 7141.232498979662,
+          "context_chars": 6542,
+          "prompt_tokens": 2125,
+          "completion_tokens": 448
+        },
+        "10": {
+          "answer": "Apple\u2019s total net sales increased from $383,285 million in fiscal 2023 to $391,035 million in fiscal 2024 \u2014 an increase of $7,750 million, or about 2% year\u2011over\u2011year [Source 9][Source 4].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 110,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 90,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 116,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 123,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 388.13558395486325,
+          "generation_latency_ms": 6507.624084013514,
+          "total_latency_ms": 6895.7596679683775,
+          "context_chars": 13319,
+          "prompt_tokens": 4260,
+          "completion_tokens": 514
+        }
+      }
+    },
+    {
+      "question_id": "Q027",
+      "question": "How did Apple's Services net sales change from fiscal 2023 to fiscal 2024?",
+      "category": "temporal",
+      "difficulty": "medium",
+      "reference_answer": "Apple's Services net sales increased from $85.200 billion in fiscal 2023 to $96.169 billion in fiscal 2024, an increase of $10.969 billion, or approximately 12.9%.",
+      "runs": {
+        "5": {
+          "answer": "Apple\u2019s Services net sales increased from $85,200 million in fiscal 2023 to $96,169 million in fiscal 2024, an increase of $10,969 million (about 13%) [Source 5]. This increase was due primarily to higher net sales from advertising, the App Store and cloud services [Source 3].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 110,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 395.41999995708466,
+          "generation_latency_ms": 8119.641833007336,
+          "total_latency_ms": 8515.06183296442,
+          "context_chars": 6542,
+          "prompt_tokens": 2126,
+          "completion_tokens": 655
+        },
+        "10": {
+          "answer": "Apple\u2019s Services net sales rose from $85,200 million in fiscal 2023 to $96,169 million in fiscal 2024 \u2014 an increase of $10,969 million, or about 13% year\u2011over\u2011year [Source 10] [Source 5]. This increase was due primarily to higher net sales from advertising, the App Store and cloud services [Source 3].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 110,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 111,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 90,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 116,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 387.1835839818232,
+          "generation_latency_ms": 7176.212958991528,
+          "total_latency_ms": 7563.396542973351,
+          "context_chars": 13242,
+          "prompt_tokens": 4127,
+          "completion_tokens": 602
+        }
+      }
+    },
+    {
+      "question_id": "Q028",
+      "question": "How did Apple's net income change from fiscal 2023 to fiscal 2024?",
+      "category": "temporal",
+      "difficulty": "medium",
+      "reference_answer": "Apple's net income decreased from $96.995 billion in fiscal 2023 to $93.736 billion in fiscal 2024, a decrease of $3.259 billion, or approximately 3.4%.",
+      "runs": {
+        "5": {
+          "answer": "I don\u2019t have enough information to determine the change because the provided sources include Apple\u2019s net income for fiscal 2023 ($97.0 billion) [Source 1] but do not include Apple\u2019s net income for fiscal 2024. Without the 2024 net income figure, I can\u2019t calculate the change.",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 110,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 468.8199160154909,
+          "generation_latency_ms": 6722.607916977722,
+          "total_latency_ms": 7191.427832993213,
+          "context_chars": 6542,
+          "prompt_tokens": 2125,
+          "completion_tokens": 586
+        },
+        "10": {
+          "answer": "Apple\u2019s net income decreased from $96,995 million in fiscal 2023 to $93,736 million in fiscal 2024, a decline of $3,259 million (about 3.4%) [Source 8].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 110,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 116,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 90,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 123,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 430.2762500010431,
+          "generation_latency_ms": 7569.273124972824,
+          "total_latency_ms": 7999.549374973867,
+          "context_chars": 13319,
+          "prompt_tokens": 4260,
+          "completion_tokens": 569
+        }
+      }
+    },
+    {
+      "question_id": "Q033",
+      "question": "How did Apple's fiscal 2024 revenue compare with Microsoft's fiscal 2024 revenue?",
+      "category": "cross_company",
+      "difficulty": "medium",
+      "reference_answer": "Apple reported $391.035 billion in total net sales in fiscal 2024, compared with Microsoft's $245.122 billion in revenue. Apple's revenue was $145.913 billion higher.",
+      "runs": {
+        "5": {
+          "answer": "Apple\u2019s fiscal 2024 total net sales were $391,035 million (about $391.0 billion) [Source 2], compared with Microsoft\u2019s fiscal 2024 revenue of $245,122 million (about $245.1 billion) [Source 5]. Thus, Apple reported roughly $145.9 billion more in revenue \u2014 about 1.6\u00d7 Microsoft\u2019s fiscal 2024 revenue (based on those reported totals) [Source 2][Source 5].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 205,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 191,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 370,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 2914.569874992594,
+          "generation_latency_ms": 7934.016957995482,
+          "total_latency_ms": 10848.586832988076,
+          "context_chars": 6971,
+          "prompt_tokens": 1986,
+          "completion_tokens": 876
+        },
+        "10": {
+          "answer": "Apple\u2019s fiscal 2024 total net sales were $391,035 million (about $391.0 billion) [Source 2]. Microsoft\u2019s fiscal year 2024 revenue was $245,122 million (about $245.1 billion) [Source 5]. Thus, Apple\u2019s 2024 revenue exceeded Microsoft\u2019s by $145,913 million (about $145.9 billion), or roughly 60% higher [Source 2][Source 5].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 205,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 191,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 370,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 189,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 173,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 208,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 416.52275004889816,
+          "generation_latency_ms": 10529.434875003062,
+          "total_latency_ms": 10945.95762505196,
+          "context_chars": 13834,
+          "prompt_tokens": 3566,
+          "completion_tokens": 1128
+        }
+      }
+    },
+    {
+      "question_id": "Q034",
+      "question": "How did Apple's fiscal 2024 net income compare with Microsoft's fiscal 2024 net income?",
+      "category": "cross_company",
+      "difficulty": "medium",
+      "reference_answer": "Apple reported fiscal 2024 net income of $93.736 billion, compared with Microsoft's $88.136 billion. Apple's net income was $5.600 billion higher.",
+      "runs": {
+        "5": {
+          "answer": "Apple\u2019s fiscal 2024 net income was $93,736 million (for the year ended September 28, 2024) [Source 5]. I do not have Microsoft\u2019s fiscal 2024 net income in the provided sources, so I cannot compare the two.",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 301.85670795617625,
+          "generation_latency_ms": 3717.751958000008,
+          "total_latency_ms": 4019.6086659561843,
+          "context_chars": 6557,
+          "prompt_tokens": 2198,
+          "completion_tokens": 257
+        },
+        "10": {
+          "answer": "Apple\u2019s fiscal 2024 net income was $93,736 million [Source 5]. I do not have Microsoft\u2019s fiscal 2024 net income in the provided sources, so I can\u2019t make the comparison.",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 116,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 205,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 191,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 188,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 173,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 244.73804101580754,
+          "generation_latency_ms": 7016.042542003561,
+          "total_latency_ms": 7260.780583019368,
+          "context_chars": 13890,
+          "prompt_tokens": 4059,
+          "completion_tokens": 693
+        }
+      }
+    },
+    {
+      "question_id": "Q035",
+      "question": "Which supply-chain risks were discussed by both Apple and NVIDIA in their fiscal 2023 filings?",
+      "category": "cross_company",
+      "difficulty": "hard",
+      "reference_answer": "Both Apple and NVIDIA identified risks from dependence on external suppliers and manufacturers, supply or capacity constraints, and disruptions such as geopolitical events, natural disasters and other events that can interrupt manufacturing or product supply.",
+      "runs": {
+        "5": {
+          "answer": "Both Apple\u2019s fiscal 2023 filing (Apple 2023 Form 10\u2011K) and NVIDIA\u2019s fiscal 2023 disclosure discussed the following common supply\u2011chain risks:\n\n- Adverse business and economic conditions that can reduce demand or disrupt supply chains [Source 3] [Source 5].  \n- Public\u2011health events and related government lockdowns or actions (e.g., COVID\u201119 or other health issues) that can disrupt manufacturing and logistics [Source 3] [Source 5].  \n- Risks tied to third\u2011party suppliers/outsourcing partners \u2014 including failures to perform or business decisions by those third parties [Source 3] [Source 5].  \n- Government actions, policy changes or trade disputes (including restrictions or international trade disputes) that can affect manufacturing, logistics or market access [Source 3] [Source 5].  \n- Inventory and supply commitments (purchase obligations/prepaid supply agreements and related recoverability or inventory\u2011provision risks) [Source 3] [Source 5].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "GOOGL_2024_10K",
+              "company": "Alphabet",
+              "ticker": "GOOGL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 64,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "GOOGL_2024_10K",
+              "company": "Alphabet",
+              "ticker": "GOOGL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 65,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 42,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 65,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 84,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 335.6984999845736,
+          "generation_latency_ms": 21987.865249975584,
+          "total_latency_ms": 22323.563749960158,
+          "context_chars": 5884,
+          "prompt_tokens": 1199,
+          "completion_tokens": 2393
+        },
+        "10": {
+          "answer": "I can\u2019t determine which supply\u2011chain risks were discussed by both Apple and NVIDIA because the materials you provided do not include NVIDIA\u2019s fiscal 2023 filing. I therefore don\u2019t have the NVIDIA disclosures needed to identify overlaps.\n\nFor reference, here are the supply\u2011chain risks Apple discussed in its fiscal 2023 Form 10\u2011K (so you can compare if/when you provide NVIDIA\u2019s filing):\n\n- Reliance on single\u2011source outsourcing partners for many components and on outsourcing partners (primarily in Asia) for final assembly; failures by these partners can negatively affect cost or supply of components or finished goods [Source 3].  \n- Disruptions to manufacturing, logistics or transit for many reasons including natural and man\u2011made disasters, IT system failures, commercial disputes, armed conflict, economic, labor, environmental, public health or political issues, and international trade disputes [Source 3].  \n- Investment in manufacturing process equipment held at outsourcing partners and prepayments to suppliers under long\u2011term agreements that could be impaired if partners experience severe financial problems or other disruptions [Source 3].  \n- Broad political, trade and other international events (war, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions) that can harm or disrupt international commerce and the Company\u2019s suppliers, contract manufacturers, logistics providers and other partners [Source 10].\n\nIf you provide NVIDIA\u2019s fiscal 2023 filing (or excerpts), I can compare and list the specific supply\u2011chain risks discussed by both companies.",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "GOOGL_2024_10K",
+              "company": "Alphabet",
+              "ticker": "GOOGL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 64,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "GOOGL_2024_10K",
+              "company": "Alphabet",
+              "ticker": "GOOGL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 65,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 42,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 65,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 84,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 27,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 90,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 69,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 47,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 28,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 390.3272499446757,
+          "generation_latency_ms": 18279.148957983125,
+          "total_latency_ms": 18669.4762079278,
+          "context_chars": 10510,
+          "prompt_tokens": 2034,
+          "completion_tokens": 1850
+        }
+      }
+    },
+    {
+      "question_id": "Q040",
+      "question": "What evidence does Apple provide about the importance of Services to its fiscal 2024 sales?",
+      "category": "evidence_seeking",
+      "difficulty": "medium",
+      "reference_answer": "Apple reported $96.169 billion in Services net sales in fiscal 2024, up from $85.200 billion in fiscal 2023. Apple also stated that higher Services net sales contributed to year-over-year sales growth in several geographic regions, including the Americas, Europe, and Rest of Asia Pacific.",
+      "runs": {
+        "5": {
+          "answer": "- Scale: Services generated $96,169 million of net sales in fiscal 2024 out of total net sales of $391,035 million \u2014 about 24.6% of Apple\u2019s revenue in 2024 [Source 1].\n\n- Growth: Services net sales increased year\u2011over\u2011year (from $85,200 million in 2023 to $96,169 million in 2024), and Apple attributes the 2024 increase primarily to higher net sales from advertising, the App Store and cloud services [Source 1; Source 5].\n\n- Profitability and impact on margins: Services earned $71,050 million of gross margin in 2024 and had a gross margin percentage of 73.9% (well above Products\u2019 37.2%), and Services\u2019 gross margin rose versus 2023 \u2014 facts Apple reports to show Services is a high\u2011margin, growing contributor to overall profitability (total gross margin rose from $169,148 million in 2023 to $180,683 million in 2024) [Source 5].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 90,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 352.83925000112504,
+          "generation_latency_ms": 11410.570791980717,
+          "total_latency_ms": 11763.410041981842,
+          "context_chars": 5922,
+          "prompt_tokens": 1775,
+          "completion_tokens": 1250
+        },
+        "10": {
+          "answer": "Apple highlights Services as a growing, high\u2011margin and material component of fiscal 2024 results:\n\n- Services net sales were $96,169 million in fiscal 2024 (up from $85,200 million in 2023) \u2014 a 13% increase year over year [Source 9][Source 6].  \n- Services helped drive overall revenue growth: total net sales rose to $391,035 million in 2024 (a 2% increase versus 2023), while Services posted double\u2011digit growth versus many product categories that were flat or down [Source 6].  \n- Services produce outsized profitability: Services gross margin was $71,050 million in 2024, with a gross margin percentage of 73.9% (versus Products at 37.2%), underscoring Services\u2019 higher margin contribution to Apple\u2019s results [Source 5].  \n- Apple attributes the Services growth to higher net sales from advertising, the App Store and cloud services, and notes that higher Services net sales were a primary reason for increases in certain geographic regions (for example, Americas and Europe) in 2024 [Source 5][Source 7].\n\nThese points are the evidence Apple provides in its 2024 filings about the importance of Services to its fiscal 2024 sales.",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 153,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 106,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 90,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 143,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 118,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 117,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 116,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 110,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 133,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 40,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 430.9570000041276,
+          "generation_latency_ms": 12165.922667016275,
+          "total_latency_ms": 12596.879667020403,
+          "context_chars": 13328,
+          "prompt_tokens": 3970,
+          "completion_tokens": 1235
+        }
+      }
+    },
+    {
+      "question_id": "Q041",
+      "question": "What evidence does Microsoft provide about the performance of its cloud business in fiscal 2024?",
+      "category": "evidence_seeking",
+      "difficulty": "medium",
+      "reference_answer": "Microsoft reported that Server products and cloud services revenue increased 22% in fiscal 2024, driven by 30% growth in Azure and other cloud services.",
+      "runs": {
+        "5": {
+          "answer": "Microsoft cites multiple metrics showing strong cloud performance in fiscal 2024:\n\n- Microsoft Cloud revenue grew 23% to $137.4 billion in fiscal 2024 [Source 1][Source 3].  \n- Server products and cloud services (which include Azure and other cloud offerings) revenue was $97,726 million in fiscal 2024 (up from $79,970 million in 2023) [Source 3].  \n- Office products and cloud services revenue (which includes Office 365 Commercial) was $54,875 million in fiscal 2024, reflecting Office 365 Commercial growth that helped drive cloud results [Source 3][Source 1].  \n- Dynamics products and cloud services revenue was $6,481 million in fiscal 2024, with Dynamics 365 noted as a growth driver [Source 3][Source 1].  \n- LinkedIn (the commercial portion is included in Microsoft Cloud) generated $16,372 million in fiscal 2024, contributing to cloud revenue [Source 3][Source 1].  \n- Microsoft states Intelligent Cloud revenue increased in fiscal 2024 driven by Azure [Source 5].  \n- On profitability, Microsoft reports Microsoft Cloud gross margin was 71% in fiscal 2024; excluding a change in accounting estimate for server/network equipment lives, Microsoft says Cloud gross margin percentage increased slightly due to improvements in Azure and Office 365 Commercial, partially offset by a sales-mix shift to Azure [Source 5].  \n- Microsoft also reports cost of revenue increased $8.3 billion in fiscal 2024 driven in part by growth in Microsoft Cloud (and Gaming) [Source 5].  \n\nTaken together, Microsoft presents revenue growth, segment-level revenue amounts, product-growth drivers (Azure, Office 365 Commercial, Dynamics 365, LinkedIn), and gross\u2011margin commentary as evidence of cloud performance in fiscal 2024 [Source 1][Source 3][Source 5].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 191,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 173,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 370,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 350,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 205,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 480.2084590191953,
+          "generation_latency_ms": 9618.843417032622,
+          "total_latency_ms": 10099.051876051817,
+          "context_chars": 7059,
+          "prompt_tokens": 1874,
+          "completion_tokens": 1174
+        },
+        "10": {
+          "answer": "Microsoft cites multiple data points showing strong cloud performance in fiscal 2024:\n\n- Microsoft Cloud revenue rose 23% to $137.4 billion in fiscal 2024 [Source 1].  \n- Microsoft\u2019s overall revenue for the year was $245.122 billion, of which the $137.4 billion of Microsoft Cloud revenue is a major component [Source 3].  \n- Server products and cloud services (which include Azure) generated $97,726 million in revenue in fiscal 2024 [Source 3].  \n- Management attributes revenue growth in its cloud businesses to Azure and other cloud services\u2014Intelligent Cloud revenue \u201cincreased driven by Azure\u201d in fiscal 2024 [Source 5].  \n- Microsoft discloses Microsoft Cloud gross margin behavior for fiscal 2024: gross margin percentage for Microsoft Cloud was 71%; excluding a change in accounting estimate, Microsoft says margin increased slightly driven by improvements in Azure and Office 365 Commercial, partly offset by a sales\u2011mix shift to Azure [Source 5].  \n- The company also reports strong cloud\u2011related product growth that feeds the cloud portfolio: Office 365 Commercial revenue grew 16% (Office Commercial products and cloud services up 14%) and Dynamics 365 revenue grew 24%, supporting Productivity & Business Processes cloud growth [Source 7].  \n\nThese points are the evidence Microsoft provides in its filings about the performance and drivers of its cloud business in fiscal 2024 [Sources 1, 3, 5, 7].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 191,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 173,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 370,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 350,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 205,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 189,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 208,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 174,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 198,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 25,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 486.4375000470318,
+          "generation_latency_ms": 9753.772958007175,
+          "total_latency_ms": 10240.210458054207,
+          "context_chars": 13260,
+          "prompt_tokens": 3087,
+          "completion_tokens": 1149
+        }
+      }
+    },
+    {
+      "question_id": "Q042",
+      "question": "What evidence does NVIDIA provide that it relies heavily on external manufacturing partners?",
+      "category": "evidence_seeking",
+      "difficulty": "medium",
+      "reference_answer": "NVIDIA states that it depends on foundries to manufacture its semiconductor wafers and contracts with independent subcontractors rather than assembling, testing, or packaging its products itself. It says this third-party dependence reduces its control over quantity, quality, manufacturing yields and delivery schedules.",
+      "runs": {
+        "5": {
+          "answer": "- NVIDIA says its devices are \"primarily manufactured by third\u2011party contract manufacturers\" [Source 5].  \n- It names external suppliers that produce its semiconductor wafers (e.g., Taiwan Semiconductor Manufacturing Company and Samsung) and a long list of independent subcontractors/contract manufacturers (e.g., Amkor, BYD, Hon Hai, King Yuan, Siliconware, Wistron) that perform assembly, testing, and packaging for most of its products [Source 2].  \n- It also uses contract manufacturers (e.g., Flex, Jabil, Universal Scientific) to build adapter cards and switch systems and outsources network cable manufacturing to Fabrinet [Source 2].  \n- NVIDIA purchases substrates and memory from outside vendors (e.g., Ibiden, Kinsus, Unimicron; Micron, Samsung, SK Hynix) and states it often consigns key components (GPU, SoC, memory, integrated circuits) to contract manufacturers [Source 2].  \n- NVIDIA acknowledges that, despite some ability to switch vendors for most products, certain components have very few qualified suppliers and disruptions at those suppliers could harm its ability to manufacture devices on time, underscoring its reliance on external partners [Source 5].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 20,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 43,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 17,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 91,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 63,
+              "rank": 5
+            }
+          ],
+          "retrieval_latency_ms": 872.3252500058152,
+          "generation_latency_ms": 7943.545292015187,
+          "total_latency_ms": 8815.870542021003,
+          "context_chars": 3766,
+          "prompt_tokens": 820,
+          "completion_tokens": 899
+        },
+        "10": {
+          "answer": "NVIDIA\u2019s filings explicitly state multiple facts showing heavy reliance on external manufacturers:\n\n- It uses third\u2011party foundries to produce wafers \u2014 specifically naming Taiwan Semiconductor Manufacturing Company (TSMC) and Samsung \u2014 and then relies on independent subcontractors/contract manufacturers to perform assembly, testing, and packaging (e.g., Amkor, BYD, Hon Hai, King Yuan, Siliconware, Wistron) [Source 2].  \n- It outsources manufacturing of other components and systems to contract manufacturers (e.g., Flex Ltd., Jabil Inc., Universal Scientific Industrial Co., Ltd.) and suppliers for cables and substrates (e.g., Fabrinet; Ibiden, Kinsus, Unimicron) and purchases memory from external vendors (Micron, Samsung, SK Hynix) [Source 2].  \n- NVIDIA states plainly that \u201cOur devices are primarily manufactured by third\u2011party contract manufacturers,\u201d acknowledging that most production is done externally [Source 5].  \n- It also notes operational risk from this dependence: some products contain components with \u201cvery few qualified suppliers,\u201d and extended disruptions at those suppliers could impair NVIDIA\u2019s ability to manufacture devices on time to meet demand [Source 5; Source 9].  \n- NVIDIA further explains that it sometimes consigns key components or materials (GPU, SoC, memory, integrated circuits) to contract manufacturers, indicating transfer of critical inventory/control to external partners [Source 2].\n\nThese disclosures collectively demonstrate NVIDIA\u2019s heavy reliance on external manufacturing partners and the associated supply\u2011chain risks [Source 2; Source 5; Source 9].",
+          "sources": [
+            {
+              "citation_id": 1,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 20,
+              "rank": 1
+            },
+            {
+              "citation_id": 2,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 43,
+              "rank": 2
+            },
+            {
+              "citation_id": 3,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 17,
+              "rank": 3
+            },
+            {
+              "citation_id": 4,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 91,
+              "rank": 4
+            },
+            {
+              "citation_id": 5,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 63,
+              "rank": 5
+            },
+            {
+              "citation_id": 6,
+              "document_id": "AAPL_2023_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 42,
+              "rank": 6
+            },
+            {
+              "citation_id": 7,
+              "document_id": "NVDA_2023_10K",
+              "company": "NVIDIA",
+              "ticker": "NVDA",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 27,
+              "rank": 7
+            },
+            {
+              "citation_id": 8,
+              "document_id": "AAPL_2024_10K",
+              "company": "Apple",
+              "ticker": "AAPL",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 43,
+              "rank": 8
+            },
+            {
+              "citation_id": 9,
+              "document_id": "MSFT_2023_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2023",
+              "filing_type": "10-K",
+              "chunk_index": 177,
+              "rank": 9
+            },
+            {
+              "citation_id": 10,
+              "document_id": "MSFT_2024_10K",
+              "company": "Microsoft",
+              "ticker": "MSFT",
+              "year": "2024",
+              "filing_type": "10-K",
+              "chunk_index": 195,
+              "rank": 10
+            }
+          ],
+          "retrieval_latency_ms": 378.8877920014784,
+          "generation_latency_ms": 7919.095541990828,
+          "total_latency_ms": 8297.983333992306,
+          "context_chars": 10555,
+          "prompt_tokens": 1999,
+          "completion_tokens": 906
+        }
+      }
+    }
+  ]
+}
