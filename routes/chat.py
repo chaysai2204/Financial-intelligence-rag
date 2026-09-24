@@ -1,4 +1,6 @@
 import os
+import time
+import uuid
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
@@ -8,8 +10,12 @@ from llm.azure_openai import (
     get_embedding_client,
     get_openai_client,
 )
-from rag.query_aware_retriever import query_aware_retrieve
+from rag.query_aware_retriever import (
+    build_retrieval_targets,
+    query_aware_retrieve,
+)
 from rag.query_router import route_query
+from utils.observability import get_logger, log_event
 from vectorstore.azure_ai_search import (
     AzureAISearchVectorStore,
     DenseRetriever,
@@ -17,6 +23,7 @@ from vectorstore.azure_ai_search import (
 
 
 router = APIRouter()
+logger = get_logger()
 
 
 class ChatRequest(BaseModel):
@@ -49,7 +56,6 @@ def format_structured_answer(
     """
 
     display_name = METRIC_DISPLAY_NAMES[metric]
-
     formatted_value = f"{value:,.0f}"
 
     return (
@@ -60,6 +66,9 @@ def format_structured_answer(
 
 @router.post("/chat")
 async def chat(request: ChatRequest):
+    request_id = str(uuid.uuid4())
+    total_start = time.perf_counter()
+
     try:
         # -----------------------------------------------------
         # 1. Route the question
@@ -71,10 +80,15 @@ async def chat(request: ChatRequest):
             year=request.year,
         )
 
-        print(
-            f"[router] route={decision.route} "
-            f"metric={decision.metric} "
-            f"reason={decision.reason}"
+        log_event(
+            logger,
+            "route_selected",
+            request_id=request_id,
+            route=decision.route,
+            metric=decision.metric,
+            reason=decision.reason,
+            company=request.company,
+            year=request.year,
         )
 
         # -----------------------------------------------------
@@ -82,15 +96,37 @@ async def chat(request: ChatRequest):
         # -----------------------------------------------------
 
         if decision.route == "structured":
+            db_start = time.perf_counter()
+
             result = get_metric(
                 company=request.company,
                 fiscal_year=request.year,
                 metric=decision.metric,
             )
 
+            db_ms = (
+                time.perf_counter() - db_start
+            ) * 1000
+
+            db_hit = (
+                result is not None
+                and result["value"] is not None
+            )
+
+            log_event(
+                logger,
+                "structured_lookup",
+                request_id=request_id,
+                company=request.company,
+                year=request.year,
+                metric=decision.metric,
+                db_hit=db_hit,
+                db_ms=round(db_ms, 2),
+            )
+
             # Structured database may not contain this filing yet.
             # Fall back to RAG instead of returning an incorrect answer.
-            if result is not None and result["value"] is not None:
+            if db_hit:
                 answer = format_structured_answer(
                     company=result["company"],
                     year=result["fiscal_year"],
@@ -114,19 +150,43 @@ async def chat(request: ChatRequest):
                     ),
                 }
 
+                total_ms = (
+                    time.perf_counter() - total_start
+                ) * 1000
+
+                log_event(
+                    logger,
+                    "request_completed",
+                    request_id=request_id,
+                    route="structured",
+                    company=result["company"],
+                    year=result["fiscal_year"],
+                    metric=decision.metric,
+                    db_hit=True,
+                    source_count=1,
+                    total_ms=round(total_ms, 2),
+                    status="success",
+                )
+
                 return {
                     "answer": answer,
                     "sources": [source],
                     "route": "structured",
                 }
 
-            print(
-                "[router] Structured record unavailable. "
-                "Falling back to RAG."
+            log_event(
+                logger,
+                "structured_fallback",
+                request_id=request_id,
+                original_route="structured",
+                fallback_route="rag",
+                company=request.company,
+                year=request.year,
+                metric=decision.metric,
             )
 
         # -----------------------------------------------------
-        # 3. Existing Dense RAG path
+        # 3. Query-aware Dense RAG path
         # -----------------------------------------------------
 
         vector_store = AzureAISearchVectorStore(
@@ -142,12 +202,45 @@ async def chat(request: ChatRequest):
             embeddings,
         )
 
+        # Detect company/year targets used by query-aware retrieval.
+        retrieval_targets = build_retrieval_targets(
+            request.question
+        )
+
+        log_event(
+            logger,
+            "retrieval_targets",
+            request_id=request_id,
+            targets=[
+                {
+                    "company": target.company,
+                    "year": target.year,
+                }
+                for target in retrieval_targets
+            ],
+        )
+
+        # -----------------------------------------------------
+        # 4. Retrieval timing
+        # -----------------------------------------------------
+
+        retrieval_start = time.perf_counter()
+
         docs = query_aware_retrieve(
             retriever=retriever,
             question=request.question,
             final_top_k=5,
             per_target_k=5,
         )
+
+        retrieval_ms = (
+            time.perf_counter() - retrieval_start
+        ) * 1000
+
+        # -----------------------------------------------------
+        # 5. Build provenance-rich context
+        # -----------------------------------------------------
+
         context_blocks = []
         sources = []
 
@@ -190,7 +283,46 @@ async def chat(request: ChatRequest):
                 }
             )
 
+        retrieved_document_ids = sorted(
+            {
+                source["document_id"]
+                for source in sources
+                if source["document_id"]
+            }
+        )
+
+        retrieved_companies = sorted(
+            {
+                source["company"]
+                for source in sources
+                if source["company"]
+            }
+        )
+
+        retrieved_years = sorted(
+            {
+                source["year"]
+                for source in sources
+                if source["year"] is not None
+            }
+        )
+
+        log_event(
+            logger,
+            "retrieval_completed",
+            request_id=request_id,
+            retrieval_ms=round(retrieval_ms, 2),
+            source_count=len(sources),
+            document_ids=retrieved_document_ids,
+            companies=retrieved_companies,
+            years=retrieved_years,
+        )
+
         context = "\n\n".join(context_blocks)
+
+        # -----------------------------------------------------
+        # 6. Evidence-grounded generation
+        # -----------------------------------------------------
 
         prompt = f"""
 You are an expert financial analyst.
@@ -221,6 +353,12 @@ Answer:
 
         client = get_openai_client()
 
+        # -----------------------------------------------------
+        # 7. LLM timing
+        # -----------------------------------------------------
+
+        llm_start = time.perf_counter()
+
         response = client.chat.completions.create(
             model=os.getenv(
                 "AZURE_OPENAI_CHAT_DEPLOYMENT"
@@ -233,7 +371,53 @@ Answer:
             ],
         )
 
+        llm_ms = (
+            time.perf_counter() - llm_start
+        ) * 1000
+
         answer = response.choices[0].message.content
+
+        # -----------------------------------------------------
+        # 8. Abstention detection
+        # -----------------------------------------------------
+
+        answer_lower = answer.lower()
+
+        abstained = (
+            len(sources) == 0
+            or any(
+                phrase in answer_lower
+                for phrase in [
+                    "do not have enough information",
+                    "don't have enough information",
+                    "insufficient evidence",
+                    "source documents needed",
+                    "no source documents",
+                    "not enough evidence",
+                ]
+            )
+        )
+
+        # -----------------------------------------------------
+        # 9. Final request observability
+        # -----------------------------------------------------
+
+        total_ms = (
+            time.perf_counter() - total_start
+        ) * 1000
+
+        log_event(
+            logger,
+            "request_completed",
+            request_id=request_id,
+            route="rag",
+            source_count=len(sources),
+            retrieval_ms=round(retrieval_ms, 2),
+            llm_ms=round(llm_ms, 2),
+            total_ms=round(total_ms, 2),
+            abstained=abstained,
+            status="success",
+        )
 
         return {
             "answer": answer,
@@ -242,6 +426,18 @@ Answer:
         }
 
     except Exception as exc:
+        total_ms = (
+            time.perf_counter() - total_start
+        ) * 1000
+
+        log_event(
+            logger,
+            "request_failed",
+            request_id=request_id,
+            error_type=type(exc).__name__,
+            total_ms=round(total_ms, 2),
+        )
+
         raise HTTPException(
             status_code=500,
             detail=str(exc),
