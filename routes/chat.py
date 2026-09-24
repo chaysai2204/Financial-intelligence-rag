@@ -8,6 +8,7 @@ from llm.azure_openai import (
     get_embedding_client,
     get_openai_client,
 )
+from rag.query_aware_retriever import query_aware_retrieve
 from rag.query_router import route_query
 from vectorstore.azure_ai_search import (
     AzureAISearchVectorStore,
@@ -141,19 +142,12 @@ async def chat(request: ChatRequest):
             embeddings,
         )
 
-        if request.company and request.year:
-            docs = retriever.invoke(
-                query=request.question,
-                company=request.company,
-                year=request.year,
-                top_k=5,
-            )
-        else:
-            docs = retriever.invoke(
-                query=request.question,
-                top_k=5,
-            )
-
+        docs = query_aware_retrieve(
+            retriever=retriever,
+            question=request.question,
+            final_top_k=5,
+            per_target_k=5,
+        )
         context_blocks = []
         sources = []
 
@@ -165,6 +159,11 @@ async def chat(request: ChatRequest):
 
             context_blocks.append(
                 f"[Source {citation_id}]\n"
+                f"Company: {metadata.get('company')}\n"
+                f"Ticker: {metadata.get('ticker')}\n"
+                f"Fiscal Year: {metadata.get('year')}\n"
+                f"Document ID: {metadata.get('document_id')}\n\n"
+                f"Evidence:\n"
                 f"{doc.page_content}"
             )
 
@@ -206,6 +205,10 @@ Citation rules:
 - If the provided sources do not contain enough evidence to answer the question, say that you do not have enough information.
 - When abstaining, do not cite unrelated sources as if they support the missing answer.
 - Never substitute data from a different fiscal year for the year requested.
+- Preserve company and fiscal-year attribution exactly as shown in each source.
+- Never attribute one company's evidence to another company.
+- For comparison questions, answer each company separately before comparing them.
+- Do not claim that a filing is unavailable if the provided sources contain evidence from that filing.
 
 Context:
 {context}
