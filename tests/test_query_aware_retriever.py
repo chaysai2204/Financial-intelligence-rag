@@ -114,3 +114,56 @@ def test_balanced_multi_company_merge():
         "AAPL_2024_10K",
         "NVDA_2024_10K",
     ]
+
+    def test_all_company_aliases():
+        assert detect_companies("AAPL") == ["Apple"]
+        assert detect_companies("MSFT") == ["Microsoft"]
+        assert detect_companies("NVDA") == ["NVIDIA"]
+        assert detect_companies("AMZN") == ["Amazon"]
+        assert detect_companies("GOOGL") == ["Alphabet"]
+        assert detect_companies("Google") == ["Alphabet"]
+
+
+    def test_multiple_companies_without_year():
+        targets = build_retrieval_targets(
+            "Compare Apple and Microsoft"
+        )
+
+        assert len(targets) == 2
+        assert targets[0].company == "Apple"
+        assert targets[1].company == "Microsoft"
+
+        assert targets[0].year is None
+        assert targets[1].year is None
+
+
+    def test_no_detected_metadata_returns_empty_targets():
+        targets = build_retrieval_targets(
+            "What risks were discussed?"
+        )
+
+        assert targets == []
+
+
+    class GlobalFallbackRetriever:
+        def __init__(self):
+            self.last_kwargs = None
+
+        def invoke(self, **kwargs):
+            self.last_kwargs = kwargs
+            return []
+
+
+    def test_global_fallback_when_no_target_detected():
+        retriever = GlobalFallbackRetriever()
+
+        query_aware_retrieve(
+            retriever=retriever,
+            question="What risks were discussed?",
+            final_top_k=5,
+        )
+
+        assert retriever.last_kwargs == {
+            "query": "What risks were discussed?",
+            "top_k": 5,
+        }
