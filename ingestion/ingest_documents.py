@@ -239,24 +239,3 @@ def ingest_directory(
         )
 
 
-if __name__ == "__main__":
-    embeddings = get_embedding_client()
-
-    vector_store = AzureAISearchVectorStore(
-        endpoint=os.getenv("AZURE_SEARCH_ENDPOINT"),
-        api_key=os.getenv("AZURE_SEARCH_API_KEY"),
-        index_name=os.getenv("AZURE_SEARCH_INDEX_NAME"),
-    )
-
-    files_to_ingest = [
-        "data/raw_pdfs/amazon/AMZN_2024_10-K.pdf",
-        "data/raw_pdfs/alphabet/GOOGL_2024_10-K.pdf",
-    ]
-
-    for pdf_path in files_to_ingest:
-        ingest_document(
-            pdf_path,
-            embeddings,
-            vector_store,
-            extract_kpis=False,
-        )

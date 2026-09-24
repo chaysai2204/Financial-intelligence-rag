@@ -1,6 +1,7 @@
 import os
 import time
 import uuid
+from pydantic import BaseModel, Field, field_validator
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
@@ -26,11 +27,32 @@ router = APIRouter()
 logger = get_logger()
 
 
-class ChatRequest(BaseModel):
-    question: str
-    company: str | None = None
-    year: int | None = None
+from pydantic import BaseModel, Field
 
+
+class ChatRequest(BaseModel):
+    question: str = Field(
+        min_length=1,
+        max_length=4000,
+    )
+    company: str | None = Field(
+        default=None,
+        max_length=100,
+    )
+    year: int | None = Field(
+        default=None,
+        ge=2000,
+        le=2100,
+    )
+    @field_validator("question")
+    @classmethod
+    def validate_question(cls, value: str) -> str:
+        value = value.strip()
+
+        if not value:
+            raise ValueError("Question cannot be empty.")
+
+        return value
 
 METRIC_DISPLAY_NAMES = {
     "revenue": "Revenue",
@@ -440,5 +462,5 @@ Answer:
 
         raise HTTPException(
             status_code=500,
-            detail=str(exc),
+            detail="Internal server error.",
         )
