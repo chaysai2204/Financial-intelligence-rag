@@ -1,20 +1,21 @@
-# Use a lightweight Python image for the runtime
 FROM python:3.12-slim
 
-# Set the working directory inside the container
 WORKDIR /app
 
-RUN pip install uv
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PYTHONUNBUFFERED=1
 
-COPY requirements.txt ./
+RUN pip install --no-cache-dir uv
 
-RUN uv pip install --system -r requirements.txt
+COPY requirements.txt .
 
-# Copy application code into the container
-COPY . /app
+RUN uv pip install \
+    --system \
+    --no-cache \
+    -r requirements.txt
 
-# Expose the port the app will run on
+COPY . .
+
 EXPOSE 8000
 
-# Use uvicorn to run the FastAPI app defined in app.py
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]

@@ -55,3 +55,4 @@ secrets.json
 
 credentials.json
 data/markdown/
+.env.docker
