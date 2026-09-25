@@ -119,7 +119,12 @@ async def upload_document(
 
         raise
 
-    except Exception:
+    except Exception as exc:
+        print(
+            f"Upload failed: "
+            f"{type(exc).__name__}: {exc}"
+        )
+
         if file_path.exists():
             file_path.unlink()
 

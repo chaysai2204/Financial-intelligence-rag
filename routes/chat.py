@@ -92,9 +92,9 @@ async def chat(request: ChatRequest):
     total_start = time.perf_counter()
 
     try:
-        # -----------------------------------------------------
+        
         # 1. Route the question
-        # -----------------------------------------------------
+       
 
         decision = route_query(
             question=request.question,
@@ -113,9 +113,9 @@ async def chat(request: ChatRequest):
             year=request.year,
         )
 
-        # -----------------------------------------------------
+        
         # 2. Structured PostgreSQL path
-        # -----------------------------------------------------
+        
 
         if decision.route == "structured":
             db_start = time.perf_counter()
@@ -207,9 +207,9 @@ async def chat(request: ChatRequest):
                 metric=decision.metric,
             )
 
-        # -----------------------------------------------------
+       
         # 3. Query-aware Dense RAG path
-        # -----------------------------------------------------
+        
 
         vector_store = AzureAISearchVectorStore(
             endpoint=os.getenv("AZURE_SEARCH_ENDPOINT"),
@@ -242,9 +242,9 @@ async def chat(request: ChatRequest):
             ],
         )
 
-        # -----------------------------------------------------
+       
         # 4. Retrieval timing
-        # -----------------------------------------------------
+        
 
         retrieval_start = time.perf_counter()
 
@@ -259,9 +259,9 @@ async def chat(request: ChatRequest):
             time.perf_counter() - retrieval_start
         ) * 1000
 
-        # -----------------------------------------------------
+       
         # 5. Build provenance-rich context
-        # -----------------------------------------------------
+        
 
         context_blocks = []
         sources = []
@@ -342,9 +342,9 @@ async def chat(request: ChatRequest):
 
         context = "\n\n".join(context_blocks)
 
-        # -----------------------------------------------------
+       
         # 6. Evidence-grounded generation
-        # -----------------------------------------------------
+        
 
         prompt = f"""
 You are an expert financial analyst.
@@ -375,9 +375,9 @@ Answer:
 
         client = get_openai_client()
 
-        # -----------------------------------------------------
+        
         # 7. LLM timing
-        # -----------------------------------------------------
+       
 
         llm_start = time.perf_counter()
 
@@ -399,9 +399,9 @@ Answer:
 
         answer = response.choices[0].message.content
 
-        # -----------------------------------------------------
+        
         # 8. Abstention detection
-        # -----------------------------------------------------
+        
 
         answer_lower = answer.lower()
 
@@ -420,9 +420,9 @@ Answer:
             )
         )
 
-        # -----------------------------------------------------
+        
         # 9. Final request observability
-        # -----------------------------------------------------
+        
 
         total_ms = (
             time.perf_counter() - total_start

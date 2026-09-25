@@ -157,9 +157,9 @@ def extract_financial_metrics(
         year=year,
     )
     
-    # ---------------------------------------------------------
+   
     # 1. Income Statement
-    # ---------------------------------------------------------
+    
 
     income_prompt = f"""
 You are an expert financial analyst.
@@ -193,9 +193,9 @@ Instructions:
         response_model=FinancialMetrics,
     )
 
-    # ---------------------------------------------------------
+    
     # 2. Balance Sheet
-    # ---------------------------------------------------------
+  
 
     balance_prompt = f"""
 You are an expert financial analyst.
@@ -228,9 +228,9 @@ Instructions:
         response_model=FinancialMetrics,
     )
 
-    # ---------------------------------------------------------
+    
     # 3. Cash-Flow Statement
-    # ---------------------------------------------------------
+    
 
     cash_flow_prompt = f"""
 You are an expert financial analyst.

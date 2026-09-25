@@ -856,7 +856,7 @@ function selectInsightRecord(
         renderInsightList(
             "growthDriversList",
             [],
-            "Growth drivers were not extracted for this filing."
+            "Growth & performance drivers were not extracted for this filing."
         );
 
 
@@ -886,7 +886,7 @@ function selectInsightRecord(
     renderInsightList(
         "growthDriversList",
         growthDrivers,
-        "Growth drivers were not extracted for this filing."
+        "Growth & performance drivers were not extracted for this filing."
     );
 
 
@@ -950,7 +950,7 @@ function configureInsightsSection() {
         renderInsightList(
             "growthDriversList",
             [],
-            "Growth drivers were not extracted for this filing."
+            "Growth & performance drivers were not extracted for this filing."
         );
 
 
